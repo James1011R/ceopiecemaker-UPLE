@@ -505,16 +505,39 @@ paper.install(window);
 				origin: path.position,
 				destination: path.bounds.leftCenter
 			},
-			testing: {
+			warped: {
 				gradient: {
-					stops: [["rgba(0,0,0,0)", 0.8], ["rgba(0,0,0,1)", 0.8]],
+					stops: ["rgba(242,22,139,0.94)", ["rgba(150,22,242,0.85)", 0.34], ["rgba(4,144,199,1)", 0.98]],
 					radial: true
 				},
 				origin: path.position,
 				destination: path.bounds.leftCenter
+			},
+			forest: {
+				gradient: {
+					stops: [["#00ffff", 0.05], ["#40e0d0", 0.2], "#008000"],
+					radial: true
+				},
+				origin: path.position,
+				destination: path.bounds.leftCenter
+			},
+			wind: {
+				gradient: {
+					stops: [["rgba(255,255,255,0.85)", 0.2], "rgba(64,208,64,0.8)"],
+					radial: true
+				},
+				origin: path.position,
+				destination: path.bounds.leftCenter
+			},
+			grass: {
+				gradient: {
+					stops: ["#00ff00", ["#763b00", 0.3], "#733b00"],
+				},
+				origin: path.bounds.topCenter,
+				destination: path.bounds.bottomCenter
 			}
 		}
-		__fills = ["base","stand","head","grey","black","red","green","blue","yellow","cyan","pink","shadow","white","enchant","rainbow","chaos","testing"];
+		__fills = ["base","stand","head","grey","black","red","green","blue","yellow","cyan","pink","shadow","white","enchant","rainbow","chaos","warped","forest","wind","grass"];
 		path.fillColor = __grads[__fills[sketch.fill]];
 	}
 
