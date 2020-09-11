@@ -2169,6 +2169,7 @@ TOOLTIPS = {
     tf17: "Looking up in a bright forest.\nA fill color by adamzero.",
     tf18: "A fill color reminiscent of the wind ability.\nA fill color by jonagamer10.",
     tf19: "A fill color resembling the ground with grass on top.\nA fill color by adamzero.",
+    tf20: "A custom top to bottom gradient.\nClick the first color button to change the top color.\nClick the second color button to change the bottom color.",
     tt0: "Marker Tool:\nSmooths out after drawing.",
     tt1: "Line Tool",
     tt2: "Path Tool:\nHold Shift to start a new path.\nClick and drag to add new points.\nRelease Shift to finish.",
