@@ -2,6 +2,14 @@ var __slice = Array.prototype.slice;
 //Now with Paper.js dependency!... :v
 paper.install(window);
 
+const CustomizationFeaaaa = {
+	customColors: [["#222222", 0.2], ["#eeeeee", 0.8]],
+	updateStops: (id) => {
+		CustomizationFeaaaa.customColors[id][0] =
+			document.getElementById(`CustomizationFeaaaa_customColorsStops_${id}`).value;
+	}
+};
+
 (function($) {
 	var paperSketch;
 	sign = function(x) {
@@ -535,9 +543,18 @@ paper.install(window);
 				},
 				origin: path.bounds.topCenter,
 				destination: path.bounds.bottomCenter
+			},
+			custom: {
+				gradient: {
+					// Arrays are passed by reference
+					// Kinda like invisible pointers
+					stops: CustomizationFeaaaa.customColors,
+				},
+				origin: path.bounds.topCenter,
+				destination: path.bounds.bottomCenter
 			}
 		}
-		__fills = ["base","stand","head","grey","black","red","green","blue","yellow","cyan","pink","shadow","white","enchant","rainbow","chaos","warped","forest","wind","grass"];
+		__fills = ["base","stand","head","grey","black","red","green","blue","yellow","cyan","pink","shadow","white","enchant","rainbow","chaos","warped","forest","wind","grass","custom"];
 		path.fillColor = __grads[__fills[sketch.fill]];
 	}
 
