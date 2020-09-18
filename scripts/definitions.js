@@ -1830,6 +1830,26 @@ MOVES = [{
    "color3": [0,0,0],
    "symbol1": "\u2742",
    "hide": true
+  }, {
+   "id": "b63",
+   "cat": "limited",
+   "name": "stormwind",
+   "text": "[Pay 1]: (Magic) Push unit up to 3 spaces away from caster and mark destination to be destroyed by Magic in 3 turns.",
+   "color": [0,127,255],
+   "color2": [0,0,0],
+   "color3": [255,255,255],
+   "color4": [0,127,255],
+   "symbol1": "\u26a1",
+   "symbol2": "\u25cc",
+   "hide": true
+  }, {
+   "id": "b64",
+   "cat": "limited",
+   "name": "oddpoisonevenfreeze",
+   "text": "Odd Move: (Magic) Poison enemy unit for 3 turns. Even Move: (Magic) Freeze enemy unit for 3 turns.",
+   "color": [27,152,100],
+   "symbol1": "\u2685",
+   "hide": true
  }, {
    "id": "6zz",
    "cat": "exile",
