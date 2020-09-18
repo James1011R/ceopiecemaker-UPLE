@@ -1198,7 +1198,7 @@ MOVES = [{
     "cat": "limited",
     "name": "moonflare",
     "long": "b]rz:attack",
-    "text": "(Magic) Destroy target, even if you can't act normally.",
+    "text": "(Unstoppable, Magic) Destroy target.",
     "color": [34,117,253],
     "hide": true
  }, {
@@ -1225,7 +1225,7 @@ MOVES = [{
    "cat": "limited",
    "name": "annihilate",
    "long": "c]rz:(REMOVE)",
-   "text": "(Unstoppable, Magic) Remove target from the game, ignoring all abilities and passives.",
+   "text": "(Unstoppable, Magic) Remove target from the game. This ability ignores all abilities and passives.",
    "color": [200,200,200],
    "color3": [253,117,34],
    "symbol1": "\u2217",
@@ -1759,11 +1759,23 @@ MOVES = [{
    "id": "b55",
    "cat": "limited",
    "name": "truestrike",
-   "long": "c]mz:(REMOVE)",
-   "text": "(Unstoppable) Fly to location. If the location is occupied by an enemy unit, remove them from the game. This ability ignores all abilities and passives.",
+   "long": "bc]mz:move/(REMOVE)",
+   "text": "(Unstoppable) Move or Attack and remove target from the game. This ability ignores all abilities and passives.",
    "color": [64,0,127],
    "color3": [0,0,0],
    "symbol1": "\u2bce",
+   "hide": true
+ }, {
+   "id": "b56",
+   "cat": "limited",
+   "name": "feint",
+   "text": "Move or Attack target and then instantly move 1 space in the opposite direction.",
+   "color": [0,0,0],
+   "color2": [127,127,127],
+   "color3": [0,0,255],
+   "color4": [127,127,127],
+   "symbol1": "\u2389",
+   "symbol2": "\u25cb",
    "hide": true
  }, {
    "id": "6zz",
