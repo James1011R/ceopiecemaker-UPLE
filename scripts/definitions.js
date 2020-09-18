@@ -1225,7 +1225,7 @@ MOVES = [{
    "cat": "limited",
    "name": "annihilate",
    "long": "c]rz:(REMOVE)",
-   "text": "(Magic) Remove target from the game, ignoring all abilities, passives, and status effects.",
+   "text": "(Unstoppable, Magic) Remove target from the game, ignoring all abilities and passives.",
    "color": [200,200,200],
    "color3": [253,117,34],
    "symbol1": "\u2217",
@@ -1754,6 +1754,16 @@ MOVES = [{
    "color4": [255,0,0],
    "symbol1": "\ue700",
    "symbol2": "x",
+   "hide": true
+ }, {
+   "id": "b55",
+   "cat": "limited",
+   "name": "truestrike",
+   "long": "c]mz:(REMOVE)",
+   "text": "(Unstoppable) Fly to location. If the location is occupied by an enemy unit, remove them from the game. This ability ignores all abilities and passives.",
+   "color": [64,0,127],
+   "color3": [0,0,0],
+   "symbol1": "\u2bce",
    "hide": true
  }, {
    "id": "6zz",
