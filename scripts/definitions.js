@@ -1778,6 +1778,59 @@ MOVES = [{
    "symbol2": "\u25cb",
    "hide": true
  }, {
+   "id": "b57",
+   "cat": "limited",
+   "name": "jolt",
+   "text": "[Pay 1]: (Magic) Jolt enemy unit, allowing you to immediately move it to a space where it can't be targeted by you.",
+   "color": [255,196,127],
+   "color3": [255,255,0],
+   "symbol1": "\u26a1",
+   "hide": true
+ }, {
+   "id": "b58",
+   "cat": "limited",
+   "name": "rally",
+   "text": "(Magic) Teleport unit 2 spaces toward the other side of the field.",
+   "color": [102,0,102],
+   "symbol1": "\u2b9d",
+   "hide": true
+ }, {
+   "id": "b59",
+   "cat": "limited",
+   "name": "slam",
+   "text": "Move or Attack target and then instantly move 1 space in the same direction.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "symbol1": "^",
+   "hide": true
+ }, {
+   "id": "b60",
+   "cat": "limited",
+   "name": "enchantedmove",
+   "text": "Move only, then enchant ally units orthogonally adjacent to you for 1 turn.",
+   "color": [0,0,255],
+   "color3": [0,255,255],
+   "symbol1": "+",
+   "hide": true
+ }, {
+   "id": "b61",
+   "cat": "limited",
+   "name": "banishexile",
+   "text": "(Magic) Exile unit, then return them at starting position in 3 turns.",
+   "color": [0,200,200],
+   "color3": [0,0,0],
+   "symbol1": "\u2742",
+   "hide": true
+  }, {
+   "id": "b62",
+   "cat": "limited",
+   "name": "darkexile",
+   "text": "(Magic) Exile unit, then return them after any unit dies.",
+   "color": [87,218,40],
+   "color3": [0,0,0],
+   "symbol1": "\u2742",
+   "hide": true
+ }, {
    "id": "6zz",
    "cat": "exile",
    "name": "jumpmove",
