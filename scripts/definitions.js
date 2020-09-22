@@ -527,7 +527,7 @@ MOVES = [{
  }, {
    "id": "60",
    "cat": "official",
-   "name": "chainleapattack",
+   "name": "chainleap",
    "text": "(Unblockable) Move or begin Leap-Attack chain, landing one space over the enemy and repeating consecutively in the same direction.",
    "color": [0,0,255],
    "color3": [255,0,0],
@@ -723,6 +723,16 @@ MOVES = [{
    "symbol2": "\u{1f5d8}",
    "hide": true
  }, {
+    "id": "27b",
+    "cat": "legacy",
+    "name": "magicportal",
+    "long": "pu]ru:Aset@pos=\\this",
+    "text": "(Magic) Ability Target is teleported to this empty location.",
+    "color": [155,20,208],
+    "color2": [255,255,255],
+    "symbol1": "\u2609",
+    "hide": true
+ }, {
    "id": "49a",
    "cat": "variation",
    "name": "magicpull",
@@ -745,7 +755,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "34a",
-   "cat": "variation",
+   "cat": "legacy",
    "name": "downgradenecromance",
    "long": "1cp]ru:ally?type==SKELETON?set@tier+=1/minion?(set@tier-=1/tier==0?attack)",
    "text": "[Pay 1]: (Magic) Upgrade ally Skeleton, Downgrade enemy minion, or destroy enemy Tier-1 minion.",
@@ -755,7 +765,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "34b",
-   "cat": "variation",
+   "cat": "legacy",
    "name": "destroynecromance",
    "long": "2cp]ru:ally?type==SKELETON?set@tier+=1/attack",
    "text": "[Pay 2]: (Magic) Upgrade ally Skeleton, or destroy enemy minion.",
@@ -825,7 +835,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "44b",
-   "cat": "variation",
+   "cat": "legacy",
    "name": "gravityfreeze",
    "long": "1cu]ru:\\(mn:move@A-(AWAY))&freeze#flag@3-move",
    "text": "[Pay 2]: (Magic) Move target unit in the direction of Ability Target until blocked or Ability Target is reached, then freeze target for 1 turn.",
@@ -868,7 +878,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "45d",
-   "cat": "variation",
+   "cat": "legacy",
    "name": "spellshield",
    "long": "bt]:ally?(CHAMPION)?targeted@(r*:*)?+move?this+move?(mu:swap)",
    "text": "(Trigger) Ally Champion targeted by enemy Magic or Ranged ability: this unit instantly swaps places with targeted champion.",
@@ -890,12 +900,31 @@ MOVES = [{
  }, {
    "id": "60a",
    "cat": "variation",
-   "name": "leapattack",
-   "text": "Leap-Attack only.",
+   "name": "chainleaponly",
+   "text": "(Unblockable) Begin Leap-Attack chain, landing one space over the enemy and repeating consecutively in the same direction.",
    "color": [127,127,127],
-   "color2": [255, 255, 255],
+   "color2": [255,255,255],
    "color3": [255,0,0],
    "symbol1": "\u26AB",
+   "hide": true
+ }, {
+    "id": "60b",
+    "cat": "legacy",
+    "name": "leap",
+    "text": "Move or Leap-Attack.",
+    "color": [0,0,255],
+    "color3": [255,0,0],
+    "symbol1": "o",
+    "hide": true
+ }, {
+   "id": "60c",
+   "cat": "variation",
+   "name": "leaponly",
+   "text": "Leap-Attack only.",
+   "color": [127,127,127],
+   "color2": [255,255,255],
+   "color3": [255,0,0],
+   "symbol1": "o",
    "hide": true
  }, {
    "id": "61a",
@@ -932,6 +961,25 @@ MOVES = [{
    "color": [0,0,255],
    "color3": [0,0,0],
    "symbol1": "\ue703",
+   "hide": true
+  }, {
+   "id": "65a",
+   "cat": "legacy",
+   "name": "zero",
+   "text": "(Magic) Target enemy value becomes 0.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [153,153,153],
+   "symbol1": "\ue907",
+   "hide": true
+ }, {
+   "id": "66a",
+   "cat": "legacy",
+   "name": "magicvoid",
+   "text": "(Magic) Convert target enemy default moveset into basic move/teleport abilities, and negate their augments, if any.",
+   "color": [255,255,255],
+   "color2": [0,0,0],
+   "symbol1": "\uea81",
    "hide": true
  }, {
    "id": "31b",
@@ -1101,16 +1149,6 @@ MOVES = [{
    "symbol1": "\uffec",
    "hide": true
  }, {
-    "id": "27b",
-    "cat": "limited",
-    "name": "magicportal",
-    "long": "pu]ru:Aset@pos=\\this",
-    "text": "(Magic) Ability Target is teleported to this empty location.",
-    "color": [155,20,208],
-    "color2": [255,255,255],
-    "symbol1": "\u2609",
-    "hide": true
- }, {
     "id": "43b",
     "cat": "limited",
     "name": "rangedbeacon",
@@ -1133,33 +1171,6 @@ MOVES = [{
     "symbol1": "\u25cb",
     "symbol2": "\u2742",
     "hide": true
- }, {
-    "id": "60b",
-    "cat": "limited",
-    "name": "moveleapattack",
-    "text": "Move or Leap-Attack.",
-    "color": [0,0,255],
-    "color3": [255,127,127],
-    "symbol1": "\u26AB",
-    "hide": true
- }, {
-   "id": "66a",
-   "cat": "limited",
-   "name": "oldvoid",
-   "text": "(Magic) Convert target enemy default moveset into basic move/teleport abilities, and negate their augments, if any.",
-   "color": [255,255,255],
-   "color2": [0,0,0],
-   "symbol1": "\uea81",
-   "hide": true
- }, {
-   "id": "65a",
-   "cat": "limited",
-   "name": "oldnull",
-   "text": "(Magic) Target enemy value becomes 0.",
-   "color": [255,255,255],
-   "color2": [0,0,0],
-   "symbol1": "\ue907",
-   "hide": true
  }, {
    "id": "65b",
    "cat": "limited",
