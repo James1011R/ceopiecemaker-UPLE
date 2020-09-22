@@ -31,6 +31,8 @@ function makeSVGTagContent(tagName, properties, content) {
 }
 */
 
+// $("#code").val(defs);
+
 if (window.location.search && URLSearchParams) {
   var qS = new URLSearchParams(window.location.search);
   if (qS.has("q")) $("#code").val(qS.get("q"));
@@ -41,9 +43,8 @@ if (window.location.search && URLSearchParams) {
         "name": "custom" + i,
         "id": "c" + i,
         "cat": "custom",
-        "long": "z]",
         "text": "Custom spell " + i + " (Double Click Menu Icon to Edit)",
-        "color": [108, 108, 25],
+        "color": [97, 97, 97],
         "symbol1": "0"
       });
       if (i == 32 && i != +qS.get("c")) {

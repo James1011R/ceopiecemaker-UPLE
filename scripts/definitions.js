@@ -1,97 +1,9 @@
-/** COMPREHENSIVE GUIDE OF PRETEND CATEGORIZER NOTATION (longname)
- *** THIS PART IS WRITTEN IN CASE I AM STUPID ENOUGH TO
- *** FORGET WHAT I HAVE DONE PREVIOUSLY, THIS OBVIOUSLY
- *** HAPPENED WHEN I TOOK A BREAK FROM UPDATING TOO LONG
- *** SO JUST IN CASE.
- ***
- *** ALSO FOR THOSE WHO PLAN TO STEAL MY CODE, HERE YOU
- *** GO ;)
- **
- ** Longname structure explanation:
- * #   C  ]BN     :description;
- * Pay Cat Bracket Description 
- **
- ** Category Explanation:
- * a: Ability Target. Used for explanation of other abilities.
- * b: Basic. Involves one turn, one/two target life/death, or caster moving.
- * c: Complex. Involves one turn, one/two target attribute change.
- *
- * m: Map. Involves marking of locations.
- *
- * p: Piece. Involves creation of another piece.
- *
- * s: Status. Involves cross-turn, one/two target status effect change.
- * t: Trigger. Involves trigger actions.
- * u: Indirect. Involves an indirect target.
- * v: Passive. Involves passive actions
- *
- * z: Customs. Should not be sorted with the abilities.
- **
- ** Bracket Notation Explanation:
- * m/r: Melee / Magic (ranged)
- * f/n/u/z: Fragile / Normal / Unblockable / Unstoppable
- */
-
-// Description structure explanation:
-/// Note: Everything assumes common sense. That is, values cannot go negative,
-///       target cannot go out of bounds, one cannot attack something empty, etc.
-// recognized structures:
-// Descriptors (Base level)
-LDE = ["move", "attack", "swap", "transform", "summon", "set", "flag", "deflag", "block"];
-// These descriptors are to be used as the lowest level building blocks of descriptions.
-// One can go lower, but I'll not note it here as it will make the longnames too long(?)
-// move, attack, swap, transform self explanatory.
-// set: Change properties
-// flag: Add status for changes
-//       flag@(number)(action) refers to (action) opponent for (number) turns
-//       flag@(number)&(action) refers to (action) opponent after (number) turns
-// Descriptors (Extra level):
-LEE = ["charm", "poison", "freeze", "petrify", "push", "sorcerize"];
-// These are extra ability names, but due to it being open-ended to changes (duration)
-// They have to be specified every time, with the above descriptors.
-// Properties:
-LPE = ["minion", "type", "tier", "ally", "value", "startpos", "pos"];
-// These are the "Properties" used for changing/conditioning.
-// Triggers:
-LTE = ["meleedeath", "death", "start", "end", "status", "targeted"];
-// These are the triggers, which is guaranteed to be sent every time these events happen
-// Other undescribable events will be notated in brackets.
-// Especially those requiring more complex explanation.
-// Current listed items:
-// (RANDOM), (ENCHANT), (CAN-REVIVE), (RANGE), (AWAY), (KING), (LOSEABILITY),
-// (MOVETOGETHER), (RANDOMMINION), (LOSEIMMUNE), (REFLECT), (REMOVE), (EXILE)
-//
-// #Away: # Square away from the caster, if unspecified, assume infinity.
-// #Range: Squares of range #, if unspecified, assume 1.
-//
-// Piecenames should be capitalized.
-// "this" refers to the caster. Prefix with \ or A to mean targets.
-/* operators
-|| /  or
-|| ?  (if)
-|| &  then
-|| ?& (if )
-|| #  defined as (For extra level descriptors)
-|| @  extra argument
-|| -  prevent (freeze)
-|| +  allow (augment)
-|| !  not
-|| * regardless of
-|| \  make (referring to target)
-|| A  make (referring to ability target)
-|| /@ for each
-*/
-
-// ORDER BY
-MOVESORT = ["canonical"];
-
 /**Structure Explanation:
  * Name: used for CSS classes, short name. Changes flexible.
- * Long: used for Categorization/Sorting/Filtering, code-like description. 
- *       Changes flexible (to reflect reality). See above for explanation.
  * id  : used for Indexing/Export code. Changes kept to minimum.
- * cat : Deprecated(never used). See Long.
+ * cat : Deprecated(never used).
  * text: In-game description.
+ * color(234): Border, Fill, Sym1, Sym2 color respectively.
  * Others self-explanatory.
  */
 MOVES = [{
@@ -148,7 +60,7 @@ MOVES = [{
    "cat": "official",
    "name": "plant",
    "long": "2p]ru:transform@SAPLING/summon@SAPLING",
-   "text": "[Pay 2]: (Magic) Summon Sapling or transform enemy into ally Sapling.",
+   "text": "[Pay 1]: (Magic) Summon Sapling or transform enemy into ally Sapling.",
    "color": [0,101,24]
  }, {
    "id": "9",
@@ -162,7 +74,7 @@ MOVES = [{
    "cat": "official",
    "name": "skeleton",
    "long": "4p]ru:summon@SKELETON&set@value=0",
-   "text": "[Pay 4]: (Magic) Summon Value 0 Skeleton.",
+   "text": "[Pay 5]: (Magic) Summon Value 0 Skeleton.",
    "color": [102,102,102],
    "color3": [0,0,0],
    "symbol1": "\u26e7"
@@ -279,7 +191,7 @@ MOVES = [{
    "cat": "official",
    "name": "moon",
    "long": "pt]:meleedeath?summon@this&set@value-=10",
-   "text": "(Trigger) On Melee Death: Revive into this empty location with value decreased by 10. If this unit's value is less than 10 this ability cannot activate.",
+   "text": "(Trigger) On Melee Death: Revive into this empty location with value decreased by 12. If this unit's value is less than 12 this ability cannot activate.",
    "color": [0,0,0],
    "color2": [255,255,255],
    "symbol1": "\u263d"
@@ -323,7 +235,7 @@ MOVES = [{
    "color3": [192,0,255],
    "color4": [0,0,0],
    "symbol1": "\u25cf",
-   "symbol2": "\u25e6"
+   "symbol2": "o" /*25e6*/
  }, {
    "id": "28",
    "cat": "official",
@@ -331,14 +243,14 @@ MOVES = [{
    "long": "1c]rn:push#\\(mn:move@3(AWAY))",
    "text": "[Pay 1]: (Ranged) Push unit up to 3 spaces away from caster.",
    "color": [87,218,40],
-   "color2": [255,255,255],
-   "symbol1": "\u25cc"
+   "color2": [200,255,200],
+   "symbol1": "\u25fd"
  }, {
    "id": "29",
    "cat": "official",
    "name": "gemini",
    "long": "6cp]rn:summon@GEMINITWIN&set@tier=this&thisset@type=GEMINITWIN",
-   "text": "[Pay 6]: (Ranged) Summon GeminiTwin and transform into GeminiTwin, each having value equal to this unit.",
+   "text": "[Pay 4]: (Ranged) Summon GeminiTwin and transform into GeminiTwin, each having value equal to this unit.",
    "color": [0,0,0],
    "color2": [255,255,255],
    "symbol1": "\u264a"
@@ -561,18 +473,113 @@ MOVES = [{
    "long": "b]mu:attack",
    "text": "(Unblockable) Attack only.",
    "color": [255,0,0],
-   "color2": [127,0,0],
-   "hide": true
+   "color2": [127,0,0]
  }, {
    "id": "54",
    "cat": "official",
    "name": "stone",
-   "text": "(Magic) Create StonePillar in this empty location, or petrify enemy for 3 turns, making them unable to act.",
+   "text": "[Pay 1]: (Magic) Create StonePillar in this empty location, or petrify enemy for 4 turns, making them unable to act.",
    "color": [94,94,94],
    "color3": [59,59,59],
    "color4": [0,0,0],
    "symbol1": "\u25ae",
    "symbol2": "\u25af"
+ }, {
+   "id": "55",
+   "cat": "official",
+   "name": "meteor",
+   "text": "[Pay 2]: (Magic) After 6 turns any unit in the marked location is destroyed and all adjacent units are pushed away 1 space.",
+   "color": [205,85,23],
+   "color3": [0,0,0],
+   "symbol1": "\uea78"
+ }, {
+   "id": "56",
+   "cat": "official",
+   "name": "verticalpathmoveattack",
+   "text": "(Path) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "symbol1": "\ue702"
+ }, {
+   "id": "57",
+   "cat": "official",
+   "name": "horizontalpathmoveattack",
+   "text": "(Path) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "symbol1": "\ue700"
+ }, {
+   "id": "58",
+   "cat": "official",
+   "name": "antidiagonalpathmoveattack",
+   "text": "(Path) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "symbol1": "\ue701"
+ }, {
+   "id": "59",
+   "cat": "official",
+   "name": "diagonalpathmoveattack",
+   "text": "(Path) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "symbol1": "\ue703"
+ }, {
+   "id": "60",
+   "cat": "official",
+   "name": "moveleapchain",
+   "text": "Move or begin Leap-Attack chain, landing one space over the enemy and repeating consecutively in the same direction.",
+   "color": [0,0,255],
+   "color3": [255,0,0],
+   "symbol1": "\u26AB"
+ }, {
+   "id": "61",
+   "cat": "official",
+   "name": "verticalpathattack",
+   "text": "(Path) Attack only.",
+   "color": [0,0,0],
+   "color2": [153,0,0],
+   "symbol1": "\ue702"
+ }, {
+   "id": "62",
+   "cat": "official",
+   "name": "horizontalpathattack",
+   "text": "(Path) Attack only.",
+   "color": [0,0,0],
+   "color2": [153,0,0],
+   "symbol1": "\ue700"
+ }, {
+   "id": "63",
+   "cat": "official",
+   "name": "antidiagonalpathattack",
+   "text": "(Path) Attack only.",
+   "color": [0,0,0],
+   "color2": [153,0,0],
+   "symbol1": "\ue701"
+ }, {
+   "id": "64",
+   "cat": "official",
+   "name": "diagonalpathattack",
+   "text": "(Path) Attack only.",
+   "color": [0,0,0],
+   "color2": [153,0,0],
+   "symbol1": "\ue703"
+ }, {
+   "id": "65",
+   "cat": "official",
+   "name": "nullghost",
+   "text": "(Magic) Target enemy can no longer block movement and their value becomes 0.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "symbol1": "\ue907"
+ }, {
+   "id": "66",
+   "cat": "official",
+   "name": "void",
+   "text": "[Pay 2]: (Ranged) Convert target enemy default moveset into basic move/teleport abilities, and negate their augments, if any.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "symbol1": "\uea81"
  }, {
    "id": "0a",
    "cat": "variation",
@@ -804,7 +811,7 @@ MOVES = [{
    "color": [155,20,208],
    "color2": [255,255,255],
    "symbol1": "\u25ef",
-   "symbol2": "\u25e6",
+   "symbol2": "o" /*25e6*/,
    "hide": true
  }, {
    "id": "44a",
@@ -818,7 +825,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "44b",
-   "cat": "variation",
+   "cat": "legacy",
    "name": "gravityfreeze",
    "long": "1cu]ru:\\(mn:move@A-(AWAY))&freeze#flag@3-move",
    "text": "[Pay 2]: (Magic) Move target unit in the direction of Ability Target until blocked or Ability Target is reached, then freeze target for 1 turn.",
@@ -881,9 +888,84 @@ MOVES = [{
    "symbol1": "\uEA14",
    "hide": true
  }, {
+   "id": "60a",
+   "cat": "variation",
+   "name": "leapchain",
+   "text": "Begin Leap-Attack chain, landing one space over the enemy and repeating consecutively in the same direction.",
+   "color": [127,127,127],
+   "color2": [255, 255, 255],
+   "color3": [255,0,0],
+   "symbol1": "\u26AB",
+   "hide": true
+ }, {
+   "id": "60b",
+   "cat": "legacy",
+   "name": "moveleapattack",
+   "text": "Move or Leap-Attack.",
+   "color": [0,0,255],
+   "color3": [255,0,0],
+   "symbol1": "o",
+   "hide": true
+ }, {
+   "id": "60c",
+   "cat": "variation",
+   "name": "leapattack",
+   "text": "Leap-Attack only.",
+   "color": [127,127,127],
+   "color2": [255, 255, 255],
+   "color3": [255,0,0],
+   "symbol1": "o",
+   "hide": true
+ }, {
+   "id": "61a",
+   "cat": "variation",
+   "name": "verticalpathmove",
+   "text": "(Path) Move only.",
+   "color": [0,0,255],
+   "color3": [0,0,0],
+   "symbol1": "\ue702",
+   "hide": true
+ }, {
+   "id": "62a",
+   "cat": "variation",
+   "name": "horizontalpathmove",
+   "text": "(Path) Move only.",
+   "color": [0,0,255],
+   "color3": [0,0,0],
+   "symbol1": "\ue700",
+   "hide": true
+ }, {
+   "id": "63a",
+   "cat": "variation",
+   "name": "antidiagonalpathmove",
+   "text": "(Path) Move only.",
+   "color": [0,0,255],
+   "color3": [0,0,0],
+   "symbol1": "\ue701",
+   "hide": true
+ }, {
+   "id": "64a",
+   "cat": "variation",
+   "name": "diagonalpathmove",
+   "text": "(Path) Attack only.",
+   "color": [0,0,255],
+   "color3": [0,0,0],
+   "symbol1": "\ue703",
+   "hide": true
+ }, {
+   "id": "65a",
+   "cat": "legacy",
+   "name": "null",
+   "text": "(Magic) Target enemy value becomes 0.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [153,153,153],
+   "symbol1": "\ue907",
+   "hide": true
+ }, {
    "id": "31b",
    "cat": "limbo",
-   "name": "ximaera",
+   "name": "hiroshima",
    "long": "b]mu:move/*ally?swap",
    "text": "(Unblockable) Teleport or swap places with unit.",
    "color": [19,121,153],
@@ -895,6 +977,7 @@ MOVES = [{
    "long": "cs]ru:flag@3&charm#set@ally",
    "text": "(Magic) Flirt with enemy minion, charming them in 3 turns.",
    "color": [255,0,255],
+   "color3": [153,0,153],
    "symbol1": "\u2665",
    "hide": true
  }, {
@@ -904,6 +987,7 @@ MOVES = [{
    "long": "s]ru:(thispoison#flag@3&attack)&poison#flag@3&attack",
    "text": "(Magic) Poison self and enemy unit, destroying them in 3 turns.",
    "color": [0,101,24],
+   "color3": [0,76,18],
    "symbol1": "\uea27",
    "hide": true
  }, {
@@ -914,7 +998,7 @@ MOVES = [{
    "text": "(Magic) Levitate unit for 2 turns, making them unable to use or be targeted by normal Attacks.",
    "color": [121,19,153],
    "color3": [255,255,0],
-   "symbol1": "^",
+   "symbol1": "\u028c",
    "hide": true
  }, {
    "id": "a4",
@@ -931,7 +1015,7 @@ MOVES = [{
    "cat": "adoption",
    "name": "replaceabilitytarget",
    "long": "m]:(REPLACEABILITYTARGET)",
-   "text": "(Active) Remove this unit's other Ability Targets, then this location becomes this unit's Ability Target.",
+   "text": "Remove this unit's other Ability Targets, then this location becomes this unit's Ability Target.",
    "color": [0,0,0],
    "color2": [127,127,255],
    "symbol1": "\u2609",
@@ -944,7 +1028,7 @@ MOVES = [{
    "text": "Move or Attack. Cannot be blocked by Ally units.",
    "color": [0,0,0],
    "symbol1": "\u25e0",
-   "symbol2": "\u25e6",
+   "symbol2": "o" /*25e6*/,
    "hide": true
  }, {
    "id": "a7",
@@ -967,11 +1051,11 @@ MOVES = [{
    "symbol1": "\u25cc",
    "hide": true
  }, {
-   "id": "a9",
-   "cat": "adoption",
+   "id": "55a",
+   "cat": "limbo",
    "name": "destroysplash",
    "long": "1c]ru:attack&1(RANGE)\\Amove@1(AWAY))",
-   "text": "[Pay 1]: (Magic) Destroy target and push adjacent enemy units 1 space away.",
+   "text": "[Pay 3]: (Magic) Destroy target and push adjacent enemy units 1 space away.",
    "color": [0,101,24],
    "color2": [255,255,255],
    "symbol1": "\u2747",
@@ -982,7 +1066,7 @@ MOVES = [{
    "name": "custom1",
    "long": "z]",
    "text": "Custom spell 1 (Double Click Menu Icon to Edit)",
-   "color": [227,25,25],
+   "color": [245,46,46],
    "symbol1": "1"
  }, {
    "id": "c2",
@@ -990,7 +1074,7 @@ MOVES = [{
    "name": "custom2",
    "long": "z]",
    "text": "Custom spell 2 (Double Click Menu Icon to Edit)",
-   "color": [227,126,25],
+   "color": [84,99,255],
    "symbol1": "2"
  }, {
    "id": "c3",
@@ -998,7 +1082,7 @@ MOVES = [{
    "name": "custom3",
    "long": "z]",
    "text": "Custom spell 3 (Double Click Menu Icon to Edit)",
-   "color": [227,227,25],
+   "color": [255,199,23],
    "symbol1": "3"
  }, {
    "id": "c4",
@@ -1006,7 +1090,7 @@ MOVES = [{
    "name": "custom4",
    "long": "z]",
    "text": "Custom spell 4 (Double Click Menu Icon to Edit)",
-   "color": [126,227,25],
+   "color": [31,158,64],
    "symbol1": "4"
  }, {
    "id": "c5",
@@ -1014,7 +1098,7 @@ MOVES = [{
    "name": "custom5",
    "long": "z]",
    "text": "Custom spell 5 (Double Click Menu Icon to Edit)",
-   "color": [25,227,25],
+   "color": [255,102,25],
    "symbol1": "5"
  }, {
    "id": "c6",
@@ -1022,7 +1106,7 @@ MOVES = [{
    "name": "custom6",
    "long": "z]",
    "text": "Custom spell 6 (Double Click Menu Icon to Edit)",
-   "color": [25,227,126],
+   "color": [36,212,196],
    "symbol1": "6"
  }, {
    "id": "c7",
@@ -1030,7 +1114,7 @@ MOVES = [{
    "name": "custom7",
    "long": "z]",
    "text": "Custom spell 7 (Double Click Menu Icon to Edit)",
-   "color": [25,227,227],
+   "color": [212,28,229],
    "symbol1": "7"
  }, {
    "id": "c8",
@@ -1038,7 +1122,7 @@ MOVES = [{
    "name": "custom8",
    "long": "z]",
    "text": "Custom spell 8 (Double Click Menu Icon to Edit)",
-   "color": [25,126,227],
+   "color": [74,69,89],
    "symbol1": "8"
  }];
 
@@ -1090,6 +1174,70 @@ TOOLTIPS = {
     do2: "Download:\nUseless.",
     do3: "Clear:\nRemove all Paths. Cannot be undone.",
 };
+
+var translation = ["進むや取ることができる。",
+"このマスに進む。",
+"このマスの駒を取る。",
+"(防御不能) 進むや取ることができる。",
+"(防御不能) 進む、取るや味方と入れ替えることができる。",
+"(防御不能) テレポートする。",
+"(魔法) 目標を撃つ。",
+"[コスト２]: (魔法) 敵駒を味方の「ナエギ」に変化し、あるいは「ナエギ」を召喚する。",
+"(魔法) 敵生駒を仲間とする。",
+"[コスト４]: (魔法) コスト０の「ドクロ」を召喚する。",
+"元地点から進むことができる。",
+"(魔法) 敵駒を毒殺し、３ターン後で取る。",
+"(魔法) 敵駒を凍り付き、３ターンまで何もできなくなる。",
+"(遠距離) 敵駒を石化し、５ターンまで何もできなくなる。",
+"(魔法) 目標をでたらめに選んだ生駒に変化する。",
+"(魔法) 目標をでたらめに選んだ地点に移送する。",
+"(防御不能) このマスに進んで、隣の駒をでたらめに移送する。",
+"[コスト３] 。",
+"(魔法) 味方を加護し、２ターンまで近距離で取られなくなる。",
+"[コスト１]: (魔法) 敵駒を「ユウレイ」に変化する。",
+"(防御不能) 元地点からテレポートすることができる。",
+"(条件付き) 近距離で取られるとき、可能ならここで味方の「スライム」を召喚する。",
+"(条件付き) 近距離で取られるとき、可能なら１０コストを減ってここで復活する。",
+"(防御不能) 敵生駒を取る。",
+"(条件付き) 敵駒がいるとき、手番の始まりで目標を取る。",
+"指定された目標",
+"「指定された目標」をこのマスに移送する。",
+"[コスト１]: (遠距離) 目標を３マスまで吹っ飛ばす。",
+"[コスト６]: (遠距離) 同じコスト「わかれたフタゴ」二つに、このマスに分割する。",
+"(魔法) このマスに「王将」を移送する。",
+"(防御不能) テレポートするや味方と入れ替えることができる。",
+"(魔法) 自分を破壊して、最近取られた、この駒のコストの二倍以下の味方の成駒を復活する。",
+"[コスト１]: (条件付き) 味方がいるとき、可能なら手番の始まりで目標を癒し、邪魔効果をなくする。",
+"[コスト２]: (魔法) 味方の「ドクロ」を強化し、あるいは敵生駒を味方の「ガイコツ」に変化する。",
+"(受動) 一回だけ攻撃をブロックする。\n(能動) 進むや取ることができる。",
+"(条件付き) 取られるとき、この範囲の敵全体を凍り付く。",
+"(魔法) 自分をここに破壊して、敵駒を凍り付き、３ターンまで何もできなくなる。",
+"(制止不能) 「コウモリ」に変化して、このマスに飛び越す。",
+"一回だけ、味方の成駒と取り変えて、二つ駒を中間に移動する。",
+"[コスト１]: 位置をマークして、４ターン後でいる駒を「魔法」で撃つ。",
+"(魔法, 条件付き) 敵駒がいるとき、可能なら敵手番の終わりで目標を１マスで近くに移動する。",
+"(遠距離) 目標を撃つ。",
+"(魔法) 目標を「指定された目標」に移送する",
+"[コスト１]: (魔法) 目標を「指定された目標」までに移動する。",
+"(条件付き) 味方の成駒が敵ターゲットされるとき、自分を目標と入り替えて攻撃を受けてしまう。",
+"(魔法) 敵駒の種類に変化する。",
+"(魔法) 目標を１マスまで吹っ飛ばして、２ターンで凍り付ける。",
+"(受動) このマスの駒で近距離で取られるとき、攻撃者と共に取られる。",
+"[コスト１]: (魔法) 目標を３マスまで吹っ飛ばす。",
+"(遠距離) 敵駒を魅惑され,３ターンまで敵手番の終わりで攻撃者へ移動してしまう。",
+"(魔法) 自分を破壊し、この位置をマークする。この位置は２０ターン後で:\n敵駒がいれば、「魔法」で撃つ。\n味方の駒がいれば、２ターンで加護する。\n何もいなければ、自分を復活する。",
+"敵駒を３マスまで吹っ飛ばす。何と衝突すれば、敵駒を取ることができる。",
+"(防御不能) このマスの駒を取る。",
+"[コスト１]: (魔法) 「石柱」を召喚し、あるいは敵駒を石化し、４ターンまで何もできなくなる。",
+"[コスト３]: (魔法) 位置をマークして、６ターン後でいる駒を撃って、そして隣の駒を１マスまで吹っ飛ばす。"];
+
+/* K It's over
+
+_.forEach(translation, function(m, ix) {
+   MOVES[ix].text = m;
+});
+
+//*/
 
 // ORGANIZATION PURPOSE ARRAYS
 var SMOVE = {}, //Lookup key by move name
