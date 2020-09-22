@@ -1015,7 +1015,7 @@ MOVES = [{
    "text": "(Magic) Levitate unit for 2 turns, making them unable to use or be targeted by normal Attacks.",
    "color": [121,19,153],
    "color3": [255,255,0],
-   "symbol1": "^",
+   "symbol1": "\u028c",
    "hide": true
  }, {
    "id": "a4",
