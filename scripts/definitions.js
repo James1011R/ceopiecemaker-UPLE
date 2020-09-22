@@ -1197,12 +1197,20 @@ MOVES = [{
     "color": [0,255,200],
     "hide": true
  }, {
+    "id": "53c",
+    "cat": "limited",
+    "name": "superjumpattack",
+    "long": "b]mz:attack",
+    "text": "(Unstoppable) Attack only.",
+    "color": [150,50,0],
+    "hide": true
+ }, {
    "id": "5a",
    "cat": "limited",
    "name": "superjumpswap",
    "long": "b]mz:move/attack/swap",
    "text": "(Unstoppable) Move, Attack, or swap places with ally.",
-   "color": [210,210,255],
+   "color": [150,150,255],
    "hide": true
  }, {
     "id": "7a",
@@ -1774,6 +1782,16 @@ MOVES = [{
    "text": "(Unstoppable) Move or Attack and remove target from the game. This ability ignores all abilities and passives.",
    "color": [64,0,127],
    "color3": [0,0,0],
+   "symbol1": "\u2bce",
+   "hide": true
+ }, {
+   "id": "b55a",
+   "cat": "limited",
+   "name": "truestrikeswap",
+   "long": "bc]mz:move/swap/(REMOVE)",
+   "text": "(Unstoppable) Move, swap places with ally, or Attack and remove target from the game. This ability ignores all abilities and passives.",
+   "color": [127,0,127],
+   "color3": [255,210,0],
    "symbol1": "\u2bce",
    "hide": true
  }, {
