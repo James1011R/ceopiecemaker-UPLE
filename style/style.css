@@ -300,7 +300,7 @@ input[type=checkbox]{
   vertical-align:-3px;
 }
 input#uniprev {
-  font-family: 'sym-0, sym-1, sym-2, evermono';
+  font-family: sym-0, sym-1, sym-2, evermono;
 }
 ul {
   padding: 0;
