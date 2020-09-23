@@ -565,6 +565,9 @@ text {
   -ms-user-select: none;
   user-select: none;
 }
+.abilityedit
+  font-family: sym-0, sym-1, sym-2, evermono;
+}
 .tile {
   pointer-events: visibleFill;
 }
