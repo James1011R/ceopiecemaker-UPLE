@@ -1852,11 +1852,11 @@ MOVES = [{
  }, {
    "id": "b59",
    "cat": "limited",
-   "name": "slam",
-   "text": "Move or Attack target and then instantly move 1 space in the same direction.",
-   "color": [0,0,0],
-   "color3": [255,0,0],
-   "symbol1": "^",
+   "name": "jumponce",
+   "text": "(Unblockable) Move or Attack, and lose this ability.",
+   "color": [20,151,24],
+   "color3": [127,127,127],
+   "symbol1": "\uf23d",
    "hide": true
  }, {
    "id": "b60",
@@ -2288,6 +2288,58 @@ MOVES = [{
    "nobox": true,
    "color3": [0,0,0],
    "symbol1": "\ue23e"
+ }, {
+   "id": "oldc1",
+   "cat": "custom",
+   "name": "customlegacy1",
+   "long": "z]",
+   "text": "Custom action 1",
+   "color": [255,255,255],
+   "color2": [255,255,255],
+   "color3": [0,0,0],
+   "color4": [0,0,0],
+   "symbol1": "\u2bia",
+   "symbol2": "2",
+   "hide": true
+ }, {
+   "id": "oldc2",
+   "cat": "custom",
+   "name": "customlegacy2",
+   "long": "z]",
+   "text": "Custom action 2",
+   "color": [255,255,255],
+   "color2": [255,255,255],
+   "color3": [0,0,0],
+   "color4": [0,0,0],
+   "symbol1": "\u2bia",
+   "symbol2": "2",
+   "hide": true
+ }, {
+   "id": "oldc3",
+   "cat": "custom",
+   "name": "customlegacy3",
+   "long": "z]",
+   "text": "Custom action 3",
+   "color": [255,255,255],
+   "color2": [255,255,255],
+   "color3": [0,0,0],
+   "color4": [0,0,0],
+   "symbol1": "\u2bia",
+   "symbol2": "2",
+   "hide": true
+ }, {
+   "id": "oldc4",
+   "cat": "custom",
+   "name": "customlegacy4",
+   "long": "z]",
+   "text": "Custom action 4",
+   "color": [255,255,255],
+   "color2": [255,255,255],
+   "color3": [0,0,0],
+   "color4": [0,0,0],
+   "symbol1": "\u2bia",
+   "symbol2": "2",
+   "hide": true
  }, {
     "id": "moonfox",
     "cat": "custom",
