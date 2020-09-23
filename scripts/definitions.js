@@ -527,7 +527,7 @@ MOVES = [{
  }, {
    "id": "60",
    "cat": "official",
-   "name": "chainleap",
+   "name": "chainleapmove",
    "text": "(Unblockable) Move or begin Leap-Attack chain, landing one space over the enemy and repeating consecutively in the same direction.",
    "color": [0,0,255],
    "color3": [255,0,0],
@@ -900,7 +900,7 @@ MOVES = [{
  }, {
    "id": "60a",
    "cat": "variation",
-   "name": "chainleaponly",
+   "name": "chainleap",
    "text": "(Unblockable) Begin Leap-Attack chain, landing one space over the enemy and repeating consecutively in the same direction.",
    "color": [127,127,127],
    "color2": [255,255,255],
@@ -910,7 +910,7 @@ MOVES = [{
  }, {
     "id": "60b",
     "cat": "legacy",
-    "name": "leap",
+    "name": "leapmove",
     "text": "Move or Leap-Attack.",
     "color": [0,0,255],
     "color3": [255,0,0],
@@ -919,13 +919,31 @@ MOVES = [{
  }, {
    "id": "60c",
    "cat": "variation",
-   "name": "leaponly",
+   "name": "leap",
    "text": "Leap-Attack only.",
    "color": [127,127,127],
    "color2": [255,255,255],
    "color3": [255,0,0],
    "symbol1": "o",
    "hide": true
+ }, {
+    "id": "60d",
+    "cat": "variation",
+    "name": "leapmoveattack",
+    "text": "Move or Leap-Attack, or Attack if Leap-Attack isn't possible.",
+    "color": [0,0,0],
+    "color3": [255,0,0],
+    "symbol1": "o",
+    "hide": true
+  }, {
+    "id": "60e",
+    "cat": "variation",
+    "name": "chainleapmoveattack",
+    "text": "(Unblockable) Move or Begin Leap-Attack chain, landing one space over the enemy and repeating consecutively in the same direction; or Attack if Leap-Attack isn't possible.",
+    "color": [0,0,0],
+    "color3": [255,0,0],
+    "symbol1": "\u26AB",
+    "hide": true
  }, {
    "id": "61a",
    "cat": "variation",
