@@ -1893,6 +1893,7 @@ MOVES = [{
    "name": "jumplose",
    "text": "[Lose 1]: (Unblockable) Move or Attack.",
    "color": [20,151,24],
+   "color3": [0,0,0],
    "symbol1": "\u{1f505}",
    "hide": true
  }, {
@@ -1901,6 +1902,7 @@ MOVES = [{
    "name": "jumpswaplose",
    "text": "[Lose 1]: (Unblockable) Move, Attack, or swap places with ally.",
    "color": [255,210,0],
+   "color3": [0,0,0],
    "symbol1": "\u{1f505}",
    "hide": true
  }, {
@@ -1919,7 +1921,7 @@ MOVES = [{
    "long": "]mn:",
    "text": "(Unblockable) No ability.",
    "color": [64,64,64],
-   "color2": [127,127,127],
+   "color2": [0,0,0],
    "hide": true
  }, {
    "id": "z3",
@@ -1928,6 +1930,7 @@ MOVES = [{
    "long": "]rz:(NULL)",
    "text": "(Unstoppable, Magic) Do nothing.",
    "color": [127,127,127],
+   "color3": [0,0,0],
    "symbol1": "\u2400",
    "hide": true
  }, {
