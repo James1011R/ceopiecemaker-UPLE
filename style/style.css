@@ -565,7 +565,7 @@ text {
   -ms-user-select: none;
   user-select: none;
 }
-.abilityedit
+.abilityedit {
   width: 80px;
   font-family: sym-0, sym-1, sym-2, evermono; 
 }
