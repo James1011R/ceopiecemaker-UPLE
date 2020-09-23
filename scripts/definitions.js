@@ -1662,8 +1662,16 @@ MOVES = [{
    "id": "b43",
    "cat": "limited",
    "name": "spellcharge",
-   "text": "[Pay 1]: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location.",
+   "text": "[Pay 2]: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location.",
    "color": [20,151,24],
+   "symbol1": "\u25c8",
+   "hide": true
+ }, {
+   "id": "b43a",
+   "cat": "limited",
+   "name": "spellchargeswap",
+   "text": "[Pay 2]: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location and swapping places with any ally on that location.",
+   "color": [255,210,0],
    "symbol1": "\u25c8",
    "hide": true
  }, {
@@ -1878,6 +1886,49 @@ MOVES = [{
    "text": "Odd Move: (Magic) Poison enemy unit for 3 turns. Even Move: (Magic) Freeze enemy unit for 3 turns.",
    "color": [27,152,100],
    "symbol1": "\u2685",
+   "hide": true
+ }, {
+   "id": "b65",
+   "cat": "limited",
+   "name": "jumplose",
+   "text": "[Lose 1]: (Unblockable) Move or Attack.",
+   "color": [20,151,24],
+   "symbol1": "\u{1f505}",
+   "hide": true
+ }, {
+   "id": "b65a",
+   "cat": "limited",
+   "name": "jumpswaplose",
+   "text": "[Lose 1]: (Unblockable) Move, Attack, or swap places with ally.",
+   "color": [255,210,0],
+   "symbol1": "\u{1f505}",
+   "hide": true
+ }, {
+   "id": "z1",
+   "cat": "exile",
+   "name": "noability",
+   "long": "]mn:",
+   "text": "No ability.",
+   "color": [127,127,127],
+   "color2": [255,255,255],
+   "hide": true
+ }, {
+   "id": "z2",
+   "cat": "exile",
+   "name": "unblockablenoability",
+   "long": "]mn:",
+   "text": "(Unblockable) No ability.",
+   "color": [64,64,64],
+   "color2": [127,127,127],
+   "hide": true
+ }, {
+   "id": "z3",
+   "cat": "exile",
+   "name": "donothing",
+   "long": "]rz:(NULL)",
+   "text": "(Unstoppable, Magic) Do nothing.",
+   "color": [127,127,127],
+   "symbol1": "\u2400",
    "hide": true
  }, {
    "id": "6zz",
@@ -2224,6 +2275,16 @@ MOVES = [{
     "text": "Moonfox (Do not click!)",
     "color": [253,117,34],
     "symbol1": "\ue9f9",
+    "hide": true
+ }, {
+    "id": "fontversionindicator",
+    "cat": "custom",
+    "name": "customfontversionindicator",
+    "long": "z]",
+    "text": "Font Version Indicator",
+    "nobox": true,
+    "color3": [0,0,0],
+    "symbol1": "\uf800",
     "hide": true
  }];
 
