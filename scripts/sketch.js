@@ -308,7 +308,7 @@ const CustomizationFeaaaa = {
 	$.sketch.tools.veraser.onMouseDown = (e)=>{if(Key.isDown("shift"))_addpoint(e);_eraserize();};
 	$.sketch.tools.veraser.onMouseDrag = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);_eraserize();};
 	$.sketch.tools.veraser.onMouseUp = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);_eraserize();};
-	$.sketch.tools.veraser.draw = _eraserdraw;
+	$.sketch.tools.veraser.draw = _closeeraserdraw;
 	$.sketch.tools.shape = new Tool();
 	$.sketch.tools.shape.minDistance = 5;
 	$.sketch.tools.shape.onMouseDown = (e)=>{_start(e);_addpoint(e);};
@@ -378,6 +378,14 @@ const CustomizationFeaaaa = {
 	function _closedraw(action){
 		var path = sketch.drawPath(action);
 		path.closed = true;
+		_setFillcolor(path);
+		sketch.paths.push(path);
+		return view.update();   
+	}
+	function _closeeraserdraw(action){
+		var path = sketch.drawPath(action);
+		path.closed = true;
+		path.blendMode="destination-out";
 		_setFillcolor(path);
 		sketch.paths.push(path);
 		return view.update();   
