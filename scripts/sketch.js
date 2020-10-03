@@ -302,6 +302,19 @@ const CustomizationFeaaaa = {
 	$.sketch.tools.vshape.onMouseDrag = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);};
 	$.sketch.tools.vshape.onMouseUp = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);};
 	$.sketch.tools.vshape.draw = _closedraw;
+	$.sketch.tools.veraser = new Tool();
+	$.sketch.tools.veraser.onKeyDown = (e)=>{if(e.key=="shift"&!sketch.painting)_start(e);};
+	$.sketch.tools.veraser.onKeyUp = (e)=>{if(e.key=="shift")_rawstop(e);else _kop(e);};
+	$.sketch.tools.veraser.onMouseDown = (e)=>{if(Key.isDown("shift"))_addpoint(e);_eraserize();};
+	$.sketch.tools.veraser.onMouseDrag = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);_eraserize();};
+	$.sketch.tools.veraser.onMouseUp = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);_eraserize();};
+	$.sketch.tools.veraser.draw = _eraserdraw;
+	$.sketch.tools.shape = new Tool();
+	$.sketch.tools.shape.minDistance = 5;
+	$.sketch.tools.shape.onMouseDown = (e)=>{_start(e);_addpoint(e);};
+	$.sketch.tools.shape.onMouseDrag = _addpoint;
+	$.sketch.tools.shape.onMouseUp = (e)=>{_addpoint(e);_stop(e);};
+	$.sketch.tools.shape.draw = _closedraw;
 
 	function _start(e){
 		sketch.startPainting();
