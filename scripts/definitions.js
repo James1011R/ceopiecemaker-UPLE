@@ -2434,7 +2434,7 @@ TOOLTIPS = {
     tt3: "Eraser Tool:\nThat thing you guys asked me to keep.",
     tt4: "Line Eraser Tool:\nThat thing you guys asked me to keep even though it was a glitch.",
     tt5: "Closed Path Tool:\nHold Shift to start a new shape.\nClick and drag to add new points.\nRelease Shift to finish and close path.",
-    tt6: "Cutout Tool:\nHold Shift to start a new cutout.\nClick and drag to add new points.\nRelease Shift to finish and close path.\n",
+    tt6: "Shape Eraser Tool:\nHold Shift to start a new cutout.\nClick and drag to add new points.\nRelease Shift to finish and close path.",
     tt7: "Free Shape Tool:\nCloses path after drawing.",
     tc0: "Black Pen:\nA standard and all purpose pen color",
     tc1: "White Pen:\nAn ancient eraser from a simpler time",
