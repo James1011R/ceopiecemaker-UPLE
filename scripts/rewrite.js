@@ -3,7 +3,6 @@ var config = {};
 var lineDrawingMode = false;
 var markedTile = false;
 var curLevel = -1; // main_gi This is such a hack to implement, I wish I could do it in another way other than declaring tons of vars.
-var rightClicked = false;
 var noTierUpdate = false;
 var autoHorizontalSymmetry = true;
 var autoVerticalSymmetry = false;
@@ -159,7 +158,7 @@ function initializeBoards() {
     }
 
     var curMove = getSpell(this.dataset.index);
-    if (curMove.dataset && curMove.dataset.id == config.id) mouse.mode = "remove"; // Changes functionality to erase
+    if (e.buttons == 2 || curMove.dataset && curMove.dataset.id == config.id) mouse.mode = "remove"; // Changes functionality to erase
 
     changeSpell(this.dataset.index, this.dataset.level);
     let i = this.dataset.index
@@ -195,8 +194,6 @@ function initializeBoards() {
 
 
   $(".tile").on("contextmenu", function () {
-    mouse.mode = "remove";
-    rightClicked = true;
     return false;
   });
 
@@ -254,8 +251,8 @@ function setSpellOnBoard(i) {
   var x = mysvg.children[i].getAttribute("x");
   var y = mysvg.children[i].getAttribute("y");
   mysvg.insertAdjacentHTML('beforeend', makeSVGTag("use", {
-    x: +x + 3,
-    y: +y + 3,
+    x: +x + 2.5,
+    y: +y + 2.5,
     class: "spell-display",
     "data-index": i,
     "data-id": config.id,
@@ -383,5 +380,4 @@ $(document).on("mouseup dragend", function () {
   if (lineDrawingMode) {resolveMarkedTile(markedTile, curLevel)}
   lineDrawingMode = false;
   markedTile = false;
-  rightClicked = false;
 });
