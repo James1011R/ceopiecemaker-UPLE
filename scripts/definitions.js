@@ -1097,7 +1097,7 @@ MOVES = [{
    "hide": true
  }, {  
    "id": "1a",
-   "cat": "limited",
+   "cat": "variation",
    "name": "moveattackswap",
    "long": "b]mn:move/attack/swap",
    "text": "Move, Attack, or swap places with ally.",
@@ -1107,7 +1107,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "53a",
-   "cat": "limited",
+   "cat": "variation",
    "name": "jumpattackswap",
    "long": "b]mu:attack/swap",
    "text": "(Unblockable) Attack or swap places with ally.",
@@ -1118,7 +1118,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "53b",
-   "cat": "limited",
+   "cat": "variation",
    "name": "attackswap",
    "long": "b]mn:attack/swap",
    "text": "Attack or swap places with ally.",
@@ -1128,7 +1128,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "0d",
-   "cat": "limited",
+   "cat": "variation",
    "name": "blockableswap",
    "long": "b]mn:swap",
    "text": "Swap places with ally.",
@@ -1139,7 +1139,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "31c",
-   "cat": "limited",
+   "cat": "variation",
    "name": "blockableximaera",
    "long": "b]mn:move/*ally?swap",
    "text": "Move or swap places with unit.",
@@ -1150,7 +1150,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "0e",
-   "cat": "limited",
+   "cat": "variation",
    "name": "teleportswapenemy",
    "long": "b]mu:move/!ally?swap",
    "text": "(Unblockable) Teleport or swap places with enemy.",
@@ -1158,7 +1158,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "18e",
-   "cat": "limited",
+   "cat": "variation",
    "name": "actualsorcer",
    "long": "3b]ru:attack",
    "text": "[Pay 3]: (Magic) Destroy target.",
@@ -1168,7 +1168,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "43b",
-    "cat": "limited",
+    "cat": "variation",
     "name": "rangedbeacon",
     "long": "cu]rn:set@pos=Athis",
     "text": "(Ranged) Target unit is teleported to Ability Target.",
@@ -1178,7 +1178,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "52a",
-    "cat": "limited",
+    "cat": "variation",
     "name": "arcanerush",
     "long": "c]mu:(RUSH)",
     "text": "(Unblockable) Rush enemy, pushing it up to 3 spaces away from this unit and destroying the enemy if it collides with any unit or the field edge.",
@@ -1191,7 +1191,7 @@ MOVES = [{
     "hide": true
  }, {
    "id": "65b",
-   "cat": "limited",
+   "cat": "variation",
    "name": "nullany",
    "text": "(Magic) Target unit can no longer block movement and their value becomes 0.",
    "color": [0,0,0],
@@ -1200,7 +1200,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "4a",
-    "cat": "limited",
+    "cat": "variation",
     "name": "superjump",
     "long": "b]mz:move/attack",
     "text": "(Unstoppable) Move or Attack.",
@@ -1208,7 +1208,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "6a",
-    "cat": "limited",
+    "cat": "variation",
     "name": "fly",
     "long": "b]mz:move",
     "text": "(Unstoppable) Fly.",
@@ -1216,7 +1216,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "53c",
-    "cat": "limited",
+    "cat": "variation",
     "name": "superjumpattack",
     "long": "b]mz:attack",
     "text": "(Unstoppable) Attack only.",
@@ -1224,7 +1224,7 @@ MOVES = [{
     "hide": true
  }, {
    "id": "5a",
-   "cat": "limited",
+   "cat": "variation",
    "name": "superjumpswap",
    "long": "b]mz:move/attack/swap",
    "text": "(Unstoppable) Move, Attack, or swap places with ally.",
@@ -1232,7 +1232,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "7a",
-    "cat": "limited",
+    "cat": "variation",
     "name": "moonflare",
     "long": "b]rz:attack",
     "text": "(Unstoppable, Magic) Destroy target.",
@@ -1240,7 +1240,7 @@ MOVES = [{
     "hide": true
  }, {
    "id": "35c",
-   "cat": "limited",
+   "cat": "variation",
    "name": "superblock",
    "long": "bv]:block@(**:*)&(LOSEABILTY)/(mn:move/attack)",
    "text": "(Passive) Block one ability from this location, and lose this ability. \n(Active) Move or Attack.",
@@ -1250,7 +1250,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "35d",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "ventus",
    "text": "(Passive) When targeted from this location, push enemy as far as possible away. \n(Active) Move or Attack.",
    "color": [0,0,0],
@@ -1259,7 +1259,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b1",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "annihilate",
    "long": "c]rz:(REMOVE)",
    "text": "(Unstoppable, Magic) Remove target from the game. This ability ignores all abilities and passives.",
@@ -1269,7 +1269,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "b2",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "clear",
     "long": "ms]:*ally?status?deflag?&*ally?enchant?deflag?&deflag",
     "text": "Clear unit and location, removing all status effects and location effects.",
@@ -1280,7 +1280,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b3",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "decimate",
     "long": "c]ru:set@value-=3",
     "text": "(Magic) Target loses 3 value. If unit has 3 value or less, destroy it instead.",
@@ -1290,7 +1290,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b4",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "banish",
     "long": "c]ru:*ally?set@pos=startpos",
     "text": "(Magic) Teleport unit back to empty starting position.",
@@ -1303,7 +1303,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b5",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "hobble",
     "long": "b]mf:move",
     "text": "Move only. Blocked by threatened squares.",
@@ -1312,7 +1312,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b6",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "protosorcertarget",
     "long": "s]ru:sorcerize#flag@3-!(target?!ally)",
     "text": "(Magic) Enrage target, forcing them to target enemy units if they are capable of targeting any for 3 turns.",
@@ -1322,7 +1322,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b7",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "protosorcerdestroy",
     "long": "cs]ru:sorcerize#flag@3(t]:targeted?block@(**:*)&thisattack)",
     "text": "(Magic) Weaken target, causing them to be destroyed by any ability for 3 turns.",
@@ -1332,7 +1332,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b8",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "protosorcerantienchant",
     "long": "cs]ru:sorcerize#flag@3(@+(move:attack))",
     "text": "(Magic) Disenchant target, allowing them to be attacked by Move for 3 turns.",
@@ -1342,7 +1342,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b9",
-    "cat": "limited",
+    "cat": "variation",
     "name": "teledestroy",
     "long": "b]mu:move/ru:attack",
     "text": "(Unblockable) Teleport or (Magic) Destroy target.",
@@ -1352,7 +1352,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b10",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "provoke",
     "long": "bt]:start?\(m*:attack)",
     "text": "(Trigger) Enemy Unit: At the start of your turn, target unit instantly attacks this unit.",
@@ -1363,7 +1363,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b11",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "bullrush",
     "long": "c]mn:push#\\(mn:move@3(AWAY))",
     "text": "Move to unit and push them up to 3 spaces away.",
@@ -1374,7 +1374,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b12",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "locationblock",
     "long": "m]:flag@4(-move&(BLOCK))",
     "text": "(Magic) Marked location can't be targeted by Move and blocks movement for 4 turns.",
@@ -1385,7 +1385,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b13",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "bonusmove",
     "long": "b]mn:move&(BONUS)",
     "text": "Move only, then take an extra turn if you haven't already taken an extra turn this move.",
@@ -1395,7 +1395,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b14",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "pullunder",
     "long": "c]ru:(EXILE)3@pos",
     "text": "(Magic) Exile unit, then return them in at least 3 turns when location is unoccupied.",
@@ -1405,7 +1405,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b15",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "lock",
     "text": "(Magic) Lock enemy unit, making them unable to act or be displaced for 3 turns.",
     "color": [100,100,150],
@@ -1414,7 +1414,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b16",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "dummypolymorph",
     "text": "(Magic) Transform minion or champion into Dummy.",
     "color": [255,255,0],
@@ -1423,7 +1423,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b17",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "deepstrike",
     "text": "Exile self and mark location for return in 3 turns. If location is occupied upon return the occupant is removed from the game.",
     "color": [0,0,0],
@@ -1432,7 +1432,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b18",
-    "cat": "limited",
+    "cat": "variation",
     "name": "teleportattack",
     "long": "b]mu:move/mn:attack",
     "text": "Attack or (Unblockable) Teleport.",
@@ -1441,7 +1441,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b19",
-    "cat": "limited",
+    "cat": "variation",
     "name": "movedestroy",
     "long": "b]mn:move/rn:attack",
     "text": "Move or (Ranged) Destroy target.",
@@ -1451,7 +1451,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b20",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "enchantedximaera",
     "long": "1bs]mu:move/*ally?swap&(thisenchant#flag@1&(ENCHANT))",
     "text": "[Pay 1]: (Unblockable) Teleport or swap places with unit, and enchant self for 1 turn, becoming immune to melee death.",
@@ -1565,7 +1565,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b31",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "powersquare",
     "text": "(Magic) Mark location as power square or refresh power square.",
     "color": [0,255,0],
@@ -1574,7 +1574,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b32",
-    "cat": "limited",
+    "cat": "pretend",
     "name": "moraleboost",
     "text": "[Pay 12]: (Magic) Morale Boost ally for 15 turns, making them give you 1 morale each turn.",
     "color": [0,255,0],
@@ -1583,7 +1583,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b33",
-    "cat": "limited",
+    "cat": "variation",
     "name": "verticalpathdestroy",
     "text": "(Path, Ranged) Destroy target.",
     "color": [255,0,0],
@@ -1592,7 +1592,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b34",
-    "cat": "limited",
+    "cat": "variation",
     "name": "horizontalpathdestroy",
     "text": "(Path, Ranged) Destroy target.",
     "color": [255,0,0],
@@ -1601,7 +1601,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b35",
-    "cat": "limited",
+    "cat": "variation",
     "name": "antidiagonalpathdestroy",
     "text": "(Path, Ranged) Destroy target.",
     "color": [255,0,0],
@@ -1610,7 +1610,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b36",
-    "cat": "limited",
+    "cat": "variation",
     "name": "diagonalpathdestroy",
     "text": "(Path, Ranged) Destroy target.",
     "color": [255,0,0],
@@ -1619,7 +1619,7 @@ MOVES = [{
     "hide": true
   }, {
    "id": "b37",
-   "cat": "limited",
+   "cat": "variation",
    "name": "verticalpathmoveattackswap",
    "text": "(Path) Move, Attack, or swap places with ally.",
    "color": [0,0,0],
@@ -1629,7 +1629,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b38",
-   "cat": "limited",
+   "cat": "variation",
    "name": "horizontalpathmoveattackswap",
    "text": "(Path) Move, Attack, or swap places with ally.",
    "color": [0,0,0],
@@ -1639,7 +1639,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b39",
-   "cat": "limited",
+   "cat": "variation",
    "name": "antidiagonalpathmoveattackswap",
    "text": "(Path) Move, Attack, or swap places with ally.",
    "color": [0,0,0],
@@ -1649,7 +1649,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b40",
-   "cat": "limited",
+   "cat": "variation",
    "name": "diagonalpathmoveattackswap",
    "text": "(Path) Move, Attack, or swap places with ally.",
    "color": [0,0,0],
@@ -1659,7 +1659,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b41",
-   "cat": "limited",
+   "cat": "variation",
    "name": "jumpstart",
    "long": "b]mu:startpos?move/attack",
    "text": "(Unblockable) Move or Attack from starting position.",
@@ -1668,7 +1668,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b42",
-   "cat": "limited",
+   "cat": "variation",
    "name": "ximaeracastle",
    "long": "c]:*ally?swap&(MOVETOGETHER)",
    "text": "(Unblockable) Swap places with unit, then move this unit and target unit together.",
@@ -1678,7 +1678,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b43",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "spellcharge",
    "text": "[Pay 2]: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location.",
    "color": [20,151,24],
@@ -1686,7 +1686,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b43a",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "spellchargeswap",
    "text": "[Pay 2]: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location and swapping places with any ally on that location.",
    "color": [255,210,0],
@@ -1694,7 +1694,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b44",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "overtake",
    "text": "(Unblockable) Teleport to empty location, destroying enemy units in between.",
    "color": [127,127,127],
@@ -1704,7 +1704,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b45",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "meteoricjump",
    "text": "(Unblockable) Teleport, or Attack and push all units adjacent to destination 1 space away.",
    "color": [20,151,24],
@@ -1713,7 +1713,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b46",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "moveleapmove",
    "text": "Move or Leap-Move.",
    "color": [0,0,255],
@@ -1722,7 +1722,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b47",
-   "cat": "limited",
+   "cat": "variation",
    "name": "attackany",
    "text": "Attack enemy or ally.",
    "color": [255,0,0],
@@ -1731,7 +1731,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b48",
-   "cat": "limited",
+   "cat": "variation",
    "name": "jumpattackany",
    "text": "(Unblockable) Attack enemy or ally.",
    "color": [127,0,0],
@@ -1740,7 +1740,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b49",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "movementswitch",
    "text": "Switch the caster's Move actions to Attack, and vice versa.",
    "color": [0,0,255],
@@ -1750,7 +1750,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b50",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "empower",
    "text": "(Magic) Empower ally unit, allowing them to destroy an adjacent enemy unit for 3 turns.",
    "color": [255,127,127],
@@ -1760,7 +1760,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b51",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "chill",
    "text": "(Magic) Chill enemy unit for 5 turns, freezing them if they act.",
    "color": [107,205,253],
@@ -1770,7 +1770,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b52",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "overlap",
    "text": "Move to location, overlapping any unit on that location until that location is unoccupied.",
    "color": [0,0,0],
@@ -1779,7 +1779,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b53",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "forcefield",
    "text": "[Pay 3]: (Magic) Marked location can't be targeted by abilities other than Move for 3 turns.",
    "color": [0,0,255],
@@ -1791,7 +1791,17 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b54",
-   "cat": "limited",
+   "cat": "pretend",
+   "name": "pathblocker",
+   "text": "(Passive) Abilities can't be cast through this location.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "symbol1": "\ue700",
+   "symbol2": "x",
+   "hide": true
+  }, {
+   "id": "b54a",
+   "cat": "pretend",
    "name": "invokepathblocker",
    "text": "(Passive) Abilities can't be cast through this location. Invoke to toggle between on and off.",
    "color": [0,0,0],
@@ -1802,7 +1812,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b55",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "truestrike",
    "long": "bc]mz:move/(REMOVE)",
    "text": "(Unstoppable) Move or Attack and remove target from the game. This ability ignores all abilities and passives.",
@@ -1812,7 +1822,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b55a",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "truestrikeswap",
    "long": "bc]mz:move/swap/(REMOVE)",
    "text": "(Unstoppable) Move, swap places with ally, or Attack and remove target from the game. This ability ignores all abilities and passives.",
@@ -1822,7 +1832,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b56",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "feint",
    "text": "Move or Attack target and then instantly move 1 space in the opposite direction.",
    "color": [0,0,0],
@@ -1834,7 +1844,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b57",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "jolt",
    "text": "[Pay 1]: (Magic) Jolt enemy unit, allowing you to immediately move it to a space where it can't be targeted by you.",
    "color": [255,196,127],
@@ -1843,7 +1853,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b58",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "rally",
    "text": "(Magic) Teleport unit 2 spaces toward the other side of the field.",
    "color": [102,0,102],
@@ -1851,7 +1861,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b59",
-   "cat": "limited",
+   "cat": "variation",
    "name": "jumponce",
    "text": "(Unblockable) Move or Attack, and lose this ability.",
    "color": [20,151,24],
@@ -1860,7 +1870,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b60",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "enchantedmove",
    "text": "Move only, then enchant ally units orthogonally adjacent to you for 1 turn.",
    "color": [0,0,255],
@@ -1869,7 +1879,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b61",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "banishexile",
    "text": "(Magic) Exile unit, then return them at starting position in 3 turns.",
    "color": [0,200,200],
@@ -1878,7 +1888,7 @@ MOVES = [{
    "hide": true
   }, {
    "id": "b62",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "darkexile",
    "text": "(Magic) Exile unit, then return them after any unit dies.",
    "color": [87,218,40],
@@ -1887,7 +1897,7 @@ MOVES = [{
    "hide": true
   }, {
    "id": "b63",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "stormwind",
    "text": "[Pay 1]: (Magic) Push unit up to 3 spaces away from caster and mark destination to be destroyed by Magic in 3 turns.",
    "color": [0,127,255],
@@ -1899,7 +1909,7 @@ MOVES = [{
    "hide": true
   }, {
    "id": "b64",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "oddpoisonevenfreeze",
    "text": "Odd Move: (Magic) Poison enemy unit for 3 turns. Even Move: (Magic) Freeze enemy unit for 3 turns.",
    "color": [27,152,100],
@@ -1907,7 +1917,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b65",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "jumplose",
    "text": "[Lose 1]: (Unblockable) Move or Attack.",
    "color": [20,151,24],
@@ -1916,12 +1926,22 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b65a",
-   "cat": "limited",
+   "cat": "pretend",
    "name": "jumpswaplose",
    "text": "[Lose 1]: (Unblockable) Move, Attack, or swap places with ally.",
    "color": [255,210,0],
    "color3": [0,0,0],
    "symbol1": "\u{1f505}",
+   "hide": true
+  }, {
+   "id": "b66",
+   "cat": "pretend",
+   "name": "evasion",
+   "text": "(Trigger) This unit targeted by enemy: This unit instantly swaps places with unit on this location.",
+   "color": [0,0,255],
+   "color2": [0,0,0],
+   "color3": [0,0,255],
+   "symbol1": "\u2389",
    "hide": true
  }, {
    "id": "z1",
