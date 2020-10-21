@@ -1158,7 +1158,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "18e",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "actualsorcer",
    "long": "3b]ru:attack",
    "text": "[Pay 3]: (Magic) Destroy target.",
@@ -1200,7 +1200,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "4a",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "superjump",
     "long": "b]mz:move/attack",
     "text": "(Unstoppable) Move or Attack.",
@@ -1208,7 +1208,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "6a",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "fly",
     "long": "b]mz:move",
     "text": "(Unstoppable) Fly.",
@@ -1216,7 +1216,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "53c",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "superjumpattack",
     "long": "b]mz:attack",
     "text": "(Unstoppable) Attack only.",
@@ -1224,7 +1224,7 @@ MOVES = [{
     "hide": true
  }, {
    "id": "5a",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "superjumpswap",
    "long": "b]mz:move/attack/swap",
    "text": "(Unstoppable) Move, Attack, or swap places with ally.",
@@ -1232,7 +1232,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "7a",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "moonflare",
     "long": "b]rz:attack",
     "text": "(Unstoppable, Magic) Destroy target.",
@@ -1710,6 +1710,14 @@ MOVES = [{
    "color": [20,151,24],
    "color3": [0,0,0],
    "symbol1": "\uea78",
+   "hide": true
+ }, {
+   "id": "b45a",
+   "cat": "pretend",
+   "name": "criticaljump",
+   "text": "(Unblockable) Move or Attack. Then, push all enemies adjacent to destination 1 space away.",
+   "color": [0,127,0],
+   "color2": [0,255,0],
    "hide": true
  }, {
    "id": "b46",
