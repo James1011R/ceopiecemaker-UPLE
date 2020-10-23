@@ -415,6 +415,12 @@ div.passives{
 #action.show .hide {
   display: block;
 }
+#action .exile {
+  display: none;
+}
+#action.riftsweep .exile {
+  display: block;
+}
 .cost + div > ul {
   padding: 10px;
   width: 93%;
