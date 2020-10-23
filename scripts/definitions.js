@@ -1959,8 +1959,7 @@ MOVES = [{
    "text": "No ability.",
    "color": [127,127,127],
    "color2": [255,255,255],
-   "hide": true,
-   "exile": true
+   "hide": true
  }, {
    "id": "z2",
    "cat": "exile",
@@ -1969,8 +1968,7 @@ MOVES = [{
    "text": "(Unblockable) No ability.",
    "color": [64,64,64],
    "color2": [0,0,0],
-   "hide": true,
-   "exile": true
+   "hide": true
  }, {
    "id": "z3",
    "cat": "exile",
@@ -1980,8 +1978,7 @@ MOVES = [{
    "color": [127,127,127],
    "color3": [0,0,0],
    "symbol1": "\u2400",
-   "hide": true,
-   "exile": true
+   "hide": true
  }, {
    "id": "6zz",
    "cat": "exile",
@@ -1990,8 +1987,7 @@ MOVES = [{
    "text": "(Unblockable) Move only.",
    "color": [0,0,255],
    "color2": [0,0,127],
-   "hide": true,
-   "exile": true
+   "hide": true
  }, {
    "id": "fc1",
    "cat": "favor",
