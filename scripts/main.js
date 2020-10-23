@@ -143,6 +143,16 @@ $("#shactive").click(function() {
   }
 });
 
+$("#shexile").click(function() {
+  if (this.innerHTML.match(/Reveal/ig)) {
+    $("#action").addClass("riftsweep");
+    $(this).text($(this).text().replace(/Reveal/ig, "Obliviate"));
+  } else {
+    $("#action").removeClass("riftsweep");
+    $(this).text($(this).text().replace(/Obliviate/ig, "Reveal"));
+  }
+});
+
 // Current tool
 var ACTION;
 
