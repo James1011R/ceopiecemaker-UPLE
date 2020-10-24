@@ -1440,6 +1440,15 @@ MOVES = [{
     "color2": [252,13,27],
     "hide": true
  }, {
+    "id": "b18a",
+    "cat": "variation",
+    "name": "movejumpattack",
+    "long": "b]mn:move/mu:attack",
+    "text": "Move or (Unblockable) Attack.",
+    "color": [0,0,255],
+    "color2": [127,0,0],
+    "hide": true
+ }, {
     "id": "b19",
     "cat": "variation",
     "name": "movedestroy",
