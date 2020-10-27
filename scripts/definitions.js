@@ -499,7 +499,8 @@ MOVES = [{
    "text": "(Path) Move or Attack.",
    "color": [0,0,0],
    "color3": [255,0,0],
-   "symbol1": "\ue702"
+   "symbol1": "\ue702",
+   "hide": true
  }, {
    "id": "57",
    "cat": "official",
@@ -507,7 +508,8 @@ MOVES = [{
    "text": "(Path) Move or Attack.",
    "color": [0,0,0],
    "color3": [255,0,0],
-   "symbol1": "\ue700"
+   "symbol1": "\ue700",
+   "hide": true
  }, {
    "id": "58",
    "cat": "official",
@@ -515,7 +517,8 @@ MOVES = [{
    "text": "(Path) Move or Attack.",
    "color": [0,0,0],
    "color3": [255,0,0],
-   "symbol1": "\ue701"
+   "symbol1": "\ue701",
+   "hide": true
  }, {
    "id": "59",
    "cat": "official",
@@ -523,7 +526,8 @@ MOVES = [{
    "text": "(Path) Move or Attack.",
    "color": [0,0,0],
    "color3": [255,0,0],
-   "symbol1": "\ue703"
+   "symbol1": "\ue703",
+   "hide": true
  }, {
    "id": "60",
    "cat": "official",
@@ -1959,6 +1963,17 @@ MOVES = [{
    "color2": [0,0,0],
    "color3": [0,0,255],
    "symbol1": "\u2389",
+   "hide": true
+ }, {
+   "id": "b67",
+   "cat": "pretend",
+   "name": "phase",
+   "text": "(Trigger) This unit targeted by enemy: This unit instantly swaps places with unit on this location.",
+   "color": [200,200,200],
+   "color3": [255,255,255],
+   "color4": [0,0,0],
+   "symbol1": "\uf220",
+   "symbol2": "\u00d7",
    "hide": true
  }, {
    "id": "z1",
