@@ -1968,7 +1968,7 @@ MOVES = [{
    "id": "b67",
    "cat": "pretend",
    "name": "phase",
-   "text": "(Trigger) This unit targeted by enemy: This unit instantly swaps places with unit on this location.",
+   "text": "(Magic) Phase unit for 2 turns. Phased units can't act, and are immune to everything.",
    "color": [200,200,200],
    "color3": [255,255,255],
    "color4": [0,0,0],
