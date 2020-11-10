@@ -1976,6 +1976,36 @@ MOVES = [{
    "symbol2": "\u00d7",
    "hide": true
  }, {
+    "id": "b68",
+    "cat": "pretend",
+    "name": "kickout",
+    "text": "Move to unit and teleport them back to empty starting position.",
+    "color": [0,0,0],
+    "color2": [127,0,0],
+    "color3": [255,0,0],
+    "color4": [255,0,0],
+    "symbol1": "\u0058",
+    "symbol2": "\u2219",
+    "hide": true
+ }, {
+   "id": "b69",
+   "cat": "pretend",
+   "name": "returntosender",
+   "text": "(Magic) Teleport unit as far back towards their side as possible.",
+   "color": [102,0,102],
+   "symbol1": "\u2937",
+   "hide": true
+ }, {
+   "id": "b70",
+   "cat": "pretend",
+   "name": "hallow",
+   "text": "[Pay 2]: (Magic) Hallow unit for 3 turns. Hallowed units are immune to enemies but can't affect enemies.",
+   "color": [200,180,100],
+   "color4": [0,0,0],
+   "symbol1": "\u2747",
+   "symbol2": "\u00d7",
+   "hide": true
+ }, {
    "id": "z1",
    "cat": "exile",
    "name": "noability",
