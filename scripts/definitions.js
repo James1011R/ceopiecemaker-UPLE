@@ -2006,6 +2006,38 @@ MOVES = [{
    "symbol2": "\u00d7",
    "hide": true
  }, {
+   "id": "b71",
+   "cat": "variation",
+   "name": "verticalpathfreeze",
+   "text": "(Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
+   "color": [107,205,253],
+   "symbol1": "\ue702",
+   "hide": true
+ }, {
+   "id": "b72",
+   "cat": "variation",
+   "name": "horizontalpathfreeze",
+   "text": "(Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
+   "color": [107,205,253],
+   "symbol1": "\ue700",
+   "hide": true
+ }, {
+   "id": "b73",
+   "cat": "variation",
+   "name": "antidiagonalpathfreeze",
+   "text": "(Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
+   "color": [107,205,253],
+   "symbol1": "\ue701",
+   "hide": true
+ }, {
+   "id": "b74",
+   "cat": "variation",
+   "name": "diagonalpathfreeze",
+   "text": "(Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
+   "color": [107,205,253],
+   "symbol1": "\ue703",
+   "hide": true
+ }, {
    "id": "z1",
    "cat": "exile",
    "name": "noability",
