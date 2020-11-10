@@ -298,8 +298,10 @@ input::-webkit-inner-spin-button {
 }*/
 input[type=checkbox]{
   vertical-align:-3px;
+}
 input#symbol1 {
   font-family: sym-0, sym-1, sym-2, evermono;
+}
 input#symbol2 {
   font-family: sym-0, sym-1, sym-2, evermono;
 }
