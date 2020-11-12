@@ -2041,7 +2041,7 @@ MOVES = [{
     "id": "b75",
     "cat": "variation",
     "name": "summonknight",
-    "text": "(Magic) Enemy unit loses all abilities that aren’t a melee move or melee attack.",
+    "text": "(Magic) Summon Knight, and lose this ability.",
     "color": [0,0,0],
     "color2": [255,255,255],
     "symbol1": "\uec05",
