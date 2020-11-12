@@ -2038,6 +2038,33 @@ MOVES = [{
    "symbol1": "\ue703",
    "hide": true
  }, {
+    "id": "b75",
+    "cat": "variation",
+    "name": "summonknight",
+    "text": "(Magic) Enemy unit loses all abilities that aren’t a melee move or melee attack.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "symbol1": "\uec05",
+    "hide": true
+ }, {
+    "id": "0f",
+    "cat": "variation",
+    "name": "moveswapenemyattackally",
+    "text": "Move, Attack ally, or swap places with enemy.",
+    "color": [255,210,0],
+    "color2": [0,0,0],
+    "symbol1": "\u2747",
+    "hide": true
+ }, {
+    "id": "0g",
+    "cat": "variation",
+    "name": "teleportswapenemyjumpattackally",
+    "text": "(Unblockable) Teleport, Attack ally, or swap places with enemy.",
+    "color": [19,121,153],
+    "color2": [0,0,0],
+    "symbol1": "\u2747",
+    "hide": true
+ }, {
    "id": "z1",
    "cat": "exile",
    "name": "noability",
