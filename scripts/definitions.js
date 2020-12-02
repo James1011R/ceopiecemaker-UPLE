@@ -2046,6 +2046,78 @@ MOVES = [{
     "color2": [255,255,255],
     "symbol1": "\uec05",
     "hide": true
+  }, {
+   "id": "ba1",
+   "cat": "variation",
+   "name": "verticalpathjump",
+   "text": "(Unblockable, Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\ue702",
+   "hide": true
+ }, {
+   "id": "ba2",
+   "cat": "variation",
+   "name": "horizontalpathjump",
+   "text": "(Unblockable, Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\ue700",
+   "hide": true
+ }, {
+   "id": "ba3",
+   "cat": "variation",
+   "name": "antidiagonalpathjump",
+   "text": "(Unblockable, Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\ue701",
+   "hide": true
+ }, {
+   "id": "ba4",
+   "cat": "variation",
+   "name": "diagonalpathjump",
+   "text": "(Unblockable, Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\ue703",
+   "hide": true
+ }, {
+   "id": "ba5",
+   "cat": "variation",
+   "name": "sharpantidiagonalpathjump",
+   "text": "(Unblockable, Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\u{ffc46}",
+   "hide": true
+ }, {
+   "id": "ba6",
+   "cat": "variation",
+   "name": "flatantidiagonalpathjump",
+   "text": "(Unblockable, Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\u{ffc40}",
+   "hide": true
+ }, {
+   "id": "ba7",
+   "cat": "variation",
+   "name": "flatdiagonalpathjump",
+   "text": "(Unblockable, Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\u{ffc43}",
+   "hide": true
+ }, {
+   "id": "ba8",
+   "cat": "variation",
+   "name": "sharpdiagonalpathjump",
+   "text": "(Unblockable, Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\u{ffc45}",
+   "hide": true
  }, {
     "id": "0f",
     "cat": "variation",
