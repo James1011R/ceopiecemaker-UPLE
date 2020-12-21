@@ -322,11 +322,10 @@ MOVES = [{
    "cat": "official",
    "name": "freezestrike",
    "long": "bs]ru:thisattack&freeze#flag@3-move",
-   "text": "(Magic) Destroy self at target location and Freeze enemy unit for 3 turns, making them unable to act.",
+   "text": "(Magic) Destroy self at target location and Freeze unit for 3 turns, making them unable to act.",
    "color": [107,205,253],
-   "color3": [181,230,254],
-   "color4": [107,205,253],
-   "symbol2": "\u2738"
+   "color3": [107,205,253],
+   "symbol1": "\u2738"
  }, {
    "id": "38",
    "cat": "official",
@@ -444,7 +443,7 @@ MOVES = [{
    "cat": "official",
    "name": "compel",
    "long": "cs]rn:compel#flag@2(ct]start?mn:move@-1(AWAY)",
-   "text": "(Ranged) Compel enemy unit, making them move in the direction of this ability at the start of each turn, for 3 turns.",
+   "text": "(Ranged) Compel enemy unit, making them move in the direction of this ability at the start of their turn, for 3 turns.",
    "color": [255,63,255],
    "color2": [255,255,255],
    "symbol1": "\u2661"
@@ -1191,6 +1190,15 @@ MOVES = [{
    "color2": [255,255,255],
    "symbol1": "\uffec",
    "hide": true
+ }, {
+   "id": "37b",
+   "cat": "official",
+   "name": "earthstrike",
+   "long": "bs]ru:thisattack&freeze#flag@3-move",
+   "text": "(Magic) Destroy self at target location, and Create StonePillar in this empty location or Petrify unit for 4 turns, making them unable to act.",
+   "color": [94,94,94],
+   "color3": [59,59,59],
+   "symbol1": "\u2738"
  }, {
     "id": "43b",
     "cat": "variation",
