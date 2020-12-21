@@ -1023,6 +1023,16 @@ MOVES = [{
    "symbol1": "\uea81",
    "hide": true
  }, {
+   "id": "66b",
+   "cat": "legacy",
+   "name": "valuelessvoid",
+   "text": "[Pay 2]: (Ranged) Convert target enemy default moveset into basic move/teleport abilities, and negate their augments, if any.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [153,153,153],
+   "symbol1": "\uea81",
+   "hide": true
+ }, {
    "id": "a1",
    "cat": "adoption",
    "name": "flirt",
