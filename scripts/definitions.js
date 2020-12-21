@@ -597,7 +597,7 @@ MOVES = [{
  }, {
    "id": "68",
    "cat": "official",
-   "name": "ximaera",
+   "name": "omniswap",
    "long": "b]mu:move/*ally?swap",
    "text": "(Unblockable) Teleport or swap places with unit.",
    "color": [51,153,153],
@@ -1165,7 +1165,7 @@ MOVES = [{
  }, {
    "id": "31c",
    "cat": "variation",
-   "name": "blockableximaera",
+   "name": "blockableomniswap",
    "long": "b]mn:move/*ally?swap",
    "text": "Move or swap places with unit.",
    "color": [51,153,153],
@@ -1496,7 +1496,7 @@ MOVES = [{
  }, {
     "id": "b20",
     "cat": "pretend",
-    "name": "enchantedximaera",
+    "name": "enchantedomniswap",
     "long": "1bs]mu:move/*ally?swap&(thisenchant#flag@1&(ENCHANT))",
     "text": "[Pay 1]: (Unblockable) Teleport or swap places with unit, and enchant self for 1 turn, becoming immune to melee death.",
     "color": [0,102,255],
@@ -1713,7 +1713,7 @@ MOVES = [{
  }, {
    "id": "b42",
    "cat": "variation",
-   "name": "ximaeracastle",
+   "name": "omnicastle",
    "long": "c]:*ally?swap&(MOVETOGETHER)",
    "text": "(Unblockable) Swap places with unit, then move this unit and target unit together.",
    "color": [51,153,153],
