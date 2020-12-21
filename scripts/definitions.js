@@ -59,7 +59,7 @@ MOVES = [{
    "cat": "official",
    "name": "plant",
    "long": "2p]ru:transform@SAPLING/summon@SAPLING",
-   "text": "[Pay 1]: (Magic) Summon Sapling or transform enemy into ally Sapling.",
+   "text": "[Pay 2]: (Magic) Summon Sapling or transform enemy into ally Sapling.",
    "color": [0,101,24]
  }, {
    "id": "9",
@@ -234,7 +234,7 @@ MOVES = [{
    "color3": [215,147,255],
    "color4": [0,0,0],
    "symbol1": "\u25cf",
-   "symbol2": "o" /*25e6*/
+   "symbol2": "\u253c",
  }, {
    "id": "28",
    "cat": "official",
@@ -389,7 +389,8 @@ MOVES = [{
    "text": "[Pay 1]: (Magic) Move target unit toward Ability Target.",
    "color": [0,63,255],
    "color2": [255,255,255],
-   "symbol1": "\u25ef"
+   "symbol1": "\u25ef",
+   "hide": true
  }, {
    "id": "45",
    "cat": "official",
@@ -451,7 +452,7 @@ MOVES = [{
    "id": "51",
    "cat": "official",
    "name": "butterfly",
-   "text": "(Magic) Destroy self and mark location with effect after 20 turns, depending on target: Destroy by Magic if enemy, Enchant for 2 turns if ally, or revive this unit if empty.",
+   "text": "(Unstoppable) Destroy self and mark location with effect after 20 turns, depending on target: Destroy by Magic if enemy, Enchant for 2 turns if ally, or revive this unit if empty.",
    "color": [0,0,0],
    "color2": [255,255,255],
    "symbol1": "\uE906"
@@ -580,10 +581,26 @@ MOVES = [{
    "id": "66",
    "cat": "official",
    "name": "void",
-   "text": "[Pay 2]: (Ranged) Convert target enemy default moveset into basic move/teleport abilities, and negate their augments, if any.",
+   "text": "[Pay 2]: (Ranged) Convert target enemy default moveset into basic move/teleport abilities, and negate their augments, and increase their value by 2.",
    "color": [0,0,0],
    "color2": [255,255,255],
    "symbol1": "\uea81"
+ }, {
+   "id": "67",
+   "cat": "official",
+   "name": "gravitywell",
+   "text": "[Pay 2]: (Magic) Create gravity well at target location, pulling in all units that are directly 2 spaces away.",
+   "color": [0,0,0],
+   "color2": [77,29,95],
+   "symbol1": "\uea81"
+ }, {
+   "id": "68",
+   "cat": "official",
+   "name": "ximaera",
+   "long": "b]mu:move/*ally?swap",
+   "text": "(Unblockable) Teleport or swap places with unit.",
+   "color": [51,153,153],
+   "symbol1": "\u{1f5d8}"
  }, {
    "id": "0a",
    "cat": "variation",
@@ -1004,14 +1021,6 @@ MOVES = [{
    "symbol1": "\uea81",
    "hide": true
  }, {
-   "id": "31b",
-   "cat": "limbo",
-   "name": "ximaera",
-   "long": "b]mu:move/*ally?swap",
-   "text": "(Unblockable) Teleport or swap places with unit.",
-   "color": [19,121,153],
-   "hide": true
- }, {
    "id": "a1",
    "cat": "adoption",
    "name": "flirt",
@@ -1147,7 +1156,7 @@ MOVES = [{
    "name": "blockableximaera",
    "long": "b]mn:move/*ally?swap",
    "text": "Move or swap places with unit.",
-   "color": [19,121,153],
+   "color": [51,153,153],
    "color2": [255,255,255],
    "color3": [0,0,0],
    "symbol1": "\u{1f5d8}",
@@ -1201,6 +1210,15 @@ MOVES = [{
    "color": [0,0,0],
    "color2": [255,255,0],
    "symbol1": "\ue907",
+   "hide": true
+ }, {
+   "id": "67a",
+   "cat": "variation",
+   "name": "antigravitywell",
+   "text": "[Pay 2]: (Magic) Create antigravity well at target location, pushing away all units that are directly 2 spaces away.",
+   "color": [0,0,0],
+   "color2": [0,204,0],
+   "symbol1": "\uea81",
    "hide": true
  }, {
     "id": "4a",
