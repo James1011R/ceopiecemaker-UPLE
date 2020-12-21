@@ -591,7 +591,8 @@ MOVES = [{
    "name": "gravitywell",
    "text": "[Pay 2]: (Magic) Create gravity well at target location, pulling in all units that are directly 2 spaces away.",
    "color": [0,0,0],
-   "color2": [77,29,95],
+   "color2": [255,255,255],
+   "color3": [77,29,95],
    "symbol1": "\uea81"
  }, {
    "id": "68",
@@ -600,6 +601,7 @@ MOVES = [{
    "long": "b]mu:move/*ally?swap",
    "text": "(Unblockable) Teleport or swap places with unit.",
    "color": [51,153,153],
+   "color3": [0,0,0],
    "symbol1": "\u{1f5d8}"
  }, {
    "id": "0a",
@@ -1217,7 +1219,8 @@ MOVES = [{
    "name": "antigravitywell",
    "text": "[Pay 2]: (Magic) Create antigravity well at target location, pushing away all units that are directly 2 spaces away.",
    "color": [0,0,0],
-   "color2": [0,204,0],
+   "color2": [255,255,255],
+   "color3": [0,204,0],
    "symbol1": "\uea81",
    "hide": true
  }, {
@@ -1559,7 +1562,7 @@ MOVES = [{
     "text": "(Trigger) Enemy King: Swap with target at the start of your turn.",
     "color": [0,0,0],
     "color2": [255,255,255],
-    "color3": [19,121,153],
+    "color3": [51,153,153],
     "symbol1": "\uec32",
     "hide": true
  }, {
@@ -1703,7 +1706,7 @@ MOVES = [{
    "name": "ximaeracastle",
    "long": "c]:*ally?swap&(MOVETOGETHER)",
    "text": "(Unblockable) Swap places with unit, then move this unit and target unit together.",
-   "color": [19,121,153],
+   "color": [51,153,153],
    "color2": [255,255,255],
    "symbol1": "\u2656",
    "hide": true
@@ -2150,7 +2153,7 @@ MOVES = [{
     "cat": "variation",
     "name": "teleportswapenemyjumpattackally",
     "text": "(Unblockable) Teleport, Attack ally, or swap places with enemy.",
-    "color": [19,121,153],
+    "color": [51,153,153],
     "color2": [0,0,0],
     "symbol1": "\u2747",
     "hide": true
