@@ -619,6 +619,8 @@ MOVES = [{
    "long": "b]mu:!ally?swap",
    "text": "(Unblockable) Swap places with enemy.",
    "color": [127,0,59],
+   "color3": [0,0,0],
+   "symbol1": "\u{1f5d8}",
    "hide": true
  }, {
    "id": "0c",
@@ -627,6 +629,8 @@ MOVES = [{
    "long": "b]mu:*ally?swap",
    "text": "(Unblockable) Swap places with unit.",
    "color": [127,105,0],
+   "color3": [0,0,0],
+   "symbol1": "\u{1f5d8}",
    "hide": true
  }, {
    "id": "9a",
@@ -1157,7 +1161,6 @@ MOVES = [{
    "long": "b]mn:swap",
    "text": "Swap places with ally.",
    "color": [127,127,127],
-   "color2": [255,255,255],
    "color3": [0,0,0],
    "symbol1": "\u{1f5d8}",
    "hide": true
@@ -1167,8 +1170,7 @@ MOVES = [{
    "name": "blockableomniswap",
    "long": "b]mn:move/*ally?swap",
    "text": "Move or swap places with unit.",
-   "color": [51,153,153],
-   "color2": [255,255,255],
+   "color": [51,51,153],
    "color3": [0,0,0],
    "symbol1": "\u{1f5d8}",
    "hide": true
