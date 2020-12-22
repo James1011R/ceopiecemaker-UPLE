@@ -1194,7 +1194,6 @@ MOVES = [{
    "id": "37b",
    "cat": "variation",
    "name": "earthstrike",
-   "long": "bs]ru:thisattack&freeze#flag@3-move",
    "text": "(Magic) Destroy self at target location, and Create StonePillar in this empty location or Petrify unit for 4 turns, making them unable to act.",
    "color": [94,94,94],
    "color3": [59,59,59],
