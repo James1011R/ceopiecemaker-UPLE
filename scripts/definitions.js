@@ -1198,7 +1198,8 @@ MOVES = [{
    "text": "(Magic) Destroy self at target location, and Create StonePillar in this empty location or Petrify unit for 4 turns, making them unable to act.",
    "color": [94,94,94],
    "color3": [59,59,59],
-   "symbol1": "\u2738"
+   "symbol1": "\u2738",
+   "hide": true
  }, {
     "id": "43b",
     "cat": "variation",
