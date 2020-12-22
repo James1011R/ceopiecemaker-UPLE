@@ -1181,6 +1181,8 @@ MOVES = [{
    "long": "b]mu:move/!ally?swap",
    "text": "(Unblockable) Teleport or swap places with enemy.",
    "color": [255,0,100],
+   "color3": [0,0,0],
+   "symbol1": "\u{1f5d8}",
    "hide": true
  }, {
    "id": "18e",
