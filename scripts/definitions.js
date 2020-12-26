@@ -1239,7 +1239,7 @@ MOVES = [{
    "id": "67a",
    "cat": "variation",
    "name": "antigravitywell",
-   "text": "[Pay 2]: (Magic) Create antigravity well at target location, pushing away all units that are directly 2 spaces away.",
+   "text": "[Pay 2]: (Magic) Create antigravity well at target location, pushing away all units that are directly 2 spaces away 1 space away.",
    "color": [0,0,0],
    "color2": [255,255,255],
    "color3": [0,204,0],
