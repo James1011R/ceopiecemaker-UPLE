@@ -2112,7 +2112,7 @@ MOVES = [{
     "cat": "variation",
     "name": "conditionalmagic",
     "text": "(Magic, Conditional) Destroy target.",
-    "color": [20,151,24],
+    "color": [253,117,34],
     "color3": [0,0,0],
     "symbol1": "\u002a",
     "hide": true
