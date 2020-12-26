@@ -2089,7 +2089,34 @@ MOVES = [{
     "color2": [255,255,255],
     "symbol1": "\uec05",
     "hide": true
-  }, {
+ }, {
+    "id": "b76",
+    "cat": "variation",
+    "name": "conditionalmoveattack",
+    "text": "(Conditional) Move or Attack.",
+    "color": [0,0,0],
+    "color3": [255,255,255],
+    "symbol1": "\u002a",
+    "hide": true
+ }, {
+    "id": "b76a",
+    "cat": "variation",
+    "name": "conditionaljump",
+    "text": "(Unblockable, Conditional) Move or Attack.",
+    "color": [20,151,24],
+    "color3": [255,255,255],
+    "symbol1": "\u002a",
+    "hide": true
+ }, {
+    "id": "b76b",
+    "cat": "variation",
+    "name": "conditionalmagic",
+    "text": "(Magic, Conditional) Destroy target.",
+    "color": [20,151,24],
+    "color3": [0,0,0],
+    "symbol1": "\u002a",
+    "hide": true
+ }, {
    "id": "ba1",
    "cat": "variation",
    "name": "verticalpathjump",
