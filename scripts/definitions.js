@@ -2150,9 +2150,19 @@ MOVES = [{
     "cat": "pretend",
     "name": "negatefarmoves",
     "text": "(Magic) Negate unit's moveset beyond Range 2.",
-    "color": [225,225,0],
-    "symbol1": "\u2bcc",
-    "symbol2": "\u2bcd",
+    "color": [40,40,40],
+    "color3": [0,0,0],
+    "symbol1": "\u{ffd72}",
+    "hide": true
+ }, {
+    "id": "b82",
+    "cat": "pretend",
+    "name": "negatesidesteps",
+    "text": "(Magic) Negate unit's moveset beyond 1 step sideways.",
+    "color": [40,40,40],
+    "color4": [0,0,0],
+    "symbol1": "\u2194",
+    "symbol2": "x",
     "hide": true
  }, {
    "id": "ba1",
