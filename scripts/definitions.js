@@ -2165,6 +2165,51 @@ MOVES = [{
     "symbol2": "\u{ff0fe}",
     "hide": true
  }, {
+    "id": "b83",
+    "cat": "pretend",
+    "name": "ignite",
+    "text": "(Magic) Ignite enemy unit, destroying them in 3 turns. If an Ignited unit is Attacked, the attacker is Ignited for 3 turns.",
+    "color": [151,74,0],
+    "symbol1": "\u00d7",
+    "hide": true
+ }, {
+    "id": "b84",
+    "cat": "pretend",
+    "name": "melt",
+    "text": "(Magic) Melt enemy unit, transforming them into a Slime in 3 turns.",
+    "color": [75,150,0],
+    "color3": [255,255,255],
+    "symbol1": "\ue902",
+    "hide": true
+ }, {
+    "id": "b85",
+    "cat": "pretend",
+    "name": "sabotage",
+    "text": "(Magic) Sabotage enemy unit, destroying them and pushing all adjacent units 1 space away in 5 turns.",
+    "color": [151,0,0],
+    "symbol1": "\u00d7",
+    "hide": true
+ }, {
+    "id": "b86",
+    "cat": "pretend",
+    "name": "soulsplit",
+    "text": "(Magic) Soulsplit enemy unit, negating the unit's value, moveset, and passives in 2 turns.",
+    "color": [151,151,151],
+    "color3": [0,0,0],
+    "symbol1": "\u00d7",
+    "hide": true
+ }, {
+    "id": "b87",
+    "cat": "pretend",
+    "name": "subvert",
+    "text": "(Magic) Subvert enemy unit, making them swap places with their King in 3 turns.",
+    "color": [51,153,153],
+    "color3": [0,0,0],
+    "color4": [51,153,153],
+    "symbol2": "\uea0a",
+    "symbol2": "\u00d7",
+    "hide": true
+ }, {
    "id": "ba1",
    "cat": "variation",
    "name": "verticalpathjump",
