@@ -2206,7 +2206,7 @@ MOVES = [{
     "color": [51,153,153],
     "color3": [0,0,0],
     "color4": [51,153,153],
-    "symbol2": "\uea0a",
+    "symbol1": "\uea0a",
     "symbol2": "\u00d7",
     "hide": true
  }, {
