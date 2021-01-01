@@ -2111,6 +2111,50 @@ MOVES = [{
     "color": [254,171,120],
     "hide": true
  }, {
+    "id": "b77",
+    "cat": "pretend",
+    "name": "timeddeath",
+    "text": "(Magic) Mark unit to be unavoidably destroyed in 6 turns.",
+    "color": [114,28,32],
+    "symbol1": "\u{1f553}",
+    "hide": true
+ }, {
+    "id": "b78",
+    "cat": "pretend",
+    "name": "upgrademinion",
+    "text": "[Pay 3]: (Magic) Upgrade ally minion.",
+    "color": [0,153,87],
+    "color2": [241,241,140],
+    "symbol1": "\u25b2",
+    "hide": true
+ }, {
+    "id": "b79",
+    "cat": "pretend",
+    "name": "flipmoveset",
+    "text": "(Magic) Reflect unit's moveset across the X axis.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "symbol1": "\u21c5",
+    "hide": true
+ }, {
+    "id": "b80",
+    "cat": "pretend",
+    "name": "areadenial",
+    "text": "(Magic, Trigger) Enemy Unit: At the start of your turn, mark unit to be destroyed in 2 turns unless they leave their location.",
+    "color": [225,225,0],
+    "symbol1": "\u2bcc",
+    "symbol2": "\u2bcd",
+    "hide": true
+ }, {
+    "id": "b81",
+    "cat": "pretend",
+    "name": "negatefarmoves",
+    "text": "(Magic) Negate unit's moveset beyond Range 2.",
+    "color": [225,225,0],
+    "symbol1": "\u2bcc",
+    "symbol2": "\u2bcd",
+    "hide": true
+ }, {
    "id": "ba1",
    "cat": "variation",
    "name": "verticalpathjump",
