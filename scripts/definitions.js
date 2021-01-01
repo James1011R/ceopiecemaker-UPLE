@@ -2159,10 +2159,10 @@ MOVES = [{
     "cat": "pretend",
     "name": "negatesidesteps",
     "text": "(Magic) Negate unit's moveset beyond 1 step sideways.",
-    "color": [40,40,40],
+    "color": [80,80,80],
     "color4": [0,0,0],
     "symbol1": "\u2194",
-    "symbol2": "x",
+    "symbol2": "\u{ff0fe}",
     "hide": true
  }, {
    "id": "ba1",
