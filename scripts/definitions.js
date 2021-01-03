@@ -2240,6 +2240,17 @@ MOVES = [{
     "symbol1": "\uea21",
     "hide": true
  }, {
+    "id": "b91",
+    "cat": "pretend",
+    "name": "deathmark",
+    "text": "(Magic) Mark enemy unit to be destroyed if this unit dies.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "color4": [255,255,255],
+    "symbol1": "\uf7f3",
+    "symbol2": "\u29c8",
+    "hide": true
+ }, {
    "id": "ba1",
    "cat": "variation",
    "name": "verticalpathjump",
