@@ -2210,6 +2210,18 @@ MOVES = [{
     "symbol2": "\u00d7",
     "hide": true
  }, {
+    "id": "b88",
+    "cat": "pretend",
+    "name": "enchantpoison",
+    "text": "(Magic) Enchant unit for 3 turns and Poison unit, making them immune to melee death but destroying them in 3 turns.",
+    "color": [0,101,24],
+    "color2": [0,0,0],
+    "color3": [0,255,255],
+    "color4": [0,101,24],
+    "symbol1": "\u25cb",
+    "symbol2": "\u00d7",
+    "hide": true
+ }, {
    "id": "ba1",
    "cat": "variation",
    "name": "verticalpathjump",
