@@ -2280,6 +2280,16 @@ MOVES = [{
     "symbol1": "\u{1f480}",
     "hide": true
  }, {
+    "id": "b95",
+    "cat": "pretend",
+    "name": "derealize",
+    "text": "[Pay 2]: (Magic) Transform unit into ally Illusion+++.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "color3": [133,0,0],
+    "symbol1": "\uec2b",
+    "hide": true
+ }, {
    "id": "ba1",
    "cat": "variation",
    "name": "verticalpathjump",
