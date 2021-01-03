@@ -2222,6 +2222,15 @@ MOVES = [{
     "symbol2": "\u00d7",
     "hide": true
  }, {
+    "id": "b89",
+    "cat": "pretend",
+    "name": "icemeteor",
+    "text": "[Pay 1]: (Magic) After 5 turns any unit in the marked location is frozen for 3 turns and all adjacent units are frozen for 1 turn and pushed away 1 space.",
+    "color": [107,205,253],
+    "color3": [0,0,0],
+    "symbol1": "\uea78",
+    "hide": true
+ }, {
    "id": "ba1",
    "cat": "variation",
    "name": "verticalpathjump",
