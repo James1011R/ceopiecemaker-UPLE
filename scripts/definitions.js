@@ -2261,6 +2261,25 @@ MOVES = [{
     "symbol1": "\u{1f1ed}",
     "hide": true
  }, {
+    "id": "b93",
+    "cat": "pretend",
+    "name": "acidify",
+    "text": "(Magic) Acidify enemy unit, destroying them after they act twice.",
+    "color": [100,200,0],
+    "color2": [255,255,255],
+    "symbol1": "\u00d7",
+    "hide": true
+ }, {
+    "id": "b94",
+    "cat": "pretend",
+    "name": "doom",
+    "text": "(Magic) Doom enemy unit, destroying them if they don't act after three turns.",
+    "color": [0,0,0],
+    "color2": [50,50,50],
+    "color3": [255,255,255],
+    "symbol1": "\u{1f480}",
+    "hide": true
+ }, {
    "id": "ba1",
    "cat": "variation",
    "name": "verticalpathjump",
