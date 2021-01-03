@@ -2273,7 +2273,7 @@ MOVES = [{
     "id": "b94",
     "cat": "pretend",
     "name": "doom",
-    "text": "(Magic) Doom enemy unit, destroying them if they don't act after three turns.",
+    "text": "(Magic) Doom enemy unit, destroying them if they have not acted in the last three turns.",
     "color": [0,0,0],
     "color2": [50,50,50],
     "color3": [255,255,255],
