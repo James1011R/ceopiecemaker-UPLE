@@ -2247,7 +2247,7 @@ MOVES = [{
     "color": [0,0,0],
     "color2": [255,255,255],
     "color4": [255,255,255],
-    "symbol1": "\uf7f3",
+    "symbol1": "\uf7e3",
     "symbol2": "\u29c8",
     "hide": true
  }, {
