@@ -2251,6 +2251,16 @@ MOVES = [{
     "symbol2": "\u29c8",
     "hide": true
  }, {
+    "id": "b92",
+    "cat": "pretend",
+    "name": "halfwaythunder",
+    "text": "(Magic) When this unit crosses the middle of the field any unit in the marked location is destroyed.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "color3": [0,127,255],
+    "symbol1": "\u{1f1ed}",
+    "hide": true
+ }, {
    "id": "ba1",
    "cat": "variation",
    "name": "verticalpathjump",
