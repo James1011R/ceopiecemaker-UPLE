@@ -2231,6 +2231,15 @@ MOVES = [{
     "symbol1": "\uea78",
     "hide": true
  }, {
+    "id": "b90",
+    "cat": "pretend",
+    "name": "immobilize",
+    "text": "(Passive) Immobilize enemy unit if this location is unblocked, making them unable to act.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "symbol1": "\uea21",
+    "hide": true
+ }, {
    "id": "ba1",
    "cat": "variation",
    "name": "verticalpathjump",
