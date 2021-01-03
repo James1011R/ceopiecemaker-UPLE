@@ -2290,6 +2290,18 @@ MOVES = [{
     "symbol1": "\uec2b",
     "hide": true
  }, {
+    "id": "b96",
+    "cat": "pretend",
+    "name": "mine",
+    "text": "[Pay 3]: (Magic) The next unit to land on marked location is destroyed.",
+    "color": [127,127,127],
+    "color2": [255,255,255],
+    "color3": [0,0,0],
+    "color4": [255,0,0],
+    "symbol1": "\u29c8",
+    "symbol2": "\u2b1d",
+    "hide": true
+ }, {
    "id": "ba1",
    "cat": "variation",
    "name": "verticalpathjump",
