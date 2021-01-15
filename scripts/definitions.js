@@ -2302,6 +2302,26 @@ MOVES = [{
     "symbol2": "\u2b1d",
     "hide": true
  }, {
+    "id": "b97",
+    "cat": "pretend",
+    "name": "jumpattackreflect",
+    "text": "(Unblockable) Attack, then teleport this unit across the Y axis.",
+    "color": [255,0,0],
+    "color2": [127,0,0],
+    "color3": [255,255,255],
+    "symbol1": "\u21c4",
+    "hide": true
+ }, {
+    "id": "b98",
+    "cat": "pretend",
+    "name": "jumpmovereflect",
+    "text": "(Unblockable) Move, then teleport this unit across the Y axis.",
+    "color": [0,0,255],
+    "color2": [0,0,127],
+    "color3": [255,255,255],
+    "symbol1": "\u21c4",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
@@ -2332,7 +2352,7 @@ MOVES = [{
    "id": "z2",
    "cat": "exile",
    "name": "unblockablenoability",
-   "long": "]mn:",
+   "long": "]mu:",
    "text": "(Unblockable) No ability.",
    "color": [64,64,64],
    "color2": [0,0,0],
@@ -2342,7 +2362,7 @@ MOVES = [{
    "cat": "exile",
    "name": "donothing",
    "long": "]rz:(NULL)",
-   "text": "(Unstoppable, Magic) Do nothing.",
+   "text": "(Unstoppable) Do nothing.",
    "color": [127,127,127],
    "color3": [0,0,0],
    "symbol1": "\u2400",
