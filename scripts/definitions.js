@@ -1538,7 +1538,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b21",
-    "cat": "predux",
+    "cat": "pretend",
     "name": "specialtykill",
     "text": "(Magic) Enemy unit loses all abilities that aren’t a melee move or melee attack.",
     "color": [0,0,0],
@@ -1547,7 +1547,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b22",
-    "cat": "predux",
+    "cat": "pretend",
     "name": "bind",
     "text": "Bind enemy unit, removing all of its abilities on corresponding ability targets.",
     "color": [0,0,0],
@@ -1556,7 +1556,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b23",
-    "cat": "predux",
+    "cat": "pretend",
     "name": "freezeshot",
     "text": "(Ranged) Destroy target and freeze adjacent units perpendicular to target for 1 turn. Cannot target units immune to freeze.",
     "color": [107,205,253],
@@ -1568,7 +1568,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b24",
-    "cat": "predux",
+    "cat": "pretend",
     "name": "invigorate",
     "text": "(Magic) Invigorate ally unit, making them able to act regardless of negative status effects for 2 turns.",
     "color": [0,0,0],
@@ -1579,7 +1579,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b25",
-    "cat": "predux",
+    "cat": "pretend",
     "name": "agility",
     "text": "(Trigger) At the end of your turn teleport to this empty location before returning to your previous position at the end of your opponent's turn.",
     "color": [121,19,153],
@@ -1591,7 +1591,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b26",
-    "cat": "predux",
+    "cat": "pretend",
     "name": "confuse",
     "text": "(Magic) Confuse enemy unit for 3 turns, making them unable to target empty locations.",
     "color": [160,127,253],
@@ -1599,7 +1599,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b27",
-    "cat": "predux",
+    "cat": "pretend",
     "name": "autominotaur",
     "text": "(Trigger) Enemy King: Swap with target at the start of your turn.",
     "color": [0,0,0],
@@ -1609,7 +1609,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b28",
-    "cat": "predux",
+    "cat": "pretend",
     "name": "morph",
     "text": "(Magic) Transform self into most recently fallen unit of value X or less, where X is twice this unit's value.",
     "color": [0,0,0],
@@ -1620,7 +1620,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b29",
-    "cat": "predux",
+    "cat": "pretend",
     "name": "finalblast",
     "text": "(Magic) Remove target from the game, ignoring all abilities, passives, and status effects; poison ally King for 3 turns, and lose this ability.",
     "color": [200,200,200],
@@ -1629,7 +1629,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b30",
-    "cat": "predux",
+    "cat": "pretend",
     "name": "finalrespite",
     "text": "(Magic) Enchant self and target ally for 2 turns and lose 5 value. If this unit reaches 0 value this ability can't be used.",
     "color": [0,102,255],
@@ -2102,7 +2102,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "b75",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "summonknight",
     "text": "(Magic) Summon Knight, and lose this ability.",
     "color": [0,0,0],
@@ -2111,56 +2111,56 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b76",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "conditionalmoveattack",
     "text": "(Conditional) Move or Attack.",
     "color": [100,100,100],
     "hide": true
  }, {
     "id": "b76a",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "conditionaljump",
     "text": "(Unblockable, Conditional) Move or Attack.",
     "color": [112,173,114],
     "hide": true
  }, {
     "id": "b76b",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "conditionalmagic",
     "text": "(Magic, Conditional) Destroy target.",
     "color": [254,171,120],
     "hide": true
  }, {
     "id": "b76c",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "conditionalmove",
     "text": "(Conditional) Move only.",
     "color": [100,100,255],
     "hide": true
  }, {
     "id": "b76d",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "conditionalattack",
     "text": "(Conditional) Attack only.",
     "color": [253,107,116],
     "hide": true
  }, {
     "id": "b76e",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "conditionalteleport",
     "text": "(Unblockable, Conditional) Teleport.",
     "color": [173,111,193],
     "hide": true
  }, {
     "id": "b76f",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "conditionaljumpswap",
     "text": "(Unblockable, Conditional) Move, Attack, or swap places with ally.",
     "color": [255,228,100],
     "hide": true
  }, {
     "id": "b76g",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "conditionalshoot",
     "text": "(Ranged, Conditional) Destroy target.",
     "color": [255,100,100],
@@ -2377,6 +2377,15 @@ MOVES = [{
     "color2": [0,0,127],
     "color3": [255,255,255],
     "symbol1": "\u21c4",
+    "hide": true
+ }, {
+    "id": "b98",
+    "cat": "pretend",
+    "name": "poisonswap",
+    "text": "(Unblockable) Teleport or swap places with unit and poison enemy unit, destroying them in 3 turns.",
+    "color": [0,101,24],
+    "color2": [0,0,0],
+    "symbol1": "\u{1f5d8}",
     "hide": true
  }, {
     "id": "0f",
