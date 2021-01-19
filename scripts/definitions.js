@@ -1288,7 +1288,7 @@ MOVES = [{
  }, {
    "id": "35c",
    "cat": "variation",
-   "name": "superblock",
+   "name": "omniblock",
    "long": "bv]:block@(**:*)&(LOSEABILTY)/(mn:move/attack)",
    "text": "(Passive) Block one ability from this location, and lose this ability. \n(Active) Move or Attack.",
    "color": [0,0,0],
@@ -1303,6 +1303,28 @@ MOVES = [{
    "color": [0,0,0],
    "color3": [127,0,255],
    "symbol1": "\u2219",
+   "hide": true
+ }, {
+   "id": "35e",
+   "cat": "variation",
+   "name": "jumpswapblock",
+   "long": "bv]:block@(mn:attack)&(LOSEABILTY)/(mu:move/attack/swap)",
+   "text": "(Passive) Block one ranged destroy from this location, and lose this ability. \n(Active, Unblockable) Move, Attack, or swap places with ally.",
+   "color": [255,210,0],
+   "color3": [255,255,255],
+   "symbol1": "\u2219",
+   "hide": true
+ }, {
+   "id": "35f",
+   "cat": "variation",
+   "name": "jumpswapomniblock",
+   "long": "bv]:block@(**:*)&(LOSEABILTY)/(mu:move/attack/swap)",
+   "text": "(Passive) Block one ability from this location, and lose this ability. \n(Active, Unblockable) Move, Attack, or swap places with ally.",
+   "color": [255,210,0],
+   "color3": [0,0,0],
+   "color4": [255,255,0],
+   "symbol1": "\u26ab",
+   "symbol2": "\u2219",
    "hide": true
  }, {
    "id": "b1",
@@ -2101,7 +2123,7 @@ MOVES = [{
     "cat": "variation",
     "name": "conditionaljump",
     "text": "(Unblockable, Conditional) Move or Attack.",
-    "color": [112,192,114],
+    "color": [112,173,114],
     "hide": true
  }, {
     "id": "b76b",
@@ -2109,6 +2131,29 @@ MOVES = [{
     "name": "conditionalmagic",
     "text": "(Magic, Conditional) Destroy target.",
     "color": [254,171,120],
+    "hide": true
+ }, {
+    "id": "b76c",
+    "cat": "variation",
+    "name": "conditionalteleport",
+    "text": "(Unblockable, Conditional) Teleport.",
+    "color": [173,111,193],
+    "hide": true
+ }, {
+    "id": "b76d",
+    "cat": "variation",
+    "name": "conditionaljumpswap",
+    "text": "(Unblockable, Conditional) Move, Attack, or swap places with ally.",
+    "color": [255,228,100],
+    "hide": true
+ }, {
+    "id": "b76e",
+    "cat": "variation",
+    "name": "conditionalshoot",
+    "text": "(Ranged, Conditional) Destroy target.",
+    "color": [255,100,100],
+    "color2": [255,255,255],
+    "symbol1": "\u2316",
     "hide": true
  }, {
     "id": "b77",
@@ -2312,7 +2357,7 @@ MOVES = [{
     "symbol1": "\u21c4",
     "hide": true
  }, {
-    "id": "b98",
+    "id": "b97a",
     "cat": "pretend",
     "name": "jumpmovereflect",
     "text": "(Unblockable) Move, then teleport this unit across the Y axis.",
