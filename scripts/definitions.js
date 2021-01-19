@@ -1214,6 +1214,16 @@ MOVES = [{
     "symbol1": "\u2316",
     "hide": true
  }, {
+   "id": "50a",
+   "cat": "variation",
+   "name": "reversecompel",
+   "long": "cs]rn:compel#flag@2(ct]start?mn:move@1(AWAY)",
+   "text": "(Ranged) Compel enemy unit, making them move away from the direction of this ability at the start of their turn, for 3 turns.",
+   "color": [0,127,0],
+   "color2": [255,255,255],
+   "symbol1": "\u{ffad2}",
+   "hide": true
+ }, {
     "id": "52a",
     "cat": "variation",
     "name": "arcanerush",
@@ -2384,7 +2394,26 @@ MOVES = [{
     "name": "poisonswap",
     "text": "(Unblockable) Teleport or swap places with unit and poison enemy unit, destroying them in 3 turns.",
     "color": [0,101,24],
-    "color2": [0,0,0],
+    "color3": [0,0,0],
+    "symbol1": "\u{1f5d8}",
+    "hide": true
+ }, {
+    "id": "b98a",
+    "cat": "pretend",
+    "name": "freezeswap",
+    "text": "(Unblockable) Teleport or swap places with unit and freeze enemy unit for 3 turns, making them unable to act.",
+    "color": [107,205,253],
+    "color3": [0,0,0],
+    "symbol1": "\u{1f5d8}",
+    "hide": true
+ }, {
+    "id": "b98b",
+    "cat": "pretend",
+    "name": "compelswap",
+    "text": "(Unblockable) Teleport or swap places with unit and compel enemy unit, making them move in the direction of this ability at the start of their turn, for 3 turns.",
+    "color": [255,63,255],
+    "color2": [255,255,255],
+    "color3": [255,63,255],
     "symbol1": "\u{1f5d8}",
     "hide": true
  }, {
@@ -2571,7 +2600,7 @@ MOVES = [{
    "text": "Custom ability 16 (Double Click Menu Icon to Edit)",
    "nobox": true,
    "color3": [0,0,0],
-   "symbol1": "\ue23e"
+   "symbol1": "\u23e8"
  }, {
    "id": "c1legacy",
    "cat": "custom",
