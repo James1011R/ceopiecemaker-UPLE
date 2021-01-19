@@ -2135,19 +2135,33 @@ MOVES = [{
  }, {
     "id": "b76c",
     "cat": "variation",
+    "name": "conditionalmove",
+    "text": "(Conditional) Move only.",
+    "color": [100,100,255],
+    "hide": true
+ }, {
+    "id": "b76d",
+    "cat": "variation",
+    "name": "conditionalattack",
+    "text": "(Conditional) Attack only.",
+    "color": [253,107,116],
+    "hide": true
+ }, {
+    "id": "b76e",
+    "cat": "variation",
     "name": "conditionalteleport",
     "text": "(Unblockable, Conditional) Teleport.",
     "color": [173,111,193],
     "hide": true
  }, {
-    "id": "b76d",
+    "id": "b76f",
     "cat": "variation",
     "name": "conditionaljumpswap",
     "text": "(Unblockable, Conditional) Move, Attack, or swap places with ally.",
     "color": [255,228,100],
     "hide": true
  }, {
-    "id": "b76e",
+    "id": "b76g",
     "cat": "variation",
     "name": "conditionalshoot",
     "text": "(Ranged, Conditional) Destroy target.",
