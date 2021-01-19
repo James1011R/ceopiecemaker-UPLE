@@ -1309,7 +1309,7 @@ MOVES = [{
    "cat": "variation",
    "name": "jumpswapblock",
    "long": "bv]:block@(mn:attack)&(LOSEABILTY)/(mu:move/attack/swap)",
-   "text": "(Passive) Block one ranged destroy from this location, and lose this ability. \n(Active, Unblockable) Move, Attack, or swap places with ally.",
+   "text": "(Passive) Block one normal attack from this location, and lose this ability. \n(Active, Unblockable) Move, Attack, or swap places with ally.",
    "color": [255,210,0],
    "color3": [255,255,255],
    "symbol1": "\u2219",
@@ -1322,9 +1322,7 @@ MOVES = [{
    "text": "(Passive) Block one ability from this location, and lose this ability. \n(Active, Unblockable) Move, Attack, or swap places with ally.",
    "color": [255,210,0],
    "color3": [0,0,0],
-   "color4": [255,255,0],
-   "symbol1": "\u26ab",
-   "symbol2": "\u2219",
+   "symbol1": "\u2219",
    "hide": true
  }, {
    "id": "b1",
