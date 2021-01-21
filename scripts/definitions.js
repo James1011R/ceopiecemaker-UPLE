@@ -395,7 +395,7 @@ MOVES = [{
    "cat": "official",
    "name": "omnishield",
    "long": "bt]:ally?(CHAMPION)?targeted?+move?this+move?(mu:swap)",
-   "text": "(Trigger) Ally Champion targeted by enemy ability or attack: this unit instantly swaps places with targeted champion.",
+   "text": "(Trigger) Ally Champion targeted by enemy ability or attack: This unit instantly swaps places with targeted champion.",
    "color": [0,0,153],
    "color2": [153,255,255],
    "symbol1": "\ue905"
