@@ -1292,7 +1292,7 @@ MOVES = [{
     "cat": "limbo",
     "name": "moonflare",
     "long": "b]rz:attack",
-    "text": "(Unstoppable, Magic) Destroy target.",
+    "text": "(Unstoppable) Destroy enemy.",
     "color": [34,117,253],
     "hide": true
  }, {
@@ -1339,7 +1339,7 @@ MOVES = [{
    "cat": "pretend",
    "name": "annihilate",
    "long": "c]rz:(REMOVE)",
-   "text": "(Unstoppable, Magic) Remove target from the game. This ability ignores all abilities and passives.",
+   "text": "(Unstoppable) Remove target from the game. This ability ignores all abilities and passives.",
    "color": [200,200,200],
    "color3": [253,117,34],
    "symbol1": "\u2217",
