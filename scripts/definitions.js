@@ -542,7 +542,7 @@ MOVES = [{
    "name": "verticalpathattack",
    "text": "(Path) Attack only.",
    "color": [0,0,0],
-   "color2": [153,0,0],
+   "color2": [201,45,45],
    "symbol1": "\ue702"
  }, {
    "id": "62",
@@ -550,7 +550,7 @@ MOVES = [{
    "name": "horizontalpathattack",
    "text": "(Path) Attack only.",
    "color": [0,0,0],
-   "color2": [153,0,0],
+   "color2": [201,45,45],
    "symbol1": "\ue700"
  }, {
    "id": "63",
@@ -558,7 +558,7 @@ MOVES = [{
    "name": "antidiagonalpathattack",
    "text": "(Path) Attack only.",
    "color": [0,0,0],
-   "color2": [153,0,0],
+   "color2": [201,45,45],
    "symbol1": "\ue701"
  }, {
    "id": "64",
@@ -566,7 +566,7 @@ MOVES = [{
    "name": "diagonalpathattack",
    "text": "(Path) Attack only.",
    "color": [0,0,0],
-   "color2": [153,0,0],
+   "color2": [201,45,45],
    "symbol1": "\ue703"
  }, {
    "id": "65",
