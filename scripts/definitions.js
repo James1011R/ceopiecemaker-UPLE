@@ -2465,7 +2465,7 @@ MOVES = [{
     "id": "b99e",
     "cat": "pretend",
     "name": "trueslidingomniswap",
-    "text": "Slide in the specified direction as far as possible to Move, Attack, or swap places with ally.",
+    "text": "Slide in the specified direction as far as possible to Move or swap places with unit.",
     "color": [51,153,153],
     "color3": [0,0,0],
     "symbol1": "\uf604",
