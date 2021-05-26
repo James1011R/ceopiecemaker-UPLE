@@ -2440,6 +2440,7 @@ MOVES = [{
     "name": "slidingmoveattackswap",
     "text": "Move, Attack, or swap places with ally; then this unit keeps moving in the same direction until it collides with any unit or the field edge.",
     "color": [255,210,0],
+    "color3": [0,0,0],
     "symbol1": "\uf602",
     "hide": true
  }, {
