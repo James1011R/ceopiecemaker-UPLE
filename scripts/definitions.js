@@ -2417,6 +2417,59 @@ MOVES = [{
     "symbol1": "\u{1f5d8}",
     "hide": true
  }, {
+    "id": "b99",
+    "cat": "pretend",
+    "name": "slidingmove",
+    "text": "Move, then this unit keeps moving in the same direction until it collides with any unit or the field edge.",
+    "color": [0,0,255],
+    "color3": [0,0,0],
+    "symbol1": "\uf602",
+    "hide": true
+ }, {
+    "id": "b99a",
+    "cat": "pretend",
+    "name": "slidingmoveattack",
+    "text": "Move or Attack, then this unit keeps moving in the same direction until it collides with any unit or the field edge.",
+    "color": [0,0,0],
+    "color3": [0,0,255],
+    "symbol1": "\uf602",
+    "hide": true
+ }, {
+    "id": "b99b",
+    "cat": "pretend",
+    "name": "slidingmoveattackswap",
+    "text": "Move, Attack, or swap places with ally; then this unit keeps moving in the same direction until it collides with any unit or the field edge.",
+    "color": [255,210,0],
+    "symbol1": "\uf602",
+    "hide": true
+ }, {
+    "id": "b99c",
+    "cat": "pretend",
+    "name": "trueslidingmoveattack",
+    "text": "Slide in the specified direction as far as possible to Move or Attack.",
+    "color": [0,0,0],
+    "color3": [0,0,255],
+    "symbol1": "\uf604",
+    "hide": true
+ }, {
+    "id": "b99d",
+    "cat": "pretend",
+    "name": "trueslidingmoveattackswap",
+    "text": "Slide in the specified direction as far as possible to Move, Attack, or swap places with ally.",
+    "color": [255,210,0],
+    "color3": [0,0,0],
+    "symbol1": "\uf604",
+    "hide": true
+ }, {
+    "id": "b99e",
+    "cat": "pretend",
+    "name": "trueslidingomniswap",
+    "text": "Slide in the specified direction as far as possible to Move, Attack, or swap places with ally.",
+    "color": [51,153,153],
+    "color3": [0,0,0],
+    "symbol1": "\uf604",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
