@@ -2531,6 +2531,15 @@ MOVES = [{
     "symbol1": "\u2a33",
     "hide": true
  }, {
+    "id": "b105",
+    "cat": "pretend",
+    "name": "mist",
+    "text": "(Magic) Marked location blocks movement for 4 turns.",
+    "color": [107,253,253],
+    "color2": [255,255,255],
+    "symbol1": "\u{ffaeb}",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
