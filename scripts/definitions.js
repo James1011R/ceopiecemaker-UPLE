@@ -2492,7 +2492,7 @@ MOVES = [{
     "id": "b102",
     "cat": "pretend",
     "name": "passivetoggle",
-    "text": "(Unstoppable) Toggle this unit's passive. If this unit's passive is toggled off, it doesn't do anything. (Passive On)",
+    "text": "(Unstoppable) Toggle this unit's passive. If this unit's passive is toggled off, it doesn't do anything. [Passive On]",
     "color": [0,0,0],
     "color2": [255,255,255],
     "color3": [0,0,0],
@@ -2504,13 +2504,33 @@ MOVES = [{
     "id": "b102a",
     "cat": "pretend",
     "name": "passivetoggleoff",
-    "text": "(Unstoppable) Toggle this unit's passive. If this unit's passive is toggled off, it doesn't do anything. (Passive Off)",
+    "text": "(Unstoppable) Toggle this unit's passive. If this unit's passive is toggled off, it doesn't do anything. [Passive Off]",
     "color": [0,0,0],
     "color2": [255,255,255],
     "color3": [0,0,0],
     "color4": [255,0,0],
     "symbol1": "\u25ca",
     "symbol2": "\u25be",
+    "hide": true
+ }, {
+    "id": "b103",
+    "cat": "pretend",
+    "name": "coupdegrace",
+    "text": "(Ranged) Destroy enemy status-affected unit.",
+    "color": [255,0,0],
+    "color2": [255,255,255],
+    "color3": [0,101,24],
+    "symbol1": "\u25ca",
+    "hide": true
+ }, {
+    "id": "b104",
+    "cat": "pretend",
+    "name": "mercyfreeze",
+    "text": "(Ranged) Freeze enemy status-affected unit for 7 turns.",
+    "color": [255,0,0],
+    "color2": [255,255,255],
+    "color3": [0,101,24],
+    "symbol1": "\u2a33",
     "hide": true
  }, {
     "id": "0f",
