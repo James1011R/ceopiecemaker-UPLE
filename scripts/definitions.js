@@ -2520,16 +2520,15 @@ MOVES = [{
     "color": [255,0,0],
     "color2": [255,255,255],
     "color3": [0,101,24],
-    "symbol1": "\u25ca",
+    "symbol1": "\u2316",
     "hide": true
  }, {
     "id": "b104",
     "cat": "pretend",
     "name": "mercyfreeze",
-    "text": "(Ranged) Freeze enemy status-affected unit for 7 turns.",
-    "color": [255,0,0],
-    "color2": [255,255,255],
-    "color3": [0,101,24],
+    "text": "(Magic) Freeze enemy status-affected unit for 7 turns.",
+    "color": [37,155,253],
+    "color3": [107,205,253],
     "symbol1": "\u2a33",
     "hide": true
  }, {
