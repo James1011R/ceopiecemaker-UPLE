@@ -2471,6 +2471,24 @@ MOVES = [{
     "symbol1": "\uf604",
     "hide": true
  }, {
+    "id": "b100",
+    "cat": "pretend",
+    "name": "teleportslam",
+    "text": "[Pay 2]: (Unblockable) Teleport, then petrify and enchant all adjacent enemies for 1 turn.",
+    "color": [121,19,153],
+    "color3": [94,200,200],
+    "symbol1": "\uf7e3",
+    "hide": true
+ }, {
+    "id": "b101",
+    "cat": "pretend",
+    "name": "moveattackpetrify",
+    "text": "Move or Attack, then petrify enemy unit 1 space in the same direction for 3 turns.",
+    "color": [0,0,0],
+    "color3": [174,174,174],
+    "symbol1": "\u00d7",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
