@@ -2551,6 +2551,17 @@ MOVES = [{
     "symbol1": "\u25c6",
     "symbol2": "\u25c7",
     "hide": true
+  }, {
+   "id": "b107",
+   "cat": "pretend",
+   "name": "recoilattack",
+   "text": "Attack target and then instantly push self up to 3 spaces in the opposite direction.",
+   "color": [252,13,27],
+   "color3": [87,218,40],
+   "color4": [200,255,200],
+   "symbol1": "\u2389",
+   "symbol2": "\u25cb",
+   "hide": true
  }, {
     "id": "0f",
     "cat": "variation",
