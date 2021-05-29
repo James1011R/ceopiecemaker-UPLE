@@ -2543,7 +2543,7 @@ MOVES = [{
     "id": "b106",
     "cat": "pretend",
     "name": "markaccelerator",
-    "text": "(Magic, Trigger) Marked Location: All marks count down a turn at the start of your turn.",
+    "text": "(Magic, Trigger) Marked Location: All marks on that location count down a turn at the start of your turn.",
     "color": [0,0,0],
     "color2": [255,255,255],
     "color3": [0,0,0],
