@@ -2540,6 +2540,18 @@ MOVES = [{
     "symbol1": "\u{ffaeb}",
     "hide": true
  }, {
+    "id": "b106",
+    "cat": "pretend",
+    "name": "markaccelerator",
+    "text": "(Magic, Trigger) Marked Location: All marks count down a turn at the start of your turn.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "color3": [0,0,0],
+    "color4": [255,255,0],
+    "symbol1": "\u25c6",
+    "symbol1": "\u25c7",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
