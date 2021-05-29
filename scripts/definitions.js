@@ -2528,7 +2528,6 @@ MOVES = [{
     "name": "mercyfreeze",
     "text": "(Magic) Freeze enemy status-affected unit for 7 turns.",
     "color": [37,155,253],
-    "color3": [107,205,253],
     "symbol1": "\u2a33",
     "hide": true
  }, {
