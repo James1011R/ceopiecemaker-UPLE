@@ -2489,6 +2489,30 @@ MOVES = [{
     "symbol1": "\u00d7",
     "hide": true
  }, {
+    "id": "b102",
+    "cat": "pretend",
+    "name": "passivetoggle",
+    "text": "(Unstoppable) Toggle this unit's passive. If this unit's passive is toggled off, it doesn't do anything. (Passive On)",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "color3": [0,0,0],
+    "color4": [0,255,0],
+    "symbol1": "\u25ca",
+    "symbol2": "\u25b4",
+    "hide": true
+ }, {
+    "id": "b102a",
+    "cat": "pretend",
+    "name": "passivetoggleoff",
+    "text": "(Unstoppable) Toggle this unit's passive. If this unit's passive is toggled off, it doesn't do anything. (Passive Off)",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "color3": [0,0,0],
+    "color4": [255,0,0],
+    "symbol1": "\u25ca",
+    "symbol2": "\u25be",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
