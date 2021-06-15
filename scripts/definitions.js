@@ -319,7 +319,7 @@ MOVES = [{
    "color3": [63,159,255],
    "color4": [0,190,255],
    "symbol1": "\u25fe",
-   "symbol1": "\u25fd"
+   "symbol2": "\u25fd"
  }, {
    "id": "37",
    "cat": "official",
@@ -2581,7 +2581,7 @@ MOVES = [{
     "id": "b109",
     "cat": "pretend",
     "name": "enpassant",
-    "text": "Attack enemy unit that has used a \"from starting position\" ability, then move 1 space forward.",
+    "text": 'Attack enemy unit that has used a "from starting position" ability, then move 1 space forward.',
     "color": [100,100,100],
     "color3": [255,0,0],
     "symbol1": "\u274b",
