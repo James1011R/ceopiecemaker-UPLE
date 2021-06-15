@@ -2558,24 +2558,6 @@ MOVES = [{
     "symbol2": "\u25c7",
     "hide": true
   }, {
-    "id": "b107",
-    "cat": "pretend",
-    "name": "passingattack",
-    "text": "Attack only, then move 1 space forward and lose this ability.",
-    "color": [253,107,116],
-    "color3": [255,255,255],
-    "symbol1": "\uec03",
-    "hide": true
-  }, {
-    "id": "b108",
-    "cat": "pretend",
-    "name": "attackstartmover",
-    "text": "Attack enemy unit that has used a \"from starting position\" ability.",
-    "color": [100,100,100],
-    "color3": [255,0,0],
-    "symbol1": "\u274b",
-    "hide": true
-  }, {
    "id": "b107",
    "cat": "pretend",
    "name": "recoilattack",
@@ -2586,6 +2568,24 @@ MOVES = [{
    "symbol1": "\u2389",
    "symbol2": "\u25cb",
    "hide": true
+ }, {
+    "id": "b108",
+    "cat": "pretend",
+    "name": "passingattack",
+    "text": "Attack only, then move 1 space forward and lose this ability.",
+    "color": [253,107,116],
+    "color3": [255,255,255],
+    "symbol1": "\uec03",
+    "hide": true
+  }, {
+    "id": "b109",
+    "cat": "pretend",
+    "name": "enpassant",
+    "text": "Attack enemy unit that has used a \"from starting position\" ability, then move 1 space forward.",
+    "color": [100,100,100],
+    "color3": [255,0,0],
+    "symbol1": "\u274b",
+    "hide": true
  }, {
     "id": "0f",
     "cat": "variation",
