@@ -2587,6 +2587,18 @@ MOVES = [{
     "symbol1": "\u274b",
     "hide": true
  }, {
+    "id": "b110",
+    "cat": "pretend",
+    "name": "teleportally",
+    "text": "(Magic) Teleport most recently used ally to this location.",
+    "color": [100,20,200],
+    "color2": [255,255,255],
+    "color3": [100,20,200],
+    "color4": [0,0,0],
+    "symbol1": "\u25cf",
+    "symbol1": "\u25ef",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
