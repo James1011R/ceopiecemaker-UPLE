@@ -2599,6 +2599,33 @@ MOVES = [{
     "symbol2": "\u25ef",
     "hide": true
  }, {
+    "id": "b111",
+    "cat": "pretend",
+    "name": "pseudocombo",
+    "text": "Move only. If this unit acted last turn, this ability is instead &quot;Attack only.&quot;",
+    "color": [0,0,255],
+    "color3": [255,0,0],
+    "symbol1": "\u{ff777},
+    "hide": true
+ }, {
+    "id": "b111a",
+    "cat": "pretend",
+    "name": "jumppseudocombo",
+    "text": "(Unblockable) Teleport. If this unit acted last turn, this ability is instead &quot;(Unblockable) Attack only.&quot;",
+    "color": [122,0,155],
+    "color3": [127,0,0],
+    "symbol1": "\u{ff777},
+    "hide": true
+ }, {
+    "id": "b111b",
+    "cat": "pretend",
+    "name": "truecombo",
+    "text": "Move only. (Combo: Attack only.)",
+    "color": [0,0,255],
+    "color3": [255,0,0],
+    "symbol1": "\u{ff739}",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
