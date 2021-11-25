@@ -2626,6 +2626,55 @@ MOVES = [{
     "symbol1": "\u{ff739}",
     "hide": true
  }, {
+   "id": "b112",
+   "cat": "pretend",
+   "name": "negateall",
+   "text": "[Pay 2]: (Ranged) Negate enemy unit's value, moveset, and passives.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [255,0,0],
+   "symbol1": "\uea81",
+   "hide": true
+ }, {
+    "id": "b113",
+    "cat": "pretend",
+    "name": "banishmeteor",
+    "text": "[Pay 2]: (Magic) After 5 turns any unit in the marked location and all adjacent units are teleported back to empty starting position.",
+    "color": [0,0,0],
+    "color2": [0,127,127],
+    "color3": [0,255,255],
+    "symbol1": "\uea78",
+    "hide": true
+ }, {
+   "id": "b114",
+   "cat": "pretend",
+   "name": "yeet",
+   "text": "[Pay 1]: (Ranged) Push enemy unit as far as possible away. If the unit collides with the field edge, the unit is destroyed.",
+   "color": [87,218,40],
+   "color2": [212,255,216],
+   "color3": [0,0,0],
+   "symbol1": "\uec6d",
+   "hide": true
+ }, {
+    "id": "b115",
+    "cat": "variation",
+    "name": "charmdestroy",
+    "text": "(Magic) Charm enemy minion, or destroy enemy non-minion.",
+    "color": [253,117,34],
+    "color3": [121,19,153],
+    "symbol1": "\u25aa",
+    "hide": true
+ }, {
+    "id": "b116",
+    "cat": "pretend",
+    "name": "slowsummonfrostmephit",
+    "text": "[Pay 5]: (Magic) After 10 turns, destroy any unit in marked location, then summon FrostMephit in marked location.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "color3": [0,255,255],
+    "symbol1": "\uea3c",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
