@@ -2661,7 +2661,7 @@ MOVES = [{
     "name": "charmdestroy",
     "text": "(Magic) Charm enemy minion, or destroy enemy non-minion.",
     "color": [253,117,34],
-    "color3": [121,19,153],
+    "color3": [255,0,255],
     "symbol1": "\u25aa",
     "hide": true
  }, {
