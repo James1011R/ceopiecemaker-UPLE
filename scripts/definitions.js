@@ -2699,7 +2699,7 @@ MOVES = [{
     "cat": "pretend",
     "name": "forceaction",
     "text": "(Magic) Target enemy is destroyed if they don't act or get displaced in the next turn.",
-    "color": [225,225,0],
+    "color": [255,150,0],
     "symbol1": "\u2bcc",
     "symbol2": "\u2bcd",
     "hide": true
@@ -2708,7 +2708,7 @@ MOVES = [{
     "cat": "pretend",
     "name": "passingswap",
     "text": "Swap places with unit, then move 1 space forward and lose this ability.",
-    "color": [253,107,116],
+    "color": [107,200,200],
     "color3": [0,0,0],
     "color4": [255,255,255],
     "symbol1": "\uec01",
