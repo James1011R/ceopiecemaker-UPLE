@@ -2675,6 +2675,46 @@ MOVES = [{
     "symbol1": "\uea3c",
     "hide": true
  }, {
+    "id": "b117",
+    "cat": "pretend",
+    "name": "teleportlargesthero",
+    "text": "(Magic) Teleport highest value ally Hero to this empty location.",
+    "color": [0,0,0],
+    "color2": [200,255,255],
+    "symbol1": "\u25c7",
+    "symbol2": "\u25fd",
+    "hide": true
+ }, {
+    "id": "b117a",
+    "cat": "pretend",
+    "name": "teleportfurthesthero",
+    "text": "(Magic) Teleport furthest away ally Hero to this empty location.",
+    "color": [0,0,0],
+    "color2": [200,200,255],
+    "symbol1": "\u25c7",
+    "symbol2": "\u25fd",
+    "hide": true
+  }, {
+    "id": "b118",
+    "cat": "pretend",
+    "name": "forceaction",
+    "text": "(Magic) Target enemy is destroyed if they don't act or get displaced in the next turn.",
+    "color": [225,225,0],
+    "symbol1": "\u2bcc",
+    "symbol2": "\u2bcd",
+    "hide": true
+  }, {
+    "id": "b119",
+    "cat": "pretend",
+    "name": "passingswap",
+    "text": "Swap places with unit, then move 1 space forward and lose this ability.",
+    "color": [253,107,116],
+    "color3": [0,0,0],
+    "color4": [255,255,255],
+    "symbol1": "\uec01",
+    "symbol2": "\uec03",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
