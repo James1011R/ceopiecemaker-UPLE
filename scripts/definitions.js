@@ -2727,7 +2727,7 @@ MOVES = [{
     "id": "b120",
     "cat": "pretend",
     "name": "iceterrain",
-    "text": "(Mark) Marked location causes units that are moved onto it to slide off of it in their direction of movement for 20 turns.",
+    "text": "(Magic) Marked location causes units that are moved onto it to slide off of it in their direction of movement for 20 turns.",
     "color": [107,200,253],
     "color2": [255,255,255],
     "color4": [100,255,255],
