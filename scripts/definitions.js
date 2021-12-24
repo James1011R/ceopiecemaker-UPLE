@@ -1674,6 +1674,15 @@ MOVES = [{
     "symbol1": "\ufe62",
     "hide": true
  }, {
+    "id": "b32a",
+    "cat": "pretend",
+    "name": "valuecharge",
+    "text": "[Pay 3]: (Magic) Value Charge ally, making them gain 5 value but if they leave the board they are removed from the game.",
+    "color": [255,255,0],
+    "color2": [0,0,0],
+    "symbol1": "\ufe62",
+    "hide": true
+ }, {
     "id": "b33",
     "cat": "variation",
     "name": "verticalpathdestroy",
@@ -2713,6 +2722,17 @@ MOVES = [{
     "color4": [255,255,255],
     "symbol1": "\uec01",
     "symbol2": "\uec03",
+    "hide": true
+  }, {
+    "id": "b120",
+    "cat": "pretend",
+    "name": "iceterrain",
+    "text": "(Mark) Marked location causes units that are moved onto it to slide off of it in their direction of movement for 20 turns.",
+    "color": [107,200,253],
+    "color2": [255,255,255],
+    "color4": [100,255,255],
+    "symbol1": "\uf7bc",
+    "symbol2": "\uf830",
     "hide": true
  }, {
     "id": "0f",
