@@ -2735,6 +2735,17 @@ MOVES = [{
     "symbol2": "\uf830",
     "hide": true
  }, {
+    "id": "b121",
+    "cat": "adoption",
+    "name": "thunderjump",
+    "text": "(Magic) After 4 turns any unit in the marked location is destroyed, then this unit moves or attacks to marked location.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "color4": [255,0,0],
+    "symbol1": "\uf691",
+    "symbol2": "\uf022",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
