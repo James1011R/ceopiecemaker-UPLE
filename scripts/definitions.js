@@ -2766,6 +2766,15 @@ MOVES = [{
     "symbol1": "\u25cc",
     "hide": true
  }, {
+    "id": "b123",
+    "cat": "adoption",
+    "name": "jumpthunder",
+    "text": "(Unblockable) Move or Attack, and after 4 turns any unit in the marked location is destroyed.",
+    "color": [20,151,24],
+    "color3": [0,0,0],
+    "symbol1": "\u26a1",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
