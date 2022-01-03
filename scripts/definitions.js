@@ -2746,6 +2746,26 @@ MOVES = [{
     "symbol2": "\uf022",
     "hide": true
  }, {
+    "id": "b122",
+    "cat": "adoption",
+    "name": "attackandreturn",
+    "text": "Attack target, then teleport back to previous location at the end of your opponent's turn.",
+    "color": [252,13,27],
+    "color3": [255,0,0],
+    "symbol1": "\u25cc",
+    "symbol2": "\u2316",
+    "hide": true
+ }, {
+    "id": "b122a",
+    "cat": "adoption",
+    "name": "jumpattackandreturn",
+    "text": "(Unblockable) Attack target, then teleport back to previous location at the end of your opponent's turn.",
+    "color": [255,0,0],
+    "color2": [237,0,0],
+    "color3": [253,117,34],
+    "symbol1": "\u25cc",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
