@@ -2761,7 +2761,7 @@ MOVES = [{
     "name": "jumpattackandreturn",
     "text": "(Unblockable) Attack target, then teleport back to previous location at the end of your opponent's turn.",
     "color": [255,0,0],
-    "color2": [237,0,0],
+    "color2": [127,0,0],
     "color3": [253,117,34],
     "symbol1": "\u25cc",
     "hide": true
