@@ -2818,12 +2818,12 @@ MOVES = [{
     "hide": true
  }, {
    "id": "b128",
-   "cat": "pretend",
-   "name": "meteoricomniswap",
+   "cat": "adoption",
+   "name": "masswindomniswap",
    "text": "(Unblockable) Teleport, or swap places with unit and push all units adjacent to destination up to 3 spaces away.",
-   "color": [20,151,24],
+   "color": [51,153,153],
    "color3": [0,0,0],
-   "symbol1": "\uea78",
+   "symbol1": "\uea3b",
    "hide": true
  }, {
     "id": "0f",
