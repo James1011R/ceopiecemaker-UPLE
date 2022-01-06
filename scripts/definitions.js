@@ -2836,6 +2836,18 @@ MOVES = [{
    "symbol1": "\u{1fb95}",
    "hide": true
  }, {
+   "id": "b130",
+   "cat": "adoption",
+   "name": "transmute",
+   "text": "(Magic) Transmute enemy, transforming it into the most recently fallen enemy unit.",
+   "color": [0,0,0],
+   "color2": [0,0,0],
+   "color3": [0,127,64],
+   "color4": [0,0,0],
+   "symbol1": "\u{ffc4b}",
+   "symbol2": "\u{ffc8e}",
+   "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
