@@ -2775,6 +2775,14 @@ MOVES = [{
     "symbol1": "\u26a1",
     "hide": true
  }, {
+    "id": "b124",
+    "cat": "adoption",
+    "name": "undo",
+    "text": "(Magic) Teleport unit back to its previous location.",
+    "color": [12,114,80],
+    "symbol1": "\u{1f558}",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
