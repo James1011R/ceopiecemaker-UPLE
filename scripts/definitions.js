@@ -2783,6 +2783,29 @@ MOVES = [{
     "symbol1": "\u{1f558}",
     "hide": true
  }, {
+    "id": "b125",
+    "cat": "adoption",
+    "name": "mirrordestroy",
+    "text": "(Magic) Move this unit and target enemy together and destroy target enemy if it could have targeted this unit.",
+    "color": [255,0,0],
+    "color2": [227,77,255],
+    "color3": [0,0,0],
+    "symbol1": "x",
+    "symbol2": "\u007c",
+    "hide": true
+ }, {
+    "id": "b126",
+    "cat": "adoption",
+    "name": "diagonalfreeze",
+    "text": "[Pay X]: (Magic) Freeze target enemy and all diagonally adjacent units for 2 turns. (X = units affected)",
+    "color": [107,205,253],
+    "color2": [181,230,254],
+    "color3": [107,205,253],
+    "color4": [181,230,254],
+    "symbol1": "\uf7e3",
+    "symbol2": "\u00d7",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
