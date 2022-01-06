@@ -2806,6 +2806,17 @@ MOVES = [{
     "symbol2": "\u00d7",
     "hide": true
  }, {
+    "id": "b127",
+    "cat": "adoption",
+    "name": "protosorcerswap",
+    "text": "(Magic) Sorcerize enemy unit, causing any attempt to target an enemy to count as swapping that enemy for 7 turns.",
+    "color": [255,0,0],
+    "color2": [0,0,0],
+    "color4": [127,0,0],
+    "symbol1": "\u{1f5d8}",
+    "symbol2": "\uffec",
+    "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
