@@ -2817,6 +2817,15 @@ MOVES = [{
     "symbol2": "\uffec",
     "hide": true
  }, {
+   "id": "b128",
+   "cat": "pretend",
+   "name": "meteoricomniswap",
+   "text": "(Unblockable) Teleport, or swap places with unit and push all units adjacent to destination up to 3 spaces away.",
+   "color": [20,151,24],
+   "color3": [0,0,0],
+   "symbol1": "\uea78",
+   "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
@@ -3100,14 +3109,7 @@ PASSIVES = ["Does not block movement.",
     "Cannot move until turn 3.",
     "Condition: You have no King.",
     "Condition: edit this text",
-    "Combo (When a combo unit acts, change ally combo abilities to their counterparts for 1 turn)",
-    "Stealth",
-    "Armored",
-    "Berserk",
-    "Central",
-    "Deployed",
-    "Withdraw",
-    "Indestructible"
+    "Combo (When a combo unit acts, change ally combo abilities to their counterparts for 1 turn)"
 ];
 LABELS = {
     rank: ["Minion", "Champion", "Outcast", "Module", "King"],
