@@ -2787,7 +2787,7 @@ MOVES = [{
     "cat": "adoption",
     "name": "mirrordestroy",
     "text": "(Magic) Move this unit and target enemy together and destroy target enemy if it could have targeted this unit.",
-    "color": [255,0,0],
+    "color": [0,0,255],
     "color2": [227,77,255],
     "color3": [0,0,0],
     "symbol1": "x",
