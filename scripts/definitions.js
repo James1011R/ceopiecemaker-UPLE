@@ -2742,7 +2742,7 @@ MOVES = [{
     "color": [0,0,0],
     "color2": [255,255,255],
     "color4": [255,0,0],
-    "symbol1": "\uf691",
+    "symbol1": "\u{1fbb7}",
     "symbol2": "\uf022",
     "hide": true
  }, {
@@ -2824,6 +2824,16 @@ MOVES = [{
    "color": [51,153,153],
    "color3": [0,0,0],
    "symbol1": "\uea3b",
+   "hide": true
+ }, {
+   "id": "b129",
+   "cat": "adoption",
+   "name": "resetmoveset",
+   "text": "[Pay 1]: (Trigger) Ally Changed Moveset: Instantly reset this target's moveset to the movset they had from the start of the game.",
+   "color": [127,64,0],
+   "color2": [0,0,0],
+   "color3": [255,255,255],
+   "symbol1": "\u{1fb95}",
    "hide": true
  }, {
     "id": "0f",
