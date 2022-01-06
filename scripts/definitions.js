@@ -2797,7 +2797,7 @@ MOVES = [{
     "id": "b126",
     "cat": "adoption",
     "name": "diagonalfreeze",
-    "text": "[Pay X]: (Magic) Freeze target enemy and all diagonally adjacent units for 2 turns. (X = units affected)",
+    "text": "[Pay X]: (Magic) Freeze target enemy and all units diagonally adjacent to target for 2 turns. (X = units affected)",
     "color": [107,205,253],
     "color2": [181,230,254],
     "color3": [107,205,253],
