@@ -589,8 +589,8 @@ const CustomizationFeaaaa = {
 					// Kinda like invisible pointers
 					stops: CustomizationFeaaaa.customColors,
 				},
-				origin: path.bounds.topLeft,
-				destination: path.bounds.bottomRight
+				origin: path.bounds.bottomLeft,
+				destination: path.bounds.topRight
 			},
 			custom4: {
 				gradient: {
@@ -598,8 +598,8 @@ const CustomizationFeaaaa = {
 					// Kinda like invisible pointers
 					stops: CustomizationFeaaaa.customColors,
 				},
-				origin: path.bounds.bottomLeft,
-				destination: path.bounds.topRight
+				origin: path.bounds.topLeft,
+				destination: path.bounds.bottomRight
 			},
 			custom5: {
 				gradient: {
