@@ -573,9 +573,46 @@ const CustomizationFeaaaa = {
 				},
 				origin: path.bounds.topCenter,
 				destination: path.bounds.bottomCenter
+			},
+			custom2: {
+				gradient: {
+					// Arrays are passed by reference
+					// Kinda like invisible pointers
+					stops: CustomizationFeaaaa.customColors,
+				},
+				origin: path.bounds.leftCenter,
+				destination: path.bounds.rightCenter
+			},
+			custom3: {
+				gradient: {
+					// Arrays are passed by reference
+					// Kinda like invisible pointers
+					stops: CustomizationFeaaaa.customColors,
+				},
+				origin: path.bounds.topLeft,
+				destination: path.bounds.bottomRight
+			},
+			custom4: {
+				gradient: {
+					// Arrays are passed by reference
+					// Kinda like invisible pointers
+					stops: CustomizationFeaaaa.customColors,
+				},
+				origin: path.bounds.bottomLeft,
+				destination: path.bounds.topRight
+			},
+			custom5: {
+				gradient: {
+					// Arrays are passed by reference
+					// Kinda like invisible pointers
+					stops: CustomizationFeaaaa.customColors,
+					radial: true
+				},
+				origin: path.position,
+				destination: path.bounds.leftCenter
 			}
 		}
-		__fills = ["base","stand","head","grey","black","red","green","blue","yellow","cyan","pink","shadow","white","enchant","rainbow","chaos","warped","forest","wind","grass","custom"];
+		__fills = ["base","stand","head","grey","black","red","green","blue","yellow","cyan","pink","shadow","white","enchant","rainbow","chaos","warped","forest","wind","grass","custom","custom2","custom3","custom4","custom5"];
 		path.fillColor = __grads[__fills[sketch.fill]];
 	}
 
