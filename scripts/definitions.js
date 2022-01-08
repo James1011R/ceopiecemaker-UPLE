@@ -3171,7 +3171,7 @@ TOOLTIPS = {
     tf21: "A custom horizontal gradient.\nClick the first color button to change the left color.\nClick the second color button to change the right color.",
     tf22: "A custom positive slope gradient.\nClick the first color button to change the bottom left color.\nClick the second color button to change the top right color.",
     tf23: "A custom negative slope gradient.\nClick the first color button to change the top left color.\nClick the second color button to change the bottom right color.",
-    tf24: "A bad custom radial gradient.\nClick the first color button to change the center color.\nClick the second color button to change the outward color.",
+    tf24: "A custom radial gradient.\nClick the first color button to change the center color.\nClick the second color button to change the outward color.",
     tt0: "Marker Tool:\nSmooths out after drawing.",
     tt1: "Line Tool",
     tt2: "Path Tool:\nHold Shift to start a new path.\nClick and drag to add new points.\nRelease Shift to finish.",
