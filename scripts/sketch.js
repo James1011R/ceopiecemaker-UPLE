@@ -233,7 +233,7 @@ const CustomizationFeaaaa = {
 			SSP.strokeCap = "round";
 			SSP.strokeColor = this.color;
 			SSP.strokeWidth = this.size;
-			SSP.selected = this.selected;
+			SSP.fullySelected = this.selected;
 			SSP.blendMode = this.blend;
 			SSP.addSegments(action);
 			return SSP;
