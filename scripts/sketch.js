@@ -414,7 +414,7 @@ const CustomizationFeaaaa = {
 	}
 	function _selectordraw(action){
 		var path = sketch.drawPath(action);
-		path.selected=true;
+		path.selected="true";
 		sketch.paths.push(path);
 		return view.update();
 	}
@@ -429,8 +429,8 @@ const CustomizationFeaaaa = {
 		if(sketch.cache)sketch.cache.blendMode="destination-out";
 		return view.update();
 	}
-	function _eraserize(){
-		if(sketch.cache)sketch.cache.selected=true;
+	function _selectorize(){
+		if(sketch.cache)sketch.cache.selected="true";
 		return view.update();
 	}
 	function _xoraserize(){
