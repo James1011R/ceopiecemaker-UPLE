@@ -67,7 +67,6 @@ const CustomizationFeaaaa = {
 				defaultSize: 3,
 				defaultFill: 0,
 				defaultSelected: false,
-				defaultBlend: normal,
 			}, opts);
 			this.painting = false;
 			this.color = this.options.defaultColor;
@@ -75,8 +74,7 @@ const CustomizationFeaaaa = {
 			this.tool = this.options.defaultTool;
 			this.fill = this.options.defaultFill;
 			this.selected = this.options.defaultSelected;
-			this.blend = this.options.defaultBlend;
-			this.actions = ["set"+this.size+this.color+this.fill+this.tool+this.selected+this.blend];
+			this.actions = ["set"+this.size+this.color+this.fill+this.tool+this.selected];
 			this.cache = null;
 			this.paths = [];
 			this.action = [];
@@ -89,7 +87,7 @@ const CustomizationFeaaaa = {
 					$this = $(this);
 					$canvas = $($this.attr("href"));
 					sketch = $canvas.data("sketch");
-					_ref = ["size", "color", "fill", "tool", "selected", "blend"];
+					_ref = ["size", "color", "fill", "tool", "selected"];
 					for (key of _ref) {
 						if ($this.attr("data-" + key)) {
 							sketch.set(key, $(this).attr("data-" + key));
@@ -165,13 +163,13 @@ const CustomizationFeaaaa = {
 					project.activeLayer.addChild(this.paths[this.paths.length-1]);
 					break;
 				case "clear":
-					this.actions = ["set"+this.size+this.color+this.fill+this.tool+this.selected+this.blend];
+					this.actions = ["set"+this.size+this.color+this.fill+this.tool+this.selected];
 					this.undone = [];
 					this.unpath = [];
 					project.clear();
 					break;
 				default:
-					this.actions = ["set"+this.size+this.color+this.fill+this.tool+this.selected+this.blend];
+					this.actions = ["set"+this.size+this.color+this.fill+this.tool+this.selected];
 					this.undone = [];
 					this.unpath = [];
 					project.clear();
@@ -234,7 +232,6 @@ const CustomizationFeaaaa = {
 			SSP.strokeColor = this.color;
 			SSP.strokeWidth = this.size;
 			SSP.fullySelected = this.selected;
-			SSP.blendMode = this.blend;
 			SSP.addSegments(action);
 			return SSP;
 		};
