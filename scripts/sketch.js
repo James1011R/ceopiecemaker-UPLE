@@ -420,7 +420,7 @@ const CustomizationFeaaaa = {
 	}
 	function _invertdraw(action){
 		var path = sketch.drawPath(action);
-		path.blendMode="subtract";
+		path.blendMode="negation";
 		sketch.paths.push(path);
 		return view.update();
 	
@@ -434,7 +434,7 @@ const CustomizationFeaaaa = {
 		return view.update();
 	}
 	function _invertize(){
-		if(sketch.cache)sketch.cache.blendMode="subtract";
+		if(sketch.cache)sketch.cache.blendMode="negation";
 		return view.update();
 	}
 
