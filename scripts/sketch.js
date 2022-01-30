@@ -66,15 +66,13 @@ const CustomizationFeaaaa = {
 				defaultColor: "#000",
 				defaultSize: 3,
 				defaultFill: 0,
-				defaultSelected: 0,
 			}, opts);
 			this.painting = false;
 			this.color = this.options.defaultColor;
 			this.size = this.options.defaultSize;
 			this.tool = this.options.defaultTool;
 			this.fill = this.options.defaultFill;
-			this.selected = this.options.defaultSelected;
-			this.actions = ["set"+this.size+this.color+this.fill+this.tool+this.selected];
+			this.actions = ["set"+this.size+this.color+this.fill+this.tool];
 			this.cache = null;
 			this.paths = [];
 			this.action = [];
@@ -87,7 +85,7 @@ const CustomizationFeaaaa = {
 					$this = $(this);
 					$canvas = $($this.attr("href"));
 					sketch = $canvas.data("sketch");
-					_ref = ["size", "color", "fill", "tool", "selected"];
+					_ref = ["size", "color", "fill", "tool"];
 					for (key of _ref) {
 						if ($this.attr("data-" + key)) {
 							sketch.set(key, $(this).attr("data-" + key));
@@ -163,13 +161,13 @@ const CustomizationFeaaaa = {
 					project.activeLayer.addChild(this.paths[this.paths.length-1]);
 					break;
 				case "clear":
-					this.actions = ["set"+this.size+this.color+this.fill+this.tool+this.selected];
+					this.actions = ["set"+this.size+this.color+this.fill+this.tool];
 					this.undone = [];
 					this.unpath = [];
 					project.clear();
 					break;
 				default:
-					this.actions = ["set"+this.size+this.color+this.fill+this.tool+this.selected];
+					this.actions = ["set"+this.size+this.color+this.fill+this.tool];
 					this.undone = [];
 					this.unpath = [];
 					project.clear();
@@ -231,7 +229,6 @@ const CustomizationFeaaaa = {
 			SSP.strokeCap = "round";
 			SSP.strokeColor = this.color;
 			SSP.strokeWidth = this.size;
-			SSP.selected = this.selected;
 			SSP.addSegments(action);
 			return SSP;
 		};
@@ -255,9 +252,9 @@ const CustomizationFeaaaa = {
 			project.clear();
 			for(var action of this.actions){
 				if (action.match(/^set/)) {
-					var params = action.replace(/set([0-9]+)(#[0-9a-f]{3,4})([a-z]+)([0-9]+)/,(_,a,b,c)=>[a,b,c].join(",")).split(",");
+					var params = action.replace(/set([0-9]+)(#[0-9a-f]{3,4})([a-z]+)/,(_,a,b,c)=>[a,b,c].join(",")).split(",");
 					if (params[1].length == 5) this.fill = +params[1][4], params[1] = params[1].slice(0,-1);
-					this.size = params[0], this.color = params[1], this.tool = params[2], this.selected = params[3], $.sketch.tools[params[2]].activate();
+					this.size = params[0], this.color = params[1], this.tool = params[2], $.sketch.tools[params[2]].activate();
 				} else {
 					$.sketch.tools[this.tool].draw.call(sketch, action);
 				}
