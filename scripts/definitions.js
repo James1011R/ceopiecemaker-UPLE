@@ -3185,6 +3185,8 @@ TOOLTIPS = {
     tc2: "Purple Pen:\nA remnant of old, this pen has been upgraded",
     tc3: "Orange Pen:\nA remnant of old, this pen is glowing with double power",
     tc4: "Red Pen:\nA remnant of old, this pen is at its maximum potential",
+    te0: "Unselected Pen:\nGet rid of those annoying squares!\n(currently useless)",
+    te1: "Selected Pen:\nAdd some funky squares to your pen.\n(bugged, can't be disabled)",
     do0: "Undo:\nUndo a Path.",
     do1: "Redo:\nRedo an undone Path.",
     do2: "Download:\nUseless.",
