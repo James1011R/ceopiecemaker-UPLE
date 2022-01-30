@@ -326,17 +326,17 @@ const CustomizationFeaaaa = {
 	$.sketch.tools.lselector.onMouseDrag = (e)=>{_changelastpoint(e);_selectorize();};
 	$.sketch.tools.lselector.onMouseUp = (e)=>{_changelastpoint(e);_rawstop(e);};
 	$.sketch.tools.lselector.draw = _selectordraw;
-	$.sketch.tools.inverter = new Tool();
-	$.sketch.tools.inverter.minDistance = 5;
-	$.sketch.tools.inverter.onMouseDown = (e)=>{_start(e);_invertize();};
-	$.sketch.tools.inverter.onMouseDrag = (e)=>{_addpoint(e);_addpoint(e);_invertize();};
-	$.sketch.tools.inverter.onMouseUp = (e)=>{_addpoint(e);_addpoint(e);_stop(e);};
-	$.sketch.tools.inverter.draw = _invertdraw;
-	$.sketch.tools.linverter = new Tool();
-	$.sketch.tools.linverter.onMouseDown = (e)=>{_start(e);_addpoint(e);_addpoint(e);_invertize();};
-	$.sketch.tools.linverter.onMouseDrag = (e)=>{_changelastpoint(e);_invertize();};
-	$.sketch.tools.linverter.onMouseUp = (e)=>{_changelastpoint(e);_rawstop(e);};
-	$.sketch.tools.linverter.draw = _invertdraw;
+	$.sketch.tools.xoraser = new Tool();
+	$.sketch.tools.xoraser.minDistance = 5;
+	$.sketch.tools.xoraser.onMouseDown = (e)=>{_start(e);_xoraserize();};
+	$.sketch.tools.xoraser.onMouseDrag = (e)=>{_addpoint(e);_addpoint(e);_xoraserize();};
+	$.sketch.tools.xoraser.onMouseUp = (e)=>{_addpoint(e);_addpoint(e);_stop(e);};
+	$.sketch.tools.xoraser.draw = _xoraserdraw;
+	$.sketch.tools.lxoraser = new Tool();
+	$.sketch.tools.lxoraser.onMouseDown = (e)=>{_start(e);_addpoint(e);_addpoint(e);_xoraserize();};
+	$.sketch.tools.lxoraser.onMouseDrag = (e)=>{_changelastpoint(e);_xoraserize();};
+	$.sketch.tools.lxoraser.onMouseUp = (e)=>{_changelastpoint(e);_rawstop(e);};
+	$.sketch.tools.lxoraser.draw = _xoraserdraw;
 
 	function _start(e){
 		sketch.startPainting();
@@ -418,9 +418,9 @@ const CustomizationFeaaaa = {
 		sketch.paths.push(path);
 		return view.update();
 	}
-	function _invertdraw(action){
+	function _xoraserdraw(action){
 		var path = sketch.drawPath(action);
-		path.blendMode="negation";
+		path.blendMode="xor";
 		sketch.paths.push(path);
 		return view.update();
 	
@@ -433,8 +433,8 @@ const CustomizationFeaaaa = {
 		if(sketch.cache)sketch.cache.selected="true";
 		return view.update();
 	}
-	function _invertize(){
-		if(sketch.cache)sketch.cache.blendMode="negation";
+	function _xoraserize(){
+		if(sketch.cache)sketch.cache.blendMode="xor";
 		return view.update();
 	}
 
