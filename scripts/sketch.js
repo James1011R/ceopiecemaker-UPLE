@@ -255,7 +255,7 @@ const CustomizationFeaaaa = {
 			project.clear();
 			for(var action of this.actions){
 				if (action.match(/^set/)) {
-					var params = action.replace(/set([0-9]+)(#[0-9a-f]{3,4})([a-z]+)([0-9]+)/,(_,a,b,c,d)=>[a,b,c,d].join(",")).split(",");
+					var params = action.replace(/set([0-9]+)(#[0-9a-f]{3,4})([a-z]+)([0-9]+)/,(_,a,b,c)=>[a,b,c].join(",")).split(",");
 					if (params[1].length == 5) this.fill = +params[1][4], params[1] = params[1].slice(0,-1);
 					this.size = params[0], this.color = params[1], this.tool = params[2], this.selected = params[3], $.sketch.tools[params[2]].activate();
 				} else {
