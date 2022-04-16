@@ -2848,6 +2848,22 @@ MOVES = [{
    "symbol2": "\u{ffc8e}",
    "hide": true
  }, {
+   "id": "b131",
+   "cat": "pretend",
+   "name": "anyonemoveattack",
+   "text": "Move or Attack. Anyone may use this ability.",
+   "color": [0,0,0],
+   "symbol1": "\uf803",
+   "hide": true
+ }, {
+   "id": "b131a",
+   "cat": "pretend",
+   "name": "anyonemove",
+   "text": "Move only. Anyone may use this ability.",
+   "color": [0,0,255],
+   "symbol1": "\uf803",
+   "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
