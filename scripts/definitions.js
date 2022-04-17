@@ -2869,7 +2869,7 @@ MOVES = [{
    "name": "denyablejump",
    "text": "(Unblockable) Move or Attack. Your opponent may spend a turn to disable this ability for 3 turns.",
    "color": [20,151,24],
-   "color3" [0,0,0],
+   "color3": [0,0,0],
    "symbol1": "\u229d",
    "hide": true
  }, {
@@ -2878,7 +2878,7 @@ MOVES = [{
    "name": "denyablejumpswap",
    "text": "(Unblockable) Move, Attack, or swap places with ally. Your opponent may spend a turn to disable this ability for 3 turns.",
    "color": [255,210,0],
-   "color3" [0,0,0],
+   "color3": [0,0,0],
    "symbol1": "\u229d",
    "hide": true
  }, {
@@ -2887,7 +2887,7 @@ MOVES = [{
    "name": "negatablejump",
    "text": "(Unblockable) Move or Attack. Your opponent may spend a turn and Pay 5 to negate this ability.",
    "color": [20,151,24],
-   "color3" [255,0,0],
+   "color3": [255,0,0],
    "symbol1": "\u229d",
    "hide": true
  }, {
@@ -2896,7 +2896,7 @@ MOVES = [{
    "name": "negatablejumpswap",
    "text": "(Unblockable) Move, Attack, or swap places with ally. Your opponent may spend a turn and Pay 5 to negate this ability.",
    "color": [255,210,0],
-   "color3" [255,0,0],
+   "color3": [255,0,0],
    "symbol1": "\u229d",
    "hide": true
  }, {
