@@ -2864,6 +2864,42 @@ MOVES = [{
    "symbol1": "\uf803",
    "hide": true
  }, {
+   "id": "b132",
+   "cat": "pretend",
+   "name": "denyablejump",
+   "text": "(Unblockable) Move or Attack. Your opponent may spend a turn to disable this ability for 3 turns.",
+   "color": [20,151,24],
+   "color3" [0,0,0],
+   "symbol1": "\u229d",
+   "hide": true
+ }, {
+   "id": "b132a",
+   "cat": "pretend",
+   "name": "denyablejumpswap",
+   "text": "(Unblockable) Move, Attack, or swap places with ally. Your opponent may spend a turn to disable this ability for 3 turns.",
+   "color": [255,210,0],
+   "color3" [0,0,0],
+   "symbol1": "\u229d",
+   "hide": true
+ }, {
+   "id": "b133",
+   "cat": "pretend",
+   "name": "negatablejump",
+   "text": "(Unblockable) Move or Attack. Your opponent may spend a turn and Pay 3 to negate this ability.",
+   "color": [20,151,24],
+   "color3" [255,0,0],
+   "symbol1": "\u229d",
+   "hide": true
+ }, {
+   "id": "b133a",
+   "cat": "pretend",
+   "name": "negatablejumpswap",
+   "text": "(Unblockable) Move, Attack, or swap places with ally. Your opponent may spend a turn and Pay 3 to negate this ability.",
+   "color": [255,210,0],
+   "color3" [255,0,0],
+   "symbol1": "\u229d",
+   "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
