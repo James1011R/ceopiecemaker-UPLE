@@ -305,6 +305,9 @@ input#symbol1 {
 input#symbol2 {
   font-family: sym-0, sym-1, sym-2, evermono;
 }
+input#symbol3 {
+  font-family: sym-0, sym-1, sym-2, evermono;
+}
 input#uniprev {
   font-family: sym-0, sym-1, sym-2, evermono;
 }
