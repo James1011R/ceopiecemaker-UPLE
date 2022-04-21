@@ -189,9 +189,9 @@ function cusLoadEdit(moves) {
     c41 = $("#color41").val(col[3][0]);
     c42 = $("#color42").val(col[3][1]);
     c43 = $("#color43").val(col[3][2]);
-    c51 = $("#color51").val(col[3][0]);
-    c52 = $("#color52").val(col[3][1]);
-    c53 = $("#color53").val(col[3][2]);
+    c51 = $("#color51").val(col[4][0]);
+    c52 = $("#color52").val(col[4][1]);
+    c53 = $("#color53").val(col[4][2]);
     //Update
     $("[type=checkbox]").prop("checked", false); //uncheck boxes
     $(".cusmodal input").prop("disabled", false); //undisable inputs
