@@ -86,7 +86,7 @@ function createColors(m) {
 function makeRule(m) {
   var rule = ".",
     usedColors = createColors(m);
-  var merge = (m.symbol1 || "") + (m.symbol2 || "");
+  var merge = (m.symbol1 || "") + (m.symbol2 || "")  + (m.symbol3 || "");
   rule += m.name;
   rule += "::before{";
   rule += "border:2px solid rgb(" + usedColors[0] + ");";
