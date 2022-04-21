@@ -77,7 +77,7 @@ function createColors(m) {
     m.color || [0, 0, 0],
     m.color2 || tintColor || [255, 255, 255],
     m.color3 || m.color || [0, 0, 0],
-    m.color4 || m.color3 || m.color || [0, 0, 0]
+    m.color4 || m.color3 || m.color || [0, 0, 0],
     m.color5 || m.color4 || m.color3 || m.color || [0, 0, 0]
   ]);
 }
@@ -267,7 +267,7 @@ function cusLoadEdit(moves) {
       if (_.every($("[id^=symbol]"), elm => elm.checkValidity())) {
         config.symbol1 = sy1.val();
         config.symbol2 = sy2.val();
-        config.symbol2 = sy2.val();
+        config.symbol3 = sy3.val();
         updateCustom();
       }
     }
