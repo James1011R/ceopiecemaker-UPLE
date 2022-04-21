@@ -86,6 +86,20 @@ function makeSpellSVG () {
       "data-id": config.id
     }, config.symbol2));
   }
+  if (config.color5 && config.symbol3 && !config.noSymbol3) {
+    gTag.insertAdjacentHTML('beforeend', makeSVGTagContent("text", {
+      x: 6,
+      y: 6,
+      "font-family": "'sym-0', 'sym-1', 'sym-2'",
+      "font-size": 9,
+      "text-anchor": "middle",
+      "dominant-baseline": "middle",
+      stroke: "none",
+      fill: config.color5,
+      class: "spell-symbol spell-symbol3",
+      "data-id": config.id
+    }, config.symbol3));
+  }
 
   return container.innerHTML;
 }
@@ -224,6 +238,10 @@ function loadMove(move, noShow) {
   if (!noShow.symbol2) {
     config.color4 = "rgb(" + createColors(move)[3].join(",") + ")";
     config.symbol2 = move.symbol2 ? move.symbol2 : null;
+  }
+  if (!noShow.symbol3) {
+    config.color5 = "rgb(" + createColors(move)[4].join(",") + ")";
+    config.symbol3 = move.symbol3 ? move.symbol3 : null;
   }
 }
 
