@@ -942,7 +942,7 @@ function toJSON(a) {
     };
   });
   var tmp = a,
-    tmz = a.match(/^.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?$/mg);
+    tmz = a.match(/^.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?,.*?$/mg);
   if (tmz) _.forEach(tmz, function(t) {
     a = t;
     var id = pe("string");
