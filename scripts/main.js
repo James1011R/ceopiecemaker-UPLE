@@ -858,7 +858,7 @@ function toCSV() {
   _.forEach(Object.keys(DATA.custom), function(id) {
     var SDATA = DATA.custom[id];
     // var colorString = [].concat(SDATA.color, SDATA.color2, SDATA.color3, SDATA.color4, SDATA.color5).map(x => (256+x).toString(16).slice(1)).join("");
-    csv += [ep(SDATA.id), ep(SDATA.text), ep(SDATA.symbol1), ep(SDATA.symbol2), ep(SDATA.symbol3), ep(SDATA.color), ep(SDATA.color2), ep(SDATA.color3), ep(SDATA.color4), ep(SDATA.color5), ep(SDATA.nobox)] + "\n";
+    csv += [ep(SDATA.id), ep(SDATA.text), ep(SDATA.symbol1), ep(SDATA.symbol2), ep(SDATA.color), ep(SDATA.color2), ep(SDATA.color3), ep(SDATA.color4), ep(SDATA.nobox), ep(SDATA.symbol3), ep(SDATA.color5)] + "\n";
   });
   return csv;
 }
@@ -955,13 +955,13 @@ function toJSON(a) {
       text: pe("string"),
       symbol1: pe("character"),
       symbol2: pe("character"),
-      symbol3: pe("character"),
       color: pe("color"),
       color2: pe("color"),
       color3: pe("color"),
       color4: pe("color"),
-      color5: pe("color"),
-      nobox: pe("boolean")
+      nobox: pe("boolean"),
+      symbol3: pe("character"),
+      color5: pe("color")
     };
   });
   a = tmp;
