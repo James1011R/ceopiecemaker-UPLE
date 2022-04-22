@@ -3145,6 +3145,21 @@ MOVES = [{
     "color": [253,117,34],
     "symbol1": "\ue9f9",
     "hide": true
+  }, {
+    "id": "threesymboltest",
+    "cat": "custom",
+    "name": "customthreesymboltest",
+    "long": "z]",
+    "text": "Custom ability with three symbols.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "color3": [255,0,0],
+    "color4": [0,255,0],
+    "color5": [0,0,255],
+    "symbol1": "\u{1fb71}",
+    "symbol2": "\u{1fb72}",
+    "symbol3": "\u{1fb73}",
+    "hide": true
  }, {
     "id": "fontversionindicator",
     "cat": "custom",
