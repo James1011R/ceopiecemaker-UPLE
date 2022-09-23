@@ -351,17 +351,17 @@ const CustomizationFeaaaa = {
 	$.sketch.tools.eoshape.onMouseDrag = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);};
 	$.sketch.tools.eoshape.onMouseUp = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);};
 	$.sketch.tools.eoshape.draw = _eoclosedraw;
-	$.sketch.tools.uglydraw = new Tool();
-	$.sketch.tools.uglydraw.minDistance = 5;
-	$.sketch.tools.uglydraw.onMouseDown = (e)=>{_start(e);_uglyize();};
-	$.sketch.tools.uglydraw.onMouseDrag = (e)=>{_addpoint(e);_addpoint(e);_uglyize();};
-	$.sketch.tools.uglydraw.onMouseUp = (e)=>{_addpoint(e);_addpoint(e);_stop(e);};
-	$.sketch.tools.uglydraw.draw = _uglydraw;
-	$.sketch.tools.uglyline = new Tool();
-	$.sketch.tools.uglyline.onMouseDown = (e)=>{_start(e);_addpoint(e);_addpoint(e);_uglyize();};
-	$.sketch.tools.uglyline.onMouseDrag = (e)=>{_changelastpoint(e);_uglyize();};
-	$.sketch.tools.uglyline.onMouseUp = (e)=>{_changelastpoint(e);_rawstop(e);};
-	$.sketch.tools.uglyline.draw = _uglydraw;
+	$.sketch.tools.inverter = new Tool();
+	$.sketch.tools.inverter.minDistance = 5;
+	$.sketch.tools.inverter.onMouseDown = (e)=>{_start(e);_invertize();};
+	$.sketch.tools.inverter.onMouseDrag = (e)=>{_addpoint(e);_addpoint(e);_invertize();};
+	$.sketch.tools.inverter.onMouseUp = (e)=>{_addpoint(e);_addpoint(e);_stop(e);};
+	$.sketch.tools.inverter.draw = _invertdraw;
+	$.sketch.tools.linverter = new Tool();
+	$.sketch.tools.linverter.onMouseDown = (e)=>{_start(e);_addpoint(e);_addpoint(e);_invertize();};
+	$.sketch.tools.linverter.onMouseDrag = (e)=>{_changelastpoint(e);_invertize();};
+	$.sketch.tools.linverter.onMouseUp = (e)=>{_changelastpoint(e);_rawstop(e);};
+	$.sketch.tools.linverter.draw = _invertdraw;
 
 	function _start(e){
 		sketch.startPainting();
@@ -466,12 +466,11 @@ const CustomizationFeaaaa = {
 		sketch.paths.push(path);
 		return view.update();  
 	}
-	function _uglydraw(action){
+	function _invertdraw(action){
 		var path = sketch.drawPath(action);
-		path.strokeCap="butt";
-		path.strokeJoin="miter";
+		path.blendMode="difference";
 		sketch.paths.push(path);
-		return view.update(); 
+		return view.update();
 
 	
 	}
@@ -487,9 +486,8 @@ const CustomizationFeaaaa = {
 		if(sketch.cache)sketch.cache.blendMode="xor";
 		return view.update();
 	}
-	function _uglyize(){
-		if(sketch.cache)sketch.cache.strokeCap="butt";
-		if(sketch.cache)sketch.cache.strokeJoin="miter";
+	function invertize(){
+		if(sketch.cache)sketch.cache.blendMode="difference";
 		return view.update();
 	}
 
