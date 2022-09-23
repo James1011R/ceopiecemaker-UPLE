@@ -460,7 +460,6 @@ const CustomizationFeaaaa = {
 	function _eoclosedraw(action){
 		var path = sketch.drawPath(action);
 		path.closed = true;
-		path.blendMode="xor";
 		_setFillcolor(path);
 		path.fillRule="evenodd";
 		sketch.paths.push(path);
