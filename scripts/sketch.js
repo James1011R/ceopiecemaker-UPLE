@@ -337,6 +337,31 @@ const CustomizationFeaaaa = {
 	$.sketch.tools.lxoraser.onMouseDrag = (e)=>{_changelastpoint(e);_xoraserize();};
 	$.sketch.tools.lxoraser.onMouseUp = (e)=>{_changelastpoint(e);_rawstop(e);};
 	$.sketch.tools.lxoraser.draw = _xoraserdraw;
+	$.sketch.tools.vxoraser = new Tool();
+	$.sketch.tools.vxoraser.onKeyDown = (e)=>{if(e.key=="shift"&!sketch.painting)_start(e);};
+	$.sketch.tools.vxoraser.onKeyUp = (e)=>{if(e.key=="shift")_rawstop(e);else _kop(e);};
+	$.sketch.tools.vxoraser.onMouseDown = (e)=>{if(Key.isDown("shift"))_addpoint(e);_xoraserize();};
+	$.sketch.tools.vxoraser.onMouseDrag = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);_xoraserize();};
+	$.sketch.tools.vxoraser.onMouseUp = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);_xoraserize();};
+	$.sketch.tools.vxoraser.draw = _closexoraserdraw;
+	$.sketch.tools.eoshape = new Tool();
+	$.sketch.tools.eoshape.onKeyDown = (e)=>{if(e.key=="shift"&!sketch.painting)_start(e);};
+	$.sketch.tools.eoshape.onKeyUp = (e)=>{if(e.key=="shift")_rawstop(e);else _kop(e);};
+	$.sketch.tools.eoshape.onMouseDown = (e)=>{if(Key.isDown("shift"))_addpoint(e);};
+	$.sketch.tools.eoshape.onMouseDrag = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);};
+	$.sketch.tools.eoshape.onMouseUp = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);};
+	$.sketch.tools.eoshape.draw = _eoclosedraw;
+	$.sketch.tools.uglydraw = new Tool();
+	$.sketch.tools.uglydraw.minDistance = 5;
+	$.sketch.tools.uglydraw.onMouseDown = (e)=>{_start(e);_uglyize();};
+	$.sketch.tools.uglydraw.onMouseDrag = (e)=>{_addpoint(e);_addpoint(e);_uglyize();};
+	$.sketch.tools.uglydraw.onMouseUp = (e)=>{_addpoint(e);_addpoint(e);_stop(e);};
+	$.sketch.tools.uglydraw.draw = _uglydraw;
+	$.sketch.tools.uglyline = new Tool();
+	$.sketch.tools.uglyline.onMouseDown = (e)=>{_start(e);_addpoint(e);_addpoint(e);_uglyize();};
+	$.sketch.tools.uglyline.onMouseDrag = (e)=>{_changelastpoint(e);_uglyize();};
+	$.sketch.tools.uglyline.onMouseUp = (e)=>{_changelastpoint(e);_rawstop(e);};
+	$.sketch.tools.uglyline.draw = _uglydraw;
 
 	function _start(e){
 		sketch.startPainting();
@@ -423,6 +448,31 @@ const CustomizationFeaaaa = {
 		path.blendMode="xor";
 		sketch.paths.push(path);
 		return view.update();
+	}
+	function _closexoraserdraw(action){
+		var path = sketch.drawPath(action);
+		path.closed = true;
+		path.blendMode="xor";
+		_setFillcolor(path);
+		sketch.paths.push(path);
+		return view.update();  
+	}
+	function _eoclosedraw(action){
+		var path = sketch.drawPath(action);
+		path.closed = true;
+		path.blendMode="xor";
+		_setFillcolor(path);
+		path.fillRule="evenodd";
+		sketch.paths.push(path);
+		return view.update();  
+	}
+	function _uglydraw(action){
+		var path = sketch.drawPath(action);
+		path.strokeCap="butt";
+		path.strokeJoin="miter";
+		sketch.paths.push(path);
+		return view.update(); 
+
 	
 	}
 	function _eraserize(){
@@ -435,6 +485,11 @@ const CustomizationFeaaaa = {
 	}
 	function _xoraserize(){
 		if(sketch.cache)sketch.cache.blendMode="xor";
+		return view.update();
+	}
+	function _uglyize(){
+		if(sketch.cache)sketch.cache.strokeCap="butt";
+		if(sketch.cache)sketch.cache.strokeJoin="miter";
 		return view.update();
 	}
 
