@@ -362,6 +362,14 @@ const CustomizationFeaaaa = {
 	$.sketch.tools.linverter.onMouseDrag = (e)=>{_changelastpoint(e);_invertize();};
 	$.sketch.tools.linverter.onMouseUp = (e)=>{_changelastpoint(e);_rawstop(e);};
 	$.sketch.tools.linverter.draw = _invertdraw;
+	$.sketch.tools.vinverter = new Tool();
+	$.sketch.tools.vinverter.onKeyDown = (e)=>{if(e.key=="shift"&!sketch.painting)_start(e);};
+	$.sketch.tools.vinverter.onKeyUp = (e)=>{if(e.key=="shift")_rawstop(e);else _kop(e);};
+	$.sketch.tools.vinverter.onMouseDown = (e)=>{if(Key.isDown("shift"))_addpoint(e);_invertize();};
+	$.sketch.tools.vinverter.onMouseDrag = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);_invertize();};
+	$.sketch.tools.vinverter.onMouseUp = (e)=>{if(Key.isDown("shift"))_changelastcurvepoint(e);_invertize();};
+	$.sketch.tools.vinverter.draw = _closeinvertdraw;
+
 
 	function _start(e){
 		sketch.startPainting();
@@ -470,6 +478,14 @@ const CustomizationFeaaaa = {
 		path.blendMode="difference";
 		sketch.paths.push(path);
 		return view.update();
+	}
+	function _closeinvertdraw(action){
+		var path = sketch.drawPath(action);
+		path.closed = true;
+		path.blendMode="difference";
+		_setFillcolor(path);
+		sketch.paths.push(path);
+		return view.update();  
 
 	
 	}
