@@ -485,7 +485,7 @@ const CustomizationFeaaaa = {
 		if(sketch.cache)sketch.cache.blendMode="xor";
 		return view.update();
 	}
-	function invertize(){
+	function _invertize(){
 		if(sketch.cache)sketch.cache.blendMode="difference";
 		return view.update();
 	}
