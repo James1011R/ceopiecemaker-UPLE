@@ -3255,7 +3255,7 @@ TOOLTIPS = {
     tt13: "Even/Odd Shape Tool:\nHold Shift to start a new shape.\nClick and drag to add new points.\nRelease Shift to finish and close path with even/odd fill rules.",
     tt14: "Magic Marker Tool:\nUse a tool color other than the default black for magic.",
     tt15: "Magic Line Tool:\nÐsžšåÞя©舐 Â£ —????????Þ¥¿ ¶????Þ¥¿???? ????—â€š�舐 —â€š�Â£½	 —â€š�舐 ▀舐Â£ðsžšåÞяÞ¥¿— »Þ¥¿Â£¶Š ???? ╟Â£æØ¢ÃŘ§Ů¶.",
-    tt16: "invalid item\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlol this is broken like phoenix beacon",
+    tt16: "invalid item\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlol this is broken",
     tc0: "Black Pen:\nA standard and all purpose pen color",
     tc1: "White Pen:\nAn ancient eraser from a simpler time",
     tc2: "Purple Pen:\nA remnant of old, this pen has been upgraded",
