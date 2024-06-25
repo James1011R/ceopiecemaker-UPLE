@@ -3134,7 +3134,7 @@ MOVES = [{
    "color2": [255,255,255],
    "color3": [0,0,0],
    "color4": [127,192,127],
-   "symbol2": "\u25c6",
+   "symbol1": "\u25c6",
    "symbol2": "\u2b50",
    "hide": true
 }, {
@@ -3146,7 +3146,7 @@ MOVES = [{
    "color2": [255,255,255],
    "color3": [0,0,255],
    "color4": [127,192,127],
-   "symbol2": "\u25c6",
+   "symbol1": "\u25c6",
    "symbol2": "\u2b50",
    "hide": true
  }, {
