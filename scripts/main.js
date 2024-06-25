@@ -144,6 +144,17 @@ $("#shactive").click(function() {
   }
 });
 
+$("#shexiled").click(function() {
+  if (this.innerHTML.match(/Show/ig)) {
+    $("#action").addClass("showexiled");
+    $(this).text($(this).text().replace(/Riftsweep/ig, "Banish"));
+    $(this).text($(this).text().replace(/not recommended/ig, "recommended"));
+  } else {
+    $("#action").removeClass("showexiled");
+    $(this).text($(this).text().replace(/Banish/ig, "Riftsweep"));
+    $(this).text($(this).text().replace(/ recommended/ig, "not recommended"));
+  }
+
 // Current tool
 var ACTION;
 
