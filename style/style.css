@@ -234,11 +234,26 @@ li::before,
 #action svg.active {
   box-shadow: 0px 0px 0px 3px rgb(204, 204, 204), 0px 0px 0px 5px rgb(136, 136, 136);
 }
-svg.custom {
+svg. {
   overflow-wrap: break-word;
 }
-#action svg.custom.active{
-  box-shadow: 0px 0px 0px 3px rgb(255, 255, 127), 0px 0px 0px 5px rgb(136, 136, 136);
+#action svg.custom {
+  box-shadow: 0px 0px 0px 3px rgb(204, 255, 255), 0px 0px 0px 5px rgb(136, 204, 204);
+}
+#action svg.custom.active {
+  box-shadow: 0px 0px 0px 3px rgb(136, 204, 204), 0px 0px 0px 5px rgb(77, 136, 136);
+}
+#action .exiled, #action.show .exiled {
+  display: none;
+}
+#action.showexiled .exiled {
+  display: block;
+}
+#action svg.exiled {
+  box-shadow: 0px 0px 0px 3px rgb(255, 0, 0), 0px 0px 0px 5px rgb(204, 0, 0);
+}
+#action svg.exiled.active {
+  box-shadow: 0px 0px 0px 3px rgb(204, 0, 0), 0px 0px 0px 5px rgb(136, 0, 0);
 }
 
 section .moves svg {
