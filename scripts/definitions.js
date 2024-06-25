@@ -3099,6 +3099,34 @@ MOVES = [{
    "symbol1": "\u{1cdf6}",
    "hide": true
  }, {
+   "id": "z17",
+   "cat": "exiled",
+   "name": "negatazap",
+   "text": "[Pay 1]: (Magic) After 6 turns any ability that could target the marked location is negated.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [255,0,0],
+   "symbol1": "\u{1cc89}",
+   "hide": true
+ }, {
+   "id": "z18",
+   "cat": "exiled",
+   "name": "ultranuanceforgrend",
+   "text": "(Magic) Destroy target Angel, Demon, Behemoth, or Sorceress.",
+   "color": [253,117,34],
+   "color3": [0,0,0],
+   "symbol1": "\u{ff0c6}",
+   "hide": true
+ }, {
+   "id": "z18a",
+   "cat": "exiled",
+   "name": "thenuanceistoostronge",
+   "text": "(Magic) Destroy target with no status effects; gain 1 morale and enchant this unit; and then make this unit ranged-immune and magic-immune permanently.",
+   "color": [253,117,34],
+   "color3": [0,0,255],
+   "symbol1": "\u{ff0c6}",
+   "hide": true
+ }, {
    "id": "6zz",
    "cat": "exiled",
    "name": "jumpmove",
