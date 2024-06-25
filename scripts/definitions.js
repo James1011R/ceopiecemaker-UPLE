@@ -642,8 +642,8 @@ MOVES = [{
  }, {
    "id": "73a",
    "cat": "riftsweep",
-   "name": "frogify",
-   "text": "(Magic) Summon Frog or transform enemy into ally Toad.",
+   "name": "frogifyonce",
+   "text": "(Magic) Summon Frog or transform enemy into ally Toad, and lose this ability.",
    "color": [0,101,24],
    "color3": [0,0,0],
    "symbol1": "\uea7e",
@@ -1083,6 +1083,15 @@ MOVES = [{
    "color2": [255,255,255],
    "color3": [153,153,153],
    "symbol1": "\uea81",
+   "hide": true
+ }, {
+   "id": "73b",
+   "cat": "variation",
+   "name": "frogify",
+   "text": "(Magic) Summon Frog or transform enemy into ally Toad.",
+   "color": [0,101,24],
+   "color3": [0,255,0],
+   "symbol1": "\uea7e",
    "hide": true
  }, {
    "id": "a1",
