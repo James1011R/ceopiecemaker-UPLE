@@ -610,7 +610,7 @@ MOVES = [{
    "cat": "riftsweep",
    "name": "multishift",
    "text": "(Magic) Teleport all units this unit could target with this ability 2 spaces forward.",
-   "color": [51,153,153],
+   "color": [121,19,153],
    "color3": [0,0,0],
    "symbol1": "\ue901",
    "hide": true
