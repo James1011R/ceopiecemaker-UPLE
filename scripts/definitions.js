@@ -602,7 +602,7 @@ MOVES = [{
    "name": "omniswap",
    "long": "b]mu:move/*ally?swap",
    "text": "(Unblockable) Teleport or swap places with unit.",
-   "color": [121,19,153],
+   "color": [51,153,153],
    "color3": [0,0,0],
    "symbol1": "\u{1f5d8}"
  }, {
