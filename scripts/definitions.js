@@ -1227,7 +1227,7 @@ MOVES = [{
    "text": "(Ranged) Compel enemy unit, making them move away from the direction of this ability at the start of their turn, for 3 turns.",
    "color": [0,127,0],
    "color2": [255,255,255],
-   "symbol1": "\u{ffad2}",
+   "symbol1": "\u21aa",
    "hide": true
  }, {
     "id": "52a",
@@ -2234,7 +2234,7 @@ MOVES = [{
     "text": "(Magic) Negate unit's moveset beyond Range 2.",
     "color": [40,40,40],
     "color3": [0,0,0],
-    "symbol1": "\u{ffd72}",
+    "symbol1": "\uf806",
     "hide": true
  }, {
     "id": "b82",
@@ -2552,7 +2552,7 @@ MOVES = [{
     "text": "(Magic) Marked location blocks movement for 4 turns.",
     "color": [107,253,253],
     "color2": [255,255,255],
-    "symbol1": "\u{ffaeb}",
+    "symbol1": "\u{1cdff}",
     "hide": true
  }, {
     "id": "b106",
@@ -2844,8 +2844,8 @@ MOVES = [{
    "color2": [0,0,0],
    "color3": [0,127,64],
    "color4": [0,0,0],
-   "symbol1": "\u{ffc4b}",
-   "symbol2": "\u{ffc8e}",
+   "symbol1": "\u{1cc43}",
+   "symbol2": "\u{1ccba}",
    "hide": true
  }, {
    "id": "b131",
