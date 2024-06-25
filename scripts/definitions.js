@@ -3125,6 +3125,30 @@ MOVES = [{
    "color3": [0,0,255],
    "symbol1": "\u{ff0c6}",
    "hide": true
+}, {
+   "id": "z19",
+   "cat": "exiled",
+   "name": "transformvanish",
+   "text": "(Ranged) Transform enemy into an ally copy of this unit. This unit vanishes after this ability.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [0,0,0],
+   "color4": [127,192,127],
+   "symbol2": "\u25c6",
+   "symbol2": "\u2b50",
+   "hide": true
+}, {
+   "id": "z19a",
+   "cat": "exiled",
+   "name": "magictransformvanish",
+   "text": "(Magic) Transform enemy into an ally copy of this unit. This unit vanishes after this ability.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [0,0,255],
+   "color4": [127,192,127],
+   "symbol2": "\u25c6",
+   "symbol2": "\u2b50",
+   "hide": true
  }, {
    "id": "6zz",
    "cat": "exiled",
