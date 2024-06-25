@@ -1227,7 +1227,7 @@ MOVES = [{
    "text": "(Ranged) Compel enemy unit, making them move away from the direction of this ability at the start of their turn, for 3 turns.",
    "color": [0,127,0],
    "color2": [255,255,255],
-   "symbol1": "\{1f8b2}",
+   "symbol1": "\u{1f8b2}",
    "hide": true
  }, {
     "id": "52a",
@@ -2918,8 +2918,16 @@ MOVES = [{
     "symbol1": "\u2747",
     "hide": true
  }, {
+   "id": "31b",
+   "cat": "exiled",
+   "name": "ximaera",
+   "long": "b]mu:move/*ally?swap",
+   "text": "(Unblockable) Teleport or swap places with unit.",
+   "color": [19,121,153],
+   "hide": true
+ }, {
    "id": "z1",
-   "cat": "exile",
+   "cat": "exiled",
    "name": "noability",
    "long": "]mn:",
    "text": "No ability.",
@@ -2928,7 +2936,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z2",
-   "cat": "exile",
+   "cat": "exiled",
    "name": "unblockablenoability",
    "long": "]mu:",
    "text": "(Unblockable) No ability.",
@@ -2937,7 +2945,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z3",
-   "cat": "exile",
+   "cat": "exiled",
    "name": "donothing",
    "long": "]rz:(NULL)",
    "text": "(Unstoppable) Do nothing.",
@@ -2946,13 +2954,203 @@ MOVES = [{
    "symbol1": "\u2400",
    "hide": true
  }, {
+   "id": "z4",
+   "cat": "exiled",
+   "name": "randomeffect",
+   "text": "(Magic) Cast random status effect on unit for 3 turns.",
+   "color": [27,152,100],
+   "symbol1": "\ufe56",
+   "hide": true
+ }, {
+   "id": "z5",
+   "cat": "exiled",
+   "name": "randomsummon",
+   "text": "(Magic) Summon random unit.",
+   "color": [208,88,161],
+   "color2": [255,255,255],
+   "color3": [0,0,0],
+   "symbol1": "\ufe56",
+   "hide": true
+ }, {
+   "id": "z6",
+   "cat": "exiled",
+   "name": "chaosjump",
+   "text": "(Unblockable) Teleport, or randomly either attack or swap target unit.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [255,0,255],
+   "symbol1": "\ufe56",
+   "color4": [255,0,255],
+   "symbol2": "\u{1f5d8}",
+   "hide": true
+ }, {
+   "id": "z7",
+   "cat": "exiled",
+   "name": "randomabilitydraft",
+   "text": "(Magic) Convert this ability to a random ability.",
+   "nobox": true,
+   "color3": [0,0,0],
+   "color4": [255,0,255],
+   "symbol1": "\u29c8",
+   "symbol2": "\ufe56",
+   "hide": true
+ }, {
+   "id": "z8",
+   "cat": "exiled",
+   "name": "moveattackcommonorrare",
+   "text": "Move or Attack Common or Rare enemy unit",
+   "color": [0,0,0],
+   "color3": [183,208,253],
+   "color4": [0,102,255],
+   "symbol1": "\u2738",
+   "symbol2": "\u2219",
+   "hide": true
+ }, {
+   "id": "z9",
+   "cat": "exiled",
+   "name": "destroyblock",
+   "long": "bv]:block@(mn:attack)&(LOSEABILTY)/(ru:attack)",
+   "text": "(Passive) Block one normal attack from this location, and lose this ability. \n(Active, Magic) Destroy target.",
+   "color": [253,117,34],
+   "color3": [255,255,255],
+   "symbol1": "\u2219",
+   "hide": true
+ }, {
+    "id": "z10",
+    "cat": "exiled",
+    "name": "goto",
+    "long": "b]:move",
+    "text": "Teleport self to this empty location.",
+    "color": [102,0,102],
+    "hide": true
+ }, {
+    "id": "z11",
+    "cat": "exiled",
+    "name": "setpos",
+    "long": "b]:move/attack",
+    "text": "Teleport self to this empty location or attack target.",
+    "color": [20,60,20],
+    "hide": true
+ }, {
+    "id": "z12",
+    "cat": "exiled",
+    "name": "magicmove",
+    "long": "b]ru:move",
+    "text": "(Magic) Move only.",
+    "color": [200,0,255],
+    "hide": true
+ }, {
+    "id": "z13",
+    "cat": "exiled",
+    "name": "reversetimeline",
+    "text": "(Magic) Remove this unit from the timeline, and revert the timeline back to the beginning.",
+    "color": [200,0,255],
+    "color2": [255,255,255],
+    "color3": [225,225,0],
+    "symbol1": "\u231b",
+    "hide": true
+ }, {
+    "id": "z14",
+    "cat": "exiled",
+    "name": "truemordecakek",
+    "text": "Evolve this unit, destroying it once, but allowing it to use all (Evolve) Ability for this current incarnation of this Unit. Once this Ability is used, it ceases to exist on this unit, including all future incarnations.",
+    "color": [0,0,0],
+    "color2": [58,233,93],
+    "color3": [0,0,0],
+    "symbol1": "E",
+    "hide": true
+ }, {
+    "id": "z15",
+    "cat": "exiled",
+    "name": "riftsweep",
+    "text": "[Pay 2]: (Magic) Return most recently exiled ally unit at target location.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "color3": [0,0,0],
+    "color4": [0,255,255],
+    "symbol1": "\u274b",
+    "symbol2": "\u2609",
+    "hide": true
+ }, {
    "id": "6zz",
-   "cat": "exile",
+   "cat": "exiled",
    "name": "jumpmove",
    "long": "b]mu:move",
    "text": "(Unblockable) Move only.",
    "color": [0,0,255],
    "color2": [0,0,127],
+   "hide": true
+ }, {
+   "id": "za1",
+   "cat": "exiled",
+   "name": "verticalpathjump",
+   "text": "(Leaping Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\ue702",
+   "hide": true
+ }, {
+   "id": "za2",
+   "cat": "exiled",
+   "name": "horizontalpathjump",
+   "text": "(Leaping Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\ue700",
+   "hide": true
+ }, {
+   "id": "za3",
+   "cat": "exiled",
+   "name": "antidiagonalpathjump",
+   "text": "(Leaping Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\ue701",
+   "hide": true
+ }, {
+   "id": "za4",
+   "cat": "exiled",
+   "name": "diagonalpathjump",
+   "text": "(Leaping Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\ue703",
+   "hide": true
+ }, {
+   "id": "za5",
+   "cat": "exiled",
+   "name": "sharpantidiagonalpathjump",
+   "text": "(Leaping Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\u{ffc46}",
+   "hide": true
+ }, {
+   "id": "za6",
+   "cat": "exiled",
+   "name": "flatantidiagonalpathjump",
+   "text": "(Leaping Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\u{ffc40}",
+   "hide": true
+ }, {
+   "id": "za7",
+   "cat": "exiled",
+   "name": "flatdiagonalpathjump",
+   "text": "(Leaping Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\u{ffc43}",
+   "hide": true
+ }, {
+   "id": "za8",
+   "cat": "exiled",
+   "name": "sharpdiagonalpathjump",
+   "text": "(Leaping Path) Move or Attack.",
+   "color": [20,151,54],
+   "color3": [0,0,0],
+   "symbol1": "\u{ffc45}",
    "hide": true
  }, {
    "id": "c1",
