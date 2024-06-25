@@ -3103,8 +3103,7 @@ MOVES = [{
    "cat": "exiled",
    "name": "negatazap",
    "text": "[Pay 1]: (Magic) After 6 turns any ability that could target the marked location is negated.",
-   "color": [0,0,0],
-   "color2": [255,255,255],
+   "nobox": true,
    "color3": [255,0,0],
    "symbol1": "\u{1cc89}",
    "hide": true
