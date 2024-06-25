@@ -1355,7 +1355,7 @@ MOVES = [{
     "cat": "pretend",
     "name": "clear",
     "long": "ms]:*ally?status?deflag?&*ally?enchant?deflag?&deflag",
-    "text": "Clear unit and location, removing all status effects and location effects.",
+    "text": "Clear unit and location, removing all status effects and marks.",
     "color": [220,220,220],
     "color2": [255,255,255],
     "color3": [0, 0, 0],
@@ -2900,6 +2900,15 @@ MOVES = [{
    "symbol1": "\u229d",
    "hide": true
  }, {
+   "id": "b134",
+   "cat": "variation",
+   "name": "negatingblock",
+   "text": "(Passive) Block one ability from this location, negate the ability that was blocked, and lose this ability. \n(Active) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,255,0],
+   "symbol1": "\u{1cc89}",
+   "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
@@ -3071,6 +3080,24 @@ MOVES = [{
     "symbol1": "\u274b",
     "symbol2": "\u2609",
     "hide": true
+ }, {
+   "id": "z16",
+   "cat": "exiled",
+   "name": "devbotmoveattack",
+   "text": "Have Devbot choose one of these Move or Attack squares for you.",
+   "color": [0,0,0],
+   "color3": [255,255,255],
+   "symbol1": "\u{1cdf6}",
+   "hide": true
+ }, {
+   "id": "z16a",
+   "cat": "exiled",
+   "name": "devbotjumpswap",
+   "text": "Have Devbot choose one of these (Unblockable) Move, Attack, or swap places with ally squares for you.",
+   "color": [255,210,0],
+   "color3": [255,255,255],
+   "symbol1": "\u{1cdf6}",
+   "hide": true
  }, {
    "id": "6zz",
    "cat": "exiled",
