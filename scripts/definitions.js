@@ -602,9 +602,52 @@ MOVES = [{
    "name": "omniswap",
    "long": "b]mu:move/*ally?swap",
    "text": "(Unblockable) Teleport or swap places with unit.",
-   "color": [51,153,153],
+   "color": [121,19,153],
    "color3": [0,0,0],
    "symbol1": "\u{1f5d8}"
+ }, {
+   "id": "69a",
+   "cat": "riftsweep",
+   "name": "multishift",
+   "text": "(Magic) Teleport all units this unit could target with this ability 2 spaces forward.",
+   "color": [51,153,153],
+   "color3": [0,0,0],
+   "symbol1": "\ue901",
+   "hide": true
+ }, {
+    "id": "b76",
+    "cat": "riftsweep",
+    "name": "conditionalmoveattack",
+    "text": "(Conditional) Move or Attack.",
+    "color": [100,100,100],
+    "hide": true
+ }, {
+    "id": "b76d",
+    "cat": "riftsweep",
+    "name": "conditionalattack",
+    "text": "(Conditional) Attack only.",
+    "color": [253,107,116],
+    "hide": true
+ }, {
+   "id": "72a",
+   "cat": "riftsweep",
+   "name": "autoplant",
+   "text": "(Trigger) On Kill: Summon Sapling.",
+   "color": [0,101,24],
+   "color3": [0,0,0],
+   "color4": [0,0,0],
+   "symbol1": "\u2295",
+   "symbol2": "\u2297",
+   "hide": true
+ }, {
+   "id": "73a",
+   "cat": "riftsweep",
+   "name": "frogify",
+   "text": "(Magic) Summon Frog or transform enemy into ally Toad.",
+   "color": [0,101,24],
+   "color3": [0,0,0],
+   "symbol1": "\uea7e",
+   "hide": true
  }, {
    "id": "0a",
    "cat": "variation",
@@ -2135,13 +2178,6 @@ MOVES = [{
     "symbol1": "\uec05",
     "hide": true
  }, {
-    "id": "b76",
-    "cat": "limbo",
-    "name": "conditionalmoveattack",
-    "text": "(Conditional) Move or Attack.",
-    "color": [100,100,100],
-    "hide": true
- }, {
     "id": "b76a",
     "cat": "limbo",
     "name": "conditionaljump",
@@ -2161,13 +2197,6 @@ MOVES = [{
     "name": "conditionalmove",
     "text": "(Conditional) Move only.",
     "color": [100,100,255],
-    "hide": true
- }, {
-    "id": "b76d",
-    "cat": "limbo",
-    "name": "conditionalattack",
-    "text": "(Conditional) Attack only.",
-    "color": [253,107,116],
     "hide": true
  }, {
     "id": "b76e",
