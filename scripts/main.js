@@ -154,6 +154,7 @@ $("#shexiled").click(function() {
     $(this).text($(this).text().replace(/Banish/ig, "Riftsweep"));
     $(this).text($(this).text().replace(/recommended/ig, "not recommended"));
   }
+});
 
 // Current tool
 var ACTION;
