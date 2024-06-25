@@ -1227,7 +1227,7 @@ MOVES = [{
    "text": "(Ranged) Compel enemy unit, making them move away from the direction of this ability at the start of their turn, for 3 turns.",
    "color": [0,127,0],
    "color2": [255,255,255],
-   "symbol1": "\u21aa",
+   "symbol1": "\{1f8b2}",
    "hide": true
  }, {
     "id": "52a",
@@ -2845,7 +2845,7 @@ MOVES = [{
    "color3": [0,127,64],
    "color4": [0,0,0],
    "symbol1": "\u{1cc43}",
-   "symbol2": "\u{1ccba}",
+   "symbol2": "\u{1cc8a}",
    "hide": true
  }, {
    "id": "b131",
