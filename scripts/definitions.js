@@ -3123,7 +3123,7 @@ MOVES = [{
    "text": "(Leaping Path) Move or Attack.",
    "color": [20,151,54],
    "color3": [0,0,0],
-   "symbol1": "\u{ffc46}",
+   "symbol1": "\u{1fbd6}",
    "hide": true
  }, {
    "id": "za6",
@@ -3132,7 +3132,7 @@ MOVES = [{
    "text": "(Leaping Path) Move or Attack.",
    "color": [20,151,54],
    "color3": [0,0,0],
-   "symbol1": "\u{ffc40}",
+   "symbol1": "\u{1fbd0}",
    "hide": true
  }, {
    "id": "za7",
@@ -3141,7 +3141,7 @@ MOVES = [{
    "text": "(Leaping Path) Move or Attack.",
    "color": [20,151,54],
    "color3": [0,0,0],
-   "symbol1": "\u{ffc43}",
+   "symbol1": "\u{1fbd3}",
    "hide": true
  }, {
    "id": "za8",
@@ -3150,7 +3150,7 @@ MOVES = [{
    "text": "(Leaping Path) Move or Attack.",
    "color": [20,151,54],
    "color3": [0,0,0],
-   "symbol1": "\u{ffc45}",
+   "symbol1": "\u{1fbd5}",
    "hide": true
  }, {
    "id": "c1",
