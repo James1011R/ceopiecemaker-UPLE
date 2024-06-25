@@ -90,7 +90,7 @@ li {
   text-align: center;
 }
 .exilebutton{
-  font-size: x-small;
+  font-size: xx-small;
   text-align: center;
 }
 .left {
@@ -246,12 +246,6 @@ svg. {
 }
 #action svg.custom.active {
   box-shadow: 0px 0px 0px 3px rgb(136, 204, 204), 0px 0px 0px 5px rgb(77, 136, 136);
-}
-#action .exiled, #action.show .exiled {
-  display: none;
-}
-#action.showexiled .exiled {
-  display: block;
 }
 #action svg.exiled {
   box-shadow: 0px 0px 0px 3px rgb(255, 0, 0), 0px 0px 0px 5px rgb(204, 0, 0);
@@ -441,6 +435,15 @@ div.passives{
   display: none;
 }
 #action.show .hide {
+  display: block;
+}
+#action .exiled {
+  display: none;
+}
+#action.show .exiled {
+  display: none;
+}
+#action.showexiled .exiled {
   display: block;
 }
 .cost + div > ul {
