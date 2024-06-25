@@ -145,7 +145,7 @@ $("#shactive").click(function() {
 });
 
 $("#shexiled").click(function() {
-  if (this.innerHTML.match(/Show/ig)) {
+  if (this.innerHTML.match(/Riftsweep/ig)) {
     $("#action").addClass("showexiled");
     $(this).text($(this).text().replace(/Riftsweep/ig, "Banish"));
     $(this).text($(this).text().replace(/not recommended/ig, "recommended"));
