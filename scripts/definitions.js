@@ -2313,7 +2313,7 @@ MOVES = [{
     "id": "b86",
     "cat": "pretend",
     "name": "soulsplit",
-    "text": "(Magic) Soulsplit enemy unit, negating the unit's value, moveset, and passives in 2 turns.",
+    "text": "(Magic) Soulsplit enemy unit, converting the unit's moveset into move/teleport abilities and negating the unit's augments and increasing their value by 2 in 2 turns.",
     "color": [151,151,151],
     "color3": [0,0,0],
     "symbol1": "\u00d7",
