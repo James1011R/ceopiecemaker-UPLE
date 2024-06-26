@@ -1735,82 +1735,6 @@ MOVES = [{
     "symbol1": "\ufe62",
     "hide": true
  }, {
-    "id": "b33",
-    "cat": "variation",
-    "name": "verticalpathdestroy",
-    "text": "(Path, Ranged) Destroy target.",
-    "color": [255,0,0],
-    "color2": [255,255,255],
-    "symbol1": "\ue702",
-    "hide": true
- }, {
-    "id": "b34",
-    "cat": "variation",
-    "name": "horizontalpathdestroy",
-    "text": "(Path, Ranged) Destroy target.",
-    "color": [255,0,0],
-    "color2": [255,255,255],
-    "symbol1": "\ue700",
-    "hide": true
- }, {
-    "id": "b35",
-    "cat": "variation",
-    "name": "antidiagonalpathdestroy",
-    "text": "(Path, Ranged) Destroy target.",
-    "color": [255,0,0],
-    "color2": [255,255,255],
-    "symbol1": "\ue701",
-    "hide": true
- }, {
-    "id": "b36",
-    "cat": "variation",
-    "name": "diagonalpathdestroy",
-    "text": "(Path, Ranged) Destroy target.",
-    "color": [255,0,0],
-    "color2": [255,255,255],
-    "symbol1": "\ue703",
-    "hide": true
-  }, {
-   "id": "b37",
-   "cat": "variation",
-   "name": "verticalpathmoveattackswap",
-   "text": "(Path) Move, Attack, or swap places with ally.",
-   "color": [0,0,0],
-   "color4": [255,210,0],
-   "symbol1": "\u{1f5d8}",
-   "symbol2": "\ue702",
-   "hide": true
- }, {
-   "id": "b38",
-   "cat": "variation",
-   "name": "horizontalpathmoveattackswap",
-   "text": "(Path) Move, Attack, or swap places with ally.",
-   "color": [0,0,0],
-   "color4": [255,210,0],
-   "symbol1": "\u{1f5d8}",
-   "symbol2": "\ue700",
-   "hide": true
- }, {
-   "id": "b39",
-   "cat": "variation",
-   "name": "antidiagonalpathmoveattackswap",
-   "text": "(Path) Move, Attack, or swap places with ally.",
-   "color": [0,0,0],
-   "color4": [255,210,0],
-   "symbol1": "\u{1f5d8}",
-   "symbol2": "\ue701",
-   "hide": true
- }, {
-   "id": "b40",
-   "cat": "variation",
-   "name": "diagonalpathmoveattackswap",
-   "text": "(Path) Move, Attack, or swap places with ally.",
-   "color": [0,0,0],
-   "color4": [255,210,0],
-   "symbol1": "\u{1f5d8}",
-   "symbol2": "\ue703",
-   "hide": true
- }, {
    "id": "b41",
    "cat": "variation",
    "name": "jumpstart",
@@ -2144,38 +2068,6 @@ MOVES = [{
    "color4": [0,0,0],
    "symbol1": "\u2747",
    "symbol2": "\u00d7",
-   "hide": true
- }, {
-   "id": "b71",
-   "cat": "variation",
-   "name": "verticalpathfreeze",
-   "text": "(Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
-   "color": [107,205,253],
-   "symbol1": "\ue702",
-   "hide": true
- }, {
-   "id": "b72",
-   "cat": "variation",
-   "name": "horizontalpathfreeze",
-   "text": "(Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
-   "color": [107,205,253],
-   "symbol1": "\ue700",
-   "hide": true
- }, {
-   "id": "b73",
-   "cat": "variation",
-   "name": "antidiagonalpathfreeze",
-   "text": "(Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
-   "color": [107,205,253],
-   "symbol1": "\ue701",
-   "hide": true
- }, {
-   "id": "b74",
-   "cat": "variation",
-   "name": "diagonalpathfreeze",
-   "text": "(Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
-   "color": [107,205,253],
-   "symbol1": "\ue703",
    "hide": true
  }, {
     "id": "b75",
@@ -2972,6 +2864,46 @@ MOVES = [{
    "text": "(Unblockable) Teleport or swap places with unit.",
    "color": [19,121,153],
    "hide": true
+  }, {
+   "id": "b37",
+   "cat": "exiled",
+   "name": "verticalpathmoveattackswap",
+   "text": "(Path) Move, Attack, or swap places with ally.",
+   "color": [0,0,0],
+   "color4": [255,210,0],
+   "symbol1": "\u{1f5d8}",
+   "symbol2": "\ue702",
+   "hide": true
+ }, {
+   "id": "b38",
+   "cat": "exiled",
+   "name": "horizontalpathmoveattackswap",
+   "text": "(Path) Move, Attack, or swap places with ally.",
+   "color": [0,0,0],
+   "color4": [255,210,0],
+   "symbol1": "\u{1f5d8}",
+   "symbol2": "\ue700",
+   "hide": true
+ }, {
+   "id": "b39",
+   "cat": "exiled",
+   "name": "antidiagonalpathmoveattackswap",
+   "text": "(Path) Move, Attack, or swap places with ally.",
+   "color": [0,0,0],
+   "color4": [255,210,0],
+   "symbol1": "\u{1f5d8}",
+   "symbol2": "\ue701",
+   "hide": true
+ }, {
+   "id": "b40",
+   "cat": "exiled",
+   "name": "diagonalpathmoveattackswap",
+   "text": "(Path) Move, Attack, or swap places with ally.",
+   "color": [0,0,0],
+   "color4": [255,210,0],
+   "symbol1": "\u{1f5d8}",
+   "symbol2": "\ue703",
+   "hide": true
  }, {
    "id": "z1",
    "cat": "exiled",
@@ -3277,6 +3209,74 @@ MOVES = [{
    "color": [20,151,54],
    "color3": [0,0,0],
    "symbol1": "\u{1fbd5}",
+   "hide": true
+ }, {
+    "id": "b33",
+    "cat": "deconfirmed",
+    "name": "verticalpathdestroy",
+    "text": "[DECONFIRMED - DO NOT USE] (Path, Ranged) Destroy target.",
+    "color": [255,0,0],
+    "color2": [255,255,255],
+    "symbol1": "\ue702",
+    "hide": true
+ }, {
+    "id": "b34",
+    "cat": "deconfirmed",
+    "name": "horizontalpathdestroy",
+    "text": "[DECONFIRMED - DO NOT USE] (Path, Ranged) Destroy target.",
+    "color": [255,0,0],
+    "color2": [255,255,255],
+    "symbol1": "\ue700",
+    "hide": true
+ }, {
+    "id": "b35",
+    "cat": "deconfirmed",
+    "name": "antidiagonalpathdestroy",
+    "text": "[DECONFIRMED - DO NOT USE] (Path, Ranged) Destroy target.",
+    "color": [255,0,0],
+    "color2": [255,255,255],
+    "symbol1": "\ue701",
+    "hide": true
+ }, {
+    "id": "b36",
+    "cat": "deconfirmed",
+    "name": "diagonalpathdestroy",
+    "text": "[DECONFIRMED - DO NOT USE] (Path, Ranged) Destroy target.",
+    "color": [255,0,0],
+    "color2": [255,255,255],
+    "symbol1": "\ue703",
+    "hide": true
+ }, {
+   "id": "b71",
+   "cat": "deconfirmed",
+   "name": "verticalpathfreeze",
+   "text": "[DECONFIRMED - DO NOT USE] (Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
+   "color": [107,205,253],
+   "symbol1": "\ue702",
+   "hide": true
+ }, {
+   "id": "b72",
+   "cat": "deconfirmed",
+   "name": "horizontalpathfreeze",
+   "text": "[DECONFIRMED - DO NOT USE] (Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
+   "color": [107,205,253],
+   "symbol1": "\ue700",
+   "hide": true
+ }, {
+   "id": "b73",
+   "cat": "deconfirmed",
+   "name": "antidiagonalpathfreeze",
+   "text": "[DECONFIRMED - DO NOT USE] (Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
+   "color": [107,205,253],
+   "symbol1": "\ue701",
+   "hide": true
+ }, {
+   "id": "b74",
+   "cat": "deconfirmed",
+   "name": "diagonalpathfreeze",
+   "text": "[DECONFIRMED - DO NOT USE] (Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
+   "color": [107,205,253],
+   "symbol1": "\ue703",
    "hide": true
  }, {
    "id": "c1",
