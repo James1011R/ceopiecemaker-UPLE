@@ -249,6 +249,12 @@ svg. {
 #action svg.exiled.active {
   box-shadow: 0px 0px 0px 3px rgb(204, 0, 0), 0px 0px 0px 5px rgb(136, 0, 0);
 }
+#action svg.deconfirmed {
+  box-shadow: 0px 0px 0px 3px rgb(255, 0, 0), 0px 0px 0px 5px rgb(204, 0, 204);
+}
+#action svg.deconfirmed.active {
+  box-shadow: 0px 0px 0px 3px rgb(204, 0, 0), 0px 0px 0px 5px rgb(136, 0, 136);
+}
 
 section .moves svg {
   display: none;
@@ -440,6 +446,15 @@ div.passives{
   display: none;
 }
 #action.showexiled .exiled {
+  display: block;
+}
+#action .deconfirmed {
+  display: none;
+}
+#action.show .deconfirmed {
+  display: none;
+}
+#action.showexiled .deconfirmed {
   display: block;
 }
 .cost + div > ul {
