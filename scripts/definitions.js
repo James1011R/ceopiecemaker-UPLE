@@ -3187,6 +3187,16 @@ MOVES = [{
    "symbol1": "\u25c6",
    "symbol2": "\u2b50",
    "hide": true
+}, {
+   "id": "z20",
+   "cat": "exiled",
+   "name": "unknownability",
+   "text": "?????",
+   "color": [0,0,0],
+   "color2": [0,0,0],
+   "color3": [255,255,255],
+   "symbol1": "\u2047",
+   "hide": true
  }, {
    "id": "6zz",
    "cat": "exiled",
