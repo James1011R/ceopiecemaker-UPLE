@@ -3195,7 +3195,7 @@ MOVES = [{
    "color": [0,0,0],
    "color2": [0,0,0],
    "color3": [255,255,255],
-   "symbol1": "\u2047",
+   "symbol1": "?",
    "hide": true
  }, {
    "id": "6zz",
