@@ -3065,7 +3065,7 @@ MOVES = [{
    "name": "devbotjumpswap",
    "text": "Have Devbot choose one of these (Unblockable) Move, Attack, or swap places with ally squares for you.",
    "color": [255,210,0],
-   "color3": [255,255,255],
+   "color3": [0,0,0],
    "symbol1": "\u{1cdf6}",
    "hide": true
  }, {
