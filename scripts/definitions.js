@@ -3129,6 +3129,19 @@ MOVES = [{
    "color3": [255,255,255],
    "symbol1": "?",
    "hide": true
+}, {
+   "id": "z21",
+   "cat": "exiled",
+   "name": "forbiddenresearch",
+   "text": "(Ranged) Move and Transform this ability into a random exiled ability. Discover this ability instead if you moved adjacent to a demonic unit.",
+   "color": [0,0,255],
+   "color3": [0,255,255],
+   "color4": [0,0,255],
+   "color5": [255,255,255],
+   "symbol1": "\u2316",
+   "symbol2": "\u{1f505",
+   "symbol3": "?",
+   "hide": true
  }, {
    "id": "6zz",
    "cat": "exiled",
