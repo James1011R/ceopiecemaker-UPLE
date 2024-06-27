@@ -607,7 +607,7 @@ MOVES = [{
    "symbol1": "\u{1f5d8}"
  }, {
    "id": "69a",
-   "cat": "riftsweep",
+   "cat": "preview",
    "name": "multishift",
    "text": "(Magic) Teleport all units this unit could target with this ability 2 spaces forward.",
    "color": [121,19,153],
@@ -616,21 +616,21 @@ MOVES = [{
    "hide": true
  }, {
     "id": "b76",
-    "cat": "riftsweep",
+    "cat": "preview",
     "name": "conditionalmoveattack",
     "text": "(Conditional) Move or Attack.",
     "color": [100,100,100],
     "hide": true
  }, {
     "id": "b76d",
-    "cat": "riftsweep",
+    "cat": "preview",
     "name": "conditionalattack",
     "text": "(Conditional) Attack only.",
     "color": [253,107,116],
     "hide": true
  }, {
    "id": "72a",
-   "cat": "riftsweep",
+   "cat": "preview",
    "name": "autoplant",
    "text": "(Trigger) On Kill: Summon Sapling.",
    "color": [0,101,24],
@@ -641,12 +641,37 @@ MOVES = [{
    "hide": true
  }, {
    "id": "73a",
-   "cat": "riftsweep",
+   "cat": "preview",
    "name": "frogifyonce",
    "text": "(Magic) Summon Frog or transform enemy into ally Toad, and lose this ability.",
    "color": [0,101,24],
    "color3": [0,0,0],
    "symbol1": "\uea7e",
+   "hide": true
+ }, {
+   "id": "74a",
+   "cat": "preview",
+   "name": "attach",
+   "text": "Toggle ally Attachment. Attached units move with the attaching unit.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [200,200,200],
+   "color4": [0,0,0],
+   "color5": [0,0,0],
+   "symbol1": "\u25fb",
+   "symbol2": "\u254f",
+   "symbol3": "|",
+   "hide": true
+ }, {
+   "id": "75a",
+   "cat": "preview",
+   "name": "bonepileondeath",
+   "text": "(Trigger) On Melee Death: Create BonePile in this empty location. \n(Active) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [200,200,200],
+   "color4": [0,0,0],
+   "symbol1": "\u25a4",
+   "symbol2": "\u25a1",
    "hide": true
  }, {
    "id": "0a",
