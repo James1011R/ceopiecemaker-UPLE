@@ -2510,7 +2510,7 @@ MOVES = [{
     "id": "b109",
     "cat": "pretend",
     "name": "enpassant",
-    "text": "Attack enemy unit that has used a &quot;from starting position&quot; ability, then move 1 space forward.",
+    "text": "Attack enemy unit that has used a &quot;from starting position&quot; ability last turn, then move 1 space forward.",
     "color": [100,100,100],
     "color3": [255,0,0],
     "symbol1": "\u274b",
