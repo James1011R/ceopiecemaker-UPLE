@@ -237,22 +237,22 @@ li::before,
 svg. {
   overflow-wrap: break-word;
 }
-#action svg.custom {
+#action svg.custom, .moves.gallery svg.custom {
   box-shadow: 0px 0px 0px 3px rgb(204, 255, 255), 0px 0px 0px 5px rgb(136, 204, 204);
 }
-#action svg.custom.active {
+#action svg.custom.active, .moves.gallery svg.custom.active {
   box-shadow: 0px 0px 0px 3px rgb(136, 204, 204), 0px 0px 0px 5px rgb(77, 136, 136);
 }
-#action svg.exiled {
+#action svg.exiled, .moves.gallery svg.exiled {
   box-shadow: 0px 0px 0px 3px rgb(255, 127, 127), 0px 0px 0px 5px rgb(204, 101, 101);
 }
-#action svg.exiled.active {
+#action svg.exiled.active, .moves.gallery svg.exiled.active {
   box-shadow: 0px 0px 0px 3px rgb(204, 101, 101), 0px 0px 0px 5px rgb(136, 67, 67);
 }
-#action svg.deconfirmed {
+#action svg.deconfirmed, .moves.gallery svg.deconfirmed {
   box-shadow: 0px 0px 0px 3px rgb(255, 0, 255), 0px 0px 0px 5px rgb(204, 0, 204);
 }
-#action svg.deconfirmed.active {
+#action svg.deconfirmed.active, .moves.gallery svg.deconfirmed.active {
   box-shadow: 0px 0px 0px 3px rgb(204, 0, 204), 0px 0px 0px 5px rgb(136, 0, 136);
 }
 
