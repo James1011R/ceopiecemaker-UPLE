@@ -149,10 +149,12 @@ $("#shactive").click(function() {
 $("#shexiled").click(function() {
   if (this.innerHTML.match(/Show/ig)) {
     $("#action").addClass("showexiled");
+    $(".moves.gallery").addClass("showexiled");
     $(this).text($(this).text().replace(/Show/ig, "Hide"));
     $(this).text($(this).text().replace(/not recommended/ig, "recommended"));
   } else {
     $("#action").removeClass("showexiled");
+    $(".moves.gallery").removeClass("showexiled");
     $(this).text($(this).text().replace(/Hide/ig, "Show"));
     $(this).text($(this).text().replace(/recommended/ig, "not recommended"));
   }
