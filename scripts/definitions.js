@@ -679,15 +679,6 @@ MOVES = [{
    "symbol1": "\u{1f5d8}",
    "hide": true
  }, {
-   "id": "9a",
-   "cat": "variation",
-   "name": "charmall",
-   "long": "c]ru:*minion?charm#set@ally",
-   "text": "(Magic) Charm enemy unit.",
-   "color": [255,0,255],
-   "symbol1": "\ufe62",
-   "hide": true
- }, {
    "id": "18a",
    "cat": "variation",
    "name": "protosorcerattack",
@@ -695,17 +686,6 @@ MOVES = [{
    "text": "[Pay 3]: (Magic) Sorcerize enemy unit, making them prone to melee attack from any caster's ally piece in Range 2, for 2 turns.",
    "color": [255,0,0],
    "color2": [0,0,0],
-   "symbol1": "\uffec",
-   "hide": true
- }, {
-   "id": "18b",
-   "cat": "variation",
-   "name": "protosorcerdeimmune",
-   "long": "2s]:sorcerize#flag@2(LOSEIMMUNE)",
-   "text": "[Pay 2]: Sorcerize enemy unit, making them lose any immunity for 2 turns.",
-   "color": [0,178,255],
-   "color2": [0,64,127],
-   "color3": [0,255,255],
    "symbol1": "\uffec",
    "hide": true
  }, {
@@ -753,16 +733,6 @@ MOVES = [{
    "symbol1": "\u25cb",
    "hide": true
  }, {
-   "id": "25a",
-   "cat": "variation",
-   "name": "burn",
-   "long": "bt]ru:start?attack",
-   "text": "(Magic, Trigger) Enemy Unit: Instantly destroy this target at the start of your turn.",
-   "color": [253,117,34],
-   "color3": [127,59,17],
-   "symbol1": "\uea15",
-   "hide": true
- }, {
    "id": "25b",
    "cat": "variation",
    "name": "frostburn",
@@ -784,16 +754,6 @@ MOVES = [{
    "symbol1": "\u2609",
    "symbol2": "\u{1f5d8}",
    "hide": true
- }, {
-    "id": "27b",
-    "cat": "legacy",
-    "name": "magicportal",
-    "long": "pu]ru:Aset@pos=\\this",
-    "text": "(Magic) Ability Target is teleported to this empty location.",
-    "color": [155,20,208],
-    "color2": [255,255,255],
-    "symbol1": "\u2609",
-    "hide": true
  }, {
    "id": "49a",
    "cat": "variation",
@@ -1508,16 +1468,6 @@ MOVES = [{
     "symbol2": "\u2747",
     "hide": true
  }, {
-    "id": "b13",
-    "cat": "pretend",
-    "name": "bonusmove",
-    "long": "b]mn:move&(BONUS)",
-    "text": "Move only, then take an extra turn if you haven't already taken an extra turn this move.",
-    "color": [0,0,255],
-    "color3": [255,255,255],
-    "symbol1": "\u22a1",
-    "hide": true
- }, {
     "id": "b14",
     "cat": "pretend",
     "name": "pullunder",
@@ -1583,17 +1533,6 @@ MOVES = [{
     "symbol1": "\u2316",
     "hide": true
  }, {
-    "id": "b20",
-    "cat": "pretend",
-    "name": "enchantedomniswap",
-    "long": "1bs]mu:move/*ally?swap&(thisenchant#flag@1&(ENCHANT))",
-    "text": "[Pay 1]: (Unblockable) Teleport or swap places with unit, and enchant self for 1 turn, becoming immune to melee death.",
-    "color": [0,102,255],
-    "color2": [0,0,0],
-    "color3": [0,255,255],
-    "symbol1": "\u{1f5d8}",
-    "hide": true
- }, {
     "id": "b21",
     "cat": "pretend",
     "name": "specialtykill",
@@ -1633,18 +1572,6 @@ MOVES = [{
     "color4": [58,233,93],
     "symbol1": "\u2bce",
     "symbol2": "\u2bcd",
-    "hide": true
- }, {
-    "id": "b25",
-    "cat": "pretend",
-    "name": "agility",
-    "text": "(Trigger) At the end of your turn teleport to this empty location before returning to your previous position at the end of your opponent's turn.",
-    "color": [121,19,153],
-    "color2": [255,255,255],
-    "color3": [0,127,127],
-    "color4": [121,19,153],
-    "symbol1": "\uea14",
-    "symbol2": "\u25c7",
     "hide": true
  }, {
     "id": "b26",
@@ -1706,24 +1633,6 @@ MOVES = [{
     "symbol1": "\u2655",
     "hide": true
  }, {
-    "id": "b32",
-    "cat": "pretend",
-    "name": "moraleboost",
-    "text": "[Pay 12]: (Magic) Morale Boost ally for 15 turns, making them give you 1 morale each turn.",
-    "color": [0,255,0],
-    "color2": [0,0,0],
-    "symbol1": "\ufe62",
-    "hide": true
- }, {
-    "id": "b32a",
-    "cat": "pretend",
-    "name": "valuecharge",
-    "text": "[Pay 3]: (Magic) Value Charge ally, making them gain 5 value but if they leave the board they are removed from the game.",
-    "color": [255,255,0],
-    "color2": [0,0,0],
-    "symbol1": "\ufe62",
-    "hide": true
- }, {
    "id": "b41",
    "cat": "limbo",
    "name": "jumpstart",
@@ -1741,22 +1650,6 @@ MOVES = [{
    "color": [51,153,153],
    "color2": [255,255,255],
    "symbol1": "\u2656",
-   "hide": true
- }, {
-   "id": "b43",
-   "cat": "pretend",
-   "name": "spellcharge",
-   "text": "[Pay 2]: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location.",
-   "color": [20,151,24],
-   "symbol1": "\u25c8",
-   "hide": true
- }, {
-   "id": "b43a",
-   "cat": "pretend",
-   "name": "spellchargeswap",
-   "text": "[Pay 2]: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location and swapping places with any ally on that location.",
-   "color": [255,210,0],
-   "symbol1": "\u25c8",
    "hide": true
  }, {
    "id": "b44",
@@ -1823,16 +1716,6 @@ MOVES = [{
    "symbol1": "\u{1f5d8}",
    "hide": true
  }, {
-   "id": "b50",
-   "cat": "pretend",
-   "name": "empower",
-   "text": "(Magic) Empower ally unit, allowing them to destroy an adjacent enemy unit for 3 turns.",
-   "color": [255,127,127],
-   "color2": [255,255,255],
-   "symbol1": "\u2747",
-   "symbol2": "\u26aa",
-   "hide": true
- }, {
    "id": "b51",
    "cat": "pretend",
    "name": "chill",
@@ -1841,15 +1724,6 @@ MOVES = [{
    "color2": [255,255,255],
    "color3": [0,0,255],
    "symbol1": "\u2744",
-   "hide": true
- }, {
-   "id": "b52",
-   "cat": "pretend",
-   "name": "overlap",
-   "text": "Move to location, overlapping any unit on that location until that location is unoccupied.",
-   "color": [0,0,0],
-   "color2": [255,255,255],
-   "symbol1": "\uf220",
    "hide": true
  }, {
    "id": "b53",
@@ -1915,15 +1789,6 @@ MOVES = [{
    "color4": [127,127,127],
    "symbol1": "\u2389",
    "symbol2": "\u25cb",
-   "hide": true
- }, {
-   "id": "b57",
-   "cat": "pretend",
-   "name": "jolt",
-   "text": "[Pay 1]: (Magic) Jolt enemy unit, allowing you to immediately move it to a space where it can't be targeted by you.",
-   "color": [255,196,127],
-   "color3": [255,255,0],
-   "symbol1": "\u26a1",
    "hide": true
  }, {
    "id": "b58",
@@ -2250,16 +2115,6 @@ MOVES = [{
     "color4": [255,255,255],
     "symbol1": "\uf7e3",
     "symbol2": "\u29c8",
-    "hide": true
- }, {
-    "id": "b92",
-    "cat": "pretend",
-    "name": "halfwaythunder",
-    "text": "(Magic) When this unit crosses the middle of the field any unit in the marked location is destroyed.",
-    "color": [0,0,0],
-    "color2": [255,255,255],
-    "color3": [0,127,255],
-    "symbol1": "\u{1f1ed}",
     "hide": true
  }, {
     "id": "b93",
@@ -2655,7 +2510,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b121",
-    "cat": "adoption",
+    "cat": "pretend",
     "name": "thunderjump",
     "text": "(Magic) After 4 turns any unit in the marked location is destroyed, then this unit moves or attacks to marked location.",
     "color": [0,0,0],
@@ -2666,7 +2521,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b122",
-    "cat": "adoption",
+    "cat": "pretend",
     "name": "attackandreturn",
     "text": "Attack target, then teleport back to previous location at the end of your opponent's turn.",
     "color": [252,13,27],
@@ -2676,7 +2531,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b122a",
-    "cat": "adoption",
+    "cat": "pretend",
     "name": "jumpattackandreturn",
     "text": "(Unblockable) Attack target, then teleport back to previous location at the end of your opponent's turn.",
     "color": [255,0,0],
@@ -2686,7 +2541,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b123",
-    "cat": "adoption",
+    "cat": "pretend",
     "name": "jumpthunder",
     "text": "(Unblockable) Move or Attack, and after 4 turns any unit in the marked location is destroyed.",
     "color": [20,151,24],
@@ -2695,7 +2550,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b124",
-    "cat": "adoption",
+    "cat": "pretend",
     "name": "undo",
     "text": "(Magic) Teleport unit back to their previous location.",
     "color": [12,114,80],
@@ -2703,7 +2558,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b125",
-    "cat": "adoption",
+    "cat": "pretend",
     "name": "mirrordestroy",
     "text": "(Ranged) Move this unit and target enemy together, then destroy target enemy if they can target this unit.",
     "color": [0,0,255],
@@ -2714,7 +2569,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b126",
-    "cat": "adoption",
+    "cat": "pretend",
     "name": "diagonalfreeze",
     "text": "[Pay X]: (Magic) Freeze target enemy and all units diagonally adjacent to them for 2 turns. (X = units affected)",
     "color": [107,205,253],
@@ -2726,7 +2581,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b127",
-    "cat": "adoption",
+    "cat": "pretend",
     "name": "protosorcerswap",
     "text": "(Magic) Sorcerize enemy unit, causing any attempt to target an enemy to count as swapping that enemy for 7 turns.",
     "color": [255,0,0],
@@ -2737,7 +2592,7 @@ MOVES = [{
     "hide": true
  }, {
    "id": "b128",
-   "cat": "adoption",
+   "cat": "pretend",
    "name": "masswindomniswap",
    "text": "(Unblockable) Teleport, or swap places with unit and push all units adjacent to destination up to 3 spaces away.",
    "color": [51,153,153],
@@ -2746,7 +2601,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b129",
-   "cat": "adoption",
+   "cat": "pretend",
    "name": "resetmoveset",
    "text": "[Pay 1]: (Trigger) Ally Changed Moveset: Instantly reset this target's moveset to the moveset they had from the start of the game.",
    "color": [127,64,0],
@@ -2756,7 +2611,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b130",
-   "cat": "adoption",
+   "cat": "pretend",
    "name": "transmute",
    "text": "(Magic) Transmute enemy, transforming it into the most recently fallen enemy unit.",
    "color": [0,0,0],
@@ -2767,60 +2622,8 @@ MOVES = [{
    "symbol2": "\u{1cc8a}",
    "hide": true
  }, {
-   "id": "b131",
-   "cat": "pretend",
-   "name": "anyonemoveattack",
-   "text": "Move or Attack. Anyone may use this ability.",
-   "color": [0,0,0],
-   "symbol1": "\uf803",
-   "hide": true
- }, {
-   "id": "b131a",
-   "cat": "pretend",
-   "name": "anyonemove",
-   "text": "Move only. Anyone may use this ability.",
-   "color": [0,0,255],
-   "symbol1": "\uf803",
-   "hide": true
- }, {
-   "id": "b132",
-   "cat": "pretend",
-   "name": "denyablejump",
-   "text": "(Unblockable) Move or Attack. Your opponent may spend a turn to disable this ability for 3 turns.",
-   "color": [20,151,24],
-   "color3": [0,0,0],
-   "symbol1": "\u229d",
-   "hide": true
- }, {
-   "id": "b132a",
-   "cat": "pretend",
-   "name": "denyablejumpswap",
-   "text": "(Unblockable) Move, Attack, or swap places with ally. Your opponent may spend a turn to disable this ability for 3 turns.",
-   "color": [255,210,0],
-   "color3": [0,0,0],
-   "symbol1": "\u229d",
-   "hide": true
- }, {
-   "id": "b133",
-   "cat": "pretend",
-   "name": "negatablejump",
-   "text": "(Unblockable) Move or Attack. Your opponent may spend a turn and Pay 5 to negate this ability.",
-   "color": [20,151,24],
-   "color3": [255,0,0],
-   "symbol1": "\u229d",
-   "hide": true
- }, {
-   "id": "b133a",
-   "cat": "pretend",
-   "name": "negatablejumpswap",
-   "text": "(Unblockable) Move, Attack, or swap places with ally. Your opponent may spend a turn and Pay 5 to negate this ability.",
-   "color": [255,210,0],
-   "color3": [255,0,0],
-   "symbol1": "\u229d",
-   "hide": true
- }, {
    "id": "b134",
-   "cat": "variation",
+   "cat": "pretend",
    "name": "negatingblock",
    "text": "(Passive) Block one ability from this location, negate the ability that was blocked, and lose this ability. \n(Active) Move or Attack.",
    "color": [0,0,0],
@@ -2846,6 +2649,23 @@ MOVES = [{
     "symbol1": "\u2747",
     "hide": true
  }, {
+   "id": "31b",
+   "cat": "scenario",
+   "name": "ximaera",
+   "long": "b]mu:move/*ally?swap",
+   "text": "(Unblockable) Teleport or swap places with unit.",
+   "color": [19,121,153],
+   "hide": true
+ }, {
+   "id": "9a",
+   "cat": "scenario",
+   "name": "charmall",
+   "long": "c]ru:*minion?charm#set@ally",
+   "text": "(Magic) Charm enemy unit.",
+   "color": [255,0,255],
+   "symbol1": "\ufe62",
+   "hide": true
+ }, {
    "id": "15a",
    "cat": "scenario",
    "name": "polymorphall",
@@ -2856,12 +2676,25 @@ MOVES = [{
    "symbol2": "\u00d7",
    "hide": true
  }, {
-   "id": "31b",
+   "id": "18b",
    "cat": "scenario",
-   "name": "ximaera",
-   "long": "b]mu:move/*ally?swap",
-   "text": "(Unblockable) Teleport or swap places with unit.",
-   "color": [19,121,153],
+   "name": "protosorcerdeimmune",
+   "long": "2s]:sorcerize#flag@2(LOSEIMMUNE)",
+   "text": "[Pay 2]: Sorcerize enemy unit, making them lose any immunity for 2 turns.",
+   "color": [0,178,255],
+   "color2": [0,64,127],
+   "color3": [0,255,255],
+   "symbol1": "\uffec",
+   "hide": true
+ }, {
+   "id": "25a",
+   "cat": "scenario",
+   "name": "burn",
+   "long": "bt]ru:start?attack",
+   "text": "(Magic, Trigger) Enemy Unit: Instantly destroy this target at the start of your turn.",
+   "color": [253,117,34],
+   "color3": [127,59,17],
+   "symbol1": "\uea15",
    "hide": true
   }, {
    "id": "b37",
@@ -2902,6 +2735,154 @@ MOVES = [{
    "color4": [255,210,0],
    "symbol1": "\u{1f5d8}",
    "symbol2": "\ue703",
+   "hide": true
+ }, {
+    "id": "b13",
+    "cat": "scenario",
+    "name": "bonusmove",
+    "long": "b]mn:move&(BONUS)",
+    "text": "Move only, then take an extra turn if you haven't already taken an extra turn this move.",
+    "color": [0,0,255],
+    "color3": [255,255,255],
+    "symbol1": "\u22a1",
+    "hide": true
+ }, {
+    "id": "b20",
+    "cat": "scenario",
+    "name": "enchantedomniswap",
+    "long": "1bs]mu:move/*ally?swap&(thisenchant#flag@1&(ENCHANT))",
+    "text": "[Pay 1]: (Unblockable) Teleport or swap places with unit, and enchant self for 1 turn, becoming immune to melee death.",
+    "color": [0,102,255],
+    "color2": [0,0,0],
+    "color3": [0,255,255],
+    "symbol1": "\u{1f5d8}",
+    "hide": true
+ }, {
+    "id": "b25",
+    "cat": "scenario",
+    "name": "agility",
+    "text": "(Trigger) At the end of your turn teleport to this empty location before returning to your previous position at the end of your opponent's turn.",
+    "color": [121,19,153],
+    "color2": [255,255,255],
+    "color3": [0,127,127],
+    "color4": [121,19,153],
+    "symbol1": "\uea14",
+    "symbol2": "\u25c7",
+    "hide": true
+ }, {
+    "id": "b32",
+    "cat": "scenario",
+    "name": "moraleboost",
+    "text": "[Pay 12]: (Magic) Morale Boost ally for 15 turns, making them give you 1 morale each turn.",
+    "color": [0,255,0],
+    "color2": [0,0,0],
+    "symbol1": "\ufe62",
+    "hide": true
+ }, {
+    "id": "b32a",
+    "cat": "scenario",
+    "name": "valuecharge",
+    "text": "[Pay 3]: (Magic) Value Charge ally, making them gain 5 value but if they leave the board they are removed from the game.",
+    "color": [255,255,0],
+    "color2": [0,0,0],
+    "symbol1": "\ufe62",
+    "hide": true
+ }, {
+   "id": "b43",
+   "cat": "scenario",
+   "name": "spellcharge",
+   "text": "[Pay 2]: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location.",
+   "color": [20,151,24],
+   "symbol1": "\u25c8",
+   "hide": true
+ }, {
+   "id": "b43a",
+   "cat": "scenario",
+   "name": "spellchargeswap",
+   "text": "[Pay 2]: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location and swapping places with any ally on that location.",
+   "color": [255,210,0],
+   "symbol1": "\u25c8",
+   "hide": true
+ }, {
+   "id": "b50",
+   "cat": "scenario",
+   "name": "empower",
+   "text": "(Magic) Empower ally unit, allowing them to destroy an adjacent enemy unit for 3 turns.",
+   "color": [255,127,127],
+   "color2": [255,255,255],
+   "symbol1": "\u2747",
+   "symbol2": "\u26aa",
+   "hide": true
+ }, {
+   "id": "b52",
+   "cat": "scenario",
+   "name": "overlap",
+   "text": "Move to location, overlapping any unit on that location until that location is unoccupied.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "symbol1": "\uf220",
+   "hide": true
+ }, {
+    "id": "b92",
+    "cat": "scenario",
+    "name": "halfwaythunder",
+    "text": "(Magic) When this unit crosses the middle of the field any unit in the marked location is destroyed.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "color3": [0,127,255],
+    "symbol1": "\u{1f1ed}",
+    "hide": true
+ }, {
+   "id": "b131",
+   "cat": "scenario",
+   "name": "anyonemoveattack",
+   "text": "Move or Attack. Anyone may use this ability.",
+   "color": [0,0,0],
+   "symbol1": "\uf803",
+   "hide": true
+ }, {
+   "id": "b131a",
+   "cat": "scenario",
+   "name": "anyonemove",
+   "text": "Move only. Anyone may use this ability.",
+   "color": [0,0,255],
+   "symbol1": "\uf803",
+   "hide": true
+ }, {
+   "id": "b132",
+   "cat": "scenario",
+   "name": "denyablejump",
+   "text": "(Unblockable) Move or Attack. Your opponent may spend a turn to disable this ability for 3 turns.",
+   "color": [20,151,24],
+   "color3": [0,0,0],
+   "symbol1": "\u229d",
+   "hide": true
+ }, {
+   "id": "b132a",
+   "cat": "scenario",
+   "name": "denyablejumpswap",
+   "text": "(Unblockable) Move, Attack, or swap places with ally. Your opponent may spend a turn to disable this ability for 3 turns.",
+   "color": [255,210,0],
+   "color3": [0,0,0],
+   "symbol1": "\u229d",
+   "hide": true
+ }, {
+   "id": "b133",
+   "cat": "scenario",
+   "name": "negatablejump",
+   "text": "(Unblockable) Move or Attack. Your opponent may spend a turn and Pay 5 to negate this ability.",
+   "color": [20,151,24],
+   "color3": [255,0,0],
+   "symbol1": "\u229d",
+   "hide": true
+ }, {
+   "id": "b133a",
+   "cat": "scenario",
+   "name": "negatablejumpswap",
+   "text": "(Unblockable) Move, Attack, or swap places with ally. Your opponent may spend a turn and Pay 5 to negate this ability.",
+   "color": [255,210,0],
+   "color3": [255,0,0],
+   "symbol1": "\u229d",
    "hide": true
  }, {
    "id": "z1",
@@ -3223,6 +3204,16 @@ MOVES = [{
    "symbol1": "\u{1fbd5}",
    "hide": true
  }, {
+    "id": "27b",
+    "cat": "deconfirmed",
+    "name": "magicportal",
+    "long": "pu]ru:Aset@pos=\\this",
+    "text": "(Magic) Ability Target is teleported to this empty location.",
+    "color": [155,20,208],
+    "color2": [255,255,255],
+    "symbol1": "\u2609",
+    "hide": true
+ }, {
     "id": "b33",
     "cat": "deconfirmed",
     "name": "verticalpathdestroy",
@@ -3289,6 +3280,15 @@ MOVES = [{
    "text": "(Path, Ranged) Freeze enemy unit for 3 turns, making them unable to act.",
    "color": [107,205,253],
    "symbol1": "\ue703",
+   "hide": true
+ }, {
+   "id": "b57",
+   "cat": "deconfirmed",
+   "name": "jolt",
+   "text": "[Pay 1]: (Magic) Jolt enemy unit, allowing you to immediately move it to a space where it can't be targeted by you.",
+   "color": [255,196,127],
+   "color3": [255,255,0],
+   "symbol1": "\u26a1",
    "hide": true
  }, {
    "id": "c1",
