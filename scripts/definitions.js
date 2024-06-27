@@ -2858,7 +2858,7 @@ MOVES = [{
     "hide": true
  }, {
    "id": "31b",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "ximaera",
    "long": "b]mu:move/*ally?swap",
    "text": "(Unblockable) Teleport or swap places with unit.",
@@ -2866,7 +2866,7 @@ MOVES = [{
    "hide": true
   }, {
    "id": "b37",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "verticalpathmoveattackswap",
    "text": "(Path) Move, Attack, or swap places with ally.",
    "color": [0,0,0],
@@ -2876,7 +2876,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b38",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "horizontalpathmoveattackswap",
    "text": "(Path) Move, Attack, or swap places with ally.",
    "color": [0,0,0],
@@ -2886,7 +2886,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b39",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "antidiagonalpathmoveattackswap",
    "text": "(Path) Move, Attack, or swap places with ally.",
    "color": [0,0,0],
@@ -2896,7 +2896,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b40",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "diagonalpathmoveattackswap",
    "text": "(Path) Move, Attack, or swap places with ally.",
    "color": [0,0,0],
@@ -2906,7 +2906,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z1",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "noability",
    "long": "]mn:",
    "text": "No ability.",
@@ -2915,7 +2915,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z2",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "unblockablenoability",
    "long": "]mu:",
    "text": "(Unblockable) No ability.",
@@ -2924,7 +2924,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z3",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "donothing",
    "long": "]rz:(NULL)",
    "text": "(Unstoppable) Do nothing.",
@@ -2934,7 +2934,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z4",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "randomeffect",
    "text": "(Magic) Cast random status effect on unit for 3 turns.",
    "color": [27,152,100],
@@ -2942,7 +2942,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z5",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "randomsummon",
    "text": "(Magic) Summon random unit.",
    "color": [208,88,161],
@@ -2952,7 +2952,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z6",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "chaosjump",
    "text": "(Unblockable) Teleport, or randomly either attack or swap target unit.",
    "color": [0,0,0],
@@ -2964,7 +2964,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z7",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "randomabilitydraft",
    "text": "(Magic) Convert this ability to a random ability.",
    "nobox": true,
@@ -2975,7 +2975,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z8",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "moveattackcommonorrare",
    "text": "Move or Attack Common or Rare enemy unit",
    "color": [0,0,0],
@@ -2986,7 +2986,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z9",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "destroyblock",
    "long": "bv]:block@(mn:attack)&(LOSEABILTY)/(ru:attack)",
    "text": "(Passive) Block one normal attack from this location, and lose this ability. \n(Active, Magic) Destroy target.",
@@ -2996,7 +2996,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "z10",
-    "cat": "exiled",
+    "cat": "scenario",
     "name": "goto",
     "long": "b]:move",
     "text": "Teleport self to this empty location.",
@@ -3004,7 +3004,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "z11",
-    "cat": "exiled",
+    "cat": "scenario",
     "name": "setpos",
     "long": "b]:move/attack",
     "text": "Teleport self to this empty location or attack target.",
@@ -3012,7 +3012,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "z12",
-    "cat": "exiled",
+    "cat": "scenario",
     "name": "magicmove",
     "long": "b]ru:move",
     "text": "(Magic) Move only.",
@@ -3020,7 +3020,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "z13",
-    "cat": "exiled",
+    "cat": "scenario",
     "name": "reversetimeline",
     "text": "(Magic) Remove this unit from the timeline, and revert the timeline back to the beginning.",
     "color": [200,0,255],
@@ -3030,7 +3030,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "z14",
-    "cat": "exiled",
+    "cat": "scenario",
     "name": "truemordecakek",
     "text": "Evolve this unit, destroying it once, but allowing it to use all (Evolve) Ability for this current incarnation of this Unit. Once this Ability is used, it ceases to exist on this unit, including all future incarnations.",
     "color": [0,0,0],
@@ -3040,7 +3040,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "z15",
-    "cat": "exiled",
+    "cat": "scenario",
     "name": "riftsweep",
     "text": "[Pay 2]: (Magic) Return most recently exiled ally unit at target location.",
     "color": [0,0,0],
@@ -3052,7 +3052,7 @@ MOVES = [{
     "hide": true
  }, {
    "id": "z16",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "devbotmoveattack",
    "text": "Have Devbot choose one of these Move or Attack squares for you.",
    "color": [0,0,0],
@@ -3061,7 +3061,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z16a",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "devbotjumpswap",
    "text": "Have Devbot choose one of these (Unblockable) Move, Attack, or swap places with ally squares for you.",
    "color": [255,210,0],
@@ -3070,7 +3070,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z17",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "negatazap",
    "text": "[Pay 1]: (Magic) After 6 turns any ability that could target the marked location is negated.",
    "nobox": true,
@@ -3079,7 +3079,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z18",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "ultranuanceforgrend",
    "text": "(Magic) Destroy target Angel, Demon, Behemoth, or Sorceress.",
    "color": [253,117,34],
@@ -3088,7 +3088,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "z18a",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "thenuanceistoostronge",
    "text": "(Magic) Destroy target with no status effects, gain 1 morale and enchant this unit, and then make this unit ranged-immune and magic-immune permanently.",
    "color": [253,117,34],
@@ -3097,7 +3097,7 @@ MOVES = [{
    "hide": true
 }, {
    "id": "z19",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "transformvanish",
    "text": "(Ranged) Transform enemy into an ally copy of this unit. This unit vanishes after this ability.",
    "color": [0,0,0],
@@ -3109,7 +3109,7 @@ MOVES = [{
    "hide": true
 }, {
    "id": "z19a",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "magictransformvanish",
    "text": "(Magic) Transform enemy into an ally copy of this unit. This unit vanishes after this ability.",
    "color": [0,0,0],
@@ -3121,7 +3121,7 @@ MOVES = [{
    "hide": true
 }, {
    "id": "z20",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "unknownability",
    "text": "?????",
    "color": [0,0,0],
@@ -3131,7 +3131,7 @@ MOVES = [{
    "hide": true
 }, {
    "id": "z21",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "forbiddenresearch",
    "text": "(Ranged) Move and Convert this ability into a random exiled ability. Discover this ability instead if you moved adjacent to a demonic unit.",
    "color": [0,0,255],
@@ -3144,7 +3144,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "6zz",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "jumpmove",
    "long": "b]mu:move",
    "text": "(Unblockable) Move only.",
@@ -3153,7 +3153,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "za1",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "verticalpathjump",
    "text": "(Leaping Path) Move or Attack.",
    "color": [20,151,54],
@@ -3162,7 +3162,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "za2",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "horizontalpathjump",
    "text": "(Leaping Path) Move or Attack.",
    "color": [20,151,54],
@@ -3171,7 +3171,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "za3",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "antidiagonalpathjump",
    "text": "(Leaping Path) Move or Attack.",
    "color": [20,151,54],
@@ -3180,7 +3180,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "za4",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "diagonalpathjump",
    "text": "(Leaping Path) Move or Attack.",
    "color": [20,151,54],
@@ -3189,7 +3189,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "za5",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "sharpantidiagonalpathjump",
    "text": "(Leaping Path) Move or Attack.",
    "color": [20,151,54],
@@ -3198,7 +3198,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "za6",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "flatantidiagonalpathjump",
    "text": "(Leaping Path) Move or Attack.",
    "color": [20,151,54],
@@ -3207,7 +3207,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "za7",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "flatdiagonalpathjump",
    "text": "(Leaping Path) Move or Attack.",
    "color": [20,151,54],
@@ -3216,7 +3216,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "za8",
-   "cat": "exiled",
+   "cat": "scenario",
    "name": "sharpdiagonalpathjump",
    "text": "(Leaping Path) Move or Attack.",
    "color": [20,151,54],
