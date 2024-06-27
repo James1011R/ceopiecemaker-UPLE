@@ -457,6 +457,18 @@ div.passives{
 #action.showexiled .deconfirmed {
   display: block;
 }
+.moves.gallery svg.exiled {
+  display: none;
+}
+.moves.gallery svg.exiled.showexiled {
+  display: block;
+}
+.moves.gallery svg.deconfirmed {
+  display: none;
+}
+.moves.gallery svg.deconfirmed.showexiled {
+  display: block;
+}
 .cost + div > ul {
   padding: 10px;
   width: 93%;
