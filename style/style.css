@@ -460,13 +460,13 @@ div.passives{
 .moves.gallery svg.exiled {
   display: none;
 }
-.moves.gallery svg.exiled.showexiled {
+.moves.gallery.showexiled svg.exiled {
   display: block;
 }
 .moves.gallery svg.deconfirmed {
   display: none;
 }
-.moves.gallery svg.deconfirmed.showexiled {
+.moves.gallery.showexiled svg.deconfirmed {
   display: block;
 }
 .cost + div > ul {
