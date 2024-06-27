@@ -111,7 +111,7 @@ MOVES = [{
    "symbol1": "\u00d7"
  }, {
    "id": "15",
-   "cat": "official",
+   "cat": "scenario",
    "name": "polymorph",
    "long": "c]ru:set@type=(RANDOMMINION)",
    "text": "(Magic) Polymorph target into random minion.",
@@ -120,7 +120,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "16",
-   "cat": "official",
+   "cat": "scenario",
    "name": "haul",
    "long": "c]ru:set@pos=(RANDOM)",
    "text": "(Magic) Teleport unit to random location.",
@@ -129,7 +129,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "17",
-   "cat": "official",
+   "cat": "scenario",
    "name": "teleportmasshaul",
    "long": "bc]mu:move&1(RANGE)/@set@pos=(RANDOM)",
    "text": "(Unblockable) Teleport to empty location and Mass-Teleport all adjacent units to random locations.",
@@ -139,7 +139,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "18",
-   "cat": "official",
+   "cat": "scenario",
    "name": "sorcer",
    "long": "3]",
    "text": "[Pay 3] .",
