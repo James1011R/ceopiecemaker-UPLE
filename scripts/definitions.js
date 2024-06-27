@@ -669,7 +669,7 @@ MOVES = [{
    "text": "(Trigger) On Melee Death: Create BonePile in this empty location. \n(Active) Move or Attack.",
    "color": [0,0,0],
    "color3": [200,200,200],
-   "color4": [0,0,0],
+   "color4": [127,127,127],
    "symbol1": "\u25a4",
    "symbol2": "\u25a1",
    "hide": true
