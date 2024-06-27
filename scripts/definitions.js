@@ -1430,8 +1430,7 @@ MOVES = [{
     "id": "b5",
     "cat": "pretend",
     "name": "hobble",
-    "long": "b]mf:move",
-    "text": "Move only. Blocked by threatened squares.",
+    "text": "Move only. Blocked by squares that may be Attacked by an enemy.",
     "color": [0,0,255],
     "color2": [255,255,255],
     "hide": true
@@ -1467,7 +1466,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b9",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "teledestroy",
     "long": "b]mu:move/ru:attack",
     "text": "(Unblockable) Teleport or (Magic) Destroy target.",
@@ -1557,7 +1556,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b18",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "teleportattack",
     "long": "b]mu:move/mn:attack",
     "text": "Attack or (Unblockable) Teleport.",
@@ -1566,7 +1565,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b18a",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "movejumpattack",
     "long": "b]mn:move/mu:attack",
     "text": "Move or (Unblockable) Attack.",
@@ -1575,7 +1574,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b19",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "movedestroy",
     "long": "b]mn:move/rn:attack",
     "text": "Move or (Ranged) Destroy target.",
@@ -1726,7 +1725,7 @@ MOVES = [{
     "hide": true
  }, {
    "id": "b41",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "jumpstart",
    "long": "b]mu:startpos?move/attack",
    "text": "(Unblockable) Move or Attack from starting position.",
