@@ -146,15 +146,27 @@ $("#shactive").click(function() {
   }
 });
 
-$("#shexiled").click(function() {
+$("#shscenario").click(function() {
   if (this.innerHTML.match(/Show/ig)) {
-    $("#action").addClass("showexiled");
-    $(".moves.gallery").addClass("showexiled");
+    $("#action").addClass("showscenario");
+    $(".moves.gallery").addClass("showscenario");
+    $(this).text($(this).text().replace(/Show/ig, "Hide"));
+  } else {
+    $("#action").removeClass("showscenario");
+    $(".moves.gallery").removeClass("showscenario");
+    $(this).text($(this).text().replace(/Hide/ig, "Show"));
+  }
+});
+
+$("#shdeconfirmed").click(function() {
+  if (this.innerHTML.match(/Show/ig)) {
+    $("#action").addClass("showdeconfirmed");
+    $(".moves.gallery").addClass("showdeconfirmed");
     $(this).text($(this).text().replace(/Show/ig, "Hide"));
     $(this).text($(this).text().replace(/not recommended/ig, "recommended"));
   } else {
-    $("#action").removeClass("showexiled");
-    $(".moves.gallery").removeClass("showexiled");
+    $("#action").removeClass("showdeconfirmed");
+    $(".moves.gallery").removeClass("showdeconfirmed");
     $(this).text($(this).text().replace(/Hide/ig, "Show"));
     $(this).text($(this).text().replace(/recommended/ig, "not recommended"));
   }
