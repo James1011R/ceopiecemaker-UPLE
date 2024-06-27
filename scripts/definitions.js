@@ -688,16 +688,6 @@ MOVES = [{
    "symbol1": "\ufe62",
    "hide": true
  }, {
-   "id": "15a",
-   "cat": "variation",
-   "name": "polymorphall",
-   "long": "c]ru:set@type=(RANDOM)",
-   "text": "(Magic) Polymorph target into random unit.",
-   "color": [255,0,255],
-   "symbol1": "\ufe62",
-   "symbol2": "\u00d7",
-   "hide": true
- }, {
    "id": "18a",
    "cat": "variation",
    "name": "protosorcerattack",
@@ -2856,6 +2846,16 @@ MOVES = [{
     "color2": [0,0,0],
     "symbol1": "\u2747",
     "hide": true
+ }, {
+   "id": "15a",
+   "cat": "scenario",
+   "name": "polymorphall",
+   "long": "c]ru:set@type=(RANDOM)",
+   "text": "(Magic) Polymorph target into random unit.",
+   "color": [255,0,255],
+   "symbol1": "\ufe62",
+   "symbol2": "\u00d7",
+   "hide": true
  }, {
    "id": "31b",
    "cat": "scenario",
