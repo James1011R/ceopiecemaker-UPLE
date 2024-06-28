@@ -665,7 +665,7 @@ MOVES = [{
  }, {
    "id": "75a",
    "cat": "preview",
-   "name": "bonepileondeath",
+   "name": "moveattackbonepileondeath",
    "text": "(Trigger) On Melee Death: Create BonePile in this empty location. \n(Active) Move or Attack.",
    "color": [0,0,0],
    "color3": [200,200,200],
@@ -1067,6 +1067,43 @@ MOVES = [{
    "color": [0,101,24],
    "color3": [0,255,0],
    "symbol1": "\uea7e",
+   "hide": true
+ }, {
+   "id": "74b",
+   "cat": "variation",
+   "name": "omniattach",
+   "text": "Toggle unit Attachment. Attached units move with the attaching unit.",
+   "color": [51,153,153],
+   "color2": [255,255,255],
+   "color3": [51,153,153],
+   "color4": [0,0,0],
+   "color5": [0,0,0],
+   "symbol1": "\u25fb",
+   "symbol2": "\u254f",
+   "symbol3": "|",
+   "hide": true
+ }, {
+   "id": "75b",
+   "cat": "variation",
+   "name": "movebonepileondeath",
+   "text": "(Trigger) On Melee Death: Create BonePile in this empty location. \n(Active) Move only.",
+   "color": [0,0,255],
+   "color3": [200,200,200],
+   "color4": [127,127,255],
+   "symbol1": "\u25a4",
+   "symbol2": "\u25a1",
+   "hide": true
+ }, {
+   "id": "75c",
+   "cat": "variation",
+   "name": "bonepileondeath",
+   "text": "(Trigger) On Melee Death: Create BonePile in this empty location.",
+   "color": [127,127,127],
+   "color2": [255,255,255],
+   "color3": [200,200,200],
+   "color4": [255,255,255],
+   "symbol1": "\u25a4",
+   "symbol2": "\u25a1",
    "hide": true
  }, {
    "id": "a1",
