@@ -1411,7 +1411,7 @@ MOVES = [{
    "long": "bv]:block@(m*:*)&(LOSEABILTY)/(mn:move/attack)",
    "text": "(Passive) Block one melee ability from this location, and lose this ability. \n(Active) Move or Attack.",
    "color": [0,0,0],
-   "color3": [255,0,0],
+   "color3": [255,127,127],
    "symbol1": "\u2219",
    "hide": true
  }, {
