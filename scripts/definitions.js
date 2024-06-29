@@ -825,7 +825,7 @@ MOVES = [{
    "cat": "variation",
    "name": "moveblock",
    "long": "bv]:block@(mn:attack)&(LOSEABILTY)/(mn:move)",
-   "text": "(Passive) Block one melee attack from this location, and lose this ability. \n(Active) Move only.",
+   "text": "(Passive) Block one normal attack from this location, and lose this ability. \n(Active) Move only.",
    "color": [0,0,255],
    "color3": [255,255,255],
    "symbol1": "\u2219",
@@ -1402,6 +1402,26 @@ MOVES = [{
    "text": "(Passive) Block one ability from this location, and lose this ability. \n(Active, Unblockable) Move, Attack, or swap places with ally.",
    "color": [255,210,0],
    "color3": [0,0,0],
+   "symbol1": "\u2219",
+   "hide": true
+ }, {
+   "id": "35g",
+   "cat": "variation",
+   "name": "semiblock",
+   "long": "bv]:block@(m*:*)&(LOSEABILTY)/(mn:move/attack)",
+   "text": "(Passive) Block one melee ability from this location, and lose this ability. \n(Active) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "symbol1": "\u2219",
+   "hide": true
+ }, {
+   "id": "35h",
+   "cat": "variation",
+   "name": "spellblock",
+   "long": "bv]:block@(r*:*)&(LOSEABILTY)/(mn:move/attack)",
+   "text": "(Passive) Block one Ranged or Magic ability from this location, and lose this ability. \n(Active) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [0,0,255],
    "symbol1": "\u2219",
    "hide": true
  }, {
@@ -3175,7 +3195,7 @@ MOVES = [{
    "id": "z21",
    "cat": "scenario",
    "name": "forbiddenresearch",
-   "text": "(Ranged) Move and Convert this ability into a random exiled ability. Discover this ability instead if you moved adjacent to a demonic unit.",
+   "text": "(Ranged) Move and Convert this ability into a random scenario only ability. Discover this ability instead if you moved adjacent to a demonic unit.",
    "color": [0,0,255],
    "color3": [0,255,255],
    "color4": [0,0,255],
