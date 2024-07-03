@@ -2713,6 +2713,32 @@ MOVES = [{
    "symbol1": "\u{1cc89}",
    "hide": true
  }, {
+   "id": "b135",
+   "cat": "pretend",
+   "name": "deletemoveonly",
+   "text": "(Magic) Delete enemy's Move Only and Teleport abilites.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [0,0,255],
+   "color4": [255,0,0],
+   "symbol1": "\u25aa",
+   "symbol2": "\u00d7",
+   "hide": true
+ }, {
+   "id": "b136",
+   "cat": "pretend",
+   "name": "convertswaptonoswap",
+   "text": "(Magic) Convert enemy's swap abilities into the corresponding ability without swap.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [0,0,0],
+   "color4": [255,0,0],
+   "color5": [255,0,0],
+   "symbol1": "\u{1f5d8}",
+   "symbol2": "\ue701",
+   "symbol2": "\ue703",
+   "hide": true
+ }, {
     "id": "0f",
     "cat": "variation",
     "name": "moveswapenemyattackally",
