@@ -2733,10 +2733,8 @@ MOVES = [{
    "color2": [255,255,255],
    "color3": [0,0,0],
    "color4": [255,0,0],
-   "color5": [255,0,0],
    "symbol1": "\u{1f5d8}",
-   "symbol2": "\ue701",
-   "symbol3": "\ue703",
+   "symbol2": "\ue703",
    "hide": true
  }, {
    "id": "b137",
