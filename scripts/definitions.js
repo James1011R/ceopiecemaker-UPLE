@@ -2736,7 +2736,21 @@ MOVES = [{
    "color5": [255,0,0],
    "symbol1": "\u{1f5d8}",
    "symbol2": "\ue701",
-   "symbol2": "\ue703",
+   "symbol3": "\ue703",
+   "hide": true
+ }, {
+   "id": "b137",
+   "cat": "pretend",
+   "name": "deletenonlinears",
+   "text": "(Magic) Delete enemy's moveset not on the main eight directions.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [0,0,0],
+   "color4": [0,0,0],
+   "color5": [0,0,0],
+   "symbol1": "\uea14",
+   "symbol2": "+",
+   "symbol3": "\u00d7",
    "hide": true
  }, {
     "id": "0f",
