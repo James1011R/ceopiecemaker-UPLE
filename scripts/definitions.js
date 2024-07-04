@@ -1,7 +1,7 @@
 /**Structure Explanation:
  * Name: used for CSS classes, short name. Changes flexible.
  * id  : used for Indexing/Export code. Changes kept to minimum.
- * cat : Deprecated(never used).
+ * cat : used for ability category. Valid categories are official, legacy, preview, variation, limbo, pretend, custom, scenario, and deconfirmed
  * text: In-game description.
  * Others self-explanatory.
  */
@@ -705,7 +705,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "18a",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "protosorcerattack",
    "long": "3cs]ru:sorcerize#flag@2(2(RANGE)/@+(mu:attack))",
    "text": "[Pay 3]: (Magic) Sorcerize enemy unit, making them prone to melee attack from any caster's ally piece in Range 2, for 2 turns.",
@@ -715,7 +715,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "18c",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "protosorcerenchant",
    "long": "2cs]ru:sorcerize#flag@2(t]:death?enchant#flag@2(ENCHANT))",
    "text": "[Pay 2]: (Magic) Sorcerize enemy unit, making them enchant attacker on Death in 2 turns.",
@@ -726,7 +726,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "18d",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "protosorcerdetarget",
    "long": "s]ru:sorcerize#flag@3-target",
    "text": "(Magic) Sorcerize enemy unit, making them unable to target units for 3 turns.",
@@ -1107,7 +1107,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "a1",
-   "cat": "adoption",
+   "cat": "limbo",
    "name": "flirt",
    "long": "cs]ru:flag@3&charm#set@ally",
    "text": "(Magic) Flirt with enemy minion, charming them in 3 turns.",
@@ -1116,7 +1116,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "a2",
-   "cat": "adoption",
+   "cat": "limbo",
    "name": "mutualpoison",
    "long": "s]ru:(thispoison#flag@3&attack)&poison#flag@3&attack",
    "text": "(Magic) Poison self and enemy unit, destroying them in 3 turns.",
@@ -1125,7 +1125,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "a3",
-   "cat": "adoption",
+   "cat": "limbo",
    "name": "levitate",
    "long": "s]ru:flag@2-((mn:attack)/\\mn:attack)",
    "text": "(Magic) Levitate unit for 2 turns, making them unable to use or be targeted by normal Attacks.",
@@ -1135,7 +1135,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "a4",
-   "cat": "adoption",
+   "cat": "limbo",
    "name": "notarget",
    "long": "v]:-\\**:*",
    "text": "(Passive) Can't be targeted from this location.",
@@ -1145,7 +1145,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "a5",
-   "cat": "adoption",
+   "cat": "limbo",
    "name": "replaceabilitytarget",
    "long": "m]:(REPLACEABILITYTARGET)",
    "text": "Remove this unit's other Ability Targets, then this location becomes this unit's Ability Target.",
@@ -1155,7 +1155,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "a6",
-   "cat": "adoption",
+   "cat": "limbo",
    "name": "jumpallymoveattack",
    "long": "b]m(ALLYUNBLOCKABLE)n:move/attack",
    "text": "Move or Attack. Cannot be blocked by Ally units.",
@@ -1165,7 +1165,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "a7",
-   "cat": "adoption",
+   "cat": "limbo",
    "name": "demote",
    "long": "3c]ru:set@type=(DEMOTION)",
    "text": "[Pay 3]: (Magic) Demote enemy champion, transforming them into their minion counterpart, if possible.",
@@ -1175,7 +1175,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "a8",
-   "cat": "adoption",
+   "cat": "limbo",
    "name": "backtech",
    "long": "1cs]ru:flag@3(t](\targeted)?mn:move@1(TOHOME))",
    "text": "[Pay 1]: (Magic) Back-tech unit, making them move 1 square in the opposite direction of target after targeting enemy for 3 turns.",
@@ -1470,7 +1470,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b5",
-    "cat": "pretend",
+    "cat": "limbo",
     "name": "hobble",
     "text": "Move only. Blocked by squares that may be Attacked by an enemy.",
     "color": [0,0,255],
@@ -1529,7 +1529,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b11",
-    "cat": "pretend",
+    "cat": "limbo",
     "name": "bullrush",
     "long": "c]mn:push#\\(mn:move@3(AWAY))",
     "text": "Move to unit and push them up to 3 spaces away.",
@@ -1771,7 +1771,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b47",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "attackany",
    "text": "Attack enemy or ally.",
    "color": [255,0,0],
@@ -1780,7 +1780,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b48",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "jumpattackany",
    "text": "(Unblockable) Attack enemy or ally.",
    "color": [127,0,0],
@@ -1882,7 +1882,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b59",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "jumponce",
    "text": "(Unblockable) Move or Attack, and lose this ability.",
    "color": [20,151,24],
@@ -1938,7 +1938,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b65",
-   "cat": "pretend",
+   "cat": "limbo",
    "name": "jumplose",
    "text": "[Lose 1]: (Unblockable) Move or Attack.",
    "color": [20,151,24],
@@ -1947,7 +1947,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b65a",
-   "cat": "pretend",
+   "cat": "limbo",
    "name": "jumpswaplose",
    "text": "[Lose 1]: (Unblockable) Move, Attack, or swap places with ally.",
    "color": [255,210,0],
@@ -2016,42 +2016,42 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b76a",
-    "cat": "limbo",
+    "cat": "variation",
     "name": "conditionaljump",
     "text": "(Unblockable, Conditional) Move or Attack.",
     "color": [112,173,114],
     "hide": true
  }, {
     "id": "b76b",
-    "cat": "limbo",
+    "cat": "variation",
     "name": "conditionalmagic",
     "text": "(Magic, Conditional) Destroy target.",
     "color": [254,171,120],
     "hide": true
  }, {
     "id": "b76c",
-    "cat": "limbo",
+    "cat": "variation",
     "name": "conditionalmove",
     "text": "(Conditional) Move only.",
     "color": [100,100,255],
     "hide": true
  }, {
     "id": "b76e",
-    "cat": "limbo",
+    "cat": "variation",
     "name": "conditionalteleport",
     "text": "(Unblockable, Conditional) Teleport.",
     "color": [173,111,193],
     "hide": true
  }, {
     "id": "b76f",
-    "cat": "limbo",
+    "cat": "variation",
     "name": "conditionaljumpswap",
     "text": "(Unblockable, Conditional) Move, Attack, or swap places with ally.",
     "color": [255,228,100],
     "hide": true
  }, {
     "id": "b76g",
-    "cat": "limbo",
+    "cat": "variation",
     "name": "conditionalshoot",
     "text": "(Ranged, Conditional) Destroy target.",
     "color": [255,100,100],
@@ -2522,7 +2522,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "b115",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "charmdestroy",
     "text": "(Magic) Charm enemy minion, or destroy enemy non-minion.",
     "color": [253,117,34],
@@ -2752,7 +2752,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "0f",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "moveswapenemyattackally",
     "text": "Move, Attack ally, or swap places with enemy.",
     "color": [255,210,0],
@@ -2761,7 +2761,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "0g",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "teleportswapenemyjumpattackally",
     "text": "(Unblockable) Teleport, Attack ally, or swap places with enemy.",
     "color": [51,153,153],
