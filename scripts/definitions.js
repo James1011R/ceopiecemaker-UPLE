@@ -959,7 +959,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "60b",
-    "cat": "limbo",
+    "cat": "legacy",
     "name": "leapmove",
     "text": "Move or Leap-Attack.",
     "color": [0,0,255],
@@ -978,7 +978,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "60d",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "leapmoveattack",
     "text": "Move or Leap-Attack, or Attack if Leap-Attack isn't possible.",
     "color": [0,0,0],
@@ -987,7 +987,7 @@ MOVES = [{
     "hide": true
   }, {
     "id": "60e",
-    "cat": "variation",
+    "cat": "limbo",
     "name": "chainleapmoveattack",
     "text": "(Unblockable) Move or Begin Leap-Attack chain, landing one space over the enemy and repeating consecutively in the same direction; or Attack if Leap-Attack isn't possible.",
     "color": [0,0,0],
@@ -1773,7 +1773,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b46",
-   "cat": "pretend",
+   "cat": "limbo",
    "name": "moveleapmove",
    "text": "Move or Leap-Move.",
    "color": [0,0,255],
