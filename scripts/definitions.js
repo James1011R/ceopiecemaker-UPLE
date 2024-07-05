@@ -938,7 +938,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "48a",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "wisp",
    "long": "t]:targeted:(REFLECT)",
    "text": "(Passive) On Target from this location: Reflect ability.",
@@ -1368,7 +1368,7 @@ MOVES = [{
  }, {
    "id": "35c",
    "cat": "limbo",
-   "name": "omniblock",
+   "name": "",
    "long": "bv]:block@(**:*)&(LOSEABILTY)/(mn:move/attack)",
    "text": "(Passive) Block one ability from this location, and lose this ability. \n(Active) Move or Attack.",
    "color": [0,0,0],
@@ -1396,7 +1396,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "35f",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "jumpswapomniblock",
    "long": "bv]:block@(**:*)&(LOSEABILTY)/(mu:move/attack/swap)",
    "text": "(Passive) Block one ability from this location, and lose this ability. \n(Active, Unblockable) Move, Attack, or swap places with ally.",
