@@ -737,7 +737,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "19a",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "magicenchant",
    "long": "s]ru:ally?enchant#flag@2(ENCHANT)@(r*:attack)",
    "text": "(Magic) Enchant ally, making them immune to Magic and Ranged attacks for 2 turns.",
@@ -748,7 +748,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "19b",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "omnienchant",
    "long": "3s]ru:ally?enchant#flag@2(ENCHANT)@(**:attack)",
    "text": "[Pay 3]: (Magic) Enchant ally, making them immune to enemy abilities or attacks for 2 turns.",
@@ -759,7 +759,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "25b",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "frostburn",
    "long": "st]ru:start?attack#flag@1-move",
    "text": "(Magic, Trigger) Enemy Unit: Instantly freeze this target for 1 turn at the start of your turn.",
@@ -832,7 +832,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "35b",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "rangedblock",
    "long": "bv]:block@(rn:attack)&(LOSEABILTY)/(mn:move/attack)",
    "text": "(Passive) Block one ranged destroy from this location, and lose this ability. \n(Active) Move or Attack.",
@@ -959,7 +959,7 @@ MOVES = [{
    "hide": true
  }, {
     "id": "60b",
-    "cat": "legacy",
+    "cat": "limbo",
     "name": "leapmove",
     "text": "Move or Leap-Attack.",
     "color": [0,0,255],
@@ -1070,7 +1070,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "74b",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "omniattach",
    "text": "Toggle unit Attachment. Attached units move with the attaching unit.",
    "color": [51,153,153],
@@ -1285,7 +1285,7 @@ MOVES = [{
     "hide": true
  }, {
    "id": "50a",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "reversecompel",
    "long": "cs]rn:compel#flag@2(ct]start?mn:move@1(AWAY)",
    "text": "(Ranged) Compel enemy unit, making them move away from the direction of this ability at the start of their turn, for 3 turns.",
@@ -1317,7 +1317,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "67a",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "antigravitywell",
    "text": "[Pay 2]: (Magic) Create antigravity well at target location, pushing away all units that are directly 2 spaces away 1 space away.",
    "color": [0,0,0],
@@ -1367,7 +1367,7 @@ MOVES = [{
     "hide": true
  }, {
    "id": "35c",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "omniblock",
    "long": "bv]:block@(**:*)&(LOSEABILTY)/(mn:move/attack)",
    "text": "(Passive) Block one ability from this location, and lose this ability. \n(Active) Move or Attack.",
@@ -1406,7 +1406,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "35g",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "semiblock",
    "long": "bv]:block@(m*:*)&(LOSEABILTY)/(mn:move/attack)",
    "text": "(Passive) Block one melee ability from this location, and lose this ability. \n(Active) Move or Attack.",
@@ -1416,7 +1416,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "35h",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "spellblock",
    "long": "bv]:block@(r*:*)&(LOSEABILTY)/(mn:move/attack)",
    "text": "(Passive) Block one Ranged or Magic ability from this location, and lose this ability. \n(Active) Move or Attack.",
@@ -1539,6 +1539,17 @@ MOVES = [{
     "symbol1": "\u25fd",
     "hide": true
  }, {
+    "id": "b11a",
+    "cat": "limbo",
+    "name": "jumpbullrush",
+    "long": "c]mu:push#\\(mu:move@3(AWAY))",
+    "text": "(Unblockable) Teleport to unit and push them up to 3 spaces away.",
+    "color": [218,87,40],
+    "color2": [255,200,200],
+    "symbol1": "\u25cb",
+    "symbol2": "\u2742",
+    "hide": true
+ }, {
     "id": "b12",
     "cat": "pretend",
     "name": "locationblock",
@@ -1570,7 +1581,7 @@ MOVES = [{
     "hide": true
  }, {
     "id": "b16",
-    "cat": "pretend",
+    "cat": "limbo",
     "name": "dummypolymorph",
     "text": "(Magic) Transform minion or champion into Dummy.",
     "color": [255,255,0],
@@ -1725,7 +1736,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b42",
-   "cat": "variation",
+   "cat": "limbo",
    "name": "omnicastle",
    "long": "c]:*ally?swap&(MOVETOGETHER)",
    "text": "(Unblockable) Swap places with unit, then move this unit and target unit together.",
