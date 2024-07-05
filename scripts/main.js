@@ -109,6 +109,8 @@ preloadSpells();
 
 for (var i = 0; i < MOVES.length; i++) {
   var className = MOVES[i].name;
+  if (MOVES[i].cat == "limbo") className += " limbo";
+  if (MOVES[i].cat == "pretend") className += " pretend";
   if (MOVES[i].cat == "custom") className += " custom";
   if (MOVES[i].cat == "scenario") className += " scenario";
   if (MOVES[i].cat == "deconfirmed") className += " deconfirmed";
