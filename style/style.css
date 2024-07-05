@@ -237,6 +237,18 @@ li::before,
 svg. {
   overflow-wrap: break-word;
 }
+#action svg.limbo, .moves.gallery svg.limbo {
+  box-shadow: 0px 0px 0px 3px rgb(255, 255, 220), 0px 0px 0px 5px rgb(204, 204, 160);
+}
+#action svg.limbo.active, .moves.gallery svg.limbo.active {
+  box-shadow: 0px 0px 0px 3px rgb(204, 204, 160), 0px 0px 0px 5px rgb(136, 136, 100);
+}
+#action svg.pretend, .moves.gallery svg.pretend {
+  box-shadow: 0px 0px 0px 3px rgb(220, 255, 220), 0px 0px 0px 5px rgb(160, 204, 160);
+}
+#action svg.pretend.active, .moves.gallery svg.pretend.active {
+  box-shadow: 0px 0px 0px 3px rgb(160, 204, 160), 0px 0px 0px 5px rgb(100, 136, 100);
+}
 #action svg.custom, .moves.gallery svg.custom {
   box-shadow: 0px 0px 0px 3px rgb(204, 255, 255), 0px 0px 0px 5px rgb(136, 204, 204);
 }
