@@ -1368,7 +1368,7 @@ MOVES = [{
  }, {
    "id": "35c",
    "cat": "limbo",
-   "name": "",
+   "name": "omniblock",
    "long": "bv]:block@(**:*)&(LOSEABILTY)/(mn:move/attack)",
    "text": "(Passive) Block one ability from this location, and lose this ability. \n(Active) Move or Attack.",
    "color": [0,0,0],
