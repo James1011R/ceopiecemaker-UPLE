@@ -631,8 +631,8 @@ MOVES = [{
  }, {
    "id": "72a",
    "cat": "preview",
-   "name": "autoplant",
-   "text": "(Trigger) On Kill: Summon Sapling.",
+   "name": "autoplantonce",
+   "text": "(Trigger) On Melee Kill: Summon Sapling into this empty location, and lose this ability.",
    "color": [0,101,24],
    "color3": [0,0,0],
    "color4": [0,0,0],
@@ -1058,6 +1058,17 @@ MOVES = [{
    "color2": [255,255,255],
    "color3": [153,153,153],
    "symbol1": "\uea81",
+   "hide": true
+ }, {
+   "id": "72b",
+   "cat": "variation",
+   "name": "autoplant",
+   "text": "(Trigger) On Kill: Summon Sapling.",
+   "color": [0,101,24],
+   "color3": [0,255,0],
+   "color4": [0,255,0],
+   "symbol1": "\u2295",
+   "symbol2": "\u2297",
    "hide": true
  }, {
    "id": "73b",
@@ -3422,6 +3433,15 @@ MOVES = [{
    "symbol1": "\u26a1",
    "hide": true
  }, {
+   "id": "y1",
+   "cat": "deconfirmed",
+   "name": "batswarm",
+   "text": "(Unstoppable, AOE) Transform into a swarm of bats.",
+   "color": [255,0,0],
+   "color2": [255,255,255],
+   "symbol1": "\ue903",
+   "hide": true
+ }, {
    "id": "c1",
    "cat": "custom",
    "name": "custom1",
@@ -3665,6 +3685,8 @@ PASSIVES = ["Does not block movement.",
     "Cannot move until turn 3.",
     "Condition: You have no King.",
     "Condition: edit this text",
+    "On Death: Ally King gains 3 turns of enchantment.",
+    "On Spawn: Adjacent ally minions gain 2 turns of enchantment.",
     "Combo (When a combo unit acts, change ally combo abilities to their counterparts for 1 turn)"
 ];
 LABELS = {
