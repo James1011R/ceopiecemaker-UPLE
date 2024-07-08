@@ -749,7 +749,7 @@ MOVES = [{
  }, {
    "id": "19b",
    "cat": "limbo",
-   "name": "",
+   "name": "omnienchant",
    "long": "3s]ru:ally?enchant#flag@2(ENCHANT)@(**:attack)",
    "text": "[Pay 3]: (Magic) Protect ally, making them immune to enemy abilities or attacks for 2 turns.",
    "color": [208,208,127],
