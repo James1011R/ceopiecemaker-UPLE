@@ -749,7 +749,7 @@ MOVES = [{
  }, {
    "id": "19b",
    "cat": "limbo",
-   "name": "omnienchant",
+   "name": "",
    "long": "3s]ru:ally?enchant#flag@2(ENCHANT)@(**:attack)",
    "text": "[Pay 3]: (Magic) Protect ally, making them immune to enemy abilities or attacks for 2 turns.",
    "color": [208,208,127],
@@ -2797,7 +2797,6 @@ MOVES = [{
    "cat": "pretend",
    "name": "omnienchantondeath",
    "text": "(Trigger) On Death: Ally unit gains 1 turn of protection. ",
-   "hide": true
    "color": [208,208,127],
    "color2": [0,0,0],
    "color3": [255,255,255],
