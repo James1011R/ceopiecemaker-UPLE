@@ -738,9 +738,9 @@ MOVES = [{
  }, {
    "id": "19a",
    "cat": "limbo",
-   "name": "magicenchant",
+   "name": "spellenchant",
    "long": "s]ru:ally?enchant#flag@2(ENCHANT)@(r*:attack)",
-   "text": "(Magic) Enchant ally, making them immune to Magic and Ranged attacks for 2 turns.",
+   "text": "(Magic) Ward ally, making them immune to Magic and Ranged abilities for 2 turns.",
    "color": [255,102,0],
    "color2": [0,0,0],
    "color3": [255,178,0],
@@ -751,7 +751,7 @@ MOVES = [{
    "cat": "limbo",
    "name": "omnienchant",
    "long": "3s]ru:ally?enchant#flag@2(ENCHANT)@(**:attack)",
-   "text": "[Pay 3]: (Magic) Enchant ally, making them immune to enemy abilities or attacks for 2 turns.",
+   "text": "[Pay 3]: (Magic) Protect ally, making them immune to enemy abilities or attacks for 2 turns.",
    "color": [208,208,127],
    "color2": [0,0,0],
    "color3": [255,255,255],
@@ -2773,6 +2773,37 @@ MOVES = [{
    "symbol3": "\u00d7",
    "hide": true
  }, {
+   "id": "b138",
+   "cat": "pretend",
+   "name": "enchantondeath",
+   "text": "(Trigger) On Death: Ally unit gains 1 turn of enchantment. ",
+   "color": [0,102,255],
+   "color2": [0,0,0],
+   "color3": [0,255,255],
+   "symbol1": "\uea3a",
+   "hide": true
+ }, {
+   "id": "b138a",
+   "cat": "pretend",
+   "name": "spellenchantondeath",
+   "text": "(Trigger) On Death: Ally unit gains 1 turn of warding. ",
+   "color": [255,102,0],
+   "color2": [0,0,0],
+   "color3": [255,178,0],
+   "symbol1": "\uea3a",
+   "hide": true
+ }, {
+   "id": "b138b",
+   "cat": "pretend",
+   "name": "omnienchantondeath",
+   "text": "(Trigger) On Death: Ally unit gains 1 turn of protection. ",
+   "hide": true
+   "color": [208,208,127],
+   "color2": [0,0,0],
+   "color3": [255,255,255],
+   "symbol1": "\uea3a",
+   "hide": true
+ }, {
     "id": "0f",
     "cat": "limbo",
     "name": "moveswapenemyattackally",
@@ -3687,6 +3718,7 @@ PASSIVES = ["Does not block movement.",
     "Condition: edit this text",
     "On Death: Ally King gains 3 turns of enchantment.",
     "On Spawn: Adjacent ally minions gain 2 turns of enchantment.",
+    "On Death: Adjacent ally units gain 1 turn of protection.",
     "Combo (When a combo unit acts, change ally combo abilities to their counterparts for 1 turn)"
 ];
 LABELS = {
