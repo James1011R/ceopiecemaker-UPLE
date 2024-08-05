@@ -1519,7 +1519,7 @@ MOVES = [{
     "id": "b7b",
     "cat": "pretend",
     "name": "protosorcersoulkeep",
-    "text": "(Magic) Weaken enemy unit, causing them to be transformed into a Ghost if targeted for 3 turns.",
+    "text": "(Magic) Weaken enemy unit, causing them to be transformed into a caster's ally Ghost if targeted for 3 turns.",
     "color": [0,255,0],
     "color2": [0,0,0],
     "symbol1": "\ue900",
