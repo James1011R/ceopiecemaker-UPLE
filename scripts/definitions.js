@@ -708,7 +708,7 @@ MOVES = [{
    "cat": "limbo",
    "name": "protosorcerattack",
    "long": "s]ru:sorcerize#flag@2(2(RANGE)/@+(mu:attack))",
-   "text": "(Magic) Sorcerize enemy unit, making them prone to melee attack from any caster's ally piece in Range 2, for 2 turns.",
+   "text": "(Magic) Sorcerize enemy unit, making them prone to melee attack from any caster's ally unit in Range 2, for 3 turns.",
    "color": [255,0,0],
    "color2": [0,0,0],
    "symbol1": "\uffec",
@@ -718,7 +718,7 @@ MOVES = [{
    "cat": "limbo",
    "name": "protosorcerenchant",
    "long": "s]ru:sorcerize#flag@2(t]:death?enchant#flag@2(ENCHANT))",
-   "text": "(Magic) Sorcerize enemy unit, making them enchant attacker on Death in 2 turns.",
+   "text": "(Magic) Sorcerize enemy unit, making them enchant attacker on Death for 2 turns.",
    "color": [0,255,255],
    "color2": [0,127,127],
    "symbol1": "\uffec",
@@ -731,7 +731,7 @@ MOVES = [{
    "text": "(Magic) Sorcerize enemy unit, making them unable to target units for 3 turns.",
    "color": [255,0,255],
    "color2": [127,0,127],
-   "symbol1": "\u00d7",
+   "symbol1": "\uffec",
    "hide": true
  }, {
    "id": "19a",
@@ -2839,6 +2839,15 @@ MOVES = [{
     "text": "(Magic) Break enemy unit, causing attacks on that unit to not move the attacking unit for 3 turns.",
     "color": [255,255,0],
     "color2": [127,127,0],
+    "symbol1": "\uffec",
+    "hide": true
+ }, {
+    "id": "b141",
+    "cat": "pretend",
+    "name": "protosorcerhex",
+    "text": "(Magic) Hex enemy unit, causing them to be destroyed if any caster's ally unit moves adjacent to them within 3 turns.",
+    "color": [0,127,255],
+    "color2": [0,64,127],
     "symbol1": "\uffec",
     "hide": true
  }, {
