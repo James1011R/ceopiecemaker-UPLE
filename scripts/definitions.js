@@ -175,7 +175,7 @@ MOVES = [{
    "long": "b]mu:startpos?move",
    "text": "(Unblockable) Teleport from starting position.",
    "color": [121,19,153],
-   "color": [220,161,255],
+   "color2": [220,161,255],
    "symbol1": "\u274b"
  }, {
    "id": "22",
