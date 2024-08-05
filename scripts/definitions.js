@@ -1783,7 +1783,7 @@ MOVES = [{
    "text": "(Unblockable) Teleport or swap places with ally from starting position.",
    "color": [121,19,153],
    "color2": [220,161,255],
-   "color3": [255,210,0],
+   "color3": [0,0,0],
    "symbol1": "\u274b",
    "hide": true
  }, {
@@ -1794,6 +1794,7 @@ MOVES = [{
    "text": "(Unblockable) Teleport or swap places with unit from starting position.",
    "color": [51,153,153],
    "color2": [161,255,255],
+   "color3": [0,0,0],
    "symbol1": "\u274b",
    "hide": true
  }, {
