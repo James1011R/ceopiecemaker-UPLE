@@ -1804,7 +1804,7 @@ MOVES = [{
    "long": "b]mu:startpos?attack",
    "text": "(Unblockable) Attack from starting position.",
    "color": [255,0,0],
-   "color2": [200,50,50],
+   "color2": [100,0,0],
    "symbol1": "\u274b",
    "hide": true
  }, {
@@ -3424,6 +3424,16 @@ MOVES = [{
    "text": "(Unblockable) Move only.",
    "color": [0,0,255],
    "color2": [0,0,127],
+   "hide": true
+ }, {
+   "id": "b41zz",
+   "cat": "scenario",
+   "name": "jumpmovestart",
+   "long": "b]mu:startpos?move",
+   "text": "(Unblockable) Move from starting position.",
+   "color": [0,0,255],
+   "color2": [0,0,100],
+   "symbol1": "\u274b",
    "hide": true
  }, {
    "id": "za1",
