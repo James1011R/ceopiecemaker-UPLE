@@ -1812,7 +1812,7 @@ MOVES = [{
    "cat": "limbo",
    "name": "moveattackstart",
    "long": "b]mn:startpos?move/attack",
-   "text": "Move or attack from starting position.",
+   "text": "Move or Attack from starting position.",
    "color": [0,0,0],
    "color2": [161,161,161],
    "symbol1": "\u274b",
