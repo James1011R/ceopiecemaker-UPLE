@@ -719,9 +719,8 @@ MOVES = [{
    "name": "protosorcerenchant",
    "long": "s]ru:sorcerize#flag@2(t]:death?enchant#flag@2(ENCHANT))",
    "text": "(Magic) Sorcerize enemy unit, making them enchant attacker on Death in 2 turns.",
-   "color": [0,178,255],
-   "color2": [0,0,0],
-   "color3": [0,255,255],
+   "color": [0,255,255],
+   "color2": [0,127,127],
    "symbol1": "\uffec",
    "hide": true
  }, {
@@ -730,9 +729,8 @@ MOVES = [{
    "name": "protosorcerdetarget",
    "long": "s]ru:sorcerize#flag@3-target",
    "text": "(Magic) Sorcerize enemy unit, making them unable to target units for 3 turns.",
-   "color": [0,178,255],
-   "color2": [0,0,0],
-   "color3": [0,255,255],
+   "color": [255,0,255],
+   "color2": [127,0,127],
    "symbol1": "\u00d7",
    "hide": true
  }, {
@@ -1490,7 +1488,7 @@ MOVES = [{
  }, {
     "id": "b6",
     "cat": "pretend",
-    "name": "protosorcertarget",
+    "name": "enrage",
     "long": "s]ru:sorcerize#flag@3-!(target?!ally)",
     "text": "(Magic) Enrage enemy unit, forcing them to target enemy units if they are capable of targeting any for 3 turns.",
     "color": [255,0,0],
@@ -1503,8 +1501,8 @@ MOVES = [{
     "name": "protosorcerweaken",
     "long": "cs]ru:sorcerize#flag@3(t]:targeted?block@(**:*)&thisattack)",
     "text": "(Magic) Weaken enemy unit, causing abilities targeting that unit to attack or destroy that unit for 3 turns.",
-    "color": [0,0,255],
-    "color2": [0,0,0],
+    "color": [0,255,0],
+    "color2": [0,127,0],
     "symbol1": "\uffec",
     "hide": true
  }, {
@@ -1513,7 +1511,7 @@ MOVES = [{
     "name": "protosorcerdestroy",
     "long": "cs]ru:sorcerize#flag@3(t]:targeted?block@(**:*)&thisattack)",
     "text": "(Magic) Weaken enemy unit, causing them to be destroyed if targeted for 3 turns.",
-    "color": [0,0,255],
+    "color": [0,255,0],
     "color2": [0,0,0],
     "symbol1": "\uffec",
     "hide": true
@@ -2698,9 +2696,9 @@ MOVES = [{
     "cat": "pretend",
     "name": "protosorcerswap",
     "text": "(Magic) Sorcerize enemy unit, causing any attempt to target an enemy to count as swapping that enemy for 7 turns.",
-    "color": [255,0,0],
+    "color": [255,127,0],
     "color2": [0,0,0],
-    "color4": [127,0,0],
+    "color4": [127,64,0],
     "symbol1": "\u{1f5d8}",
     "symbol2": "\uffec",
     "hide": true
@@ -2839,11 +2837,9 @@ MOVES = [{
     "cat": "pretend",
     "name": "protosorcerbreak",
     "text": "(Magic) Break enemy unit, causing attacks on that unit to not move the attacking unit for 3 turns.",
-    "color": [0,0,0],
-    "color2": [0,127,0],
-    "color3": [0,255,0],
-    "color4": [0,255,0],
-    "symbol1": "\u23ea",
+    "color": [255,255,0],
+    "color2": [127,127,0],
+    "symbol1": "\uffec",
     "hide": true
  }, {
     "id": "0f",
