@@ -83,7 +83,8 @@ MOVES = [{
    "name": "movestart",
    "long": "b]mn:startpos?move",
    "text": "Move from starting position.",
-   "color": [11,36,251],
+   "color": [0,0,255],
+   "color2": [161,161,255],
    "symbol1": "\u274b"
  }, {
    "id": "12",
@@ -174,6 +175,7 @@ MOVES = [{
    "long": "b]mu:startpos?move",
    "text": "(Unblockable) Teleport from starting position.",
    "color": [121,19,153],
+   "color": [220,161,255],
    "symbol1": "\u274b"
  }, {
    "id": "22",
@@ -1760,6 +1762,38 @@ MOVES = [{
    "long": "b]mu:startpos?move/attack",
    "text": "(Unblockable) Move or Attack from starting position.",
    "color": [20,151,24],
+   "color2": [161,255,161],
+   "symbol1": "\u274b",
+   "hide": true
+ }, {
+   "id": "b41a",
+   "cat": "limbo",
+   "name": "jumpswapstart",
+   "long": "b]mu:startpos?move/attack",
+   "text": "(Unblockable) Move, Attack, or swap places with ally from starting position.",
+   "color": [255,210,0],
+   "color2": [255,255,161],
+   "symbol1": "\u274b",
+   "hide": true
+ }, {
+   "id": "b41b",
+   "cat": "limbo",
+   "name": "teleportswapstart",
+   "long": "b]mu:startpos?move/attack",
+   "text": "(Unblockable) Teleport or swap places with ally from starting position.",
+   "color": [121,19,153],
+   "color2": [220,161,255],
+   "color3": [255,210,0],
+   "symbol1": "\u274b",
+   "hide": true
+ }, {
+   "id": "b41c",
+   "cat": "limbo",
+   "name": "omniswapstart",
+   "long": "b]mu:startpos?move/attack",
+   "text": "(Unblockable) Teleport or swap places with unit from starting position.",
+   "color": [51,153,153],
+   "color2": [161,255,255],
    "symbol1": "\u274b",
    "hide": true
  }, {
