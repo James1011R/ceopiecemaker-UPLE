@@ -3775,6 +3775,10 @@ PASSIVES = ["Does not block movement.",
     "On Death: Ally King gains 3 turns of enchantment.",
     "On Spawn: Adjacent ally minions gain 2 turns of enchantment.",
     "On Death: Adjacent ally units gain 1 turn of protection.",
+    "Adjacent enemy units can't move passively.",
+    "Adjacent enemy units can't attack.",
+    "Adjacent enemy units can't move or attack.",
+    "Adjacent enemy units can't act.",
     "Combo (When a combo unit acts, change ally combo abilities to their counterparts for 1 turn)"
 ];
 LABELS = {
