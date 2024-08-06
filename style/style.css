@@ -69,7 +69,7 @@ li {
   left:0;
 }
 .panel{
-  padding:10px;
+  padding:10px 10px 20px 10px;
   border: 2px solid black;
   font-family: lithos;
   background: rgba(255, 255, 255, 0.8) none repeat scroll 0% 0%;
@@ -584,7 +584,7 @@ nav {
 #controls {
   width: 18%;
   min-width: 320px;
-  height: 100vh;
+  height: 95vh;
   position: fixed;
   right: 0;
   z-index: 4;
