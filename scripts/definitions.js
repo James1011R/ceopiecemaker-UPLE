@@ -1553,7 +1553,7 @@ MOVES = [{
     "long": "b]mu:move/swap/ru:attack",
     "text": "(Unblockable) Teleport or swap places with ally or (Magic) Destroy target.",
     "color": [253,117,34],
-    "color3": [255,210,0],
+    "color3": [255,255,127],
     "symbol1": "\u25aa",
     "hide": true
  }, {
@@ -1663,7 +1663,7 @@ MOVES = [{
     "text": "(Normal) Attack or (Unblockable) Teleport or swap places with ally.",
     "color": [121,19,153],
     "color2": [252,13,27],
-    "color3": [0,0,0],
+    "color3": [255,255,255],
     "symbol1": "\u{1f5d8}",
     "hide": true
  }, {
@@ -1674,7 +1674,7 @@ MOVES = [{
     "text": "(Normal) Move or swap places with ally or (Unblockable) Attack.",
     "color": [0,0,255],
     "color2": [127,0,0],
-    "color3": [0,0,0],
+    "color3": [255,255,255],
     "symbol1": "\u{1f5d8}",
     "hide": true
  }, {
