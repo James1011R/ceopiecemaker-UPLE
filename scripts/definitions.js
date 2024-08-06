@@ -1539,11 +1539,21 @@ MOVES = [{
  }, {
     "id": "b9",
     "cat": "limbo",
-    "name": "teledestroy",
+    "name": "teleportdestroy",
     "long": "b]mu:move/ru:attack",
     "text": "(Unblockable) Teleport or (Magic) Destroy target.",
     "color": [253,117,34],
     "color3": [121,19,153],
+    "symbol1": "\u25aa",
+    "hide": true
+ }, {
+    "id": "b9a",
+    "cat": "limbo",
+    "name": "teleportswapdestroy",
+    "long": "b]mu:move/swap/ru:attack",
+    "text": "(Unblockable) Teleport or swap places with ally or (Magic) Destroy target.",
+    "color": [253,117,34],
+    "color3": [255,210,0],
     "symbol1": "\u25aa",
     "hide": true
  }, {
@@ -1632,7 +1642,7 @@ MOVES = [{
     "cat": "limbo",
     "name": "teleportattack",
     "long": "b]mu:move/mn:attack",
-    "text": "Attack or (Unblockable) Teleport.",
+    "text": "(Normal) Attack or (Unblockable) Teleport.",
     "color": [121,19,153],
     "color2": [252,13,27],
     "hide": true
@@ -1641,16 +1651,38 @@ MOVES = [{
     "cat": "limbo",
     "name": "movejumpattack",
     "long": "b]mn:move/mu:attack",
-    "text": "Move or (Unblockable) Attack.",
+    "text": "(Normal) Move or (Unblockable) Attack.",
     "color": [0,0,255],
     "color2": [127,0,0],
+    "hide": true
+ }, {
+    "id": "b18b",
+    "cat": "limbo",
+    "name": "teleportswapattack",
+    "long": "b]mn:move/swap/mu:attack",
+    "text": "(Normal) Attack or (Unblockable) Teleport or swap places with ally.",
+    "color": [121,19,153],
+    "color2": [252,13,27],
+    "color3": [0,0,0],
+    "symbol1": "\u{1f5d8}",
+    "hide": true
+ }, {
+    "id": "b18c",
+    "cat": "limbo",
+    "name": "moveswapjumpattack",
+    "long": "b]mn:move/swap/mu:attack",
+    "text": "(Normal) Move or swap places with ally or (Unblockable) Attack.",
+    "color": [0,0,255],
+    "color2": [127,0,0],
+    "color3": [0,0,0],
+    "symbol1": "\u{1f5d8}",
     "hide": true
  }, {
     "id": "b19",
     "cat": "limbo",
     "name": "movedestroy",
     "long": "b]mn:move/rn:attack",
-    "text": "Move or (Ranged) Destroy target.",
+    "text": "(Normal) Move or (Ranged) Destroy target.",
     "color": [0,0,255],
     "color2": [255,255,255],
     "symbol1": "\u2316",
