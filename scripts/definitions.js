@@ -3067,8 +3067,18 @@ MOVES = [{
     "cat": "scenario",
     "name": "bonusmove",
     "long": "b]mn:move&(BONUS)",
-    "text": "Move only, then take an extra turn if you haven't already taken an extra turn this move.",
+    "text": "Move only, then instantly cause a Temporal Surge if one hasn't already happened that turn.",
     "color": [0,0,255],
+    "color3": [255,255,255],
+    "symbol1": "\u22a1",
+    "hide": true
+ }, {
+    "id": "b13a",
+    "cat": "scenario",
+    "name": "bonusmoveattack",
+    "long": "b]mn:move/attack&(BONUS)",
+    "text": "Move or Attack, then instantly cause a Temporal Surge if one hasn't already happened that turn.",
+    "color": [0,0,0],
     "color3": [255,255,255],
     "symbol1": "\u22a1",
     "hide": true
