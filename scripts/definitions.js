@@ -2020,10 +2020,41 @@ MOVES = [{
    "id": "b59",
    "cat": "limbo",
    "name": "jumponce",
-   "text": "(Unblockable) Move or Attack, and lose this ability.",
+   "text": "(Unblockable, 1 Use) Move or Attack.",
    "color": [20,151,24],
-   "color3": [127,127,127],
+   "color3": [255,255,255],
    "symbol1": "\uf23d",
+   "hide": true
+ }, {
+   "id": "b59a",
+   "cat": "limbo",
+   "name": "teleportonce",
+   "text": "(Unblockable, 1 Use) Teleport.",
+   "color": [121,19,153],
+   "color3": [255,255,255],
+   "symbol1": "\uf23d",
+   "hide": true
+ }, {
+   "id": "b59b",
+   "cat": "limbo",
+   "name": "jumptwice",
+   "text": "(Unblockable, 2 Uses) Move or Attack.",
+   "color": [20,151,24],
+   "color3": [255,255,255],
+   "color4": [137,203,139],
+   "symbol1": "\uf23d",
+   "symbol2": "\u{1f790}",
+   "hide": true
+ }, {
+   "id": "b59c",
+   "cat": "limbo",
+   "name": "teleporttwice",
+   "text": "(Unblockable, 2 Uses) Teleport.",
+   "color": [121,19,153],
+   "color3": [255,255,255],
+   "color4": [188,137,204],
+   "symbol1": "\uf23d",
+   "symbol2": "\u{1f790}",
    "hide": true
  }, {
    "id": "b60",
