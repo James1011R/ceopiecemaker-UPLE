@@ -1171,7 +1171,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "75b",
-   "cat": "preview",
+   "cat": "limbo",
    "name": "omnimount",
    "text": "Toggle unit Mount. Mounted units move with the attaching unit.",
    "color": [51,153,153],
