@@ -1184,6 +1184,20 @@ MOVES = [{
    "symbol3": "\u2b1d",
    "hide": true
  }, {
+   "id": "75b",
+   "cat": "limbo",
+   "name": "carry",
+   "text": "Toggle ally Carry. Moving the attaching unit moves a carried unit.",
+   "color": [255,255,255],
+   "color2": [0,0,0],
+   "color3": [200,200,200],
+   "color4": [0,0,0],
+   "color5": [255,255,255],
+   "symbol1": "\u25fb",
+   "symbol2": "\u254f",
+   "symbol3": "\u2b1d",
+   "hide": true
+ }, {
    "id": "76a",
    "cat": "limbo",
    "name": "omniattach",
