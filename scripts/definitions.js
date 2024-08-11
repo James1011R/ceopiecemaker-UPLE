@@ -608,7 +608,7 @@ MOVES = [{
    "color3": [0,0,0],
    "symbol1": "\u{1f5d8}"
  }, {
-   "id": "69a",
+   "id": "69",
    "cat": "preview",
    "name": "frogifyonce",
    "text": "[1 Use]: (Magic) Summon Frog or transform enemy into ally 0 value Toad.",
@@ -617,7 +617,7 @@ MOVES = [{
    "symbol1": "\uea7e",
    "hide": true
  }, {
-   "id": "70a",
+   "id": "70",
    "cat": "preview",
    "name": "autoplantonce",
    "text": "[1 Use]: (Trigger) On Melee Kill: Summon Sapling into this empty location.",
@@ -628,21 +628,21 @@ MOVES = [{
    "symbol2": "\u2297",
    "hide": true
  }, {
-    "id": "71a",
+    "id": "71",
     "cat": "preview",
     "name": "conditionalmoveattack",
     "text": "(Conditional) Move or Attack.",
     "color": [100,100,100],
     "hide": true
  }, {
-    "id": "72a",
+    "id": "72",
     "cat": "preview",
     "name": "conditionalattack",
     "text": "(Conditional) Attack only.",
     "color": [253,107,116],
     "hide": true
  }, {
-   "id": "73a",
+   "id": "73",
    "cat": "preview",
    "name": "moveattackbonepileondeath",
    "text": "(Trigger) On Melee Death: Create BonePile in this empty location. \n(Active) Move or Attack.",
@@ -653,7 +653,7 @@ MOVES = [{
    "symbol2": "\u25a1",
    "hide": true
  }, {
-   "id": "74a",
+   "id": "74",
    "cat": "preview",
    "name": "multishiftallyminion",
    "text": "(AOE) Teleport ally minions in this area 2 spaces forward.",
@@ -662,7 +662,7 @@ MOVES = [{
    "symbol1": "\ue901",
    "hide": true
  }, {
-   "id": "75a",
+   "id": "75",
    "cat": "preview",
    "name": "mount",
    "text": "Toggle ally Mount. Mounted units move with the attaching unit.",
@@ -676,7 +676,7 @@ MOVES = [{
    "symbol3": "\u2b1d",
    "hide": true
  }, {
-   "id": "76a",
+   "id": "76",
    "cat": "preview",
    "name": "attach",
    "text": "Toggle ally Attachment. Attached units move with the attaching unit and vice versa.",
@@ -1074,7 +1074,7 @@ MOVES = [{
    "symbol1": "\uea81",
    "hide": true
  }, {
-   "id": "69b",
+   "id": "69a",
    "cat": "variation",
    "name": "frogify",
    "text": "(Magic) (Magic) Summon Frog or transform enemy into ally 0 value Toad.",
@@ -1083,7 +1083,7 @@ MOVES = [{
    "symbol1": "\uea7e",
    "hide": true
  }, {
-   "id": "70b",
+   "id": "70a",
    "cat": "variation",
    "name": "autoplant",
    "text": "(Trigger) On Melee Kill: Summon Sapling into this empty location.",
@@ -1094,42 +1094,42 @@ MOVES = [{
    "symbol2": "\u2297",
    "hide": true
  }, {
-    "id": "71b",
+    "id": "71a",
     "cat": "variation",
     "name": "conditionaljump",
     "text": "(Unblockable, Conditional) Move or Attack.",
     "color": [112,173,114],
     "hide": true
  }, {
-    "id": "71c",
+    "id": "71b",
     "cat": "variation",
     "name": "conditionalmagic",
     "text": "(Magic, Conditional) Destroy target.",
     "color": [254,171,120],
     "hide": true
  }, {
-    "id": "71d",
+    "id": "71c",
     "cat": "variation",
     "name": "conditionalmove",
     "text": "(Conditional) Move only.",
     "color": [100,100,255],
     "hide": true
  }, {
-    "id": "71e",
+    "id": "71d",
     "cat": "variation",
     "name": "conditionalteleport",
     "text": "(Unblockable, Conditional) Teleport.",
     "color": [173,111,193],
     "hide": true
  }, {
-    "id": "71f",
+    "id": "71e",
     "cat": "variation",
     "name": "conditionaljumpswap",
     "text": "(Unblockable, Conditional) Move, Attack, or swap places with ally.",
     "color": [255,228,100],
     "hide": true
  }, {
-    "id": "71g",
+    "id": "71f",
     "cat": "variation",
     "name": "conditionalshoot",
     "text": "(Ranged, Conditional) Destroy target.",
@@ -1138,7 +1138,7 @@ MOVES = [{
     "symbol1": "\u2316",
     "hide": true
  }, {
-   "id": "73b",
+   "id": "73a",
    "cat": "variation",
    "name": "movebonepileondeath",
    "text": "(Trigger) On Melee Death: Create BonePile in this empty location. \n(Active) Move only.",
@@ -1149,7 +1149,7 @@ MOVES = [{
    "symbol2": "\u25a1",
    "hide": true
  }, {
-   "id": "73c",
+   "id": "73b",
    "cat": "variation",
    "name": "bonepileondeath",
    "text": "(Trigger) On Melee Death: Create BonePile in this empty location.",
@@ -1161,7 +1161,7 @@ MOVES = [{
    "symbol2": "\u25a1",
    "hide": true
  }, {
-   "id": "74b",
+   "id": "74a",
    "cat": "variation",
    "name": "multishift",
    "text": "(AOE) Teleport all units in this area 2 spaces forward.",
@@ -1170,7 +1170,7 @@ MOVES = [{
    "symbol1": "\ue901",
    "hide": true
  }, {
-   "id": "75b",
+   "id": "75a",
    "cat": "limbo",
    "name": "omnimount",
    "text": "Toggle unit Mount. Mounted units move with the attaching unit.",
@@ -1184,7 +1184,7 @@ MOVES = [{
    "symbol3": "\u2b1d",
    "hide": true
  }, {
-   "id": "76b",
+   "id": "76a",
    "cat": "limbo",
    "name": "omniattach",
    "text": "Toggle unit Attachment. Attached units move with the attaching unit and vice versa.",
