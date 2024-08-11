@@ -1187,7 +1187,7 @@ MOVES = [{
    "id": "75b",
    "cat": "pretend",
    "name": "carry",
-   "text": "Toggle ally Carry. Moving the attaching unit moves a carried unit.",
+   "text": "Toggle ally Carry. The attaching unit moves with a carrying unit.",
    "color": [255,255,255],
    "color2": [0,0,0],
    "color3": [200,200,200],
