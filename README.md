@@ -10,7 +10,13 @@ The piecemaker can be found here: https://james1011r.github.io/ceopiecemaker-UPL
 Credits
 
 Tony2: original piecemaker
-Logo (ABC_Boy): piecemaker v2 with massive graphical and UI improvements, programming in the custom ability icon creator, all custom unicode icon glyphs, board svg rewrite Aplet123: board svg rewrite
+
+Logo (ABC_Boy): piecemaker v2 with massive graphical and UI improvements, programming in the custom ability icon creator, all custom unicode icon glyphs, board svg rewrite
+
+Aplet123: board svg rewrite
+
 Elund (James1011R): most "UPLE" abilities, "UPLE" fill colors, the 'doodle' and 'cutout' features, "tool tray" scrollbar
+
 an anonymous user: custom fill color
+
 main_gi: piecemaker v2 original UI feedback, auto symmetry, scenario only and deconfirmed abilities, spaghetti export, credits
