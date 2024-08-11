@@ -19,4 +19,4 @@ Elund (James1011R): most "UPLE" abilities, "UPLE" fill colors, the 'doodle' and 
 
 an anonymous user: custom fill color
 
-main_gi: piecemaker v2 original UI feedback, auto symmetry, scenario only and deconfirmed abilities, spaghetti export, credits
+main_gi: piecemaker v2 original UI feedback, auto symmetry, scenario only and deconfirmed abilities, spaghetti export, credits, some other code
