@@ -1144,6 +1144,18 @@ $("#confirmToolColor").click(function() {
 
 function arrayspamming(value, len) {return Array.from({length: len}).map(x => value)} // array spammed with a value, length times, needed for spaghetti export to work, credit to main_gi
 
+function numify (x) {return parseInt(x, 10)}
+function tob15 (x) {rv = numify(x).toString(15); return (rv.length==1?"0":"") + rv} // "tob15" = "to base 15". Adds leading zeros too.
+
+function tob10 (x) {return parseInt(x, 15)}
+
+function x (i) {
+  return (i % 15) - 7
+}
+function y (i) {
+  return Math.floor(i / 15) - 7
+}
+
 function exportasgame () {
   // Exports to ingame code. Only for people trying to make a piece gallery, or think their ideas are so good that it needs as little time as possible to import.
   // THIS DOES NOT ACTUALLY MAKE IT COMPLETELY ACCURATE INGAME CODE, the result is only like half accurate, but all info in the result is enough to work for the gallery parser.
