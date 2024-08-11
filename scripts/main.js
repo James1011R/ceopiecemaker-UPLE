@@ -1142,6 +1142,8 @@ $("#confirmToolColor").click(function() {
   sketch.set("color", customToolColor)
 })
 
+function arrayspamming(value, len) {return Array.from({length: len}).map(x => value)} // array spammed with a value, length times, needed for spaghetti export to work, credit to main_gi
+
 function exportasgame () {
   // Exports to ingame code. Only for people trying to make a piece gallery, or think their ideas are so good that it needs as little time as possible to import.
   // THIS DOES NOT ACTUALLY MAKE IT COMPLETELY ACCURATE INGAME CODE, the result is only like half accurate, but all info in the result is enough to work for the gallery parser.
