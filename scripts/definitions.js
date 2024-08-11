@@ -610,28 +610,14 @@ MOVES = [{
  }, {
    "id": "69a",
    "cat": "preview",
-   "name": "multishift",
-   "text": "(Magic) Teleport all units this unit could target with this ability 2 spaces forward.",
-   "color": [121,19,153],
+   "name": "frogifyonce",
+   "text": "(Magic) Summon Frog or transform enemy into ally Toad, and lose this ability.",
+   "color": [0,101,24],
    "color3": [0,0,0],
-   "symbol1": "\ue901",
+   "symbol1": "\uea7e",
    "hide": true
  }, {
-    "id": "b76",
-    "cat": "preview",
-    "name": "conditionalmoveattack",
-    "text": "(Conditional) Move or Attack.",
-    "color": [100,100,100],
-    "hide": true
- }, {
-    "id": "b76d",
-    "cat": "preview",
-    "name": "conditionalattack",
-    "text": "(Conditional) Attack only.",
-    "color": [253,107,116],
-    "hide": true
- }, {
-   "id": "72a",
+   "id": "70a",
    "cat": "preview",
    "name": "autoplantonce",
    "text": "(Trigger) On Melee Kill: Summon Sapling into this empty location, and lose this ability.",
@@ -642,30 +628,21 @@ MOVES = [{
    "symbol2": "\u2297",
    "hide": true
  }, {
+    "id": "71a",
+    "cat": "preview",
+    "name": "conditionalmoveattack",
+    "text": "(Conditional) Move or Attack.",
+    "color": [100,100,100],
+    "hide": true
+ }, {
+    "id": "72a",
+    "cat": "preview",
+    "name": "conditionalattack",
+    "text": "(Conditional) Attack only.",
+    "color": [253,107,116],
+    "hide": true
+ }, {
    "id": "73a",
-   "cat": "preview",
-   "name": "frogifyonce",
-   "text": "(Magic) Summon Frog or transform enemy into ally Toad, and lose this ability.",
-   "color": [0,101,24],
-   "color3": [0,0,0],
-   "symbol1": "\uea7e",
-   "hide": true
- }, {
-   "id": "74a",
-   "cat": "preview",
-   "name": "attach",
-   "text": "Toggle ally Attachment. Attached units move with the attaching unit.",
-   "color": [0,0,0],
-   "color2": [255,255,255],
-   "color3": [200,200,200],
-   "color4": [0,0,0],
-   "color5": [0,0,0],
-   "symbol1": "\u25fb",
-   "symbol2": "\u254f",
-   "symbol3": "|",
-   "hide": true
- }, {
-   "id": "75a",
    "cat": "preview",
    "name": "moveattackbonepileondeath",
    "text": "(Trigger) On Melee Death: Create BonePile in this empty location. \n(Active) Move or Attack.",
@@ -674,6 +651,43 @@ MOVES = [{
    "color4": [127,127,127],
    "symbol1": "\u25a4",
    "symbol2": "\u25a1",
+   "hide": true
+ }, {
+   "id": "74a",
+   "cat": "preview",
+   "name": "multishiftallyminion",
+   "text": "(AOE) Teleport ally minions in this area 2 spaces forward.",
+   "color": [121,19,153],
+   "color3": [0,0,0],
+   "symbol1": "\ue901",
+   "hide": true
+ }, {
+   "id": "75a",
+   "cat": "preview",
+   "name": "mount",
+   "text": "Toggle ally Mount. Mounted units move with the attaching unit.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [200,200,200],
+   "color4": [255,255,255],
+   "color5": [0,0,0],
+   "symbol1": "\u25fb",
+   "symbol2": "\u254f",
+   "symbol3": "\u2b1d",
+   "hide": true
+ }, {
+   "id": "76a",
+   "cat": "preview",
+   "name": "attach",
+   "text": "Toggle ally Attachment. Attached units move with the attaching unit and vice versa.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [200,200,200],
+   "color4": [0,0,0],
+   "color5": [0,0,0],
+   "symbol1": "\u25fb",
+   "symbol2": "\u254f",
+   "symbol3": "|",
    "hide": true
  }, {
    "id": "0a",
@@ -1060,7 +1074,16 @@ MOVES = [{
    "symbol1": "\uea81",
    "hide": true
  }, {
-   "id": "72b",
+   "id": "69b",
+   "cat": "variation",
+   "name": "frogify",
+   "text": "(Magic) Summon Frog or transform enemy into ally Toad.",
+   "color": [0,101,24],
+   "color3": [0,255,0],
+   "symbol1": "\uea7e",
+   "hide": true
+ }, {
+   "id": "70b",
    "cat": "variation",
    "name": "autoplant",
    "text": "(Trigger) On Kill: Summon Sapling.",
@@ -1071,30 +1094,51 @@ MOVES = [{
    "symbol2": "\u2297",
    "hide": true
  }, {
+    "id": "71b",
+    "cat": "variation",
+    "name": "conditionaljump",
+    "text": "(Unblockable, Conditional) Move or Attack.",
+    "color": [112,173,114],
+    "hide": true
+ }, {
+    "id": "71c",
+    "cat": "variation",
+    "name": "conditionalmagic",
+    "text": "(Magic, Conditional) Destroy target.",
+    "color": [254,171,120],
+    "hide": true
+ }, {
+    "id": "71d",
+    "cat": "variation",
+    "name": "conditionalmove",
+    "text": "(Conditional) Move only.",
+    "color": [100,100,255],
+    "hide": true
+ }, {
+    "id": "71e",
+    "cat": "variation",
+    "name": "conditionalteleport",
+    "text": "(Unblockable, Conditional) Teleport.",
+    "color": [173,111,193],
+    "hide": true
+ }, {
+    "id": "71f",
+    "cat": "variation",
+    "name": "conditionaljumpswap",
+    "text": "(Unblockable, Conditional) Move, Attack, or swap places with ally.",
+    "color": [255,228,100],
+    "hide": true
+ }, {
+    "id": "71g",
+    "cat": "variation",
+    "name": "conditionalshoot",
+    "text": "(Ranged, Conditional) Destroy target.",
+    "color": [255,100,100],
+    "color2": [255,255,255],
+    "symbol1": "\u2316",
+    "hide": true
+ }, {
    "id": "73b",
-   "cat": "variation",
-   "name": "frogify",
-   "text": "(Magic) Summon Frog or transform enemy into ally Toad.",
-   "color": [0,101,24],
-   "color3": [0,255,0],
-   "symbol1": "\uea7e",
-   "hide": true
- }, {
-   "id": "74b",
-   "cat": "limbo",
-   "name": "omniattach",
-   "text": "Toggle unit Attachment. Attached units move with the attaching unit.",
-   "color": [51,153,153],
-   "color2": [255,255,255],
-   "color3": [51,153,153],
-   "color4": [0,0,0],
-   "color5": [0,0,0],
-   "symbol1": "\u25fb",
-   "symbol2": "\u254f",
-   "symbol3": "|",
-   "hide": true
- }, {
-   "id": "75b",
    "cat": "variation",
    "name": "movebonepileondeath",
    "text": "(Trigger) On Melee Death: Create BonePile in this empty location. \n(Active) Move only.",
@@ -1105,7 +1149,7 @@ MOVES = [{
    "symbol2": "\u25a1",
    "hide": true
  }, {
-   "id": "75c",
+   "id": "73c",
    "cat": "variation",
    "name": "bonepileondeath",
    "text": "(Trigger) On Melee Death: Create BonePile in this empty location.",
@@ -1115,6 +1159,43 @@ MOVES = [{
    "color4": [255,255,255],
    "symbol1": "\u25a4",
    "symbol2": "\u25a1",
+   "hide": true
+ }, {
+   "id": "74b",
+   "cat": "variation",
+   "name": "multishift",
+   "text": "(AOE) Teleport all units in this area 2 spaces forward.",
+   "color": [51,153,153],
+   "color3": [0,0,0],
+   "symbol1": "\ue901",
+   "hide": true
+ }, {
+   "id": "75b",
+   "cat": "preview",
+   "name": "omnimount",
+   "text": "Toggle unit Mount. Mounted units move with the attaching unit.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [51,153,153],
+   "color4": [255,255,255],
+   "color5": [0,0,0],
+   "symbol1": "\u25fb",
+   "symbol2": "\u254f",
+   "symbol3": "\u2b1d",
+   "hide": true
+ }, {
+   "id": "76b",
+   "cat": "limbo",
+   "name": "omniattach",
+   "text": "Toggle unit Attachment. Attached units move with the attaching unit and vice versa.",
+   "color": [51,153,153],
+   "color2": [255,255,255],
+   "color3": [51,153,153],
+   "color4": [0,0,0],
+   "color5": [0,0,0],
+   "symbol1": "\u25fb",
+   "symbol2": "\u254f",
+   "symbol3": "|",
    "hide": true
  }, {
    "id": "a1",
@@ -2180,50 +2261,6 @@ MOVES = [{
     "color": [0,0,0],
     "color2": [255,255,255],
     "symbol1": "\uec05",
-    "hide": true
- }, {
-    "id": "b76a",
-    "cat": "variation",
-    "name": "conditionaljump",
-    "text": "(Unblockable, Conditional) Move or Attack.",
-    "color": [112,173,114],
-    "hide": true
- }, {
-    "id": "b76b",
-    "cat": "variation",
-    "name": "conditionalmagic",
-    "text": "(Magic, Conditional) Destroy target.",
-    "color": [254,171,120],
-    "hide": true
- }, {
-    "id": "b76c",
-    "cat": "variation",
-    "name": "conditionalmove",
-    "text": "(Conditional) Move only.",
-    "color": [100,100,255],
-    "hide": true
- }, {
-    "id": "b76e",
-    "cat": "variation",
-    "name": "conditionalteleport",
-    "text": "(Unblockable, Conditional) Teleport.",
-    "color": [173,111,193],
-    "hide": true
- }, {
-    "id": "b76f",
-    "cat": "variation",
-    "name": "conditionaljumpswap",
-    "text": "(Unblockable, Conditional) Move, Attack, or swap places with ally.",
-    "color": [255,228,100],
-    "hide": true
- }, {
-    "id": "b76g",
-    "cat": "variation",
-    "name": "conditionalshoot",
-    "text": "(Ranged, Conditional) Destroy target.",
-    "color": [255,100,100],
-    "color2": [255,255,255],
-    "symbol1": "\u2316",
     "hide": true
  }, {
     "id": "b77",
