@@ -1141,3 +1141,67 @@ $("#confirmToolColor").click(function() {
   let customToolColor = $("#customToolColor").val().trim();
   sketch.set("color", customToolColor)
 })
+
+function exportasgame () {
+  // Exports to ingame code. Only for people trying to make a piece gallery, or think their ideas are so good that it needs as little time as possible to import.
+  // THIS DOES NOT ACTUALLY MAKE IT COMPLETELY ACCURATE INGAME CODE, the result is only like half accurate, but all info in the result is enough to work for the gallery parser.
+  // this code was written by main_gi
+
+  rv = []
+
+  for (let level in LEVELS) { // "LEVELS" is an array ["base", "plus", "plusplus", "plusplusplus"]. Conveniently, x is [0, 1, 2, 3] throughout this.
+    let movelist = arrayspamming(0, 15*15)
+    for (let levelmoves in DATA[`${LEVELS[level]}`].moves) {
+      if (DATA[`${LEVELS[level]}`].moves[levelmoves].length > 0) { // This line is necessary so it doesn't error if it's blank.
+        let moveresults = (DATA[`${LEVELS[level]}`].moves[levelmoves].match(/.{1,2}/g).map(z=>tob10(z)))
+        for (let i = 0; i < moveresults.length; i++) {
+          movelist[moveresults[i]] = levelmoves
+        }
+      }
+    }
+    a = level==0? "":(numify(level)+1).toString()    // this changes [0, 1, 2, 3] to ["", "2", "3", "4"]
+    plusses = arrayspamming("+", level).join("") // nice function reuse
+
+    bonusnonsense = ``
+
+    let passive = `D_${DATA.name}${a}.Passive = "${DATA[`${LEVELS[level]}`].passives}";`.replace(/\n/g, "\\n")
+    let movetypes = Object.keys(DATA[`${LEVELS[level]}`].moves).map(x=>numify(x)+1)
+
+    let original_passive = `${DATA[`${LEVELS[level]}`].passives}`
+    if (original_passive.match(/Promotes to (.+)/)) {bonusnonsense += `\nD_${DATA.name}${a}.Promote = "${passive.match(/Promotes to (.+)/)[1]}";`}
+    if (original_passive.match(/On Death: Lose \d+/)) {bonusnonsense += `\nD_${DATA.name}${a}.Penalty = ${passive.match(/On Death: Lose (\d+)/)[1]};`}
+    if (original_passive.includes("Status-Immune")) {bonusnonsense += `\nD_${DATA.name}${a}.StatusImmune = true;`}
+    if (original_passive.match(/Immune to.+Freeze/)) {bonusnonsense += `\nD_${DATA.name}${a}.FreezeImmune = true;`}
+    if (original_passive.match(/Immune to.+Petrify/)) {bonusnonsense += `\nD_${DATA.name}${a}.PetrifyImmune = true;`}
+    if (original_passive.match(/Immune to.+Poison/)) {bonusnonsense += `\nD_${DATA.name}${a}.PoisonImmune = true;`}
+    if (original_passive.match(/Immune to.+Compel/)) {bonusnonsense += `\nD_${DATA.name}${a}.CompelImmune = true;`}
+    if (original_passive.includes("Displacement-Immune")) {bonusnonsense += `\nD_${DATA.name}${a}.DisplacementImmune = true;`}
+    if (movetypes.includes(28)) {bonusnonsense += `\nD_${DATA.name}${a}.HasTarget = true;`}
+    if (movetypes.includes(34)) {bonusnonsense += `\nD_${DATA.name}${a}.TurnTrigger = "Start";`} // Alchemist trigger
+    if (movetypes.includes(42)) {bonusnonsense += `\nD_${DATA.name}${a}.TurnTrigger = "End";`} // Lust trigger
+
+    //LEVELS[level]
+    rv.push(`var D_${DATA.name}${a} = new Object();
+UnitLibrary[Place] = "${DATA.name}${a}";
+D_${DATA.name}${a}.Name = "${DATA.name}${plusses}";
+D_${DATA.name}${a}.Index = Place; Place++;
+D_${DATA.name}${a}.Cost = ${DATA[`${LEVELS[level]}`].cost};
+D_${DATA.name}${a}.Rarity = "${DATA.labels.rarity}";
+D_${DATA.name}${a}.Moves = [${movelist.map(x=>numify(x)+1).join(",")}];
+D_${DATA.name}${a}.MoveTypes = [${movetypes}];${DATA[`${LEVELS[level]}`].passives? `\n` + `D_${DATA.name}${a}.Passive = "${DATA[`${LEVELS[level]}`].passives}";`.replace(/\n/g, "\\n") : ``}
+D_${DATA.name}${a}.Minion = ${DATA.labels.rank == "Minion"?"true":"false"};${bonusnonsense}
+D_${DATA.name}${a}.Tier = ${numify(level)+1};
+D_${DATA.name}${a}.AIskip = 50;`)
+  }
+  return rv.join("\n\n")
+}
+
+document.getElementById("copyButton").addEventListener("click", function() {
+  document.getElementById("copyTarget").value = exportasgame()
+  copyToClipboard(document.getElementById("copyTarget"));
+});
+document.getElementById("movesetArray").addEventListener("click", function() {
+  document.getElementById("copyTarget").value = ("[" + (/Moves = \[(.+)\]/gi).exec(  exportasgame()  )[1] + "]")
+  copyToClipboard(document.getElementById("copyTarget"));
+});
+
