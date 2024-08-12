@@ -15,7 +15,7 @@ Logo (ABC_Boy): piecemaker v2 with massive graphical and UI improvements, progra
 
 Aplet123: board svg rewrite
 
-Elund (James1011R): most "UPLE" abilities, "UPLE" fill colors, the 'doodle' and 'cutout' features, "tool tray" scrollbar
+James1011R: most "UPLE" abilities, "UPLE" fill colors, the 'doodle' and 'cutout' features, "tool tray" scrollbar
 
 an anonymous user: custom fill color
 
