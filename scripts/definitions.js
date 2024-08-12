@@ -1190,7 +1190,7 @@ MOVES = [{
    "text": "Toggle ally Carry. The attaching unit moves with a carrying unit.",
    "color": [255,255,255],
    "color2": [0,0,0],
-   "color3": [200,200,200],
+   "color3": [100,100,100],
    "color4": [0,0,0],
    "color5": [255,255,255],
    "symbol1": "\u25fb",
