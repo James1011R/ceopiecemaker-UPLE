@@ -690,6 +690,16 @@ MOVES = [{
    "symbol3": "|",
    "hide": true
  }, {
+   "id": "77",
+   "cat": "preview",
+   "name": "spawnpillar",
+   "text": "On Spawn: Summon ally StonePillar in this empty location.",
+   "color": [0,0,0],
+   "color2": [200,200,210],
+   "color3": [130,130,140],
+   "symbol1": "\uec75",
+   "hide": true
+ }, {
    "id": "0a",
    "cat": "variation",
    "name": "swap",
@@ -1210,6 +1220,16 @@ MOVES = [{
    "symbol1": "\u25fb",
    "symbol2": "\u254f",
    "symbol3": "|",
+   "hide": true
+ }, {
+   "id": "77a",
+   "cat": "limbo",
+   "name": "spawnpawn",
+   "text": "On Spawn: Summon ally Pawn in this empty location.",
+   "color": [0,0,0],
+   "color2": [200,200,210],
+   "color3": [130,130,140],
+   "symbol1": "\uec03",
    "hide": true
  }, {
    "id": "a1",
