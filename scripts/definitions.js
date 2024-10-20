@@ -1087,7 +1087,7 @@ MOVES = [{
    "id": "69a",
    "cat": "variation",
    "name": "frogify",
-   "text": "(Magic) (Magic) Summon Frog or transform enemy into ally 0 value Toad.",
+   "text": "(Magic) Summon Frog or transform enemy into ally 0 value Toad.",
    "color": [0,101,24],
    "color3": [0,255,0],
    "symbol1": "\uea7e",
