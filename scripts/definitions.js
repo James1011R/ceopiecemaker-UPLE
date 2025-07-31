@@ -1065,6 +1065,16 @@ MOVES = [{
    "symbol1": "\ue907",
    "hide": true
  }, {
+   "id": "65b",
+   "cat": "limbo",
+   "name": "spaghettirangednull",
+   "text": "(Spaghetti-Ranged) Target enemy can no longer block movement and their value becomes 0.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [153,67,0],
+   "symbol1": "\ue907",
+   "hide": true
+ }, {
    "id": "66a",
    "cat": "legacy",
    "name": "magicvoid",
@@ -1319,16 +1329,6 @@ MOVES = [{
    "color2": [255,255,255],
    "symbol1": "\u2747",
    "hide": true
- }, {  
-   "id": "1a",
-   "cat": "variation",
-   "name": "moveattackswap",
-   "long": "b]mn:move/attack/swap",
-   "text": "Move, Attack, or swap places with ally.",
-   "color": [0,0,0],
-   "color3": [255,255,255],
-   "symbol1": "\u{1f5d8}",
-   "hide": true
  }, {
    "id": "53a",
    "cat": "variation",
@@ -1491,6 +1491,16 @@ MOVES = [{
     "text": "(Unstoppable) Destroy enemy.",
     "color": [34,117,253],
     "hide": true
+ }, {
+   "id": "43c",
+   "cat": "limbo",
+   "name": "spaghettishoot",
+   "text": "(Spaghetti-Ranged) Destroy target.",
+   "color": [255,0,0],
+   "color2": [255,255,255],
+   "color3": [151,67,0],
+   "symbol1": "\u2316",
+   "hide": true
  }, {
    "id": "35c",
    "cat": "limbo",
