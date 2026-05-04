@@ -702,7 +702,7 @@ MOVES = [{
  }, {
    "id": "78",
    "cat": "preview",
-   "name": "delayedonslaught",
+   "name": "delayedrampage",
    "text": "After X turns based on distance, attack this location and all others in its wake.",
    "color": [252,13,27],
    "color3": [0,0,0],
@@ -1253,7 +1253,7 @@ MOVES = [{
  }, {
    "id": "78a",
    "cat": "variation",
-   "name": "onslaught",
+   "name": "rampage",
    "text": "Attack this location and all others in its wake.",
    "color": [252,13,27],
    "color3": [127,0,0],
