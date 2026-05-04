@@ -700,6 +700,15 @@ MOVES = [{
    "symbol1": "\uec75",
    "hide": true
  }, {
+   "id": "78",
+   "cat": "preview",
+   "name": "delayedonslaught",
+   "text": "After X turns based on distance, attack this location and all others in its wake.",
+   "color": [252,13,27],
+   "color3": [0,0,0],
+   "symbol1": "\uea76",
+   "hide": true
+ }, {
    "id": "0a",
    "cat": "variation",
    "name": "swap",
@@ -1240,6 +1249,33 @@ MOVES = [{
    "color2": [200,200,210],
    "color3": [130,130,140],
    "symbol1": "\uec03",
+   "hide": true
+ }, {
+   "id": "78a",
+   "cat": "variation",
+   "name": "onslaught",
+   "text": "Attack this location and all others in its wake.",
+   "color": [252,13,27],
+   "color3": [127,0,0],
+   "symbol1": "\uea76",
+   "hide": true
+ }, {
+   "id": "78b",
+   "cat": "limbo",
+   "name": "delayedraid",
+   "text": "After X turns based on distance, move to this location as if you had used a &quot;Move, Attack, or swap places with ally.&quot; ability for each step toward that location.",
+   "color": [255,210,0],
+   "color3": [0,0,0],
+   "symbol1": "\uea76",
+   "hide": true
+ }, {
+   "id": "78c",
+   "cat": "limbo",
+   "name": "raid",
+   "text": "Move to this location as if you had used a &quot;Move, Attack, or swap places with ally.&quot; ability for each step toward that location.",
+   "color": [255,210,0],
+   "color3": [127,0,0],
+   "symbol1": "\uea76",
    "hide": true
  }, {
    "id": "a1",
@@ -3994,6 +4030,7 @@ PASSIVES = ["Does not block movement.",
     "(Trigger-Immune)",
     "(Displacement-Immune)",
     "(Location-Immune)",
+    "(Exhaust-Immune)",
     "Promotes to PieceName[+].",
     "On Death: Lose 2[+1] morale.",
     "Blocks one ability.",
