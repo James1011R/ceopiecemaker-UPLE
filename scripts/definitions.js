@@ -701,6 +701,25 @@ MOVES = [{
    "hide": true
  }, {
    "id": "78",
+   "cat": "official",
+   "name": "geminidiagonalsplit",
+   "text": "[Pay 20]: (Ranged) Split into DiagTwin.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color5": [255,255,255],
+   "symbol1": "\u27d0",
+   "symbol2": "\u00d7",
+   "symbol3": "\u22b9"
+ }, {
+   "id": "79",
+   "cat": "official",
+   "name": "geminiorthogonalsplit",
+   "text": "[Pay 20]: (Ranged) Split into OrthoTwin.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "symbol1": "\u2629"
+ }, {
+   "id": "80",
    "cat": "preview",
    "name": "delayedrampage",
    "text": "After X turns based on distance, attack this location and all others in its wake.",
@@ -708,6 +727,14 @@ MOVES = [{
    "color3": [0,0,0],
    "symbol1": "\uea76",
    "hide": true
+ }, {
+   "id": "29a",
+   "cat": "preview",
+   "name": "geminirecombine",
+   "text": "[Gain 20]: (Magic) Combine with OrthoTwin or DiagTwin of equal tier into Gemini at target location.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "symbol1": "\u264a"
  }, {
    "id": "0a",
    "cat": "variation",
@@ -1251,7 +1278,7 @@ MOVES = [{
    "symbol1": "\uec03",
    "hide": true
  }, {
-   "id": "78a",
+   "id": "80a",
    "cat": "variation",
    "name": "rampage",
    "text": "Attack this location and all others in its wake.",
@@ -1260,7 +1287,7 @@ MOVES = [{
    "symbol1": "\uea76",
    "hide": true
  }, {
-   "id": "78b",
+   "id": "80b",
    "cat": "limbo",
    "name": "delayedraid",
    "text": "After X turns based on distance, move to this location as if you had used a &quot;Move, Attack, or swap places with ally.&quot; ability for each step toward that location.",
@@ -1269,7 +1296,7 @@ MOVES = [{
    "symbol1": "\uea76",
    "hide": true
  }, {
-   "id": "78c",
+   "id": "80c",
    "cat": "limbo",
    "name": "raid",
    "text": "Move to this location as if you had used a &quot;Move, Attack, or swap places with ally.&quot; ability for each step toward that location.",
