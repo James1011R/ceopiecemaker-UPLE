@@ -251,7 +251,7 @@ MOVES = [{
  }, {
    "id": "29",
    "cat": "official",
-   "name": "gemini",
+   "name": "geminirecombine",
    "text": "[Gain 15]: (Magic) Combine with OrthoTwin or DiagTwin of equal tier into Gemini at target location.",
    "color": [0,0,0],
    "color2": [255,255,255],
