@@ -2548,7 +2548,7 @@ MOVES = [{
     "color": [0,0,0],
     "color2": [50,50,50],
     "color3": [255,255,255],
-    "symbol1": "\u{1f480}\ufe0e",
+    "symbol1": "\u{1f480}",
     "hide": true
  }, {
     "id": "b95",
