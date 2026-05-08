@@ -829,7 +829,8 @@ MOVES = [{
    "name": "gemini",
    "text": "[Pay 4]: (Ranged) Summon GeminiTwin and transform into GeminiTwin, each having value equal to this unit.",
    "color": [0,0,0],
-   "color2": [127,127,127],
+   "color2": [255,255,255],
+   "color3": [153,153,153],
    "symbol1": "\u264a",
    "hide": true
  }, {
@@ -912,7 +913,8 @@ MOVES = [{
    "long": "p]mz:thisset@type=BAT&move",
    "text": "(Unstoppable) Transform into Bat and fly to location.", 
    "color": [0,0,0],
-   "color2": [127,127,127],
+   "color2": [255,255,255],
+   "color3": [153,153,153],
    "symbol1": "\ue903",
    "hide": true
  }, {
@@ -1118,7 +1120,7 @@ MOVES = [{
    "cat": "legacy",
    "name": "zeronull",
    "text": "(Magic) Target enemy can no longer block movement and their value becomes 0.",
-   "color": [0,0,0],
+   "color": [153,153,153],
    "color2": [255,255,255],
    "symbol1": "\ue907",
    "hide": true
