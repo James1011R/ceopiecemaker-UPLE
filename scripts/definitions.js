@@ -3856,7 +3856,7 @@ MOVES = [{
    "id": "y3",
    "cat": "deconfirmed",
    "name": "v057castle",
-   "text": "[CASTLE] \n[ ? ] there's only one game of kings [ ]",
+   "text": "[CASTLE] \n\n[ ? ] there's only one game of kings [ ]",
    "color": [0,0,0],
    "color2": [255,255,255],
    "color3": [0,0,255],
