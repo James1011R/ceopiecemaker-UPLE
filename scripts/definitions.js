@@ -2154,6 +2154,16 @@ MOVES = [{
    "symbol1": "\u2744",
    "hide": true
  }, {
+   "id": "b51a",
+   "cat": "pretend",
+   "name": "enervate",
+   "text": "(Magic) Enervate enemy unit for 10 turns, reducing their exhaust threshold to 1.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [127,127,127],
+   "symbol1": "\u{1cc89}",
+   "hide": true
+ }, {
    "id": "b53",
    "cat": "pretend",
    "name": "forcefield",
@@ -3152,6 +3162,26 @@ MOVES = [{
     "color": [127,0,255],
     "color2": [64,0,127],
     "symbol1": "\uffec",
+    "hide": true
+ }, {
+    "id": "b142",
+    "cat": "pretend",
+    "name": "exhaustionfield",
+    "text": "(Magic, Trigger) Enemy Unit: Add one Exhaustion tick at the end of your opponent's turn.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "symbol1": "\u{1cc43}",
+    "hide": true
+ }, {
+    "id": "b142a",
+    "cat": "pretend",
+    "name": "superexhaustionfield",
+    "text": "(Magic, Trigger) Enemy Unit: Exhaust this unit at the end of your opponent's turn.",
+    "color": [0,0,0],
+    "color2": [255,255,255],
+    "color4": [255,0,0],
+    "symbol1": "\u{1cc43}",
+    "symbol2": "!",
     "hide": true
  }, {
     "id": "0f",
