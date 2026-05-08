@@ -3887,12 +3887,7 @@ MOVES = [{
    "text": "[CASTLE] \n\n[ ? ] there's only one game of kings [ ]",
    "color": [0,0,0],
    "color2": [255,255,255],
-   "color3": [0,0,255],
-   "color4": [255,0,0],
-   "color5": [0,0,0],
-   "symbol1": "\u{1cdfe}",
-   "symbol2": "\u{1cdff}",
-   "symbol3": "\u2656",
+   "symbol1": "\u2656",
    "hide": true
  }, {
    "id": "c1",
