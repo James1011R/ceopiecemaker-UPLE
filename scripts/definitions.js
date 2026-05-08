@@ -58,9 +58,10 @@ MOVES = [{
    "id": "8",
    "cat": "official",
    "name": "plant",
-   "long": "2p]ru:transform@SAPLING/summon@SAPLING",
-   "text": "[Pay 2]: (Magic) Summon Sapling or transform enemy into ally Sapling.",
-   "color": [0,101,24]
+   "long": "3p]ru:transform@SAPLING/summon@SAPLING",
+   "text": "[Pay 3]: (Magic) Summon Sapling or transform enemy into ally Sapling.",
+   "color": [0,101,24],
+   "symbol1": "\u028f"
  }, {
    "id": "9",
    "cat": "official",
@@ -72,8 +73,8 @@ MOVES = [{
    "id": "10",
    "cat": "official",
    "name": "skeleton",
-   "long": "4p]ru:summon@SKELETON&set@value=0",
-   "text": "[Pay 4]: (Magic) Summon value 0 Skeleton.",
+   "long": "10p]ru:summon@SKELETON&set@value=0",
+   "text": "[Pay 10]: (Magic) Summon value 0 Skeleton.",
    "color": [102,102,102],
    "color3": [0,0,0],
    "symbol1": "\u26e7"
@@ -142,8 +143,8 @@ MOVES = [{
    "id": "18",
    "cat": "scenario",
    "name": "sorcer",
-   "long": "3]",
-   "text": "[Pay 3] .",
+   "long": "6]",
+   "text": "[Pay 6] .",
    "color": [255,0,0],
    "color2": [127,0,0],
    "symbol1": "\uffec",
@@ -182,7 +183,7 @@ MOVES = [{
    "cat": "official",
    "name": "slime",
    "long": "pt]:meleedeath?this+move?summon@SLIME",
-   "text": "(Trigger) On Melee Death: Summon ally Slime into this empty location. If this unit is Frozen or Petrified this ability cannot activate.",
+   "text": "(Trigger) On Melee Death: Summon ally Slime into this empty location, unless this unit is Frozen or Petrified.",
    "color": [0,153,0],
    "color2": [255,255,255],
    "color3": [0,204,0],
@@ -191,8 +192,8 @@ MOVES = [{
    "id": "23",
    "cat": "official",
    "name": "moon",
-   "long": "pt]:meleedeath?summon@this&set@value-=12",
-   "text": "(Trigger) On Melee Death: Revive into this empty location with value decreased by 12. If this unit's value is less than 12 this ability cannot activate.",
+   "long": "pt]:meleedeath?summon@this&set@value-=25",
+   "text": "[Val-25]: (Trigger) On Melee Death: Revive into this empty location.",
    "color": [0,0,0],
    "color2": [255,255,255],
    "symbol1": "\u263d"
@@ -251,8 +252,7 @@ MOVES = [{
    "id": "29",
    "cat": "official",
    "name": "gemini",
-   "long": "6cp]rn:summon@GEMINITWIN&set@tier=this&thisset@type=GEMINITWIN",
-   "text": "[Pay 4]: (Ranged) Summon GeminiTwin and transform into GeminiTwin, each having value equal to this unit.",
+   "text": "[Gain 15]: (Magic) Combine with OrthoTwin or DiagTwin of equal tier into Gemini at target location.",
    "color": [0,0,0],
    "color2": [255,255,255],
    "symbol1": "\u264a"
@@ -297,8 +297,8 @@ MOVES = [{
    "id": "34",
    "cat": "official",
    "name": "necromance",
-   "long": "2cp]ru:ally?type==SKELETON?transform@BONEPILE",
-   "text": "[Pay 2]: (Magic) Upgrade ally Skeleton, or transform target enemy minion into ally BonePile.",
+   "long": "3cp]ru:ally?type==SKELETON?transform@BONEPILE",
+   "text": "[Pay 3]: (Magic) Upgrade ally Skeleton, or transform target enemy minion into ally BonePile.",
    "color": [0,0,0],
    "color2": [227,0,0],
    "symbol1": "\ue901"
@@ -334,9 +334,8 @@ MOVES = [{
  }, {
    "id": "38",
    "cat": "official",
-   "name": "bat",
-   "long": "p]mz:thisset@type=BAT&move",
-   "text": "(Unstoppable) Transform into Bat and fly to location.",
+   "name": "batswarm",
+   "text": "(Unstoppable, AOE) Transform into a swarm of equal tier bats across target radius.", 
    "color": [0,0,0],
    "color2": [255,255,255],
    "symbol1": "\ue903"
@@ -537,7 +536,7 @@ MOVES = [{
    "id": "60",
    "cat": "official",
    "name": "chainleapmove",
-   "text": "(Unblockable) Move or begin Leap-Attack chain, landing one space over the enemy and repeating consecutively in the same direction.",
+   "text": "(Unblockable) Move or begin LeapAttack chain, landing one space over the enemy and repeating consecutively in the same direction.",
    "color": [0,0,255],
    "color3": [255,0,0],
    "symbol1": "\u26AB"
@@ -577,7 +576,7 @@ MOVES = [{
    "id": "65",
    "cat": "official",
    "name": "null",
-   "text": "(Magic) Target enemy can no longer block movement and their value becomes 0.",
+   "text": "(Magic) Target enemy can no longer block movement and their value decays by 1 at the start of each turn.",
    "color": [0,0,0],
    "color2": [255,255,255],
    "symbol1": "\ue907"
@@ -585,7 +584,7 @@ MOVES = [{
    "id": "66",
    "cat": "official",
    "name": "void",
-   "text": "[Pay 2]: (Ranged) Convert target enemy moveset into move/teleport abilities, negate their augments, and increase their value by 2.",
+   "text": "[Pay 4]: (Ranged) Convert target enemy moveset into move/teleport abilities, negate their augments, and increase their value by 4.",
    "color": [0,0,0],
    "color2": [255,255,255],
    "symbol1": "\uea81"
@@ -611,29 +610,26 @@ MOVES = [{
    "id": "69",
    "cat": "preview",
    "name": "frogifyonce",
-   "text": "[1 Use]: (Magic) Summon Frog or transform enemy into ally 0 value Toad.",
+   "text": "[1 uses]: (Magic) Summon Frog or transform enemy into ally Toad with 0 value.",
    "color": [0,101,24],
    "color3": [0,0,0],
-   "symbol1": "\uea7e",
-   "hide": true
+   "symbol1": "\uea7e"
  }, {
    "id": "70",
    "cat": "preview",
    "name": "autoplantonce",
-   "text": "[1 Use]: (Trigger) On Melee Kill: Summon Sapling into this empty location.",
+   "text": "[1 uses] (Trigger) On Melee Kill: Summon Sapling into this empty location.",
    "color": [0,101,24],
    "color3": [0,0,0],
    "color4": [0,0,0],
    "symbol1": "\u2295",
-   "symbol2": "\u2297",
-   "hide": true
+   "symbol2": "\u2297"
  }, {
     "id": "71",
     "cat": "preview",
     "name": "conditionalmoveattack",
     "text": "(Conditional) Move or Attack.",
-    "color": [100,100,100],
-    "hide": true
+    "color": [100,100,100]
  }, {
     "id": "72",
     "cat": "preview",
@@ -650,13 +646,12 @@ MOVES = [{
    "color3": [200,200,200],
    "color4": [127,127,127],
    "symbol1": "\u25a4",
-   "symbol2": "\u25a1",
-   "hide": true
+   "symbol2": "\u25a1"
  }, {
    "id": "74",
    "cat": "preview",
    "name": "multishiftallyminion",
-   "text": "(AOE) Teleport ally minions in this area 2 spaces forward.",
+   "text": "[Pay 3]: (AOE) Teleport ally minions in this area forward 2 spaces.",
    "color": [121,19,153],
    "color3": [0,0,0],
    "symbol1": "\ue901",
@@ -673,8 +668,7 @@ MOVES = [{
    "color5": [0,0,0],
    "symbol1": "\u25fb",
    "symbol2": "\u254f",
-   "symbol3": "\u2b1d",
-   "hide": true
+   "symbol3": "\u2b1d"
  }, {
    "id": "76",
    "cat": "preview",
@@ -692,8 +686,8 @@ MOVES = [{
  }, {
    "id": "77",
    "cat": "preview",
-   "name": "spawnpillar",
-   "text": "On Spawn: Summon ally StonePillar in this empty location.",
+   "name": "bunny",
+   "text": "[Val-8]: (Magic) Summon value 0 Bunny.",
    "color": [70,70,75],
    "color2": [200,200,210],
    "color3": [130,130,140],
@@ -703,7 +697,7 @@ MOVES = [{
    "id": "78",
    "cat": "official",
    "name": "geminidiagonalsplit",
-   "text": "[Pay 20]: (Ranged) Split into DiagTwin.",
+   "text": "[Pay 15]: (Ranged) Split into DiagTwin.",
    "color": [0,0,0],
    "color2": [255,255,255],
    "color5": [255,255,255],
@@ -714,7 +708,7 @@ MOVES = [{
    "id": "79",
    "cat": "official",
    "name": "geminiorthogonalsplit",
-   "text": "[Pay 20]: (Ranged) Split into OrthoTwin.",
+   "text": "[Pay 15]: (Ranged) Split into OrthoTwin.",
    "color": [0,0,0],
    "color2": [255,255,255],
    "symbol1": "\u2629"
@@ -722,19 +716,11 @@ MOVES = [{
    "id": "80",
    "cat": "preview",
    "name": "delayedrampage",
-   "text": "After X turns based on distance, attack this location and all others in its wake.",
+   "text": "After X(distance) turns, attack this location and all others in its wake.",
    "color": [252,13,27],
    "color3": [0,0,0],
    "symbol1": "\uea76",
    "hide": true
- }, {
-   "id": "29a",
-   "cat": "preview",
-   "name": "geminirecombine",
-   "text": "[Gain 20]: (Magic) Combine with OrthoTwin or DiagTwin of equal tier into Gemini at target location.",
-   "color": [0,0,0],
-   "color2": [255,255,255],
-   "symbol1": "\u264a"
  }, {
    "id": "0a",
    "cat": "variation",
@@ -840,6 +826,15 @@ MOVES = [{
    "symbol2": "\u{1f5d8}",
    "hide": true
  }, {
+   "id": "29a",
+   "cat": "legacy",
+   "name": "gemini",
+   "text": "[Pay 4]: (Ranged) Summon GeminiTwin and transform into GeminiTwin, each having value equal to this unit.",
+   "color": [0,0,0],
+   "color2": [127,127,127],
+   "symbol1": "\u264a",
+   "hide": true
+ }, {
    "id": "49a",
    "cat": "variation",
    "name": "magicpull",
@@ -911,6 +906,16 @@ MOVES = [{
    "color4": [255,100,0],
    "symbol1": "\u25fe",
    "symbol2": "\u25fd",
+   "hide": true
+ }, {
+   "id": "38a",
+   "cat": "legacy",
+   "name": "bat",
+   "long": "p]mz:thisset@type=BAT&move",
+   "text": "(Unstoppable) Transform into Bat and fly to location.", 
+   "color": [0,0,0],
+   "color2": [127,127,127],
+   "symbol1": "\ue903",
    "hide": true
  }, {
    "id": "41a",
@@ -1111,6 +1116,15 @@ MOVES = [{
    "symbol1": "\ue907",
    "hide": true
  }, {
+   "id": "65c",
+   "cat": "legacy",
+   "name": "zeronull",
+   "text": "(Magic) Target enemy can no longer block movement and their value becomes 0.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "symbol1": "\ue907",
+   "hide": true
+ }, {
    "id": "66a",
    "cat": "legacy",
    "name": "magicvoid",
@@ -1280,26 +1294,35 @@ MOVES = [{
  }, {
    "id": "80a",
    "cat": "variation",
+   "name": "delayedrampageunblockable",
+   "text": "(Unblockable) After X(distance) turns, attack this location and all others in its wake.",
+   "color": [252,13,27],
+   "color3": [0,127,0],
+   "symbol1": "\uea76",
+   "hide": true
+ }, {
+   "id": "80b",
+   "cat": "variation",
    "name": "rampage",
-   "text": "Attack this location and all others in its wake.",
+   "text": "(Unblockable) Attack this location and all others in its wake.",
    "color": [252,13,27],
    "color3": [127,0,0],
    "symbol1": "\uea76",
    "hide": true
  }, {
-   "id": "80b",
+   "id": "80c",
    "cat": "limbo",
    "name": "delayedraid",
-   "text": "After X turns based on distance, move to this location as if you had used a &quot;Move, Attack, or swap places with ally.&quot; ability for each step toward that location.",
+   "text": "(Unblockable) After X(distance) turns, move to this location as if you had used a &quot;Move, Attack, or swap places with ally.&quot; ability for each step toward that location.",
    "color": [255,210,0],
    "color3": [0,0,0],
    "symbol1": "\uea76",
    "hide": true
  }, {
-   "id": "80c",
+   "id": "80d",
    "cat": "limbo",
    "name": "raid",
-   "text": "Move to this location as if you had used a &quot;Move, Attack, or swap places with ally.&quot; ability for each step toward that location.",
+   "text": "(Unblockable) Move to this location as if you had used a &quot;Move, Attack, or swap places with ally.&quot; ability for each step toward that location.",
    "color": [255,210,0],
    "color3": [127,0,0],
    "symbol1": "\uea76",
@@ -3814,11 +3837,21 @@ MOVES = [{
  }, {
    "id": "y1",
    "cat": "deconfirmed",
-   "name": "batswarm",
-   "text": "(Unstoppable, AOE) Transform into a swarm of bats.",
+   "name": "batswarmwasactuallyadded",
+   "text": "(Spaghetti) TheGrandestine actually added bat swarm even though it was deconfirmed?!",
    "color": [255,0,0],
    "color2": [255,255,255],
    "symbol1": "\ue903",
+   "hide": true
+ }, {
+   "id": "y2",
+   "cat": "deconfirmed",
+   "name": "spawnpillar",
+   "text": "On Spawn: Summon ally StonePillar in this empty location.",
+   "color": [70,70,75],
+   "color2": [200,200,210],
+   "color3": [130,130,140],
+   "symbol1": "\uec75",
    "hide": true
  }, {
    "id": "c1",
