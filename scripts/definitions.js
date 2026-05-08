@@ -688,9 +688,8 @@ MOVES = [{
    "cat": "preview",
    "name": "bunny",
    "text": "[Val-8]: (Magic) Summon value 0 Bunny.",
-   "color": [70,70,75],
-   "color2": [200,200,210],
-   "color3": [130,130,140],
+   "color": [0,0,0],
+   "color2": [255,255,255],
    "symbol1": "\u{1f407}\ufe0e"
  }, {
    "id": "78",
@@ -1972,7 +1971,7 @@ MOVES = [{
     "id": "b29",
     "cat": "pretend",
     "name": "finalblast",
-    "text": "(Magic) Remove target from the game, ignoring all abilities, passives, and status effects; poison ally King for 3 turns, and lose this ability.",
+    "text": "[1 uses] (Magic) Remove target from the game, ignoring all abilities, passives, and status effects; and poison ally King for 3 turns.",
     "color": [200,200,200],
     "color3": [127,59,17],
     "symbol1": "\u2728",
@@ -2387,7 +2386,7 @@ MOVES = [{
     "id": "b75",
     "cat": "limbo",
     "name": "summonknight",
-    "text": "(Magic) Summon Knight, and lose this ability.",
+    "text": "[1 uses] (Magic) Summon Knight.",
     "color": [0,0,0],
     "color2": [255,255,255],
     "symbol1": "\uec05",
@@ -2771,7 +2770,7 @@ MOVES = [{
     "id": "b108",
     "cat": "pretend",
     "name": "passingattack",
-    "text": "Attack only, then move 1 space forward and lose this ability.",
+    "text": "[1 uses] Attack only, then move 1 space forward.",
     "color": [253,107,116],
     "color3": [255,255,255],
     "symbol1": "\uec03",
@@ -3364,7 +3363,7 @@ MOVES = [{
     "color": [0,0,0],
     "color2": [255,255,255],
     "color3": [0,127,255],
-    "symbol1": "\u{1f1ed}",
+    "symbol1": "\u{1f1ed}\ufe0e",
     "hide": true
  }, {
    "id": "b131",
@@ -3863,8 +3862,8 @@ MOVES = [{
    "color3": [0,0,255],
    "color4": [255,0,0],
    "color5": [0,0,0],
-   "symbol1": "\{1cdfe}",
-   "symbol2": "\{1cdff}",
+   "symbol1": "\u{1cdfe}",
+   "symbol2": "\u{1cdff}",
    "symbol3": "\u2656",
    "hide": true
  }, {
