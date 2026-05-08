@@ -2158,9 +2158,8 @@ MOVES = [{
    "cat": "pretend",
    "name": "enervate",
    "text": "(Magic) Enervate enemy unit for 10 turns, reducing their exhaust threshold to 1.",
-   "color": [0,0,0],
-   "color2": [255,255,255],
-   "color3": [127,127,127],
+   "nobox": true,
+   "color3": [0,0,0],
    "symbol1": "\u{1cc89}",
    "hide": true
  }, {
@@ -3179,9 +3178,8 @@ MOVES = [{
     "text": "(Magic, Trigger) Enemy Unit: Exhaust this unit at the end of your opponent's turn.",
     "color": [0,0,0],
     "color2": [255,255,255],
-    "color4": [255,0,0],
+    "color3": [255,0,0],
     "symbol1": "\u{1cc43}",
-    "symbol2": "!",
     "hide": true
  }, {
     "id": "0f",
