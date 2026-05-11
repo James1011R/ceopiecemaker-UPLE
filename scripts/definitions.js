@@ -608,7 +608,7 @@ MOVES = [{
    "symbol1": "\u{1f5d8}"
  }, {
    "id": "69",
-   "cat": "preview",
+   "cat": "official",
    "name": "frogifyonce",
    "text": "[1 uses] (Magic) Summon Frog or transform enemy into ally Toad with 0 value.",
    "color": [0,101,24],
@@ -616,7 +616,7 @@ MOVES = [{
    "symbol1": "\uea7e"
  }, {
    "id": "70",
-   "cat": "preview",
+   "cat": "official",
    "name": "autoplantonce",
    "text": "[1 uses] (Trigger) On Melee Kill: Summon Sapling into this empty location.",
    "color": [0,101,24],
@@ -626,20 +626,20 @@ MOVES = [{
    "symbol2": "\u2297"
  }, {
     "id": "71",
-    "cat": "preview",
+    "cat": "official",
     "name": "conditionalmoveattack",
     "text": "(Conditional) Move or Attack.",
     "color": [100,100,100],
     "hide": true
  }, {
     "id": "72",
-    "cat": "preview",
+    "cat": "official",
     "name": "conditionalattack",
     "text": "(Conditional) Attack only.",
     "color": [253,107,116]
  }, {
    "id": "73",
-   "cat": "preview",
+   "cat": "official",
    "name": "moveattackbonepileondeath",
    "text": "(Trigger) On Melee Death: Create BonePile in this empty location. \n(Active) Move or Attack.",
    "color": [0,0,0],
@@ -649,7 +649,7 @@ MOVES = [{
    "symbol2": "\u25a1"
  }, {
    "id": "74",
-   "cat": "preview",
+   "cat": "official",
    "name": "multishiftallyminion",
    "text": "[Pay 3]: (AOE) Teleport ally minions in this area forward 2 spaces.",
    "color": [121,19,153],
@@ -658,7 +658,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "75",
-   "cat": "preview",
+   "cat": "official",
    "name": "mount",
    "text": "Toggle ally Mount. Mounted units move with the attaching unit.",
    "color": [0,0,0],
@@ -671,7 +671,7 @@ MOVES = [{
    "symbol3": "\u2b1d"
  }, {
    "id": "76",
-   "cat": "preview",
+   "cat": "official",
    "name": "attach",
    "text": "Toggle ally Attachment. Attached units move with the attaching unit and vice versa.",
    "color": [0,0,0],
@@ -685,7 +685,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "77",
-   "cat": "preview",
+   "cat": "official",
    "name": "bunny",
    "text": "[Val-8]: (Magic) Summon value 0 Bunny.",
    "color": [0,0,0],
@@ -712,8 +712,8 @@ MOVES = [{
    "symbol1": "\u2629"
  }, {
    "id": "80",
-   "cat": "preview",
-   "name": "delayedrampage",
+   "cat": "official",
+   "name": "rampage",
    "text": "(Unstoppable) After X(dist) turns, attack this location and all others in its wake.",
    "color": [252,13,27],
    "color3": [0,0,0],
@@ -1294,7 +1294,7 @@ MOVES = [{
    "id": "80a",
    "cat": "legacy",
    "name": "lazyrampage",
-   "text": "After X(distance) turns, attack this location and all others in its wake.",
+   "text": "After X(dist) turns, attack this location and all others in its wake.",
    "color": [252,13,27],
    "color3": [127,127,127],
    "symbol1": "\uea76",
@@ -1302,7 +1302,7 @@ MOVES = [{
  }, {
    "id": "80b",
    "cat": "variation",
-   "name": "rampage",
+   "name": "fastrampage",
    "text": "(Unstoppable) Attack this location and all others in its wake.",
    "color": [252,13,27],
    "color3": [127,0,0],
@@ -1311,8 +1311,8 @@ MOVES = [{
  }, {
    "id": "80c",
    "cat": "limbo",
-   "name": "delayedraid",
-   "text": "(Unstoppable) After X(distance) turns, move to this location as if you had used a &quot;Move, Attack, or swap places with ally.&quot; ability for each step toward that location.",
+   "name": "raid",
+   "text": "(Unstoppable) After X(dist) turns, move to this location as if you had used a &quot;Move, Attack, or swap places with ally.&quot; ability for each step toward that location.",
    "color": [255,210,0],
    "color3": [0,0,0],
    "symbol1": "\uea76",
@@ -1320,10 +1320,30 @@ MOVES = [{
  }, {
    "id": "80d",
    "cat": "limbo",
-   "name": "raid",
+   "name": "fastraid",
    "text": "(Unstoppable) Move to this location as if you had used a &quot;Move, Attack, or swap places with ally.&quot; ability for each step toward that location.",
    "color": [255,210,0],
    "color3": [127,0,0],
+   "symbol1": "\uea76",
+   "hide": true
+ }, {
+   "id": "80e",
+   "cat": "preview",
+   "name": "truerampage",
+   "text": "(Unstoppable) After X(dist) turns, attack this location and all others in its wake, including allies.",
+   "color": [255,0,0],
+   "color2": [127,0,0],
+   "color3": [0,0,0],
+   "symbol1": "\uea76",
+   "hide": true
+ }, {
+   "id": "80e",
+   "cat": "preview",
+   "name": "fasttruerampage",
+   "text": "Attack this location and all others in its wake, including allies.",
+   "color": [255,0,0],
+   "color2": [127,0,0],
+   "color3": [255,0,0],
    "symbol1": "\uea76",
    "hide": true
  }, {
