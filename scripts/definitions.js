@@ -192,8 +192,8 @@ MOVES = [{
    "id": "23",
    "cat": "official",
    "name": "moon",
-   "long": "pt]:meleedeath?summon@this&set@value-=25",
-   "text": "[Val-25]: (Trigger) On Melee Death: Revive into this empty location.",
+   "long": "pt]:meleedeath?summon@this&set@value=0&(LOSEABILTY)",
+   "text": "[1 uses] (Trigger) On Melee Death: Revive into this empty location with 0 value.",
    "color": [0,0,0],
    "color2": [255,255,255],
    "symbol1": "\u263d"
@@ -799,6 +799,17 @@ MOVES = [{
    "color2": [0,0,0],
    "color3": [255,255,255],
    "symbol1": "\u25cb",
+   "hide": true
+ }, {
+   "id": "23a",
+   "cat": "legacy",
+   "name": "oldmoon",
+   "long": "pt]:meleedeath?summon@this&set@value-=25",
+   "text": "[Val-25]: (Trigger) On Melee Death: Revive into this empty location.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [127,127,127],
+   "symbol1": "\u263d",
    "hide": true
  }, {
    "id": "25b",
