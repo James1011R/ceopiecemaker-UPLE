@@ -297,8 +297,8 @@ MOVES = [{
    "id": "34",
    "cat": "official",
    "name": "necromance",
-   "long": "3cp]ru:ally?type==SKELETON?transform@BONEPILE",
-   "text": "[Pay 3]: (Magic) Upgrade ally Skeleton, or transform target enemy minion into ally BonePile.",
+   "long": "4cp]ru:ally?type==SKELETON?transform@BONEPILE",
+   "text": "[Pay 4]: (Magic) Upgrade ally Skeleton, or transform target enemy minion into ally BonePile.",
    "color": [0,0,0],
    "color2": [227,0,0],
    "symbol1": "\ue901"
