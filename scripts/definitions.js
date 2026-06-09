@@ -200,7 +200,7 @@ MOVES = [{
  }, {
    "id": "24",
    "cat": "official",
-   "name": "jumpattackminion",
+   "name": "attackminion",
    "long": "b]mu:minion?attack",
    "text": "(Unblockable) Attack Minion.",
    "color": [138,63,63],
@@ -473,7 +473,7 @@ MOVES = [{
  }, {
    "id": "53",
    "cat": "official",
-   "name": "jumpattack",
+   "name": "attack",
    "long": "b]mu:attack",
    "text": "(Unblockable) Attack only.",
    "color": [255,0,0],
@@ -1176,7 +1176,7 @@ MOVES = [{
  }, {
     "id": "71a",
     "cat": "variation",
-    "name": "conditionaljump",
+    "name": "conditional",
     "text": "(Unblockable, Conditional) Move or Attack.",
     "color": [112,173,114],
     "hide": true
@@ -1204,7 +1204,7 @@ MOVES = [{
  }, {
     "id": "71e",
     "cat": "variation",
-    "name": "conditionaljumpswap",
+    "name": "conditionalswap",
     "text": "(Unblockable, Conditional) Move, Attack, or swap places with ally.",
     "color": [255,228,100],
     "hide": true
@@ -1408,7 +1408,7 @@ MOVES = [{
  }, {
    "id": "a6",
    "cat": "limbo",
-   "name": "jumpallymoveattack",
+   "name": "allymoveattack",
    "long": "b]m(ALLYUNBLOCKABLE)n:move/attack",
    "text": "Move or Attack. Cannot be blocked by Ally units.",
    "color": [0,0,0],
@@ -2030,7 +2030,7 @@ MOVES = [{
     "hide": true
  }, {
    "id": "b41",
-   "cat": "limbo",
+   "cat": "event",
    "name": "jumpstart",
    "long": "b]mu:startpos?move/attack",
    "text": "(Unblockable) Move or Attack from starting position.",
@@ -2122,7 +2122,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b45",
-   "cat": "pretend",
+   "cat": "event",
    "name": "meteoricjump",
    "text": "(Unblockable) Teleport, or Attack and push all units adjacent to destination 1 space away.",
    "color": [20,151,24],
@@ -2156,11 +2156,29 @@ MOVES = [{
    "symbol1": "\u2747",
    "hide": true
  }, {
+   "id": "b47a",
+   "cat": "limbo",
+   "name": "moveorattackany",
+   "text": "Move or Attack enemy or ally.",
+   "color": [255,255,255],
+   "color2": [0,0,0],
+   "symbol1": "\u2747",
+   "hide": true
+ }, {
    "id": "b48",
    "cat": "limbo",
    "name": "jumpattackany",
    "text": "(Unblockable) Attack enemy or ally.",
    "color": [127,0,0],
+   "color2": [0,0,0],
+   "symbol1": "\u2747",
+   "hide": true
+ }, {
+   "id": "b48a",
+   "cat": "event",
+   "name": "jumpmoveorattackany",
+   "text": "(Unblockable) Move or Attack enemy or ally.",
+   "color": [0,255,0],
    "color2": [0,0,0],
    "symbol1": "\u2747",
    "hide": true
