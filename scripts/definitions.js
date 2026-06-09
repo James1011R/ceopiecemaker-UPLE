@@ -3392,7 +3392,7 @@ MOVES = [{
     "id": "b32a",
     "cat": "scenario",
     "name": "valuecharge",
-    "text": "[Pay 3]: (Magic) Value Charge ally, making them gain 5 value but if they leave the board they are removed from the game.",
+    "text": "[Val-3]: (Magic) Value Charge ally, making them gain 5 value but if they leave the board they are removed from the game.",
     "color": [255,255,0],
     "color2": [0,0,0],
     "symbol1": "\ufe62",
@@ -3401,7 +3401,7 @@ MOVES = [{
    "id": "b43",
    "cat": "scenario",
    "name": "spellcharge",
-   "text": "[Pay 2]: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location.",
+   "text": "[Val-5]: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location.",
    "color": [20,151,24],
    "symbol1": "\u25c8",
    "hide": true
@@ -3409,7 +3409,7 @@ MOVES = [{
    "id": "b43a",
    "cat": "scenario",
    "name": "spellchargeswap",
-   "text": "[Pay 2]: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location and swapping places with any ally on that location.",
+   "text": "[Val-5: (Magic) Spellcharge, teleporting to location and destroying any enemy on that location and swapping places with any ally on that location.",
    "color": [255,210,0],
    "symbol1": "\u25c8",
    "hide": true
