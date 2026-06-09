@@ -114,6 +114,7 @@ for (var i = 0; i < MOVES.length; i++) {
   if (MOVES[i].cat == "custom") className += " custom";
   if (MOVES[i].cat == "scenario") className += " scenario";
   if (MOVES[i].cat == "deconfirmed") className += " deconfirmed";
+  if (MOVES[i].cat == "event") className += " event";
   if (MOVES[i].hide) className += " hide";
     $(".moves").append(makeSVGTagContent("svg", {
       class: className,
