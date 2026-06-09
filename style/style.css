@@ -268,10 +268,10 @@ svg. {
   box-shadow: 0px 0px 0px 3px rgb(204, 0, 204), 0px 0px 0px 5px rgb(136, 0, 136);
 }
 #action svg.event, .moves.gallery svg.event {
-  box-shadow: 0px 0px 0px 3px rgb(220, 220, 255), 0px 0px 0px 5px rgb(160, 160, 204);
+  box-shadow: 0px 0px 0px 3px rgb(127, 127, 255), 0px 0px 0px 5px rgb(101, 101, 204);
 }
 #action svg.event.active, .moves.gallery svg.event.active {
-  box-shadow: 0px 0px 0px 3px rgb(160, 160, 204), 0px 0px 0px 5px rgb(100, 100, 136);
+  box-shadow: 0px 0px 0px 3px rgb(101, 101, 204), 0px 0px 0px 5px rgb(67, 67, 136);
 }
 
 section .moves svg {
