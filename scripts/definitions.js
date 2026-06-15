@@ -2030,7 +2030,7 @@ MOVES = [{
     "hide": true
  }, {
    "id": "b41",
-   "cat": "event",
+   "cat": "limbo",
    "name": "jumpstart",
    "long": "b]mu:startpos?move/attack",
    "text": "(Unblockable) Move or Attack from starting position.",
@@ -2122,7 +2122,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b45",
-   "cat": "event",
+   "cat": "pretend",
    "name": "meteoricjump",
    "text": "(Unblockable) Teleport, or Attack and push all units adjacent to destination 1 space away.",
    "color": [20,151,24],
@@ -2175,7 +2175,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "b48a",
-   "cat": "event",
+   "cat": "limbo",
    "name": "jumpmoveorattackany",
    "text": "(Unblockable) Move or Attack enemy or ally.",
    "color": [0,255,0],
