@@ -83,7 +83,7 @@ MOVES = [{
    "cat": "official",
    "name": "movestart",
    "long": "b]mn:startpos?move",
-   "text": "Move .",
+   "text": "Move from starting position.",
    "color": [0,0,255],
    "color2": [161,161,255],
    "symbol1": "\u274b"
