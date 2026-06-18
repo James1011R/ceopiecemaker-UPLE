@@ -473,7 +473,7 @@ MOVES = [{
  }, {
    "id": "53",
    "cat": "official",
-   "name": "attack",
+   "name": "jumpattack",
    "long": "b]mu:attack",
    "text": "(Unblockable) Attack only.",
    "color": [255,0,0],
