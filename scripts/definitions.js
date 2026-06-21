@@ -803,7 +803,7 @@ MOVES = [{
  }, {
    "id": "23a",
    "cat": "legacy",
-   "name": "oldmoon",
+   "name": "valuecostmoon",
    "long": "pt]:meleedeath?summon@this&set@value-=25",
    "text": "[Val-25]: (Trigger) On Melee Death: Revive into this empty location.",
    "color": [0,0,0],
