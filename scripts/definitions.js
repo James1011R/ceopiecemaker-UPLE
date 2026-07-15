@@ -4157,9 +4157,9 @@ MOVES = [{
  }, {
    "id": "0000",
    "cat": "custom",
-   "name": "el vacio",
+   "name": "elvacio",
    "long": "z]",
-   "text": "\u0000",
+   "text": "null",
    "nobox": true,
    "symbol1": "\u0000",
    "hide": true
