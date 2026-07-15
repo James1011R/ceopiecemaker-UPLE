@@ -4154,6 +4154,15 @@ MOVES = [{
     "color3": [0,0,0],
     "symbol1": "\uf800",
     "hide": true
+ }, {
+   "id": "0000",
+   "cat": "custom",
+   "name": "el vacio",
+   "long": "z]",
+   "text": "\u0000",
+   "nobox": true,
+   "symbol1": "\u0000",
+   "hide": true
  }];
 
 /* Self reminder
