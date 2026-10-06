@@ -446,8 +446,8 @@ MOVES = [{
    "id": "50",
    "cat": "official",
    "name": "compel",
-   "long": "cs]rn:compel#flag@2(ct]start?mn:move@-1(AWAY)",
-   "text": "(Ranged) Compel enemy unit, making them move in the direction of this ability at the start of their turn, for 3 turns.",
+   "long": "cs]ru:compel#flag@2(ct]start?mn:move@-1(AWAY)",
+   "text": "(Magic) Compel enemy unit, making them move in the direction of this ability at the start of their turn, for 3 turns.",
    "color": [255,63,255],
    "color2": [255,255,255],
    "symbol1": "\u2661"
@@ -1021,6 +1021,16 @@ MOVES = [{
    "color2": [255,255,255],
    "color3": [255,0,0],
    "symbol1": "\uEA14",
+   "hide": true
+ }, {
+   "id": "50",
+   "cat": "legacy",
+   "name": "rangedcompel",
+   "long": "cs]rn:compel#flag@2(ct]start?mn:move@-1(AWAY)",
+   "text": "(Ranged) Compel enemy unit, making them move in the direction of this ability at the start of their turn, for 3 turns.",
+   "color": [255,63,255],
+   "color2": [255,255,255],
+   "symbol1": "\u2316",
    "hide": true
  }, {
    "id": "60a",
