@@ -89,6 +89,12 @@ li {
   font-size: smaller;
   text-align: center;
 }
+.askadurs{
+  display: none;
+}
+#tetgrandestine.askadurs:target {
+  display: block;
+}
 .left {
   width: 95%;
   font-weight: bold;
