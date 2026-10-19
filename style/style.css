@@ -89,10 +89,10 @@ li {
   font-size: smaller;
   text-align: center;
 }
-.askadurs{
+.ascendentum{
   display: none;
 }
-#tetgrandestine.askadurs:target {
+#tetgrandestine.ascendentum:target {
   display: block;
 }
 .left {
