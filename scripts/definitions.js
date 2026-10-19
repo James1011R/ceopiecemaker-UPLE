@@ -3971,6 +3971,53 @@ MOVES = [{
    "symbol2": "\u{1fb95}",
    "hide": true
  }, {
+   "id": "w1",
+   "cat": "fractured",
+   "name": "pinkmove",
+   "text": "Move only, but pink.",
+   "color": [255,170,240],
+   "hide": true
+ }, {
+   "id": "w2",
+   "cat": "fractured",
+   "name": "autowin",
+   "text": "(Trigger) Enemy King: Instantly win the game.",
+   "color": [191,180,127],
+   "color2": [255,255,255],
+   "color3": [200,180,0],
+   "symbol1": "\u25c7",
+   "hide": true
+ }, {
+   "id": "w3",
+   "cat": "fractured",
+   "name": "banhammer",
+   "text": "(Unstoppable) Ban target unit.",
+   "color": [0,0,0],
+   "color2": [255,255,255],
+   "color3": [255,0,0],
+   "symbol1": "\u{1f528}\ufe0e",
+   "hide": true
+ }, {
+   "id": "w4",
+   "cat": "fractured",
+   "name": "updategame",
+   "text": "(Unstoppable) Update the game or give 1 sec login box.",
+   "color": [102,102,102],
+   "color2": [255,255,255],
+   "color3": [150,0,0],
+   "symbol1": "\uea1c",
+   "hide": true
+ }, {
+   "id": "w5",
+   "cat": "fractured",
+   "name": "askadurs",
+   "text": "Askâdurs",
+   "color": [0,0,0],
+   "color2": [0,0,0],
+   "color3": [253,117,34],
+   "symbol1": "\u{1f608}\ufe0e",
+   "hide": true
+ }, {
    "id": "c1",
    "cat": "custom",
    "name": "custom1",
