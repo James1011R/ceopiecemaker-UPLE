@@ -4010,7 +4010,7 @@ MOVES = [{
  }, {
    "id": "w5",
    "cat": "fractured",
-   "name": "askadurs",
+   "name": "askâdurs",
    "text": "Askâdurs",
    "color": [0,0,0],
    "color2": [0,0,0],
