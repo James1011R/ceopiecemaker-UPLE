@@ -261,11 +261,17 @@ svg. {
 #action svg.scenario.active, .moves.gallery svg.scenario.active {
   box-shadow: 0px 0px 0px 3px rgb(204, 101, 101), 0px 0px 0px 5px rgb(136, 67, 67);
 }
-#action svg.deconfirmed, .moves.gallery svg.deconfirmed {
+#action svg., .moves.gallery svg.deconfirmed {
   box-shadow: 0px 0px 0px 3px rgb(255, 0, 255), 0px 0px 0px 5px rgb(204, 0, 204);
 }
 #action svg.deconfirmed.active, .moves.gallery svg.deconfirmed.active {
   box-shadow: 0px 0px 0px 3px rgb(204, 0, 204), 0px 0px 0px 5px rgb(136, 0, 136);
+}
+#action svg., .moves.gallery svg.fractured {
+  box-shadow: 0px 0px 0px 3px rgb(0, 0, 255), 0px 0px 0px 5px rgb(0, 0, 204);
+}
+#action svg.fractured.active, .moves.gallery svg.fractured.active {
+  box-shadow: 0px 0px 0px 3px rgb(0, 0, 204), 0px 0px 0px 5px rgb(0, 0, 136);
 }
 #action svg.event, .moves.gallery svg.event {
   box-shadow: 0px 0px 0px 3px rgb(127, 127, 255), 0px 0px 0px 5px rgb(101, 101, 204);
@@ -475,6 +481,15 @@ div.passives{
 #action.showdeconfirmed .deconfirmed {
   display: block;
 }
+#action .fractured {
+  display: none;
+}
+#action.show .fractured {
+  display: none;
+}
+#action.showfractured .fractured {
+  display: block;
+}
 .moves.gallery svg.scenario {
   display: none;
 }
@@ -485,6 +500,12 @@ div.passives{
   display: none;
 }
 .moves.gallery.showdeconfirmed svg.deconfirmed {
+  display: block;
+}
+.moves.gallery svg.fractured {
+  display: none;
+}
+.moves.gallery.showfractured svg.fractured {
   display: block;
 }
 .cost + div > ul {
