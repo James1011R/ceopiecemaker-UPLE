@@ -267,13 +267,13 @@ svg. {
 #action svg.scenario.active, .moves.gallery svg.scenario.active {
   box-shadow: 0px 0px 0px 3px rgb(204, 101, 101), 0px 0px 0px 5px rgb(136, 67, 67);
 }
-#action svg., .moves.gallery svg.deconfirmed {
+#action svg.deconfirmed, .moves.gallery svg.deconfirmed {
   box-shadow: 0px 0px 0px 3px rgb(255, 0, 255), 0px 0px 0px 5px rgb(204, 0, 204);
 }
 #action svg.deconfirmed.active, .moves.gallery svg.deconfirmed.active {
   box-shadow: 0px 0px 0px 3px rgb(204, 0, 204), 0px 0px 0px 5px rgb(136, 0, 136);
 }
-#action svg., .moves.gallery svg.fractured {
+#action svg.fractured, .moves.gallery svg.fractured {
   box-shadow: 0px 0px 0px 3px rgb(0, 0, 255), 0px 0px 0px 5px rgb(0, 0, 204);
 }
 #action svg.fractured.active, .moves.gallery svg.fractured.active {
