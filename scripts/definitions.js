@@ -4236,7 +4236,7 @@ PASSIVES = ["Does not block movement.",
 LABELS = {
     rank: ["Minion", "Champion", "Outcast", "Module", "King"],
     faction: ["Basic", "Clan", "Arcane", "Forest", "Hero"],
-    rarity: ["Common", "Rare", "Epic", "Legendary", "Mythic", "Common", "Rare", "Epic", "Legendary", "Mythic", "Common", "Rare", "Epic", "Legendary", "Mythic", "Common", "Rare", "Epic", "Legendary", "Mythic", "Common", "Rare", "Epic", "Legendary", "Mythic", "add ?tet=grandestine to the URL"]
+    rarity: ["Common", "Rare", "Epic", "Legendary", "Mythic", "Common", "Rare", "Epic", "Legendary", "Mythic", "Common", "Rare", "Epic", "Legendary", "Mythic", "Common", "Rare", "Epic", "Legendary", "Mythic", "Common", "Rare", "Epic", "Legendary", "Mythic", "add #tetgrandestine to the URL"]
 }
 LEVELS = ["base", "plus", "plusplus", "plusplusplus"];
 
