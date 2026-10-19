@@ -3963,7 +3963,7 @@ MOVES = [{
    "id": "y4",
    "cat": "deconfirmed",
    "name": "ARG",
-   "text": "(ARG) Jxuhu yi q ikfuh iushuj qrybyjo sbqii jxqj oek mybb duut je vydt. Jxu qdimuh, mxysx ckij ru qffudtut je jxu KHB, yi yd jxu hqhyjo iubusjeh.",
+   "text": "(ARG) Jxuhu yi q ikfuh iushuj qrybyjo sbqii jxqj oek mybb duut je vydt. Jxu qdimuh, mxysx ckij ru qffudtut je jxu khb, yi yd jxu hqhyjo iubusjeh.",
    "nobox": true,
    "color3": [0,0,0],
    "color4": [255,0,255],
