@@ -4010,11 +4010,11 @@ MOVES = [{
  }, {
    "id": "w5",
    "cat": "fractured",
-   "name": "askâdurs",
-   "text": "Askâdurs",
+   "name": "xothadurs",
+   "text": "Xothadurs",
    "color": [0,0,0],
    "color2": [0,0,0],
-   "color3": [253,117,34],
+   "color3": [255,210,0],
    "symbol1": "\u{1f608}\ufe0e",
    "hide": true
  }, {
