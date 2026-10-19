@@ -114,6 +114,7 @@ for (var i = 0; i < MOVES.length; i++) {
   if (MOVES[i].cat == "custom") className += " custom";
   if (MOVES[i].cat == "scenario") className += " scenario";
   if (MOVES[i].cat == "deconfirmed") className += " deconfirmed";
+  if (MOVES[i].cat == "fractured") className += " fractured";
   if (MOVES[i].cat == "event") className += " event";
   if (MOVES[i].hide) className += " hide";
     $(".moves").append(makeSVGTagContent("svg", {
@@ -172,6 +173,18 @@ $("#shdeconfirmed").click(function() {
     $(".moves.gallery").removeClass("showdeconfirmed");
     $(this).text($(this).text().replace(/Hide/ig, "Show"));
     $(this).text($(this).text().replace(/recommended/ig, "not recommended"));
+  }
+});
+
+$("#shfractured").click(function() {
+  if (this.innerHTML.match(/FRACTURE THE PIECEMAKER/ig)) {
+    $("#action").addClass("showfractured");
+    $(".moves.gallery").addClass("showfractured");
+    $(this).text($(this).text().replace(/FRACTURE THE PIECEMAKER/ig, "Return to Normality"));
+  } else {
+    $("#action").removeClass("showfractured");
+    $(".moves.gallery").removeClass("showfractured");
+    $(this).text($(this).text().replace(/Return to Normality/ig, "FRACTURE THE PIECEMAKER"));
   }
 });
 
