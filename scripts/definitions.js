@@ -3189,7 +3189,6 @@ MOVES = [{
     "color": [0,0,0],
     "color2": [0,127,127],
     "color3": [0,255,255],
-    "color4": [0,255,255],
     "symbol1": "\u23ea",
     "hide": true
  }, {
@@ -3200,7 +3199,6 @@ MOVES = [{
     "color": [0,0,0],
     "color2": [0,127,0],
     "color3": [0,255,0],
-    "color4": [0,255,0],
     "symbol1": "\u23ea",
     "hide": true
  }, {
@@ -4031,8 +4029,9 @@ MOVES = [{
    "cat": "fractured",
    "name": "startrewind",
    "text": "(Unblockable) Teleport unit back to starting position from starting position.",
-   "color": [0,127,127],
-   "color2": [0,255,255],
+   "color": [0,0,0],
+   "color2": [0,127,127],
+   "color3": [0,255,255],
    "symbol1": "\u274b",
    "hide": true
  }, {
