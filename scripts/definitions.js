@@ -4018,6 +4018,36 @@ MOVES = [{
    "symbol1": "\u{1f608}\ufe0e",
    "hide": true
  }, {
+   "id": "w6",
+   "cat": "fractured",
+   "name": "protosorcerdethrone",
+   "text": "(Magic) Sorcerize enemy unit, causing that unit to destroy their king if they die the next turn.",
+   "color": [255,255,255],
+   "color2": [0,0,0],
+   "symbol1": "\uffec",
+   "hide": true
+ }, {
+   "id": "w7",
+   "cat": "fractured",
+   "name": "startrewind",
+   "text": "(Unblockable) Teleport unit back to starting position from starting position.",
+   "color": [0,127,127],
+   "color2": [0,255,255],
+   "symbol1": "\u274b",
+   "hide": true
+ }, {
+   "id": "w8",
+   "cat": "fractured",
+   "name": "everymage",
+   "text": "[Pay 2] Summon 0 value Frog or (Magic) Enchant ally or (Magic) Void or (Magic) Null or (Magic) Poison or (Magic) Transform into ally Ghost.",
+   "color": [255,0,0],
+   "color2": [0,255,0],
+   "color3": [0,0,255],
+   "color4": [255,255,255],
+   "symbol1": "\u{ffc88}",
+   "symbol2": "\u203c",
+   "hide": true
+ }, {
    "id": "c1",
    "cat": "custom",
    "name": "custom1",
