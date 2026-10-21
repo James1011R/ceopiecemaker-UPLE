@@ -3934,7 +3934,7 @@ MOVES = [{
    "cat": "deconfirmed",
    "name": "batswarmwasactuallyadded",
    "text": "(Spaghetti) TheGrandestine actually added bat swarm even though it was deconfirmed?!",
-   "color": [255,0,0],
+   "color": [153,67,0],
    "color2": [255,255,255],
    "symbol1": "\ue903",
    "hide": true
@@ -4063,6 +4063,15 @@ MOVES = [{
    "color2": [255,255,0],
    "symbol1": "\u2622",
    "hide": true
+ }, {
+    "id": "w10",
+    "cat": "fractured",
+    "name": "mordecakek",
+    "text": "(Typeless, Magic, Active, Cooldown) Summon a Bloodwing. When Bloodwing is summoned, on the next turn, it attacks the closest enemy from an A+ pathfinder. If it's a minion, Vampire Drain 2 value from it. If it's a champion, Vampire Drain 10 value from it. Give it to Mordecai. It then has a cooldown of 10 turns, unless Mordecai killed an enemy, in which it will be reduced by 1 turn. If you set your skill points, the time Mordecai's Bloodwing cooldown will be reduced. If Bloodwing comes back from a timeline, Bloodwing stays on the board, taking the enemy's spot. If there is a paradox, it moves 1 in the X direction. Then it moves 1 in the Y direction. It attempts to move back 1 x 1 y each time. If Bloodwing is destroyed, and no previous points on this unit's personal timeline have this unit existing, a new copy of this unit kills either the most expensive allied King, the most expensive allied unit, the most expensive allied Corpse, the least-expensive enemy Corpse, the least expensive enemy non-King unit, or the least-expensive enemy King, preferring the latter in all scenarios, ending ties by selecting highest number XYZ, where X is the Board Number, Y is the Lateral Numerical Position on the board (L to R), and Z is the Longitudinal Numerical Position on the board (U to D). The newly created copy is then summoned in the location of the destroyed unit, removing any and everything else that remains on that location from the timeline. If this is not possible, a new copy of this unit is instead created in a separate 1x1 board.",
+    "color": [255,0,0],
+    "color2": [255,255,255],
+    "symbol1": "\ue903",
+    "hide": true
  }, {
    "id": "c1",
    "cat": "custom",
