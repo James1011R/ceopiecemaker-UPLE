@@ -3625,7 +3625,7 @@ MOVES = [{
     "name": "magicmove",
     "long": "b]ru:move",
     "text": "(Magic) Move only.",
-    "color": [200,0,255],
+    "color": [180,0,255],
     "hide": true
  }, {
     "id": "z13",
@@ -3976,6 +3976,13 @@ MOVES = [{
    "color": [255,170,240],
    "hide": true
  }, {
+   "id": "w1a",
+   "cat": "fractured",
+   "name": "pinkmoveattack",
+   "text": "Move or Attack, but pink.",
+   "color": [255,140,200],
+   "hide": true
+ }, {
    "id": "w2",
    "cat": "fractured",
    "name": "autowin",
@@ -4045,6 +4052,15 @@ MOVES = [{
    "color4": [255,255,255],
    "symbol1": "\u{ffc88}",
    "symbol2": "\u203c",
+   "hide": true
+ }, {
+   "id": "w9",
+   "cat": "fractured",
+   "name": "ICBM",
+   "text": "[Pay 10]: (Magic) After 20 turns any unit in the marked location or adjacent locations are destroyed. If the King is destroyed in this way, that player instantly loses.",
+   "color": [0,0,0],
+   "color2": [255,255,0],
+   "symbol1": "\u2622",
    "hide": true
  }, {
    "id": "c1",
