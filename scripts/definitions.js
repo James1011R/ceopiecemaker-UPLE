@@ -3978,9 +3978,10 @@ MOVES = [{
  }, {
    "id": "w1a",
    "cat": "fractured",
-   "name": "pinkmoveattack",
-   "text": "Move or Attack, but pink.",
-   "color": [255,140,200],
+   "name": "pinkjumpmove",
+   "text": "(Unblockable) Move only, but pink.",
+   "color": [255,170,240],
+   "color2": [255,100,190],
    "hide": true
  }, {
    "id": "w2",
