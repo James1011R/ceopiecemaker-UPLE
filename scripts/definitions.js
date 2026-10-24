@@ -3984,6 +3984,26 @@ MOVES = [{
    "color2": [255,100,190],
    "hide": true
  }, {
+   "id": "w1b",
+   "cat": "fractured",
+   "name": "pinkjumpmoveswap",
+   "text": "(Unblockable) Move or swap places with ally, but pink.",
+   "color": [255,170,240],
+   "color2": [255,100,190],
+   "color3": [255,255,255],
+   "symbol1": "\u{1f5d8}",
+   "hide": true
+ }, {
+   "id": "w1c",
+   "cat": "fractured",
+   "name": "pinkomniswap",
+   "text": "(Unblockable) Move or swap places with unit, but pink.",
+   "color": [255,170,240],
+   "color2": [255,100,190],
+   "color3": [0,255,255],
+   "symbol1": "\u{1f5d8}",
+   "hide": true
+ }, {
    "id": "w2",
    "cat": "fractured",
    "name": "autowin",
@@ -4073,6 +4093,46 @@ MOVES = [{
     "color3": [255,0,0],
     "symbol1": "\ue903",
     "hide": true
+ }, {
+   "id": "w11",
+   "cat": "fractured",
+   "name": "blasttarget",
+   "text": "Direct: Blast target.",
+   "color": [127,100,0],
+   "color2": [250,186,0],
+   "hide": true
+ }, {
+   "id": "w12",
+   "cat": "fractured",
+   "name": "horselessknight",
+   "text": "Jump. NoBlock.",
+   "color": [255,255,255],
+   "color2": [255,255,255],
+   "color3": [20,151,24],
+   "color4": [0,0,0],
+   "symbol1": "\u2b1a",
+   "symbol2": "1",
+   "hide": true
+ }, {
+   "id": "w13",
+   "cat": "fractured",
+   "name": "chessbattleadvanced",
+   "text": "(Passive) Block one normal attack from this location, and lose this ability. \n(Active) Move or Attack.  \nAfterAct: Choose the Attack target direction.",
+   "color": [143,23,23],
+   "color2": [215,95,79],
+   "color3": [20,151,24],
+   "symbol1": "\u2219",
+   "hide": true
+ }, {
+   "id": "w14",
+   "cat": "fractured",
+   "name": "blocknoblock",
+   "text": "Block. NoBlock.",
+   "color": [252,181,100],
+   "color2": [191,126,23],
+   "color3": [252,181,100],
+   "symbol1": "\u00d7",
+   "hide": true
  }, {
    "id": "c1",
    "cat": "custom",
