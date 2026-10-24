@@ -3990,7 +3990,7 @@ MOVES = [{
    "text": "(Unblockable) Move or swap places with ally, but pink.",
    "color": [255,170,240],
    "color2": [255,100,190],
-   "color3": [255,255,255],
+   "color3": [0,0,0],
    "symbol1": "\u{1f5d8}",
    "hide": true
  }, {
