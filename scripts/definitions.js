@@ -4120,8 +4120,26 @@ MOVES = [{
    "text": "(Passive) Block one normal attack from this location, and lose this ability. \n(Active) Move or Attack.  \nAfterAct: Choose the Attack target direction.",
    "color": [143,23,23],
    "color2": [215,95,79],
-   "color3": [255,255,255],
-   "symbol1": "\u2219",
+   "color3": [195,195,195],
+   "color4": [215,95,79],
+   "color5": [255,255,255],
+   "symbol1": "\u25a0",
+   "symbol2": "\u25a1",
+   "symbol3": "\u2219",
+   "hide": true
+ }, {
+   "id": "w13a",
+   "cat": "fractured",
+   "name": "chessbattleadvancedtype2",
+   "text": "(Passive) Block one normal attack from this location, and lose this ability. \n(Active) Move only.  \nAfterAct: Choose the Attack target direction.",
+   "color": [0,47,215],
+   "color2": [143,143,255],
+   "color3": [195,195,195],
+   "color4": [143,143,255],
+   "color5": [255,255,255],
+   "symbol1": "\u25a0",
+   "symbol2": "\u25a1",
+   "symbol3": "\u2219",
    "hide": true
  }, {
    "id": "w14",
