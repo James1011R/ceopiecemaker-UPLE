@@ -4120,7 +4120,7 @@ MOVES = [{
    "text": "(Passive) Block one normal attack from this location, and lose this ability. \n(Active) Move or Attack.  \nAfterAct: Choose the Attack target direction.",
    "color": [143,23,23],
    "color2": [215,95,79],
-   "color3": [20,151,24],
+   "color3": [255,255,255],
    "symbol1": "\u2219",
    "hide": true
  }, {
