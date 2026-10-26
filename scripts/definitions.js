@@ -3958,7 +3958,79 @@ MOVES = [{
    "symbol1": "\u2656",
    "hide": true
  }, {
-   "id": "y4",
+   "id": "56y",
+   "cat": "deconfirmed",
+   "name": "leftstoppathmoveattack",
+   "text": "(Path) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "symbol1": "\u2578",
+   "hide": true
+ }, {
+   "id": "57y",
+   "cat": "deconfirmed",
+   "name": "forwardstoppathmoveattack",
+   "text": "(Path) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "symbol1": "\u2579",
+   "hide": true
+ }, {
+   "id": "58y",
+   "cat": "deconfirmed",
+   "name": "rightstoppathmoveattack",
+   "text": "(Path) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "symbol1": "\u257a",
+   "hide": true
+ }, {
+   "id": "59y",
+   "cat": "deconfirmed",
+   "name": "backwardstoppathmoveattack",
+   "text": "(Path) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "symbol1": "\u257b",
+   "hide": true
+ }, {
+   "id": "61y",
+   "cat": "deconfirmed",
+   "name": "leftstoppathmove",
+   "text": "(Path) Move only.",
+   "color": [0,0,255],
+   "color3": [0,0,0],
+   "symbol1": "\u2578",
+   "hide": true
+ }, {
+   "id": "62y",
+   "cat": "deconfirmed",
+   "name": "forwardstoppathmove",
+   "text": "(Path) Move only.",
+   "color": [0,0,255],
+   "color3": [0,0,0],
+   "symbol1": "\u2579",
+   "hide": true
+ }, {
+   "id": "63y",
+   "cat": "deconfirmed",
+   "name": "rightstoppathmove",
+   "text": "(Path) Move only.",
+   "color": [0,0,255],
+   "color3": [0,0,0],
+   "symbol1": "\u257a",
+   "hide": true
+ }, {
+   "id": "64y",
+   "cat": "deconfirmed",
+   "name": "backwardstoppathmove",
+   "text": "(Path) Move only.",
+   "color": [0,0,255],
+   "color3": [0,0,0],
+   "symbol1": "\u257b",
+   "hide": true
+ }, {
+   "id": "arg",
    "cat": "deconfirmed",
    "name": "ARG",
    "text": "(ARG) Jxuhu yi q ikfuh iushuj qrybyjo sbqii jxqj oek mybb duut je vydt. Jxu qdimuh, mxysx ckij ru qffudtut je jxu khb, yi yd jxu hqhyjo iubusjeh.",
