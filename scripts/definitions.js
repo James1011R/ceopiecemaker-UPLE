@@ -4316,6 +4316,7 @@ MOVES = [{
    "cat": "fractured",
    "name": "crategeber",
    "text": "We need new  passiv ability. Crategeber. Give crate if exist in the end of game.",
+   "nobox": true,
    "color3": [127,100,0],
    "color4": [255,200,0],
    "symbol1": "\uf605",
