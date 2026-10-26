@@ -4312,6 +4312,16 @@ MOVES = [{
    "symbol1": "\u00d7",
    "hide": true
  }, {
+   "id": "w15",
+   "cat": "fractured",
+   "name": "crategeber",
+   "text": "We need new  passiv ability. Crategeber. Give crate if exist in the end of game.",
+   "color3": [127,100,0],
+   "color4": [255,200,0],
+   "symbol1": "\uf605",
+   "symbol2": "\uf602",
+   "hide": true
+ }, {
    "id": "c1",
    "cat": "custom",
    "name": "custom1",
