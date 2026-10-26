@@ -3994,6 +3994,50 @@ MOVES = [{
    "symbol1": "\u2577",
    "hide": true
  }, {
+   "id": "56x",
+   "cat": "deconfirmed",
+   "name": "upleftstoppathmoveattack",
+   "text": "(Path) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "color4": [127,127,127],
+   "symbol1": "\ue703",
+   "symbol2": "\uf278",
+   "hide": true
+ }, {
+   "id": "57x",
+   "cat": "deconfirmed",
+   "name": "uprightstoppathmoveattack",
+   "text": "(Path) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "color4": [127,127,127],
+   "symbol1": "\ue701",
+   "symbol2": "\uf274",
+   "hide": true
+ }, {
+   "id": "58x",
+   "cat": "deconfirmed",
+   "name": "downrightstoppathmoveattack",
+   "text": "(Path) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "color4": [127,127,127],
+   "symbol1": "\ue703",
+   "symbol2": "\uf271",
+   "hide": true
+ }, {
+   "id": "59x",
+   "cat": "deconfirmed",
+   "name": "downleftstoppathmoveattack",
+   "text": "(Path) Move or Attack.",
+   "color": [0,0,0],
+   "color3": [255,0,0],
+   "color4": [127,127,127],
+   "symbol1": "\ue701",
+   "symbol2": "\uf272",
+   "hide": true
+ }, {
    "id": "61y",
    "cat": "deconfirmed",
    "name": "leftstoppathmove",
@@ -4028,6 +4072,50 @@ MOVES = [{
    "color": [0,0,255],
    "color3": [0,0,0],
    "symbol1": "\u2577",
+   "hide": true
+ }, {
+   "id": "61x",
+   "cat": "deconfirmed",
+   "name": "upleftstoppathmove",
+   "text": "(Path) Move only.",
+   "color": [0,0,255],
+   "color3": [0,0,0],
+   "color4": [127,127,255],
+   "symbol1": "\ue703",
+   "symbol2": "\uf278",
+   "hide": true
+ }, {
+   "id": "62x",
+   "cat": "deconfirmed",
+   "name": "uprightstoppathmove",
+   "text": "(Path) Move only.",
+   "color": [0,0,255],
+   "color3": [0,0,0],
+   "color4": [127,127,255],
+   "symbol1": "\ue701",
+   "symbol2": "\uf274",
+   "hide": true
+ }, {
+   "id": "63x",
+   "cat": "deconfirmed",
+   "name": "downrightstoppathmove",
+   "text": "(Path) Move only.",
+   "color": [0,0,255],
+   "color3": [0,0,0],
+   "color4": [127,127,255],
+   "symbol1": "\ue703",
+   "symbol2": "\uf271",
+   "hide": true
+ }, {
+   "id": "64x",
+   "cat": "deconfirmed",
+   "name": "downleftstoppathmove",
+   "text": "(Path) Move only.",
+   "color": [0,0,255],
+   "color3": [0,0,0],
+   "color4": [127,127,255],
+   "symbol1": "\ue701",
+   "symbol2": "\uf272",
    "hide": true
  }, {
    "id": "arg",
