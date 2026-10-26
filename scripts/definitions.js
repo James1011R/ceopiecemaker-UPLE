@@ -4276,7 +4276,7 @@ MOVES = [{
  }, {
    "id": "w13",
    "cat": "fractured",
-   "name": "chessbattleadvanced",
+   "name": "chessbattleadvancedtype1",
    "text": "(Passive) Block one normal attack from this location, and lose this ability. \n(Active) Move or Attack.  \nAfterAct: Choose the Attack target direction.",
    "color": [143,23,23],
    "color2": [215,95,79],
@@ -4321,6 +4321,48 @@ MOVES = [{
    "color4": [255,200,0],
    "symbol1": "\uf605",
    "symbol2": "\uf602",
+   "hide": true
+ }, {
+   "id": "CBA",
+   "cat": "fractured",
+   "name": "chessbattleadvanced",
+   "text": "Chess Battle Advanced",
+   "color": [0,0,0],
+   "color2": [0,0,0],
+   "color3": [0,0,0],
+   "color4": [255,255,255],
+   "color5": [255,0,0],
+   "symbol1": "\u2588\u2588\u2588",
+   "symbol2": "CBA",
+   "symbol3": "\u2581\u2581\u2581",
+   "hide": true
+ }, {
+   "id": "CTS",
+   "cat": "fractured",
+   "name": "checkerstrucesimple",
+   "text": "Checkers Truce Simple",
+   "color": [255,255,255],
+   "color2": [255,255,255],
+   "color3": [255,255,255],
+   "color4": [0,0,0],
+   "color5": [0,255,255],
+   "symbol1": "\u2588\u2588\u2588",
+   "symbol2": "CTS",
+   "symbol3": "\u2581\u2581\u2581",
+   "hide": true
+ }, {
+   "id": "BTI",
+   "cat": "fractured",
+   "name": "backgammontensionintermediate",
+   "text": "Backgammon Tension Intermediate",
+   "color": [127,127,127],
+   "color2": [127,127,127],
+   "color3": [127,127,127],
+   "color4": [255,255,0],
+   "color5": [0,255,0],
+   "symbol1": "\u2588\u2588\u2588",
+   "symbol2": "BTI",
+   "symbol3": "\u2581\u2581\u2581",
    "hide": true
  }, {
    "id": "c1",
