@@ -3964,7 +3964,7 @@ MOVES = [{
    "text": "(Path) Move or Attack.",
    "color": [0,0,0],
    "color3": [255,0,0],
-   "symbol1": "\u2578",
+   "symbol1": "\u2574",
    "hide": true
  }, {
    "id": "57y",
@@ -3973,7 +3973,7 @@ MOVES = [{
    "text": "(Path) Move or Attack.",
    "color": [0,0,0],
    "color3": [255,0,0],
-   "symbol1": "\u2579",
+   "symbol1": "\u2575",
    "hide": true
  }, {
    "id": "58y",
@@ -3982,7 +3982,7 @@ MOVES = [{
    "text": "(Path) Move or Attack.",
    "color": [0,0,0],
    "color3": [255,0,0],
-   "symbol1": "\u257a",
+   "symbol1": "\u2576",
    "hide": true
  }, {
    "id": "59y",
@@ -3991,7 +3991,7 @@ MOVES = [{
    "text": "(Path) Move or Attack.",
    "color": [0,0,0],
    "color3": [255,0,0],
-   "symbol1": "\u257b",
+   "symbol1": "\u2577",
    "hide": true
  }, {
    "id": "61y",
@@ -4000,7 +4000,7 @@ MOVES = [{
    "text": "(Path) Move only.",
    "color": [0,0,255],
    "color3": [0,0,0],
-   "symbol1": "\u2578",
+   "symbol1": "\u2574",
    "hide": true
  }, {
    "id": "62y",
@@ -4009,7 +4009,7 @@ MOVES = [{
    "text": "(Path) Move only.",
    "color": [0,0,255],
    "color3": [0,0,0],
-   "symbol1": "\u2579",
+   "symbol1": "\u2575",
    "hide": true
  }, {
    "id": "63y",
@@ -4018,7 +4018,7 @@ MOVES = [{
    "text": "(Path) Move only.",
    "color": [0,0,255],
    "color3": [0,0,0],
-   "symbol1": "\u257a",
+   "symbol1": "\u2576",
    "hide": true
  }, {
    "id": "64y",
@@ -4027,7 +4027,7 @@ MOVES = [{
    "text": "(Path) Move only.",
    "color": [0,0,255],
    "color3": [0,0,0],
-   "symbol1": "\u257b",
+   "symbol1": "\u2577",
    "hide": true
  }, {
    "id": "arg",
