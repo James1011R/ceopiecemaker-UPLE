@@ -4365,6 +4365,20 @@ MOVES = [{
    "symbol3": "\u2581\u2581\u2581",
    "hide": true
  }, {
+   "id": "CBOSS",
+   "cat": "fractured",
+   "name": "chessbattleorderstratosphere",
+   "text": "Chess Battle Order Strato Sphere",
+   "color": [86,134,196],
+   "color2": [86,134,196],
+   "color3": [86,134,196],
+   "color4": [186,149,166],
+   "color5": [15,45,71],
+   "symbol1": "\u2588\u2588\u2588",
+   "symbol2": "\u{1d5d6}\u{1d5d5}\u{1d5e2}",
+   "symbol3": "\u1d04\u0299\u1d0f",
+   "hide": true
+ }, {
    "id": "c1",
    "cat": "custom",
    "name": "custom1",
