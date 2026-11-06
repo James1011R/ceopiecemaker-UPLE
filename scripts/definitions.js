@@ -4410,7 +4410,7 @@ MOVES = [{
    "text": "what have you done",
    "nobox": true,
    "color3": [0,0,0],
-   "color4": [0,0,255],
+   "color4": [255,0,0],
    "symbol1": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
    "symbol2": "you've gone too far",
    "hide": true
