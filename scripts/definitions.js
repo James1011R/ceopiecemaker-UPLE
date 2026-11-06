@@ -4380,8 +4380,9 @@ MOVES = [{
    "hide": true
  }, {
    "id": "keygate",
-   "cat": "fractured",
+   "cat": "fracturedcustom",
    "name": "keygate",
+   "long": "z]",
    "text": "A key to nowhere. Perhaps there could be something more? Or maybe this is the end of the piecemaker.",
    "color": [0,0,0],
    "color2": [0,0,0],
