@@ -4379,6 +4379,42 @@ MOVES = [{
    "symbol3": "\u1d04\u0299\u1d0f",
    "hide": true
  }, {
+   "id": "Ω1",
+   "cat": "xothadurs",
+   "name": "removethisability",
+   "text": "remove this ability from the game forever",
+   "color": [127,0,0],
+   "color2": [64,0,0],
+   "color3": [127,0,0],
+   "color4": [255,0,0],
+   "symbol1": "\u{1cc43}",
+   "symbol2": "\u{1cc89}",
+   "hide": true
+ }, {
+   "id": "Ω2",
+   "cat": "xothadurs",
+   "name": "mojibake",
+   "text": "(ðsžšåÞя½	»Þ¥¿????¶ŠÂ£»Þ¥¿舐) ╟????☒舐 ???? Â£——Â£¶Š.",
+   "nobox": true,
+   "color3": [20,151,24],
+   "color4": [137,203,139],
+   "color5": [255,151,255],
+   "symbol1": "\uf5fa",
+   "symbol2": "\u{1cdff}",
+   "symbol3": "\u{ffc7d}",
+   "hide": true
+ }, {
+   "id": "Ω3",
+   "cat": "xothadurs",
+   "name": "whathaveyoudone",
+   "text": "what have you done",
+   "nobox": true,
+   "color3": [0,0,0],
+   "color4": [0,0,255],
+   "symbol1": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+   "symbol2": "you've gone too far",
+   "hide": true
+ }, {
    "id": "c1",
    "cat": "custom",
    "name": "custom1",
