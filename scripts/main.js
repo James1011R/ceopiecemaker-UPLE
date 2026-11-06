@@ -115,6 +115,7 @@ for (var i = 0; i < MOVES.length; i++) {
   if (MOVES[i].cat == "scenario") className += " scenario";
   if (MOVES[i].cat == "deconfirmed") className += " deconfirmed";
   if (MOVES[i].cat == "fractured") className += " fractured";
+  if (MOVES[i].cat == "fracturedcustom") className += " fracturedcustom";
   if (MOVES[i].cat == "annihilated") className += " annihilated";
   if (MOVES[i].cat == "event") className += " event";
   if (MOVES[i].hide) className += " hide";
@@ -230,6 +231,10 @@ setAction("moveattack");
 
 //Doubleclick custom to edit
 $("#action svg.custom").on("dblclick taphold", function() {
+  cusLoadEdit(this.classList[0]);
+});
+
+$("#action svg.fracturedcustom").on("dblclick taphold", function() {
   cusLoadEdit(this.classList[0]);
 });
 
