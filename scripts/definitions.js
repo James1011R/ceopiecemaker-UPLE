@@ -4380,10 +4380,10 @@ MOVES = [{
    "hide": true
  }, {
    "id": "Ω1",
-   "cat": "xothadurs",
+   "cat": "annihilated",
    "name": "removethisability",
    "text": "remove this ability from the game forever",
-   "color": [127,0,0],
+   "color": [64,0,0],
    "color2": [64,0,0],
    "color3": [127,0,0],
    "color4": [255,0,0],
@@ -4392,7 +4392,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "Ω2",
-   "cat": "xothadurs",
+   "cat": "annihilated",
    "name": "mojibake",
    "text": "(ðsžšåÞя½	»Þ¥¿????¶ŠÂ£»Þ¥¿舐) ╟????☒舐 ???? Â£——Â£¶Š.",
    "nobox": true,
@@ -4405,7 +4405,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "Ω3",
-   "cat": "xothadurs",
+   "cat": "annihilated",
    "name": "whathaveyoudone",
    "text": "what have you done",
    "nobox": true,
