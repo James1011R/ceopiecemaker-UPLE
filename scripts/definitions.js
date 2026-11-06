@@ -4383,7 +4383,7 @@ MOVES = [{
    "cat": "fracturedcustom",
    "name": "keygate",
    "long": "z]",
-   "text": "A key to nowhere. Perhaps there could be something more? Or maybe this is the end of the piecemaker.",
+   "text": "A key to nowhere. Perhaps there could be something more? Or maybe this is the end of the piecemaker... Perhaps a certain dark entity also released from THE FRACTURE knows if the key has a door or not...",
    "color": [0,0,0],
    "color2": [0,0,0],
    "color3": [255,210,0],
