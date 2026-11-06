@@ -282,6 +282,12 @@ svg. {
 #action svg.fractured.active, .moves.gallery svg.fractured.active {
   box-shadow: 0px 0px 0px 3px rgb(0, 0, 204), 0px 0px 0px 5px rgb(0, 0, 136);
 }
+#action svg.xothadurs, .moves.gallery svg.xothadurs {
+  box-shadow: 0px 0px 0px 3px rgb(0, 0, 0), 0px 0px 0px 5px rgb(20, 0, 40);
+}
+#action svg.xothadurs.active, .moves.gallery svg.xothadurs.active {
+  box-shadow: 0px 0px 0px 3px rgb(0, 0, 0), 0px 0px 0px 5px rgb(20, 0, 40);
+}
 #action svg.event, .moves.gallery svg.event {
   box-shadow: 0px 0px 0px 3px rgb(127, 127, 255), 0px 0px 0px 5px rgb(101, 101, 204);
 }
@@ -499,6 +505,15 @@ div.passives{
 #action.showfractured .fractured {
   display: block;
 }
+#action .xothadurs {
+  display: none;
+}
+#action.show .xothadurs {
+  display: none;
+}
+#action.showxothadurs .xothadurs {
+  display: block;
+}
 .moves.gallery svg.scenario {
   display: none;
 }
@@ -515,6 +530,12 @@ div.passives{
   display: none;
 }
 .moves.gallery.showfractured svg.fractured {
+  display: block;
+}
+.moves.gallery svg.xothadurs {
+  display: none;
+}
+.moves.gallery.showxothadurs svg.xothadurs {
   display: block;
 }
 .cost + div > ul {
