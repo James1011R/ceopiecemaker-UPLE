@@ -289,10 +289,10 @@ svg. {
   box-shadow: 0px 0px 0px 3px rgb(0, 101, 204), 0px 0px 0px 5px rgb(0, 67, 136);
 }
 #action svg.annihilated, .moves.gallery svg.annihilated {
-  box-shadow: 0px 0px 0px 3px rgb(0, 0, 0), 0px 0px 0px 5px rgb(50, 0, 100);
+  box-shadow: 0px 0px 0px 3px rgb(0, 0, 0), 0px 0px 0px 5px rgb(0, 0, 0);
 }
 #action svg.annihilated.active, .moves.gallery svg.annihilated.active {
-  box-shadow: 0px 0px 0px 3px rgb(0, 0, 0), 0px 0px 0px 5px rgb(50, 0, 100);
+  box-shadow: 0px 0px 0px 3px rgb(64, 0, 127), 0px 0px 0px 5px rgb(0, 0, 0);
 }
 #action svg.event, .moves.gallery svg.event {
   box-shadow: 0px 0px 0px 3px rgb(127, 127, 255), 0px 0px 0px 5px rgb(101, 101, 204);
