@@ -189,6 +189,18 @@ $("#shfractured").click(function() {
   }
 });
 
+$("#shfractured1").click(function() {
+  if (this.innerHTML.match(/FRACTURE THE PIECEMAKER/ig)) {
+    $("#action").addClass("showfractured");
+    $(".moves.gallery").addClass("showfractured");
+    $(this).text($(this).text().replace(/FRACTURE THE PIECEMAKER/ig, "Return to Normality"));
+  } else {
+    $("#action").removeClass("showfractured");
+    $(".moves.gallery").removeClass("showfractured");
+    $(this).text($(this).text().replace(/Return to Normality/ig, "FRACTURE THE PIECEMAKER"));
+  }
+});
+
 $("#shannihilated").click(function() {
   if (this.innerHTML.match(/this button doesn't exist/ig)) {
     $("#action").addClass("showannihilated");
