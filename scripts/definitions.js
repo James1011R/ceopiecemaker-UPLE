@@ -4390,7 +4390,7 @@ MOVES = [{
    "hide": true
  }, {
    "id": "cinfinity",
-   "cat": "fractured",
+   "cat": "fracturedcustom",
    "name": "custominfinity",
    "long": "z]",
    "text": "Custom ability ∞ (Double Click Menu Icon to Edit)",
@@ -4398,6 +4398,28 @@ MOVES = [{
    "color2": [0,0,0],
    "color3": [255,255,255],
    "symbol1": "∞",
+   "hide": true
+ }, {
+   "id": "cinfinity2",
+   "cat": "fracturedcustom",
+   "name": "customdoubleinfinity",
+   "long": "z]",
+   "text": "Custom ability ∞∞ (Double Click Menu Icon to Edit)",
+   "color": [0,0,0],
+   "color2": [0,0,0],
+   "color3": [255,255,0],
+   "symbol1": "∞∞",
+   "hide": true
+ }, {
+   "id": "ceternity",
+   "cat": "fracturedcustom",
+   "name": "custometernity",
+   "long": "z]",
+   "text": "Custom ability ♾ (Double Click Menu Icon to Edit)",
+   "color": [0,0,0],
+   "color2": [0,0,0],
+   "color3": [178,65,222],
+   "symbol1": "♾",
    "hide": true
  }, {
    "id": "Ω1",
