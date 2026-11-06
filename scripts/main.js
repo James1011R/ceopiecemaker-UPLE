@@ -115,7 +115,7 @@ for (var i = 0; i < MOVES.length; i++) {
   if (MOVES[i].cat == "scenario") className += " scenario";
   if (MOVES[i].cat == "deconfirmed") className += " deconfirmed";
   if (MOVES[i].cat == "fractured") className += " fractured";
-  if (MOVES[i].cat == "xothadurs") className += " xothadurs";
+  if (MOVES[i].cat == "annihilated") className += " annihilated";
   if (MOVES[i].cat == "event") className += " event";
   if (MOVES[i].hide) className += " hide";
     $(".moves").append(makeSVGTagContent("svg", {
@@ -189,14 +189,14 @@ $("#shfractured").click(function() {
   }
 });
 
-$("#shxothadurs").click(function() {
+$("#shannihilated").click(function() {
   if (this.innerHTML.match(/this button doesn't exist/ig)) {
-    $("#action").addClass("showxothadurs");
-    $(".moves.gallery").addClass("showxothadurs");
+    $("#action").addClass("showannihilated");
+    $(".moves.gallery").addClass("showannihilated");
     $(this).text($(this).text().replace(/this button doesn't exist/ig, "what have you done?!"));
   } else {
-    $("#action").removeClass("showxothadurs");
-    $(".moves.gallery").removeClass("showxothadurs");
+    $("#action").removeClass("showannihilated");
+    $(".moves.gallery").removeClass("showannihilated");
     $(this).text($(this).text().replace(/what have you done?!/ig, "this button doesn't exist"));
   }
 });
