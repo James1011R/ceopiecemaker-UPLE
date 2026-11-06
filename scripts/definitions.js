@@ -4419,7 +4419,9 @@ MOVES = [{
    "color": [0,0,0],
    "color2": [0,0,0],
    "color3": [178,65,222],
-   "symbol1": "♾",
+   "color4": [178,65,222],
+   "symbol1": "∞",
+   "symbol2": "\u25ef",
    "hide": true
  }, {
    "id": "Ω1",
