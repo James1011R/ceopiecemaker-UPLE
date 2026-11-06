@@ -4379,6 +4379,27 @@ MOVES = [{
    "symbol3": "\u1d04\u0299\u1d0f",
    "hide": true
  }, {
+   "id": "keygate",
+   "cat": "fractured",
+   "name": "keygate",
+   "text": "A key to nowhere. Perhaps there could be something more? Or maybe this is the end of the piecemaker.",
+   "color": [0,0,0],
+   "color2": [0,0,0],
+   "color3": [255,210,0],
+   "symbol1": "\u{1f511}\ufe0e",
+   "hide": true
+ }, {
+   "id": "c",
+   "cat": "fractured",
+   "name": "custominfinity",
+   "long": "z]",
+   "text": "Custom ability ∞ (Double Click Menu Icon to Edit)",
+   "color": [0,0,0],
+   "color2": [0,0,0],
+   "color3": [255,255,255],
+   "symbol1": "∞",
+   "hide": true
+ }, {
    "id": "Ω1",
    "cat": "annihilated",
    "name": "removethisability",
