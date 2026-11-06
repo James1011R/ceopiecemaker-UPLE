@@ -4389,7 +4389,7 @@ MOVES = [{
    "symbol1": "\u{1f511}\ufe0e",
    "hide": true
  }, {
-   "id": "c",
+   "id": "cinfinity",
    "cat": "fractured",
    "name": "custominfinity",
    "long": "z]",
