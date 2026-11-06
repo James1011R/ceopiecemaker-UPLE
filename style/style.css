@@ -282,10 +282,10 @@ svg. {
 #action svg.fractured.active, .moves.gallery svg.fractured.active {
   box-shadow: 0px 0px 0px 3px rgb(0, 0, 204), 0px 0px 0px 5px rgb(0, 0, 136);
 }
-#action svg.xothadurs, .moves.gallery svg.xothadurs {
+#action svg.annihilated, .moves.gallery svg.annihilated {
   box-shadow: 0px 0px 0px 3px rgb(0, 0, 0), 0px 0px 0px 5px rgb(20, 0, 40);
 }
-#action svg.xothadurs.active, .moves.gallery svg.xothadurs.active {
+#action svg.annihilated.active, .moves.gallery svg.annihilated.active {
   box-shadow: 0px 0px 0px 3px rgb(0, 0, 0), 0px 0px 0px 5px rgb(20, 0, 40);
 }
 #action svg.event, .moves.gallery svg.event {
@@ -505,13 +505,13 @@ div.passives{
 #action.showfractured .fractured {
   display: block;
 }
-#action .xothadurs {
+#action .annihilated {
   display: none;
 }
-#action.show .xothadurs {
+#action.show .annihilated {
   display: none;
 }
-#action.showxothadurs .xothadurs {
+#action.showannihilated .annihilated {
   display: block;
 }
 .moves.gallery svg.scenario {
@@ -532,10 +532,10 @@ div.passives{
 .moves.gallery.showfractured svg.fractured {
   display: block;
 }
-.moves.gallery svg.xothadurs {
+.moves.gallery svg.annihilated {
   display: none;
 }
-.moves.gallery.showxothadurs svg.xothadurs {
+.moves.gallery.showannihilated svg.annihilated {
   display: block;
 }
 .cost + div > ul {
