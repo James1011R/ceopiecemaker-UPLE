@@ -206,11 +206,11 @@ $("#shannihilated").click(function() {
   if (this.innerHTML.match(/this button doesn't exist/ig)) {
     $("#action").addClass("showannihilated");
     $(".moves.gallery").addClass("showannihilated");
-    $(this).text($(this).text().replace(/this button doesn't exist/ig, "what have you done?!"));
+    $(this).text($(this).text().replace(/this button doesn't exist/ig, "what have you done"));
   } else {
     $("#action").removeClass("showannihilated");
     $(".moves.gallery").removeClass("showannihilated");
-    $(this).text($(this).text().replace(/what have you done?!/ig, "this button doesn't exist"));
+    $(this).text($(this).text().replace(/what have you done/ig, "this button doesn't exist"));
   }
 });
 
