@@ -4379,6 +4379,18 @@ MOVES = [{
    "symbol3": "\u1d04\u0299\u1d0f",
    "hide": true
  }, {
+   "id": "egg",
+   "cat": "fractured",
+   "name": "steamedegg",
+   "text": "Steamed Egg",
+   "color": [0,0,0],
+   "color2": [0,0,0],
+   "color3": [255,230,50],
+   "color4": [255,255,255],
+   "symbol1": "\u23fa",
+   "symbol2": "\uf0e6",
+   "hide": true
+ }, {
    "id": "keygate",
    "cat": "fracturedcustom",
    "name": "keygate",
