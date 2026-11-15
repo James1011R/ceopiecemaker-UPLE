@@ -4786,7 +4786,7 @@ TOOLTIPS = {
     tt9: "Selected Line Tool:\nA line with selection squares.\nThis is very strange...\nSelection squares can't be erased.",
     tt10: "XORaser Tool:\nDraws if nothing is there, erases if something is there.",
     tt11: "Line XORaser Tool:\nDraws a line if nothing is there, erases a line if something is there.\nWhy does this exist?",
-    tt12: "Shape XORaser Tool:\nHold Shift to start a new ARG.\nClick and drag to add new points.\nRelease Shift to finish and close path.\n\nP.S. Magic Shape's description is broken lel.",
+    tt12: "Shape XORaser Tool:\nHold Shift to start a new ARG.\nClick and drag to add new points.\nRelease Shift to finish and close path.\n\n\nP.S. Magic Shape's description is broken lel.\n\nP.P.S. there is actually an ARG in the piecemaker.",
     tt13: "Even/Odd Shape Tool:\nHold Shift to start a new shape.\nClick and drag to add new points.\nRelease Shift to finish and close path with even/odd fill rules.",
     tt14: "Magic Marker Tool:\nUse a tool color other than the default black for magic.",
     tt15: "Magic Line Tool:\nÐsžšåÞя©舐 Â£ —????????Þ¥¿ ¶????Þ¥¿???? ????—â€š�舐 —â€š�Â£½	 —â€š�舐 ▀舐Â£ðsžšåÞяÞ¥¿— »Þ¥¿Â£¶Š ???? ╟Â£æØ¢ÃŘ§Ů¶.",
